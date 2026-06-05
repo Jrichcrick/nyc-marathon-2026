@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Marathon 2026 — Training Plan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0f0f0f; color: #e8e8e8; line-height: 1.6; padding: 24px 16px; }
+  .container { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 2rem; color: #fff; margin-bottom: 6px; }
+  .subtitle { color: #888; font-size: 0.95rem; margin-bottom: 32px; }
+  h2 { font-size: 1.3rem; color: #f97316; margin: 36px 0 12px; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; }
+  h3 { font-size: 1rem; color: #facc15; margin: 24px 0 8px; }
+  p { margin-bottom: 12px; color: #ccc; }
+  strong { color: #fff; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 0.9rem; }
+  th { background: #1e1e1e; color: #f97316; text-align: left; padding: 8px 12px; font-weight: 600; }
+  td { padding: 8px 12px; border-bottom: 1px solid #1e1e1e; color: #ddd; }
+  tr:hover td { background: #1a1a1a; }
+  td:first-child { color: #888; white-space: nowrap; width: 130px; }
+  .phase { background: #141414; border: 1px solid #2a2a2a; border-radius: 10px; padding: 20px 24px; margin-bottom: 24px; }
+  .phase-label { display: inline-block; background: #f97316; color: #000; font-weight: 700; font-size: 0.75rem; padding: 2px 10px; border-radius: 20px; margin-bottom: 8px; letter-spacing: 0.05em; text-transform: uppercase; }
+  .week { margin-bottom: 20px; }
+  .week-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .week-miles { font-size: 0.8rem; color: #888; background: #1e1e1e; padding: 2px 8px; border-radius: 4px; }
+  .recovery .phase-label { background: #3b82f6; }
+  .peak .phase-label { background: #ef4444; }
+  .taper .phase-label { background: #8b5cf6; }
+  .race .phase-label { background: #22c55e; }
+  .note { background: #1a1a1a; border-left: 3px solid #f97316; padding: 10px 14px; margin: 12px 0; font-size: 0.88rem; color: #ccc; border-radius: 0 6px 6px 0; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { color: #ccc; margin-bottom: 6px; }
+  .paces-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .pace-card { background: #141414; border: 1px solid #2a2a2a; border-radius: 8px; padding: 14px; }
+  .pace-card .zone { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .pace-card .now { font-size: 1.1rem; font-weight: 700; color: #fff; }
+  .pace-card .raceday { font-size: 0.8rem; color: #f97316; margin-top: 2px; }
+  .pace-card .feel { font-size: 0.75rem; color: #666; margin-top: 4px; }
+  .mileage-bar { height: 6px; background: #2a2a2a; border-radius: 3px; margin-top: 6px; overflow: hidden; }
+  .mileage-fill { height: 100%; background: #f97316; border-radius: 3px; }
+  footer { text-align: center; color: #444; font-size: 0.8rem; margin-top: 48px; padding-top: 24px; border-top: 1px solid #1e1e1e; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>NYC Marathon 2026</h1>
+  <div class="subtitle">21-Week Training Plan &nbsp;·&nbsp; Race Day: Sunday, November 1, 2026 &nbsp;·&nbsp; Goal: Sub-4:00</div>
+
+  <!-- Pace Guide -->
+  <h2>Training Paces</h2>
+  <div class="paces-grid">
+    <div class="pace-card">
+      <div class="zone">Easy</div>
+      <div class="now">9:20–9:45/mi</div>
+      <div class="raceday">→ 9:00–9:20 by race day</div>
+      <div class="feel">Fully conversational</div>
+    </div>
+    <div class="pace-card">
+      <div class="zone">Marathon Pace</div>
+      <div class="now">9:00/mi</div>
+      <div class="raceday">Goal race pace</div>
+      <div class="feel">Comfortably hard, sustained</div>
+    </div>
+    <div class="pace-card">
+      <div class="zone">Tempo</div>
+      <div class="now">8:20–8:30/mi</div>
+      <div class="raceday">→ 8:00–8:10 by race day</div>
+      <div class="feel">Hard but controlled, 20–40 min</div>
+    </div>
+    <div class="pace-card">
+      <div class="zone">Intervals</div>
+      <div class="now">7:50–8:00/mi</div>
+      <div class="raceday">→ 7:30–7:45 by race day</div>
+      <div class="feel">5K–10K effort, short repeats</div>
+    </div>
+  </div>
+
+  <!-- Weekly Schedule -->
+  <h2>Weekly Schedule</h2>
+  <table>
+    <tr><th>Day</th><th>Role</th></tr>
+    <tr><td>Monday</td><td>Squats + boot camp (strength &amp; cross-train)</td></tr>
+    <tr><td>Tuesday</td><td>Easy shakeout — 3–4 mi, short and loose</td></tr>
+    <tr><td>Wednesday</td><td><strong>Quality run — only hard day of the week</strong></td></tr>
+    <tr><td>Thursday</td><td>Easy run</td></tr>
+    <tr><td>Friday</td><td>Rest (weeks 1–6) → Medium-long run (weeks 7+)</td></tr>
+    <tr><td>Saturday</td><td>Rest</td></tr>
+    <tr><td>Sunday</td><td><strong>Long run</strong></td></tr>
+  </table>
+
+  <!-- Where to Run -->
+  <h2>Where to Run</h2>
+  <table>
+    <tr><th>Workout</th><th>Location</th><th>Why</th></tr>
+    <tr><td>Intervals</td><td>Central Park loop</td><td>200m markers — do out-and-back so hills average out</td></tr>
+    <tr><td>Tempo</td><td>Hudson River Greenway</td><td>Flat, lock into pace without constant elevation adjustments</td></tr>
+    <tr><td>Easy / Long</td><td>Central Park</td><td>Race finishes here — knowing the hills is an advantage</td></tr>
+  </table>
+
+  <!-- Phase 1 -->
+  <h2>Phase 1 — Base Building</h2>
+
+  <div class="phase">
+    <div class="phase-label">Weeks 1–4 · 4 days/week</div>
+    <p>Build aerobic base and consistency. No pressure on pace — just get the miles in.</p>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 1 — June 4–10</h3><span class="week-miles">~27 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Thu Jun 4</td><td>Easy 5 mi @ 9:20–9:45/mi <em>(done — 3.6 mi, good enough)</em></td></tr>
+        <tr><td>Fri Jun 5</td><td>Easy 5 mi @ 9:20–9:45/mi</td></tr>
+        <tr><td>Sat Jun 6</td><td>Rest</td></tr>
+        <tr><td>Sun Jun 7</td><td>Long run: 12 mi easy @ 9:20–9:45/mi</td></tr>
+        <tr><td>Mon Jun 8</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jun 9</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jun 10</td><td>4×1200m @ 7:55/mi (90 sec jog recovery) = 7 mi total</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 2 — June 11–17</h3><span class="week-miles">~27 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jun 11</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jun 12</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jun 13</td><td>Tempo: 1.5 mi warm-up + 3 mi @ 8:25/mi + 1.5 mi cool-down = 6 mi total</td></tr>
+        <tr><td>Thu Jun 14</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Jun 15</td><td>Rest</td></tr>
+        <tr><td>Sat Jun 16</td><td>Rest</td></tr>
+        <tr><td>Sun Jun 17</td><td>Long run: 13 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 3 — June 18–24</h3><span class="week-miles">~30 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jun 18</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jun 19</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jun 20</td><td>5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total</td></tr>
+        <tr><td>Thu Jun 21</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Jun 22</td><td>Rest</td></tr>
+        <tr><td>Sat Jun 23</td><td>Rest</td></tr>
+        <tr><td>Sun Jun 24</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week recovery">
+      <div class="week-header"><h3>Week 4 — June 25–July 1</h3><span class="week-miles">~22 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jun 25</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jun 26</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jun 27</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down = 5 mi total</td></tr>
+        <tr><td>Thu Jun 28</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Jun 29</td><td>Rest</td></tr>
+        <tr><td>Sat Jun 30</td><td>Rest</td></tr>
+        <tr><td>Sun Jul 1</td><td>Long run: 12 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Phase 2 -->
+  <h2>Phase 2 — Build 1</h2>
+
+  <div class="phase">
+    <div class="phase-label">Weeks 5–8 · 4 days → 5 days</div>
+    <p>Introduce marathon pace. Long run reaches 18 miles. Friday medium-long added at week 7.</p>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 5 — July 2–8</h3><span class="week-miles">~32 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jul 2</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jul 3</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jul 4</td><td>5×1000m @ 7:55/mi = 8 mi total</td></tr>
+        <tr><td>Thu Jul 5</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Jul 6</td><td>Rest</td></tr>
+        <tr><td>Sat Jul 7</td><td>Rest</td></tr>
+        <tr><td>Sun Jul 8</td><td>Long run: 15 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 6 — July 9–15</h3><span class="week-miles">~35 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jul 9</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jul 10</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jul 11</td><td>Tempo: 1.5 mi warm-up + 5 mi @ 8:20/mi + 1.5 mi cool-down = 8 mi total</td></tr>
+        <tr><td>Thu Jul 12</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Jul 13</td><td>Rest</td></tr>
+        <tr><td>Sat Jul 14</td><td>Rest</td></tr>
+        <tr><td>Sun Jul 15</td><td>Long run: 18 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="note">⚡ Week 7: Friday medium-long run added as your 5th running day. Keep it easy — new stress.</div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 7 — July 16–22</h3><span class="week-miles">~38 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jul 16</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jul 17</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Jul 18</td><td>5×1200m @ 7:55/mi (90 sec jog) = 9 mi total</td></tr>
+        <tr><td>Thu Jul 19</td><td>Easy 6 mi</td></tr>
+        <tr><td><strong>Fri Jul 20</strong></td><td><strong>Medium: 9 mi easy (new 5th day)</strong></td></tr>
+        <tr><td>Sat Jul 21</td><td>Rest</td></tr>
+        <tr><td>Sun Jul 22</td><td>Long run: 16 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week recovery">
+      <div class="week-header"><h3>Week 8 — July 23–29</h3><span class="week-miles">~28 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jul 23</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jul 24</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Jul 25</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down = 5 mi total</td></tr>
+        <tr><td>Thu Jul 26</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Jul 27</td><td>Easy 7 mi</td></tr>
+        <tr><td>Sat Jul 28</td><td>Rest</td></tr>
+        <tr><td>Sun Jul 29</td><td>Long run: 13 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Phase 3 -->
+  <h2>Phase 3 — Build 2</h2>
+
+  <div class="phase">
+    <div class="phase-label">Weeks 9–12 · 5 days/week</div>
+    <p>Peak volume. Long runs hit 20–22 miles. MP segments begin on medium runs and long runs.</p>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 9 — July 30–August 5</h3><span class="week-miles">~42 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Jul 30</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Jul 31</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Aug 5</td><td>4×1600m @ 7:55/mi (2 min jog) = 9 mi total</td></tr>
+        <tr><td>Thu Aug 1</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Aug 2</td><td>Medium: 9 mi, miles 6–8 @ 9:00/mi (first MP taste)</td></tr>
+        <tr><td>Sat Aug 3</td><td>Rest</td></tr>
+        <tr><td>Sun Aug 4</td><td>Long run: 20 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 10 — August 6–12</h3><span class="week-miles">~44 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Aug 6</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Aug 7</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Aug 8</td><td>Tempo: 1.5 mi warm-up + 6 mi @ 8:15/mi + 1.5 mi cool-down = 9 mi total</td></tr>
+        <tr><td>Thu Aug 9</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Aug 10</td><td>Medium: 10 mi, miles 6–9 @ 9:00/mi</td></tr>
+        <tr><td>Sat Aug 11</td><td>Rest</td></tr>
+        <tr><td>Sun Aug 12</td><td>Long run: 20 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week peak">
+      <div class="week-header"><h3>Week 11 — August 13–19</h3><span class="week-miles">~46 miles · Peak volume</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Aug 13</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Aug 14</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Aug 15</td><td>5×1600m @ 7:50/mi = 10 mi total</td></tr>
+        <tr><td>Thu Aug 16</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Aug 17</td><td>Medium: 10 mi, miles 5–9 @ 9:00/mi</td></tr>
+        <tr><td>Sat Aug 18</td><td>Rest</td></tr>
+        <tr><td>Sun Aug 19</td><td>Long run: 22 mi (miles 16–20 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week recovery">
+      <div class="week-header"><h3>Week 12 — August 20–26</h3><span class="week-miles">~28 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Aug 20</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Aug 21</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Aug 22</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:10/mi + 1 mi cool-down = 6 mi total</td></tr>
+        <tr><td>Thu Aug 23</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Aug 24</td><td>Easy 7 mi</td></tr>
+        <tr><td>Sat Aug 25</td><td>Rest</td></tr>
+        <tr><td>Sun Aug 26</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Phase 4 -->
+  <h2>Phase 4 — Peak &amp; Race-Specific</h2>
+
+  <div class="phase peak">
+    <div class="phase-label peak">Weeks 13–16 · Hardest block</div>
+    <p>Heavy MP work. Simulate race conditions. This is where sub-4 gets built.</p>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 13 — August 27–September 2</h3><span class="week-miles">~46 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Aug 27</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Aug 28</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Aug 29</td><td>3×2 miles @ 8:05/mi (3 min jog) = 10 mi total</td></tr>
+        <tr><td>Thu Aug 30</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Aug 31</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
+        <tr><td>Sat Sep 1</td><td>Rest</td></tr>
+        <tr><td>Sun Sep 2</td><td>Long run: 22 mi (miles 13–20 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 14 — September 3–9</h3><span class="week-miles">~44 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Sep 3</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Sep 4</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Sep 5</td><td>Tempo: 1.5 mi warm-up + 7 mi @ 8:05/mi + 1.5 mi cool-down = 10 mi total</td></tr>
+        <tr><td>Thu Sep 6</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Sep 7</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
+        <tr><td>Sat Sep 8</td><td>Rest</td></tr>
+        <tr><td>Sun Sep 9</td><td>Long run: 20 mi (miles 12–18 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 15 — September 10–16</h3><span class="week-miles">~42 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Sep 10</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Sep 11</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td>Wed Sep 12</td><td>5×1600m @ 7:50/mi = 10 mi total</td></tr>
+        <tr><td>Thu Sep 13</td><td>Easy 6 mi</td></tr>
+        <tr><td>Fri Sep 14</td><td>Medium: 10 mi, miles 5–9 @ 9:00/mi</td></tr>
+        <tr><td>Sat Sep 15</td><td>Rest</td></tr>
+        <tr><td>Sun Sep 16</td><td>Long run: 18 mi (last 6 mi @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week recovery">
+      <div class="week-header"><h3>Week 16 — September 17–23</h3><span class="week-miles">~30 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Sep 17</td><td>Squats + boot camp</td></tr>
+        <tr><td>Tue Sep 18</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Sep 19</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:05/mi + 1 mi cool-down = 6 mi total</td></tr>
+        <tr><td>Thu Sep 20</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Sep 21</td><td>Easy 8 mi</td></tr>
+        <tr><td>Sat Sep 22</td><td>Rest</td></tr>
+        <tr><td>Sun Sep 23</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Phase 5 -->
+  <h2>Phase 5 — Taper</h2>
+
+  <div class="phase taper">
+    <div class="phase-label taper">Weeks 17–20</div>
+    <p>Volume drops. Intensity stays. Don't add extra miles to feel ready — trust the work.</p>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 17 — September 24–30</h3><span class="week-miles">~34 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Sep 24</td><td>Squats + boot camp (reduce weight — maintenance only)</td></tr>
+        <tr><td>Tue Sep 25</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Sep 26</td><td>4×1200m @ 7:50/mi = 8 mi total</td></tr>
+        <tr><td>Thu Sep 27</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Sep 28</td><td>Medium: 10 mi, miles 6–9 @ 9:00/mi</td></tr>
+        <tr><td>Sat Sep 29</td><td>Rest</td></tr>
+        <tr><td>Sun Sep 30</td><td>Long run: 16 mi (miles 10–14 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 18 — October 1–7</h3><span class="week-miles">~27 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Oct 1</td><td>Light cross-train only — no squats this week</td></tr>
+        <tr><td>Tue Oct 2</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Oct 3</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:05/mi + 1 mi cool-down = 6 mi total</td></tr>
+        <tr><td>Thu Oct 4</td><td>Easy 5 mi</td></tr>
+        <tr><td>Fri Oct 5</td><td>Easy 7 mi</td></tr>
+        <tr><td>Sat Oct 6</td><td>Rest</td></tr>
+        <tr><td>Sun Oct 7</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 19 — October 8–14</h3><span class="week-miles">~20 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Oct 8</td><td>Light cross-train or rest</td></tr>
+        <tr><td>Tue Oct 9</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Oct 10</td><td>3×1000m @ 7:50/mi = 5 mi total</td></tr>
+        <tr><td>Thu Oct 11</td><td>Easy 4 mi</td></tr>
+        <tr><td>Fri Oct 12</td><td>Easy 5 mi</td></tr>
+        <tr><td>Sat Oct 13</td><td>Rest</td></tr>
+        <tr><td>Sun Oct 14</td><td>Long run: 12 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="week-header"><h3>Week 20 — October 15–21</h3><span class="week-miles">~15 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td>Mon Oct 15</td><td>Rest</td></tr>
+        <tr><td>Tue Oct 16</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td>Wed Oct 17</td><td>4×400m @ 7:45/mi + easy = 4 mi total</td></tr>
+        <tr><td>Thu Oct 18</td><td>Easy 3 mi</td></tr>
+        <tr><td>Fri Oct 19</td><td>Easy 5 mi, miles 3–4 @ 9:00/mi (feel the pace)</td></tr>
+        <tr><td>Sat Oct 20</td><td>Rest</td></tr>
+        <tr><td>Sun Oct 21</td><td>Easy 8 mi — no intensity</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Race Week -->
+  <h2>Race Week</h2>
+
+  <div class="phase race">
+    <div class="phase-label race">October 22 – November 1</div>
+    <p>Sleep is the workout now. No new foods. Friday Oct 31 early bedtime is non-negotiable.</p>
+    <table>
+      <tr><th>Day</th><th>Workout</th></tr>
+      <tr><td>Mon Oct 22</td><td>Rest</td></tr>
+      <tr><td>Tue Oct 23</td><td>3 mi easy with 4×100m strides</td></tr>
+      <tr><td>Wed Oct 24</td><td>Rest</td></tr>
+      <tr><td>Thu Oct 25</td><td>3 mi easy</td></tr>
+      <tr><td>Fri Oct 26</td><td>Rest — travel to NYC if needed</td></tr>
+      <tr><td>Sat Oct 27</td><td>2 mi easy shakeout near the start if possible</td></tr>
+      <tr><td>Sun Oct 28</td><td>Rest — bib pickup, gear check, early dinner</td></tr>
+      <tr><td>Mon Oct 29</td><td>Rest</td></tr>
+      <tr><td>Tue Oct 30</td><td>2 mi easy + 4×100m strides</td></tr>
+      <tr><td>Wed Oct 31</td><td>Rest — early bedtime</td></tr>
+      <tr><td><strong>Thu Nov 1</strong></td><td><strong>🏁 RACE DAY — NYC Marathon. Goal: 9:00/mi. Finish under 4:00.</strong></td></tr>
+    </table>
+  </div>
+
+  <!-- Course Notes -->
+  <h2>NYC Marathon Course Notes</h2>
+  <ul>
+    <li><strong>Mile 1 — Verrazano Bridge:</strong> Steep uphill. Run easy, let people go. Congestion forces this anyway.</li>
+    <li><strong>Miles 2–13 — Brooklyn:</strong> Flat and fast. Enormous crowds. Lock into 9:00/mi and ignore the energy.</li>
+    <li><strong>Miles 15–16 — Queensboro Bridge:</strong> Long uphill, no crowd noise. Stay steady, don't panic.</li>
+    <li><strong>Mile 16 — 1st Avenue:</strong> Crowd erupts. Do NOT surge. Most common place people blow up.</li>
+    <li><strong>Miles 20–23 — Bronx &amp; Harlem:</strong> Legs are heavy. Shorten stride, stay tall, focus on form.</li>
+    <li><strong>Miles 23–26.2 — Central Park:</strong> Rolling hills. Cat Hill at ~mile 24.5. Spend whatever's left after mile 25.</li>
+  </ul>
+  <div class="note">If it's warm (above 60°F): add 20–30 sec/mile to your pace. A smart early slow-down saves your finish.</div>
+
+  <!-- Tune-Up Races -->
+  <h2>Tune-Up Races</h2>
+  <table>
+    <tr><th>Race</th><th>Date</th><th>Purpose</th></tr>
+    <tr><td>5K or 10K</td><td>Mid-July</td><td>Confirm pace zones are set correctly</td></tr>
+    <tr><td>Half marathon</td><td>Late August / early September</td><td>MP reality check</td></tr>
+    <tr><td>10K</td><td>Late September</td><td>Sharpen before taper</td></tr>
+  </table>
+
+  <!-- Mileage Summary -->
+  <h2>Weekly Mileage Summary</h2>
+  <table>
+    <tr><th>Phase</th><th>Weeks</th><th>Days/Week</th><th>Mileage</th></tr>
+    <tr><td>Base Building</td><td>1–4</td><td>4</td><td>22–30 mi</td></tr>
+    <tr><td>Build 1</td><td>5–6</td><td>4</td><td>32–35 mi</td></tr>
+    <tr><td>Build 1 cont.</td><td>7–8</td><td>5</td><td>28–38 mi</td></tr>
+    <tr><td>Build 2</td><td>9–12</td><td>5</td><td>28–46 mi</td></tr>
+    <tr><td>Peak</td><td>13–16</td><td>5</td><td>30–46 mi</td></tr>
+    <tr><td>Taper</td><td>17–20</td><td>5→3</td><td>15–34 mi</td></tr>
+    <tr><td>Race Week</td><td>21</td><td>—</td><td>~10 mi + 26.2</td></tr>
+  </table>
+
+  <footer>NYC Marathon 2026 &nbsp;·&nbsp; Sub-4:00 &nbsp;·&nbsp; JR</footer>
+</div>
+</body>
+</html>
