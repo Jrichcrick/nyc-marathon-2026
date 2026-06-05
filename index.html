@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Marathon 2026 — JR's Plan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0f0f0f; color: #e8e8e8; line-height: 1.6; }
+  .header { background: #141414; border-bottom: 1px solid #2a2a2a; padding: 20px 24px; position: sticky; top: 0; z-index: 100; }
+  .header-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .header h1 { font-size: 1.25rem; color: #fff; }
+  .header .meta { font-size: 0.8rem; color: #666; }
+  .header .goal { color: #f97316; font-weight: 700; }
+  .tabs { background: #141414; border-bottom: 1px solid #2a2a2a; padding: 0 24px; }
+  .tabs-inner { max-width: 900px; margin: 0 auto; display: flex; }
+  .tab-btn { padding: 14px 24px; font-size: 0.9rem; font-weight: 600; color: #666; background: none; border: none; border-bottom: 3px solid transparent; cursor: pointer; transition: all 0.15s; }
+  .tab-btn:hover { color: #ccc; }
+  .tab-btn.active { color: #f97316; border-bottom-color: #f97316; }
+  .content { max-width: 900px; margin: 0 auto; padding: 32px 24px 64px; }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+  h2 { font-size: 1.2rem; color: #f97316; margin: 40px 0 12px; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; }
+  h2:first-child { margin-top: 0; }
+  h3 { font-size: 0.95rem; color: #facc15; margin: 20px 0 8px; }
+  h4 { font-size: 0.82rem; color: #888; margin: 14px 0 6px; text-transform: uppercase; letter-spacing: 0.06em; }
+  p { color: #bbb; margin-bottom: 12px; font-size: 0.92rem; }
+  strong { color: #fff; }
+  em { color: #777; font-style: italic; }
+  ul { padding-left: 18px; margin-bottom: 12px; }
+  li { color: #bbb; margin-bottom: 5px; font-size: 0.92rem; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 0.88rem; }
+  th { background: #1a1a1a; color: #777; text-align: left; padding: 8px 12px; font-weight: 600; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  td { padding: 9px 12px; border-bottom: 1px solid #1c1c1c; color: #ccc; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #161616; }
+  .dc { color: #555; white-space: nowrap; width: 106px; font-size: 0.8rem; }
+  .pace-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; margin-bottom: 24px; }
+  .pace-card { background: #141414; border: 1px solid #252525; border-radius: 8px; padding: 14px 16px; }
+  .pace-card .zone { font-size: 0.7rem; color: #555; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .pace-card .now { font-size: 1.15rem; font-weight: 700; color: #fff; }
+  .pace-card .arrow { font-size: 0.78rem; color: #f97316; margin-top: 3px; }
+  .pace-card .feel { font-size: 0.75rem; color: #444; margin-top: 3px; }
+  .phase { background: #111; border: 1px solid #222; border-radius: 10px; padding: 22px 24px; margin-bottom: 20px; }
+  .tag { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px; }
+  .t-base { background: #f97316; color: #000; }
+  .t-build { background: #3b82f6; color: #fff; }
+  .t-peak { background: #ef4444; color: #fff; }
+  .t-taper { background: #8b5cf6; color: #fff; }
+  .t-race { background: #22c55e; color: #000; }
+  .week { margin-bottom: 22px; }
+  .week:last-child { margin-bottom: 0; }
+  .wt { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .wt h3 { margin: 0; }
+  .badge { font-size: 0.74rem; color: #666; background: #1a1a1a; padding: 2px 8px; border-radius: 4px; }
+  .badge.r { color: #3b82f6; }
+  .badge.p { color: #ef4444; }
+  .note { background: #1a1a1a; border-left: 3px solid #f97316; padding: 10px 14px; margin: 12px 0; font-size: 0.86rem; color: #bbb; border-radius: 0 6px 6px 0; }
+  .note.blue { border-left-color: #3b82f6; }
+  .note.green { border-left-color: #22c55e; }
+  .note.red { border-left-color: #ef4444; }
+  .sb { background: #111; border: 1px solid #222; border-radius: 10px; padding: 22px 24px; margin-bottom: 20px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 580px) { .two { grid-template-columns: 1fr; } .header-inner { flex-direction: column; } }
+  .tc { background: #141414; border: 1px solid #252525; border-radius: 8px; padding: 14px 16px; }
+  .tc .wt2 { font-size: 0.7rem; color: #f97316; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 3px; font-weight: 700; }
+  .tc .loc { font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 3px; }
+  .tc .why { font-size: 0.8rem; color: #555; }
+  .tg { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  footer { text-align: center; color: #2a2a2a; font-size: 0.78rem; padding: 32px 24px; border-top: 1px solid #1a1a1a; margin-top: 20px; }
+  .race-day td { color: #22c55e !important; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <h1>NYC Marathon 2026</h1>
+    <div class="meta">Sunday, November 1, 2026 &nbsp;·&nbsp; <span class="goal">Goal: Sub-4:00 (9:00/mi)</span> &nbsp;·&nbsp; 20 weeks</div>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tabs-inner">
+    <button class="tab-btn active" onclick="switchTab('plan',this)">Training Plan</button>
+    <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- ===== TRAINING PLAN ===== -->
+<div id="tab-plan" class="tab-panel active">
+
+  <div class="note blue" style="margin-top:0; margin-bottom:24px;">This week (June 4–7) is a warmup — just run easy. Official Week 1 starts Monday June 8.</div>
+
+  <h2>Training Paces</h2>
+  <div class="pace-grid">
+    <div class="pace-card"><div class="zone">Easy</div><div class="now">9:20–9:45/mi</div><div class="arrow">→ 9:00–9:20 race day</div><div class="feel">Fully conversational</div></div>
+    <div class="pace-card"><div class="zone">Marathon Pace</div><div class="now">9:00/mi</div><div class="arrow">Goal race pace</div><div class="feel">Comfortably hard, sustained</div></div>
+    <div class="pace-card"><div class="zone">Tempo</div><div class="now">8:20–8:30/mi</div><div class="arrow">→ 8:00–8:10 race day</div><div class="feel">Hard but controlled, 20–40 min</div></div>
+    <div class="pace-card"><div class="zone">Intervals</div><div class="now">7:50–8:00/mi</div><div class="arrow">→ 7:30–7:45 race day</div><div class="feel">5K effort, short repeats</div></div>
+  </div>
+
+  <h2>Weekly Schedule</h2>
+  <table>
+    <tr><th>Day</th><th>Role</th></tr>
+    <tr><td class="dc">Monday</td><td>Squats + boot camp — strength &amp; cross-train (not running)</td></tr>
+    <tr><td class="dc">Tuesday</td><td>Easy shakeout — 3–4 mi, short and loose</td></tr>
+    <tr><td class="dc">Wednesday</td><td><strong>Quality run — only hard running day of the week</strong></td></tr>
+    <tr><td class="dc">Thursday</td><td>Easy run</td></tr>
+    <tr><td class="dc">Friday</td><td>Rest (weeks 1–6) → Medium-long run (weeks 7+)</td></tr>
+    <tr><td class="dc">Saturday</td><td>Rest</td></tr>
+    <tr><td class="dc">Sunday</td><td><strong>Long run</strong></td></tr>
+  </table>
+
+  <h2>Where to Run</h2>
+  <div class="tg">
+    <div class="tc"><div class="wt2">Intervals</div><div class="loc">Central Park loop</div><div class="why">200m markers — out-and-back so hills average out</div></div>
+    <div class="tc"><div class="wt2">Tempo</div><div class="loc">Hudson River Greenway</div><div class="why">Flat — lock into pace without elevation fighting you</div></div>
+    <div class="tc"><div class="wt2">Easy &amp; Long</div><div class="loc">Central Park</div><div class="why">Race finishes here — knowing Cat Hill is an advantage</div></div>
+  </div>
+
+  <!-- PHASE 1 -->
+  <h2>Phase 1 — Base Building</h2>
+  <div class="phase">
+    <div class="tag t-base">Weeks 1–4 · 4 days/week</div>
+    <p>Build aerobic base and consistency. Just get the miles in at easy pace.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 1 — June 8–14</h3><span class="badge">~27 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 8</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 9</td><td>Easy shakeout: 3 mi @ 9:30–9:45/mi</td></tr>
+        <tr><td class="dc">Wed Jun 10</td><td>4×1200m @ 7:55/mi (90 sec jog recovery) = 7 mi total</td></tr>
+        <tr><td class="dc">Thu Jun 11</td><td>Easy 5 mi @ 9:20–9:45/mi</td></tr>
+        <tr><td class="dc">Fri Jun 12</td><td>Rest</td></tr>
+        <tr><td class="dc">Sat Jun 13</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jun 14</td><td>Long run: 12 mi easy @ 9:20–9:45/mi</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 2 — June 15–21</h3><span class="badge">~27 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 15</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 16</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jun 17</td><td>Tempo: 1.5 mi warm-up + 3 mi @ 8:25/mi + 1.5 mi cool-down = 6 mi</td></tr>
+        <tr><td class="dc">Thu Jun 18</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Jun 19</td><td>Rest</td></tr>
+        <tr><td class="dc">Sat Jun 20</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jun 21</td><td>Long run: 13 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 3 — June 22–28</h3><span class="badge">~30 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 22</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 23</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jun 24</td><td>5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total</td></tr>
+        <tr><td class="dc">Thu Jun 25</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Jun 26</td><td>Rest</td></tr>
+        <tr><td class="dc">Sat Jun 27</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jun 28</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 4 — June 29–July 5</h3><span class="badge r">~22 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 29</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 30</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jul 1</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down = 5 mi</td></tr>
+        <tr><td class="dc">Thu Jul 2</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Jul 3</td><td>Rest</td></tr>
+        <tr><td class="dc">Sat Jul 4</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 5</td><td>Long run: 12 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 2 -->
+  <h2>Phase 2 — Build 1</h2>
+  <div class="phase">
+    <div class="tag t-build">Weeks 5–8 · 4 → 5 days/week</div>
+    <p>Introduce marathon pace. Long run reaches 18 miles. 5th day (Friday) added at week 7.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 5 — July 6–12</h3><span class="badge">~32 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 6</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 7</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jul 8</td><td>5×1000m @ 7:55/mi = 8 mi total</td></tr>
+        <tr><td class="dc">Thu Jul 9</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Jul 10</td><td>Rest</td></tr>
+        <tr><td class="dc">Sat Jul 11</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 12</td><td>Long run: 15 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 6 — July 13–19</h3><span class="badge">~35 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 13</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 14</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jul 15</td><td>Tempo: 1.5 mi warm-up + 5 mi @ 8:20/mi + 1.5 mi cool-down = 8 mi</td></tr>
+        <tr><td class="dc">Thu Jul 16</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Jul 17</td><td>Rest</td></tr>
+        <tr><td class="dc">Sat Jul 18</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 19</td><td>Long run: 18 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="note blue">Week 7: Friday medium-long added as your 5th running day. Keep it easy — new stress on top of an existing week.</div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 7 — July 20–26</h3><span class="badge">~38 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 20</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 21</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Jul 22</td><td>5×1200m @ 7:55/mi (90 sec jog) = 9 mi total</td></tr>
+        <tr><td class="dc">Thu Jul 23</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc"><strong>Fri Jul 24</strong></td><td><strong>Medium: 9 mi easy (new 5th day)</strong></td></tr>
+        <tr><td class="dc">Sat Jul 25</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 26</td><td>Long run: 16 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 8 — July 27–August 2</h3><span class="badge r">~28 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 27</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 28</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jul 29</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down = 5 mi</td></tr>
+        <tr><td class="dc">Thu Jul 30</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Jul 31</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Aug 1</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 2</td><td>Long run: 13 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 3 -->
+  <h2>Phase 3 — Build 2</h2>
+  <div class="phase">
+    <div class="tag t-build">Weeks 9–12 · 5 days/week</div>
+    <p>Peak volume. Long runs hit 20–22 miles. MP segments begin on medium and long runs.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 9 — August 3–9</h3><span class="badge">~42 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 3</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 4</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Aug 5</td><td>4×1600m @ 7:55/mi (2 min jog) = 9 mi total</td></tr>
+        <tr><td class="dc">Thu Aug 6</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Aug 7</td><td>Medium: 9 mi, miles 6–8 @ 9:00/mi (first MP taste)</td></tr>
+        <tr><td class="dc">Sat Aug 8</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 9</td><td>Long run: 20 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 10 — August 10–16</h3><span class="badge">~44 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 10</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 11</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Aug 12</td><td>Tempo: 1.5 mi warm-up + 6 mi @ 8:15/mi + 1.5 mi cool-down = 9 mi</td></tr>
+        <tr><td class="dc">Thu Aug 13</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Aug 14</td><td>Medium: 10 mi, miles 6–9 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Aug 15</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 16</td><td>Long run: 20 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 11 — August 17–23</h3><span class="badge p">~46 miles · Peak volume</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 17</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 18</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Aug 19</td><td>5×1600m @ 7:50/mi = 10 mi total</td></tr>
+        <tr><td class="dc">Thu Aug 20</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Aug 21</td><td>Medium: 10 mi, miles 5–9 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Aug 22</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 23</td><td>Long run: 22 mi (miles 16–20 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 12 — August 24–30</h3><span class="badge r">~28 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 24</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 25</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Aug 26</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:10/mi + 1 mi cool-down = 6 mi</td></tr>
+        <tr><td class="dc">Thu Aug 27</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Aug 28</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Aug 29</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 30</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 4 -->
+  <h2>Phase 4 — Peak &amp; Race-Specific</h2>
+  <div class="phase">
+    <div class="tag t-peak">Weeks 13–16 · Hardest block</div>
+    <p>Heavy MP work. Simulate race conditions. This is where sub-4 gets built.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 13 — Aug 31–September 6</h3><span class="badge">~46 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 31</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Sep 1</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Sep 2</td><td>3×2 miles @ 8:05/mi (3 min jog) = 10 mi total</td></tr>
+        <tr><td class="dc">Thu Sep 3</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Sep 4</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Sep 5</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 6</td><td>Long run: 22 mi (miles 13–20 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 14 — September 7–13</h3><span class="badge">~44 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 7</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Sep 8</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Sep 9</td><td>Tempo: 1.5 mi warm-up + 7 mi @ 8:05/mi + 1.5 mi cool-down = 10 mi</td></tr>
+        <tr><td class="dc">Thu Sep 10</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Sep 11</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Sep 12</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 13</td><td>Long run: 20 mi (miles 12–18 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 15 — September 14–20</h3><span class="badge">~42 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 14</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Sep 15</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Sep 16</td><td>5×1600m @ 7:50/mi = 10 mi total</td></tr>
+        <tr><td class="dc">Thu Sep 17</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Sep 18</td><td>Medium: 10 mi, miles 5–9 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Sep 19</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 20</td><td>Long run: 18 mi (last 6 mi @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 16 — September 21–27</h3><span class="badge r">~30 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 21</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Sep 22</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Sep 23</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:05/mi + 1 mi cool-down = 6 mi</td></tr>
+        <tr><td class="dc">Thu Sep 24</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Sep 25</td><td>Easy 8 mi</td></tr>
+        <tr><td class="dc">Sat Sep 26</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 27</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 5 -->
+  <h2>Phase 5 — Taper</h2>
+  <div class="phase">
+    <div class="tag t-taper">Weeks 17–20</div>
+    <p>Volume drops. Intensity stays. Don't add extra miles to feel ready — trust the work.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 17 — Sep 28–October 4</h3><span class="badge">~34 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 28</td><td>Squats + boot camp (reduce weight — maintenance only)</td></tr>
+        <tr><td class="dc">Tue Sep 29</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Sep 30</td><td>4×1200m @ 7:50/mi = 8 mi total</td></tr>
+        <tr><td class="dc">Thu Oct 1</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Oct 2</td><td>Medium: 10 mi, miles 6–9 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Oct 3</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 4</td><td>Long run: 16 mi (miles 10–14 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 18 — October 5–11</h3><span class="badge">~27 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Oct 5</td><td>Light cross-train only — no heavy squats this week</td></tr>
+        <tr><td class="dc">Tue Oct 6</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Oct 7</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:05/mi + 1 mi cool-down = 6 mi</td></tr>
+        <tr><td class="dc">Thu Oct 8</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Oct 9</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Oct 10</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 11</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 19 — October 12–18</h3><span class="badge">~20 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Oct 12</td><td>Light cross-train or rest</td></tr>
+        <tr><td class="dc">Tue Oct 13</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Oct 14</td><td>3×1000m @ 7:50/mi = 5 mi total</td></tr>
+        <tr><td class="dc">Thu Oct 15</td><td>Easy 4 mi</td></tr>
+        <tr><td class="dc">Fri Oct 16</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Sat Oct 17</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 18</td><td>Long run: 12 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 20 — October 19–25</h3><span class="badge">~15 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Oct 19</td><td>Rest</td></tr>
+        <tr><td class="dc">Tue Oct 20</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Oct 21</td><td>4×400m @ 7:45/mi + easy = 4 mi total</td></tr>
+        <tr><td class="dc">Thu Oct 22</td><td>Easy 3 mi</td></tr>
+        <tr><td class="dc">Fri Oct 23</td><td>Easy 5 mi, miles 3–4 @ 9:00/mi (feel the pace)</td></tr>
+        <tr><td class="dc">Sat Oct 24</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 25</td><td>Easy 8 mi — no intensity, just moving</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- RACE WEEK -->
+  <h2>Race Week</h2>
+  <div class="phase">
+    <div class="tag t-race">October 26 – November 1</div>
+    <p>Sleep is the workout. No new foods. Friday Oct 31 is the critical night — protect it.</p>
+    <table>
+      <tr><th>Day</th><th>Workout</th></tr>
+      <tr><td class="dc">Mon Oct 26</td><td>Rest</td></tr>
+      <tr><td class="dc">Tue Oct 27</td><td>3 mi easy with 4×100m strides</td></tr>
+      <tr><td class="dc">Wed Oct 28</td><td>Rest</td></tr>
+      <tr><td class="dc">Thu Oct 29</td><td>3 mi easy</td></tr>
+      <tr><td class="dc">Fri Oct 30</td><td>Rest — travel to NYC if needed. <strong>Sleep early tonight.</strong></td></tr>
+      <tr><td class="dc">Sat Oct 31</td><td>2 mi easy shakeout + bib pickup, gear check, early dinner</td></tr>
+      <tr class="race-day"><td class="dc">Sun Nov 1</td><td>RACE DAY — NYC Marathon. Goal: 9:00/mi. Finish under 4:00.</td></tr>
+    </table>
+  </div>
+
+  <!-- COURSE NOTES -->
+  <h2>NYC Course Notes</h2>
+  <ul>
+    <li><strong>Mile 1 — Verrazano Bridge:</strong> Steep uphill. Run easy. Let people go. Congestion forces this anyway.</li>
+    <li><strong>Miles 2–13 — Brooklyn:</strong> Flat and fast. Lock into 9:00/mi and ignore the crowd energy — this is where people go out too hard.</li>
+    <li><strong>Miles 15–16 — Queensboro Bridge:</strong> Long uphill, no crowd noise inside. Stay steady. Don't panic.</li>
+    <li><strong>Mile 16 — 1st Avenue:</strong> Crowd erupts. Do NOT surge. Most common place people blow up.</li>
+    <li><strong>Miles 20–23 — Bronx &amp; Harlem:</strong> Legs are heavy. Shorten stride, stay tall, focus on form.</li>
+    <li><strong>Miles 23–26.2 — Central Park:</strong> Rolling hills. Cat Hill at ~mile 24.5. Spend whatever's left after mile 25.</li>
+  </ul>
+  <div class="note red">If it's warm (above 60°F): add 20–30 sec/mile. A smart early slow-down saves your finish.</div>
+
+  <h2>Tune-Up Races</h2>
+  <table>
+    <tr><th>Race</th><th>When</th><th>Purpose</th></tr>
+    <tr><td>5K or 10K</td><td>Mid-July</td><td>Confirm pace zones are set correctly</td></tr>
+    <tr><td>Half marathon</td><td>Late Aug / early Sep</td><td>MP reality check</td></tr>
+    <tr><td>10K</td><td>Late September</td><td>Sharpen before taper</td></tr>
+  </table>
+
+</div><!-- /tab-plan -->
+
+
+<!-- ===== NUTRITION & RECOVERY ===== -->
+<div id="tab-nutrition" class="tab-panel">
+
+  <h2>Pre-Run Nutrition</h2>
+  <div class="sb">
+    <div class="tag t-base">What works for you specifically</div>
+    <ul style="margin-top:10px;">
+      <li><strong>Lower fiber before runs</strong> — you feel heavier and sluggish when fiber is high</li>
+      <li><strong>More protein/meat the day before</strong> — you feel better and run better</li>
+      <li>This is your gut telling you something real. Honor it every time.</li>
+    </ul>
+  </div>
+
+  <h3>Day Before a Long Run or Quality Session</h3>
+  <table>
+    <tr><th>Meal</th><th>Eat this</th><th>Avoid this</th></tr>
+    <tr><td>Breakfast</td><td>Eggs, bacon or sausage, white toast</td><td>Oatmeal, bran, raw vegetables</td></tr>
+    <tr><td>Lunch</td><td>Chicken/beef + white rice or pasta</td><td>Large salads, legumes, whole grains</td></tr>
+    <tr><td>Dinner</td><td>Steak or chicken + white pasta or rice</td><td>Broccoli, beans, lentils, heavy sauces</td></tr>
+    <tr><td>Snacks</td><td>Banana, white bread + peanut butter</td><td>High-fiber bars, raw fruit with skin</td></tr>
+  </table>
+  <div class="note">Hydrate more than usual — aim for pale yellow urine by end of day.</div>
+
+  <h3>Race Morning (same rules for long runs)</h3>
+  <ul>
+    <li><strong>2–3 hours before:</strong> 400–600 cal. Bagel + peanut butter + banana. Don't experiment.</li>
+    <li><strong>60 min before:</strong> Small snack if needed (half banana, a few crackers)</li>
+    <li><strong>Coffee:</strong> Fine if you normally drink it. Don't add it race day if you usually don't.</li>
+    <li><strong>No new foods race morning. Ever.</strong></li>
+  </ul>
+
+  <h2>Fueling During Runs</h2>
+  <div class="two">
+    <div>
+      <h4>When to fuel</h4>
+      <ul>
+        <li><strong>Under 60 min:</strong> Water only</li>
+        <li><strong>60–90 min:</strong> Optional gel at the end</li>
+        <li><strong>Over 90 min:</strong> Fuel consistently — don't wait until empty</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Race day schedule</h4>
+      <ul>
+        <li>Gel at miles <strong>5, 10, 15, 20</strong></li>
+        <li>Water at every aid station (small sip)</li>
+        <li>Gatorade every other station</li>
+        <li>Only use what you trained with</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Long Run Fueling Protocol</h3>
+  <ul>
+    <li>First gel at <strong>mile 5</strong> (roughly 45–50 min in)</li>
+    <li>Then every <strong>40–45 minutes</strong> after that</li>
+    <li>Wash down with water, not Gatorade (prevents GI issues)</li>
+    <li>Electrolytes every 45–60 min in warm weather</li>
+  </ul>
+
+  <h3>Gel Options — pick one, stick with it all training</h3>
+  <ul>
+    <li><strong>Gu Energy</strong> — most common, easy to find everywhere</li>
+    <li><strong>Maurten</strong> — gentler on stomach, worth trying if you've had GI issues</li>
+    <li><strong>Spring Energy</strong> — real food, works well for some</li>
+  </ul>
+  <div class="note blue">NYC provides Gatorade Endurance on course — train with it, or carry your own.</div>
+
+  <h2>Post-Run Recovery</h2>
+  <h3>Within 30–45 minutes of finishing</h3>
+  <p>This window matters most for recovery, especially now. Don't skip it because you're not hungry.</p>
+  <ul>
+    <li><strong>Target:</strong> 20–30g protein + 40–60g carbs</li>
+    <li>Chocolate milk (genuinely ideal)</li>
+    <li>Greek yogurt + banana</li>
+    <li>Eggs + toast</li>
+    <li>Protein shake + fruit</li>
+  </ul>
+  <div class="note">Each pound lost during a run = ~16oz to replenish. Drink consistently for 4–6 hours after long runs.</div>
+
+  <h2>Weekly Nutrition Rhythm</h2>
+  <table>
+    <tr><th>Day</th><th>Priority</th></tr>
+    <tr><td>Monday (boot camp)</td><td>Normal eating, slightly higher protein for muscle repair</td></tr>
+    <tr><td>Tuesday (shakeout)</td><td>Lower fiber — pre-run protocol from Monday dinner onward</td></tr>
+    <tr><td>Wednesday (quality)</td><td>Pre-run protocol Tuesday dinner — this is your hard day</td></tr>
+    <tr><td>Thursday (easy)</td><td>Normal, hydrate well</td></tr>
+    <tr><td>Friday (medium-long)</td><td>Pre-run protocol Thursday dinner</td></tr>
+    <tr><td>Saturday (rest)</td><td>Pre-long-run day — follow protocol for Sunday</td></tr>
+    <tr><td>Sunday (long run)</td><td>Saturday dinner + race morning protocol</td></tr>
+  </table>
+
+  <h2>Sleep</h2>
+  <div class="sb">
+    <p>Sleep is when your body actually builds the fitness you earned in training. Skimping doesn't just make you tired — it literally reduces the adaptation. For older athletes this effect is stronger.</p>
+    <div class="two" style="margin-top:14px;">
+      <div>
+        <h4>Targets</h4>
+        <ul>
+          <li>Regular nights: <strong>7.5–8 hours minimum</strong></li>
+          <li>Before long runs: <strong>8–9 hours</strong></li>
+          <li>Peak weeks 9–16: prioritize over everything non-essential</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Practical tips</h4>
+        <ul>
+          <li>Consistent wake time anchors your rhythm more than bedtime</li>
+          <li>No alcohol within 3 hours of sleep</li>
+          <li>No hard training within 4 hours of bed</li>
+          <li>Cool room: 65–68°F</li>
+          <li>Dark room — blackout shades or sleep mask</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note green" style="margin-top:14px;">Race week: don't stress about the night before the race — almost everyone sleeps badly. Friday Oct 31 (two nights before) is the one that matters. Protect that one.</div>
+  </div>
+
+  <h2>Stretching</h2>
+  <div class="two">
+    <div>
+      <h3>Before runs — Dynamic (5 min)</h3>
+      <p style="font-size:0.82rem; color:#555;">Never static stretch cold muscles.</p>
+      <ul>
+        <li>Leg swings front-back + side-to-side: 10 each leg</li>
+        <li>Hip circles: 10 each direction</li>
+        <li>High knees: 20 reps</li>
+        <li>Butt kicks: 20 reps</li>
+        <li>Lateral shuffles: 10 yards each way</li>
+        <li>First mile always slower than easy pace</li>
+      </ul>
+    </div>
+    <div>
+      <h3>After runs — Static (10 min)</h3>
+      <p style="font-size:0.82rem; color:#555;">Hold each 30–45 sec. Don't rush.</p>
+      <ul>
+        <li>Standing quad pull</li>
+        <li>Figure-4 (glutes, piriformis)</li>
+        <li>Runner's lunge (hip flexors)</li>
+        <li>Seated hamstring reach</li>
+        <li>Calf stretch against wall</li>
+        <li>IT band cross-stretch (standing)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>After long runs — add foam rolling (10–15 min)</h3>
+  <ul>
+    <li><strong>IT band</strong> — slow, painful, necessary</li>
+    <li><strong>Quads</strong> — front and sides</li>
+    <li><strong>Calves</strong> — especially around Achilles insertion</li>
+    <li><strong>Upper back</strong> / thoracic spine</li>
+  </ul>
+
+  <h2>Strength &amp; Cross-Training</h2>
+  <div class="note green">Your Monday boot camp already covers most of this. No separate strength session needed on top of hard training weeks.</div>
+
+  <table style="margin-top:14px;">
+    <tr><th>Activity</th><th>Benefit</th><th>When</th></tr>
+    <tr><td>Cycling / spin</td><td>Aerobic base, zero impact</td><td>Rest days, or swap for easy run when legs are beat</td></tr>
+    <tr><td>Swimming</td><td>Full body, zero impact, mental reset</td><td>Rest days, injury prevention</td></tr>
+    <tr><td>Yoga</td><td>Mobility, hip flexors, stress relief</td><td>1–2×/week, especially during peak phase</td></tr>
+  </table>
+
+  <h3>Key injury-prevention moves (20 min, rest days)</h3>
+  <div class="two">
+    <div>
+      <h4>Lower body / hips</h4>
+      <ul>
+        <li>Single-leg squats: 3×10 each</li>
+        <li>Glute bridges or hip thrusts: 3×15</li>
+        <li>Clamshells with band: 3×20 each side</li>
+        <li>Single-leg calf raises (slow): 3×15</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Core</h4>
+      <ul>
+        <li>Dead bug: 3×10 each side</li>
+        <li>Bird-dog: 3×10 each side</li>
+        <li>Plank: 3×30–45 sec</li>
+        <li>Side plank: 3×20–30 sec each</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Managing Hard Days</h2>
+  <div class="two">
+    <div>
+      <h4>Flip to easy if...</h4>
+      <ul>
+        <li>Legs still heavy from last session</li>
+        <li>Slept poorly 2+ nights in a row</li>
+        <li>Resting HR elevated 5+ bpm</li>
+        <li>You feel "off" but can't explain it</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Take a rest day if...</h4>
+      <ul>
+        <li>Sharp or one-sided pain (knee, shin, foot)</li>
+        <li>Any heel or Achilles pain in the morning</li>
+        <li>Fever or illness</li>
+        <li>Extreme fatigue after normal sleep</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note">When in doubt, go easy. Missing one quality session hurts less than getting injured.</div>
+
+  <h2>Race Week Nutrition</h2>
+  <ul>
+    <li><strong>No new foods</strong> all week. Not the expo restaurant, not the pasta dinner the night before.</li>
+    <li><strong>Carb load starting Wed Oct 28:</strong> 70–75% of calories from carbs, cut fat and fiber</li>
+    <li><strong>Salt more than usual</strong> the last 2–3 days — helps water retention, prevents hyponatremia</li>
+    <li><strong>No alcohol</strong> after Wednesday Oct 28</li>
+    <li><strong>Friday Oct 30:</strong> Eat early. Sleep early. This is the important night.</li>
+    <li><strong>Race morning:</strong> Eat 2.5–3 hours before your corral time. NYC starts early — work backwards from your gun time.</li>
+  </ul>
+
+</div><!-- /tab-nutrition -->
+
+</div><!-- /content -->
+
+<footer>NYC Marathon 2026 &nbsp;·&nbsp; Sub-4:00 &nbsp;·&nbsp; JR</footer>
+
+<script>
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
