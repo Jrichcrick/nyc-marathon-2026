@@ -84,13 +84,13 @@ This window matters most for recovery, especially as you get older.
 
 | Day | Priority |
 |-----|----------|
-| Monday (rest) | Normal eating, slightly higher protein for muscle repair |
-| Tuesday (quality run) | Lower fiber day before + good protein dinner Sunday |
-| Wednesday (easy / rest) | Normal, hydrate well |
-| Thursday (easy) | Lower fiber if Saturday is hard |
-| Friday (rest) | Pre-long-run day — follow pre-run protocol |
-| Saturday (medium run) | Refuel post-run, prep for Sunday |
-| Sunday (long run) | Full pre-run protocol the day before (Saturday dinner) and morning of |
+| Monday (boot camp) | Normal eating, slightly higher protein for muscle repair. Weeks 7+: low fiber dinner — Tuesday shakeout is next morning |
+| Tuesday (rest → shakeout wk 7+) | Weeks 1–6: normal day, no prep needed. Weeks 7+: low fiber Monday dinner already done |
+| Wednesday (quality) | **Pre-run protocol Tuesday dinner** — this is your hard day, every week |
+| Thursday (easy) | **Low fiber Thursday dinner** — Friday is always a run day |
+| Friday (always a run day) | Easy weeks 1–6, medium-long weeks 7+. Thursday dinner sets this up |
+| Saturday (rest) | Pre-long-run day — follow full protocol for Sunday |
+| Sunday (long run) | Saturday dinner + race morning protocol |
 
 ---
 
@@ -220,5 +220,5 @@ Completely normal. Hard efforts create micro-damage in muscle fibers. The next d
 - **Carb load starting Wednesday Oct 28:** 70–75% of calories from carbs, cut fat and fiber
 - **Salt more than usual** the last 2–3 days to help water retention and prevent hyponatremia
 - **Avoid alcohol** after Wednesday Oct 28
-- **Friday Oct 31:** Full pre-run protocol. Eat early, sleep early.
+- **Friday Oct 30:** Full pre-run protocol. Eat early, sleep early.
 - **Race morning:** Eat 2.5–3 hours before your corral time. NYC start times are early — figure out your exact gun time and work backwards.
