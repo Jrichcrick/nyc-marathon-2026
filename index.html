@@ -69,22 +69,22 @@
   .tg { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-bottom: 20px; }
   footer { text-align: center; color: #2a2a2a; font-size: 0.78rem; padding: 32px 24px; border-top: 1px solid #1a1a1a; margin-top: 20px; }
   .race-day td { color: #22c55e !important; font-weight: 700; }
-  .log-legend { font-size: 0.82rem; color: #888; margin-bottom: 20px; }
+  .log-legend { font-size: 0.82rem; color: #888; margin-bottom: 16px; }
   .log-legend span { margin-right: 14px; white-space: nowrap; }
+  .log-summary { background: #141414; border: 1px solid #252525; border-left: 4px solid #3bb3a3; border-radius: 8px; padding: 12px 16px; margin-bottom: 22px; font-size: 0.86rem; color: #ccc; }
+  .log-summary strong { color: #fff; }
   .log-week { font-size: 0.95rem; color: #facc15; margin: 26px 0 12px; }
-  .log-entry { background: #111; border: 1px solid #222; border-radius: 10px; padding: 16px 18px; margin-bottom: 14px; border-left: 4px solid #555; }
-  .log-entry.ok { border-left-color: #22c55e; }
-  .log-entry.warn { border-left-color: #facc15; }
-  .log-entry.flag { border-left-color: #ef4444; }
-  .log-entry .le-title { font-weight: 700; color: #fff; font-size: 0.92rem; margin-bottom: 8px; }
-  .log-entry .le-title .v { font-weight: 600; }
-  .log-entry.ok .le-title .v { color: #22c55e; }
-  .log-entry.warn .le-title .v { color: #facc15; }
-  .log-entry.flag .le-title .v { color: #ef4444; }
-  .log-entry .le-row { font-size: 0.85rem; color: #bbb; margin: 4px 0; }
-  .log-entry .le-row strong { color: #fff; }
-  .log-entry .le-lbl { color: #666; display: inline-block; min-width: 92px; vertical-align: top; }
-  .log-coach { background: #1a1a1a; border-left: 3px solid #3bb3a3; padding: 9px 13px; margin-top: 10px; font-size: 0.83rem; color: #ccc; border-radius: 0 6px 6px 0; }
+  .log-table { width: 100%; border-collapse: collapse; }
+  .log-table th { font-size: 0.68rem; }
+  .log-table td { font-size: 0.82rem; vertical-align: top; color: #ccc; }
+  .log-table tr.data td { border-bottom: none; padding-bottom: 3px; }
+  .log-table tr.data td strong { color: #fff; }
+  .log-table tr.note td { padding-top: 0; padding-bottom: 14px; font-size: 0.8rem; color: #999; border-bottom: 1px solid #1c1c1c; }
+  .log-table tr.note .feel { color: #bbb; font-style: italic; }
+  .log-table tr:hover td { background: transparent; }
+  .log-table .v-ok { color: #22c55e; font-weight: 700; white-space: nowrap; }
+  .log-table .v-warn { color: #facc15; font-weight: 700; white-space: nowrap; }
+  .log-table .v-flag { color: #ef4444; font-weight: 700; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -726,25 +726,29 @@
     <span>🚩 <strong style="color:#ef4444">Flag</strong> (recovery / injury / discipline)</span>
   </div>
 
+  <div class="log-summary"><strong>Week 1 so far:</strong> two easy runs, both run hotter than prescribed (8:45–8:56/mi vs. 9:20–9:45 target; ~66–74% in Z3+). Engine looks strong — possibly ahead of plan. <strong>The work is easy-day discipline.</strong> Next up: Sunday's 12-mi long run — run it truly easy.</div>
+
   <div class="log-week">Week 1 — June 4–10</div>
 
-  <div class="log-entry warn">
-    <div class="le-title">Fri Jun 5 — <span class="v">⚠️ Easy day run as tempo</span></div>
-    <div class="le-row"><span class="le-lbl">Prescribed</span> Easy 5 mi @ 9:20–9:45/mi</div>
-    <div class="le-row"><span class="le-lbl">Actual</span> <strong>6.37 mi @ 8:45/mi</strong> · 55:44 moving · 310 ft gain</div>
-    <div class="le-row"><span class="le-lbl">HR</span> 160 avg / 176 max</div>
-    <div class="le-row"><span class="le-lbl">HR zones</span> Z4 21%, Z3 53%, Z2 25%, Z1 1% — <strong>74% Z3+, only 26% easy</strong></div>
-    <div class="le-row"><span class="le-lbl">Splits</span> 9:02, 9:00, 8:43, 8:36, 8:55, 8:28, 8:11 — progressive</div>
-    <div class="le-row"><span class="le-lbl">Feel</span> "Had more in the tank, just no time."</div>
-    <div class="log-coach">Right distance, wrong intensity — 35–60 sec/mi faster than the easy ceiling, finishing at tempo, 74% of HR in Z3+. A hard/easy violation: effort spent on an easy day before Sunday's 12-mi long run. Some HR is the 310 ft of rolling terrain, but not most. Encouraging: Strava predicts 5K @ 23:44 (ahead of the 27-min baseline). <strong>Action:</strong> Sat rest is sacred; run Sunday's long run truly easy (9:20–9:45).</div>
-  </div>
-
-  <div class="log-entry ok">
-    <div class="le-title">Thu Jun 4 — <span class="v">✅ Easy (short but fine)</span></div>
-    <div class="le-row"><span class="le-lbl">Prescribed</span> Easy 5 mi @ 9:20–9:45/mi</div>
-    <div class="le-row"><span class="le-lbl">Actual</span> <strong>3.6 mi</strong> easy</div>
-    <div class="log-coach">Slightly short, no issue. Plan annotated as acceptable ("good enough").</div>
-  </div>
+  <table class="log-table">
+    <thead>
+      <tr><th>Date</th><th>Type</th><th>Prescribed</th><th>Actual</th><th>Pace</th><th>Effort</th><th>✓</th></tr>
+    </thead>
+    <tbody>
+      <tr class="data">
+        <td><strong>Fri Jun 5</strong></td><td>Easy</td><td>5 mi @ 9:20–45</td><td><strong>6.37 mi</strong></td><td><strong>8:45</strong></td><td>74% Z3+<br>160/176 HR</td><td class="v-warn">⚠️</td>
+      </tr>
+      <tr class="note">
+        <td colspan="7">Easy day run as tempo — 35–60 s/mi too fast, progressive to 8:11, 74% of HR in Z3+. Effort spent before Sunday's long run; 310 ft rolling terrain explains a little, not most. <span class="feel">Feel: "Had more in the tank, just no time."</span></td>
+      </tr>
+      <tr class="data">
+        <td><strong>Thu Jun 4</strong></td><td>Easy</td><td>5 mi @ 9:20–45</td><td><strong>3.61 mi</strong></td><td><strong>8:56</strong></td><td>66% Z3+<br>153/166 HR</td><td class="v-warn">⚠️</td>
+      </tr>
+      <tr class="note">
+        <td colspan="7">Same pattern, milder — drifted to low-tempo (bottom of Z3, 60%) and short on distance (3.61 of 5). GAP 8:51. <span class="feel">Feel: "Pace feels good. Have to start adding miles."</span></td>
+      </tr>
+    </tbody>
+  </table>
 </div><!-- /tab-log -->
 
 </div><!-- /content -->
