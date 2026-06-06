@@ -69,6 +69,22 @@
   .tg { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-bottom: 20px; }
   footer { text-align: center; color: #2a2a2a; font-size: 0.78rem; padding: 32px 24px; border-top: 1px solid #1a1a1a; margin-top: 20px; }
   .race-day td { color: #22c55e !important; font-weight: 700; }
+  .log-legend { font-size: 0.82rem; color: #888; margin-bottom: 20px; }
+  .log-legend span { margin-right: 14px; white-space: nowrap; }
+  .log-week { font-size: 0.95rem; color: #facc15; margin: 26px 0 12px; }
+  .log-entry { background: #111; border: 1px solid #222; border-radius: 10px; padding: 16px 18px; margin-bottom: 14px; border-left: 4px solid #555; }
+  .log-entry.ok { border-left-color: #22c55e; }
+  .log-entry.warn { border-left-color: #facc15; }
+  .log-entry.flag { border-left-color: #ef4444; }
+  .log-entry .le-title { font-weight: 700; color: #fff; font-size: 0.92rem; margin-bottom: 8px; }
+  .log-entry .le-title .v { font-weight: 600; }
+  .log-entry.ok .le-title .v { color: #22c55e; }
+  .log-entry.warn .le-title .v { color: #facc15; }
+  .log-entry.flag .le-title .v { color: #ef4444; }
+  .log-entry .le-row { font-size: 0.85rem; color: #bbb; margin: 4px 0; }
+  .log-entry .le-row strong { color: #fff; }
+  .log-entry .le-lbl { color: #666; display: inline-block; min-width: 92px; vertical-align: top; }
+  .log-coach { background: #1a1a1a; border-left: 3px solid #3bb3a3; padding: 9px 13px; margin-top: 10px; font-size: 0.83rem; color: #ccc; border-radius: 0 6px 6px 0; }
 </style>
 </head>
 <body>
@@ -84,6 +100,7 @@
   <div class="tabs-inner">
     <button class="tab-btn active" onclick="switchTab('plan',this)">Training Plan</button>
     <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
+    <button class="tab-btn" onclick="switchTab('log',this)">Training Log</button>
   </div>
 </div>
 
@@ -698,6 +715,37 @@
   </ul>
 
 </div><!-- /tab-nutrition -->
+
+<!-- ===== TRAINING LOG ===== -->
+<div id="tab-log" class="tab-panel">
+  <h2>Training Log</h2>
+  <p>Actual runs vs. the prescribed plan. Newest first. Each run is reviewed against the plan and flagged for pace, effort, or recovery.</p>
+  <div class="log-legend">
+    <span>✅ <strong style="color:#22c55e">On plan</strong></span>
+    <span>⚠️ <strong style="color:#facc15">Off plan</strong></span>
+    <span>🚩 <strong style="color:#ef4444">Flag</strong> (recovery / injury / discipline)</span>
+  </div>
+
+  <div class="log-week">Week 1 — June 4–10</div>
+
+  <div class="log-entry warn">
+    <div class="le-title">Fri Jun 5 — <span class="v">⚠️ Easy day run as tempo</span></div>
+    <div class="le-row"><span class="le-lbl">Prescribed</span> Easy 5 mi @ 9:20–9:45/mi</div>
+    <div class="le-row"><span class="le-lbl">Actual</span> <strong>6.37 mi @ 8:45/mi</strong> · 55:44 moving · 310 ft gain</div>
+    <div class="le-row"><span class="le-lbl">HR</span> 160 avg / 176 max</div>
+    <div class="le-row"><span class="le-lbl">HR zones</span> Z4 21%, Z3 53%, Z2 25%, Z1 1% — <strong>74% Z3+, only 26% easy</strong></div>
+    <div class="le-row"><span class="le-lbl">Splits</span> 9:02, 9:00, 8:43, 8:36, 8:55, 8:28, 8:11 — progressive</div>
+    <div class="le-row"><span class="le-lbl">Feel</span> "Had more in the tank, just no time."</div>
+    <div class="log-coach">Right distance, wrong intensity — 35–60 sec/mi faster than the easy ceiling, finishing at tempo, 74% of HR in Z3+. A hard/easy violation: effort spent on an easy day before Sunday's 12-mi long run. Some HR is the 310 ft of rolling terrain, but not most. Encouraging: Strava predicts 5K @ 23:44 (ahead of the 27-min baseline). <strong>Action:</strong> Sat rest is sacred; run Sunday's long run truly easy (9:20–9:45).</div>
+  </div>
+
+  <div class="log-entry ok">
+    <div class="le-title">Thu Jun 4 — <span class="v">✅ Easy (short but fine)</span></div>
+    <div class="le-row"><span class="le-lbl">Prescribed</span> Easy 5 mi @ 9:20–9:45/mi</div>
+    <div class="le-row"><span class="le-lbl">Actual</span> <strong>3.6 mi</strong> easy</div>
+    <div class="log-coach">Slightly short, no issue. Plan annotated as acceptable ("good enough").</div>
+  </div>
+</div><!-- /tab-log -->
 
 </div><!-- /content -->
 
