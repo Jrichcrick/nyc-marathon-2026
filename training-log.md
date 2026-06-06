@@ -25,9 +25,10 @@ Coach reviews each against `marathon-training-nyc-2026.html` and flags pace/effo
 - **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
 - **Actual:** 3.61 mi @ 8:56/mi · 32:16 moving · 144 ft gain
 - **HR (avg/max):** 153 / 166
-- **Pace zones:** Z3 60%, Z2 29%, Z4 6%, Z1 4% → 66% Z3+, 33% easy
-- **GAP:** 8:51/mi
+- **HR zones (% of 190 max):** Z2 51%, Z3 49%, Z4 0%, Z1 0% → about half easy, half low-aerobic, zero threshold
+- **Pace zones:** Z3 60%, Z2 29%, Z4 6%, Z1 4% (pace looks hotter than HR — hill-inflated)
+- **GAP:** 8:51/mi · 144 ft gain
 - **Splits:** 9:21, 8:56, 8:44, 8:34 (0.6) — progressive
 - **Feel:** "Pace feels good. Have to start adding miles."
-- **Strava AI:** "Matching your 30-day average… solid aerobic zone." / "Solid tempo run: 60% Z3, strong finish."
-- **Coach notes:** Same pattern as Fri but milder — easy run drifted to low-tempo (bottom of Z3) and came up short (3.61 of 5 mi). Two easy days in a row run hotter than prescribed. "Pace feels good" is the trap — easy should feel almost too slow. **Action:** add the missing easy volume and run easy days at 9:20–9:45.
+- **Strava AI:** "Even split: 51% endurance, 49% tempo. Controlled, sustainable effort throughout."
+- **Coach notes:** Revised after HR-zone data — effort was actually controlled (half Z2, zero Z4), unlike Fri. HR is the truer effort gauge; pace zones overstated it because of the 144 ft of hills. **Real miss is distance** (3.61 of 5), not intensity; pace ran a hair quick. Verdict stays ⚠️ for short volume + slightly fast pace, but this was NOT a hard day. **Action:** add the missing easy volume; keep easy pace at 9:20–9:45.
