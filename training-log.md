@@ -9,6 +9,15 @@ Coach reviews each against `marathon-training-nyc-2026.html` and flags pace/effo
 
 ## Week 1 — June 4–10
 
+### Sun Jun 7 — ⚠️ Long run, easy pace nailed but short
+<!-- strava_id: 18828714274 -->
+- **Prescribed:** Long run 12 mi easy @ 9:20–9:45/mi
+- **Actual:** 10.38 mi @ 9:27/mi avg · 1:38:08 moving · 544 ft gain
+- **HR (avg/max):** 159 / 173
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** This is the discipline I wanted Friday. Pace 9:27 sat right in the easy band the whole way — exactly how a long run should feel. The 159 avg HR looks high next to the pace, but that's normal cardiac drift over 98 min on a hilly route (544 ft), not an intensity miss like Friday. **The only miss is distance: 10.38 of 12.** Don't make it up. **Action:** Sunday is your long-run anchor — protect the full distance next week; hold this same easy pace and let the miles, not the speed, do the work.
+- [View on Strava](https://www.strava.com/activities/18828714274)
+
 ### Fri Jun 5 — ⚠️ Easy day run as tempo
 - **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
 - **Actual:** 6.37 mi @ 8:45/mi avg · 55:44 moving · 310 ft gain
