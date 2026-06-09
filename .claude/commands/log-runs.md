@@ -16,6 +16,8 @@ commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a gene
   1. `training-log.md` — long-form journal (full coach notes). Newest at top.
   2. `index.html`, **Training Log tab** (`<table class="log-table">`) — compact row the
      site displays. Newest at top.
+  3. `data/log.csv` — structured backup DB, append-only, **oldest at top** (newest row
+     appended at the bottom). One row per run.
 
 ## Steps
 
@@ -64,19 +66,25 @@ commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a gene
    Also refresh the `<div class="log-summary">` and the `<div class="log-week">` heading if
    the run starts a new week. Keep both logs telling the same story.
 
-9. **If a run warrants a plan change** (injury flag, repeated violations, clearly
-   ahead/behind sub-4), edit the `index.html` Plan tab too and explain in the commit.
+9. **Append the backup DB** — add one row to `data/log.csv` (header order:
+   `date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,notes`).
+   Use `date` as `YYYY-MM-DD`, `verdict` as `on-plan`/`off-plan`/`flag`, and quote the
+   `notes` field if it contains a comma. Append at the BOTTOM (oldest-first file).
 
-10. **Commit & push** (updates the live site):
+10. **If a run warrants a plan change** (injury flag, repeated violations, clearly
+    ahead/behind sub-4), edit the `index.html` Plan tab, then regenerate the plan backup:
+    `python3 data/build_plan_csv.py`. Explain the change in the commit.
+
+11. **Commit & push** (updates the live site + backup):
     ```bash
-    git add training-log.md index.html
+    git add training-log.md index.html data/log.csv data/plan.csv
     git commit -m "Log {Day} run from Strava: {one-line verdict}"
     git push
     ```
 
-11. **Close the issue:**
+12. **Close the issue:**
     ```bash
-    gh issue close {number} --comment "Logged → index.html + training-log.md"
+    gh issue close {number} --comment "Logged → index.html + training-log.md + data/log.csv"
     ```
 
 ## Notes
