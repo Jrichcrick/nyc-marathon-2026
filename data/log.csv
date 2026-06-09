@@ -1,4 +1,4 @@
-date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,notes
-2026-06-04,Thu,Pre-season,Easy,Easy 5 mi @ 9:20–9:45,3.61,8:56,32:16,153,166,144,off-plan,,Short of distance and pace a hair quick on hills; effort controlled by HR (half Z2 zero Z4).
-2026-06-05,Fri,Pre-season,Easy,Easy 5 mi @ 9:20–9:45,6.37,8:45,55:44,160,176,310,off-plan,,Easy day run as tempo — 35-60 s/mi too fast finishing at 8:11; 74% of HR in Z3+. Effort spent before the long run.
-2026-06-07,Sun,Pre-season,Long (build-up),~10 mi easy,10.38,9:27,1:38:08,159,173,544,on-plan,18828714274,Target hit. All at easy 9:27; 159 avg HR is normal drift over 98 min on a hilly route. Good base run to launch training.
+date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,relative_effort,feel,notes
+2026-06-04,Thu,Pre-season,Easy,Easy 5 mi @ 9:20–9:45,3.61,8:56,32:16,153,166,144,off-plan,,,"Pace feels good. Have to start adding miles.",Short of distance and pace a hair quick on hills; effort controlled by HR (half Z2 zero Z4).
+2026-06-05,Fri,Pre-season,Easy,Easy 5 mi @ 9:20–9:45,6.37,8:45,55:44,160,176,310,off-plan,,,"Had more in the tank, just no time.",Easy day run as tempo — 35-60 s/mi too fast finishing at 8:11; 74% of HR in Z3+. Effort spent before the long run.
+2026-06-07,Sun,Pre-season,Long (build-up),~10 mi easy,10.38,9:27,1:38:08,159,173,544,on-plan,18828714274,,,Target hit. All at easy 9:27; 159 avg HR is normal drift over 98 min on a hilly route. Good base run to launch training.

@@ -14,7 +14,8 @@ them up offsite to GitHub.
   ```
 
 - **`log.csv`** — every actual run (one row per run, oldest-first, append-only).
-  Columns: `date, day, week, type, prescribed, actual_mi, pace, moving_time, avg_hr, max_hr, elevation_ft, verdict, strava_id, notes`.
+  Columns: `date, day, week, type, prescribed, actual_mi, pace, moving_time, avg_hr, max_hr, elevation_ft, verdict, strava_id, relative_effort, feel, notes`.
+  `relative_effort` = Strava's suffer_score; `feel` = JR's own Strava note (blank if he didn't write one).
   The Strava auto-ingest (`.claude/commands/log-runs.md`) appends a row per run.
 
 - **`build_plan_csv.py`** — regenerates `plan.csv` from `index.html`.

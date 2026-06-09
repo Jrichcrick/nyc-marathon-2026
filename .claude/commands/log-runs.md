@@ -30,7 +30,9 @@ commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a gene
 2. **Parse** each issue's `key: value` body. RAW Strava units: `distance_m` (m),
    `moving_time_s`/`elapsed_time_s` (s), `total_elevation_gain_m` (m), `average_speed_ms`
    (m/s), `average_heartrate`, `max_heartrate`, `average_cadence`, `start_date_local`,
-   `type`, `strava_id`.
+   `type`, `strava_id`. **Optional fields (use if present, ignore if blank/missing):**
+   `description` (JR's own note → use as **Feel**), `perceived_exertion` (RPE),
+   `relative_effort` (Strava suffer_score), `average_temp`, `gear`.
 
 3. **Convert:** miles = `distance_m`/1609.34 · pace = (`moving_time_s`/60)/miles → `M:SS/mi`
    · elevation ft = `total_elevation_gain_m`×3.28084. Only log `type: Run`; for anything
@@ -51,7 +53,10 @@ commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a gene
 
 7. **Write `training-log.md`** — new entry at the top of the current section, matching the
    existing format, including `<!-- strava_id: {id} -->` and a Strava link. Splits and
-   HR-zone % are NOT in the API — omit those lines.
+   HR-zone % are NOT in the API — omit those lines. For **Feel**, use `description` verbatim
+   if present, else "(auto-import — no athlete note)". If `relative_effort`, `perceived_exertion`,
+   `average_temp`, or `gear` are present, weave them into the entry (effort/heat context, shoe).
+   **If JR's note mentions pain or injury, raise the verdict to 🚩 and call it out.**
 
 8. **Write the `index.html` Log tab** — insert a `data` row + `note` row at the top of
    `<tbody>` in `<table class="log-table">`, matching the existing pairs exactly:
@@ -67,9 +72,10 @@ commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a gene
    the run starts a new week. Keep both logs telling the same story.
 
 9. **Append the backup DB** — add one row to `data/log.csv` (header order:
-   `date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,notes`).
-   Use `date` as `YYYY-MM-DD`, `verdict` as `on-plan`/`off-plan`/`flag`, and quote the
-   `notes` field if it contains a comma. Append at the BOTTOM (oldest-first file).
+   `date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,relative_effort,feel,notes`).
+   Use `date` as `YYYY-MM-DD`, `verdict` as `on-plan`/`off-plan`/`flag`; `relative_effort` =
+   suffer_score if present else blank; `feel` = JR's `description` if present else blank.
+   Quote any field that contains a comma. Append at the BOTTOM (oldest-first file).
 
 10. **If a run warrants a plan change** (injury flag, repeated violations, clearly
     ahead/behind sub-4), edit the `index.html` Plan tab, then regenerate the plan backup:
