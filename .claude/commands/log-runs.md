@@ -5,9 +5,17 @@ description: Ingest new Strava activities (filed as GitHub issues) into the trai
 # /log-runs — Ingest Strava activities into the training log
 
 Strava activities arrive as GitHub issues (Zapier files them, label `strava-activity`).
-Process every open one into `training-log.md`, run the coach verdict against the plan,
-commit, push, and close the issue. This is the automated coaching loop — act as JR's
-coach per `CLAUDE.md`, not a generic logger.
+Process every open one, run the coach verdict against the plan, write it to BOTH places,
+commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a generic logger.
+
+## Source of truth
+- **The plan** lives in `index.html`, **Plan tab** — week tables with one row per day
+  (`<td class="dc">Wed Jun 10</td><td>4×1200m @ 7:55/mi …</td>`). Week 1 starts **June 8**.
+  Runs dated before June 8 are **pre-season base runs**, not part of a numbered week.
+- **The log** lives in TWO files that must stay in sync — write both, every time:
+  1. `training-log.md` — long-form journal (full coach notes). Newest at top.
+  2. `index.html`, **Training Log tab** (`<table class="log-table">`) — compact row the
+     site displays. Newest at top.
 
 ## Steps
 
@@ -15,64 +23,62 @@ coach per `CLAUDE.md`, not a generic logger.
    ```bash
    gh issue list --label strava-activity --state open --json number,title,body --limit 50
    ```
-   If empty, stop — nothing to do.
+   If empty, stop.
 
-2. **For each issue**, parse the `key: value` body. Fields are RAW Strava units:
-   - `strava_id` — dedupe key + builds the URL
-   - `distance_m` (meters), `moving_time_s` / `elapsed_time_s` (seconds)
-   - `total_elevation_gain_m` (meters), `average_speed_ms` / `max_speed_ms` (m/s)
-   - `average_heartrate`, `max_heartrate`, `average_cadence`, `start_date_local`, `type`
+2. **Parse** each issue's `key: value` body. RAW Strava units: `distance_m` (m),
+   `moving_time_s`/`elapsed_time_s` (s), `total_elevation_gain_m` (m), `average_speed_ms`
+   (m/s), `average_heartrate`, `max_heartrate`, `average_cadence`, `start_date_local`,
+   `type`, `strava_id`.
 
-3. **Convert:**
-   - miles = `distance_m` / 1609.34
-   - moving time = `moving_time_s` → `M:SS`
-   - avg pace (min/mi) = (`moving_time_s` / 60) / miles → `M:SS/mi`
-   - elevation (ft) = `total_elevation_gain_m` × 3.28084
-   - Only `type: Run` activities go in the log. Rides/walks/other: close the issue with a
-     comment "skipped — not a run", do not log.
+3. **Convert:** miles = `distance_m`/1609.34 · pace = (`moving_time_s`/60)/miles → `M:SS/mi`
+   · elevation ft = `total_elevation_gain_m`×3.28084. Only log `type: Run`; for anything
+   else close the issue with "skipped — not a run".
 
-4. **Dedupe:** if `training-log.md` already contains that `strava_id` (I stamp it in each
-   entry as an HTML comment), skip and close the issue. Never double-log.
+4. **Dedupe:** if either log already contains that `strava_id` (stamped as an HTML comment
+   in `training-log.md`), skip and close the issue. Never double-log.
 
-5. **Compare to the plan.** Open `marathon-training-nyc-2026.html`, find the prescribed
-   workout for that date's day-of-week (see `CLAUDE.md` weekly schedule). Determine:
-   - Was this the right day for this effort? (hard/easy principle is critical for JR)
-   - Pace vs the prescribed zone for the current block (see paces in `CLAUDE.md`)
-   - HR check: avg HR vs ~190 max. >~75% of effort in Z3+ on an easy day = intensity miss.
-   - Distance vs prescribed.
+5. **Find the prescription.** In `index.html` Plan tab, locate the row for that run's date.
+   - Date ≥ Jun 8 → it belongs to a numbered week; use that day's prescribed workout.
+   - Date < Jun 8 → pre-season base run; judge against general base guidance, not a week.
+   - **The plan file is the source of truth. If a run meets or beats the prescribed
+     target, never mark it short.** Only flag genuine misses.
 
-6. **Write the entry** at the TOP of the current week's section in `training-log.md`,
-   matching the existing format exactly. Use this skeleton (omit lines with no data —
-   splits and HR-zone % are NOT in the API, so leave them out unless present):
-   ```markdown
-   ### {Day} {Mon DD} — {✅|⚠️|🚩} {one-line verdict}
-   <!-- strava_id: {id} -->
-   - **Prescribed:** {from plan}
-   - **Actual:** {miles} mi @ {pace}/mi avg · {moving time} moving · {elev} ft gain
-   - **HR (avg/max):** {avg} / {max}
-   - **Feel:** (auto-import — no athlete note)
-   - **Coach notes:** {real coaching read — right/wrong day, pace vs zone, HR signal, action}
-   - [View on Strava](https://www.strava.com/activities/{id})
+6. **Verdict** per `CLAUDE.md`: right day for the effort (hard/easy principle is critical),
+   pace vs the zone, avg HR vs ~190 max (>~75% Z3+ on an easy day = intensity miss),
+   distance vs prescribed. Pick ✅ on plan · ⚠️ off plan · 🚩 flag.
+
+7. **Write `training-log.md`** — new entry at the top of the current section, matching the
+   existing format, including `<!-- strava_id: {id} -->` and a Strava link. Splits and
+   HR-zone % are NOT in the API — omit those lines.
+
+8. **Write the `index.html` Log tab** — insert a `data` row + `note` row at the top of
+   `<tbody>` in `<table class="log-table">`, matching the existing pairs exactly:
+   ```html
+   <tr class="data">
+     <td><strong>{Day Mon DD}</strong></td><td>{Type}</td><td>{prescribed short}</td><td><strong>{miles} mi</strong></td><td><strong>{pace}</strong></td><td>{avg}/{max} HR<br>{elev} ft</td><td class="v-ok|v-warn|v-flag">{✅|⚠️|🚩}</td>
+   </tr>
+   <tr class="note">
+     <td colspan="7">{one-paragraph coach read}. <span class="feel">Feel: (auto-import — no athlete note)</span></td>
+   </tr>
    ```
-   Start a new `## Week N — <dates>` header if this run crosses into a new week.
+   Also refresh the `<div class="log-summary">` and the `<div class="log-week">` heading if
+   the run starts a new week. Keep both logs telling the same story.
 
-7. **If the run reveals a needed plan change** (injury flag, repeated intensity violations,
-   clearly ahead/behind sub-4 trajectory), adjust `marathon-training-nyc-2026.html` too and
-   note why in the commit. Otherwise leave the plan as-is.
+9. **If a run warrants a plan change** (injury flag, repeated violations, clearly
+   ahead/behind sub-4), edit the `index.html` Plan tab too and explain in the commit.
 
-8. **Commit & push** (this updates the live site):
-   ```bash
-   git add training-log.md marathon-training-nyc-2026.html
-   git commit -m "Log {Day} run from Strava: {one-line verdict}"
-   git push
-   ```
+10. **Commit & push** (updates the live site):
+    ```bash
+    git add training-log.md index.html
+    git commit -m "Log {Day} run from Strava: {one-line verdict}"
+    git push
+    ```
 
-9. **Close the issue:**
-   ```bash
-   gh issue close {number} --comment "Logged → training-log.md"
-   ```
+11. **Close the issue:**
+    ```bash
+    gh issue close {number} --comment "Logged → index.html + training-log.md"
+    ```
 
 ## Notes
-- One commit per run is fine; batch is fine too if several arrived at once.
-- Keep verdicts in JR's voice/standard: direct, specific paces, an **Action** line.
-- If a body is malformed/unparseable, comment on the issue what's missing and leave it open.
+- Keep verdicts in JR's voice: direct, specific paces, an **Action** line.
+- If a body is malformed, comment on the issue what's missing and leave it open.

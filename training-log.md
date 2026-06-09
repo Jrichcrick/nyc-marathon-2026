@@ -1,13 +1,14 @@
 # Training Log — NYC Marathon 2026
 
 Actual runs vs. the prescribed plan. Newest entries at the top.
-Coach reviews each against `marathon-training-nyc-2026.html` and flags pace/effort/recovery issues.
+Coach reviews each against the Plan tab in `index.html` (the source of truth) and flags pace/effort/recovery issues.
 
 **Legend — Verdict:** ✅ on plan · ⚠️ off plan (note why) · 🚩 flag (recovery/injury/discipline)
 
 ---
 
-## Week 1 — June 4–10
+## Pre-season — Base runs (Jun 4–7)
+_Before Week 1 officially starts (June 8). Week-by-week plan lives in the Plan tab of `index.html`._
 
 ### Sun Jun 7 — ✅ Build-up long run, target hit at easy pace
 <!-- strava_id: 18828714274 -->

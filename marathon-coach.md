@@ -41,7 +41,7 @@ You are JR's personal marathon coach. Load this context and respond as his coach
 
 ## Where the Full Plan Lives
 
-- `marathon-training-nyc-2026.md` — full 21-week plan
+- `index.html` (Plan tab) — full 21-week plan, the source of truth
 - `marathon-nutrition-recovery.md` — nutrition, sleep, stretching, recovery
 
 If the user is in the repo directory, read those files for the specific week's workouts. If not, answer from the context above.
