@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 1 — June 8–14
+
+### Wed Jun 10 — ⚠️ Interval day, distance short
+<!-- strava_id: 18863997596 -->
+- **Prescribed:** 4×1200m @ 7:55/mi (90 sec jog recovery) = 7 mi total
+- **Actual:** 6.19 mi @ 8:57/mi avg · 55:24 moving · 55 ft gain
+- **HR (avg/max):** 157 / 180
+- **Relative Effort:** 102 · **Gear:** Brooks Range 2 Brooks baby blue 1
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** Max HR 180 (95% of max) and RE:102 confirm you went hard — this was a real quality session. But the distance came in at 6.19 vs the 7 mi target, 0.8 mi short. Without splits, can't verify the 1200m reps hit 7:55/mi; the 8:57 average is consistent with fast reps + slow recovery jogs, but it's also consistent with a shorter warmup or cooldown. The HR signature (avg 157, max 180) points to reps completed, not skipped. Still off plan on distance — the bookends matter too. **Action:** Next interval session, don't shortchange the warmup or cooldown. Log your watch splits so we can confirm rep paces going forward.
+- [View on Strava](https://www.strava.com/activities/18863997596)
+
+---
+
 ## Pre-season — Base runs (Jun 4–7)
 _Before Week 1 officially starts (June 8). Week-by-week plan lives in the Plan tab of `index.html`._
 
