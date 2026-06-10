@@ -16,7 +16,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **HR (avg/max):** 157 / 180
 - **Relative Effort:** 102 · **Gear:** Brooks Range 2 Brooks baby blue 1
 - **Feel:** (auto-import — no athlete note)
-- **Coach notes:** Max HR 180 (95% of max) and RE:102 confirm you went hard — this was a real quality session. But the distance came in at 6.19 vs the 7 mi target, 0.8 mi short. Without splits, can't verify the 1200m reps hit 7:55/mi; the 8:57 average is consistent with fast reps + slow recovery jogs, but it's also consistent with a shorter warmup or cooldown. The HR signature (avg 157, max 180) points to reps completed, not skipped. Still off plan on distance — the bookends matter too. **Action:** Next interval session, don't shortchange the warmup or cooldown. Log your watch splits so we can confirm rep paces going forward.
+- **Coach notes:** Max HR 180 (95% of max) and RE:102 confirm you went hard — this was a real quality session. But the distance came in at 6.19 vs the 7 mi target, 0.8 mi short. Without splits, can't verify the 1200m reps hit 7:55/mi; the 8:57 average is consistent with fast reps + slow recovery jogs, but it's also consistent with a shorter warmup or cooldown. The HR signature (avg 157, max 180) points to reps completed, not skipped. Still off plan on distance — the bookends matter too. **Action:** Check the splits on the Strava app for this run to confirm the 1200m reps hit 7:55/mi. Next interval session, don't shortchange the warmup or cooldown.
 - [View on Strava](https://www.strava.com/activities/18863997596)
 
 ---
