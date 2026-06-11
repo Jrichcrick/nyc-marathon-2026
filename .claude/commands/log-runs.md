@@ -32,10 +32,14 @@ perceived_exertion: {{perceived_exertion}}  # optional → RPE
 relative_effort: {{suffer_score}}     # optional → training load
 average_temp: {{average_temp}}        # optional
 gear: {{gear_name}}                   # optional → shoe mileage
+splits_standard: {{=JSON.stringify(gives[...]["splits_standard"])}}  # optional → per-mile splits as a JSON array
 ```
 
-Per-mile splits and HR-zone % are NOT in Strava's activity-created event, so they never
-arrive automatically. On a quality day, JR pastes them in and the entry is enriched by hand.
+`splits_standard`, when present, is a JSON array of per-mile split objects, each with
+`distance` (m), `moving_time`/`elapsed_time` (s), `average_speed` (m/s), `average_heartrate`,
+`elevation_difference` (m), `split` (mile index). Parse it (steps 3 & 7) to build the
+per-mile table. (HR-zone % is still not in the feed; only splits are.) If `splits_standard` is
+absent or unparseable, just skip the splits table — the rest of the entry is unaffected.
 
 ## Source of truth
 - **The plan** lives in `index.html`, **Plan tab** — week tables with one row per day
@@ -61,11 +65,16 @@ arrive automatically. On a quality day, JR pastes them in and the entry is enric
    (m/s), `average_heartrate`, `max_heartrate`, `average_cadence`, `start_date_local`,
    `type`, `strava_id`. **Optional fields (use if present, ignore if blank/missing):**
    `description` (JR's own note → use as **Feel**), `perceived_exertion` (RPE),
-   `relative_effort` (Strava suffer_score), `average_temp`, `gear`.
+   `relative_effort` (Strava suffer_score), `average_temp`, `gear`,
+   `splits_standard` (JSON array of per-mile splits).
 
 3. **Convert:** miles = `distance_m`/1609.34 · pace = (`moving_time_s`/60)/miles → `M:SS/mi`
    · elevation ft = `total_elevation_gain_m`×3.28084. Only log `type: Run`; for anything
    else close the issue with "skipped — not a run".
+   **Splits:** if `splits_standard` is present, parse the JSON. For each split compute
+   per-mile pace = (`moving_time`/60)/(`distance`/1609.34) → `M:SS`, and read its
+   `average_heartrate` and `elevation_difference` (×3.28084 → ft). This gives the per-mile
+   pace · HR table and, on a quality day, the actual work-rep pace.
 
 4. **Dedupe:** if either log already contains that `strava_id` (stamped as an HTML comment
    in `training-log.md`), skip and close the issue. Never double-log.
@@ -79,12 +88,18 @@ arrive automatically. On a quality day, JR pastes them in and the entry is enric
 6. **Verdict** per `CLAUDE.md`: right day for the effort (hard/easy principle is critical),
    pace vs the zone, avg HR vs ~190 max (>~75% Z3+ on an easy day = intensity miss),
    distance vs prescribed. Pick ✅ on plan · ⚠️ off plan · 🚩 flag.
+   **For quality sessions (intervals/tempo), judge the WORK reps, not the whole-run
+   average.** If splits are present, identify the fast/work miles and compare their pace to
+   the prescribed rep pace — hitting rep pace ✅ even if total volume is a touch short. Don't
+   penalize an interval day for trimmed warm-up/cool-down volume when the reps were on target.
 
 7. **Write `training-log.md`** — new entry at the top of the current section, matching the
-   existing format, including `<!-- strava_id: {id} -->` and a Strava link. Splits and
-   HR-zone % are NOT in the API — omit those lines. For **Feel**, use `description` verbatim
-   if present, else "(auto-import — no athlete note)". If `relative_effort`, `perceived_exertion`,
-   `average_temp`, or `gear` are present, weave them into the entry (effort/heat context, shoe).
+   existing format, including `<!-- strava_id: {id} -->` and a Strava link. HR-zone % is NOT
+   in the API — omit it. If `splits_standard` was present, add a **Mile splits (pace · HR)**
+   line (e.g. `1) 9:33 · 146 · 2) 8:37 · 153 · …`); otherwise omit it. For **Feel**, use
+   `description` verbatim if present, else "(auto-import — no athlete note)". If
+   `relative_effort`, `perceived_exertion`, `average_temp`, or `gear` are present, weave them
+   in (effort/heat context, shoe).
    **If JR's note mentions pain or injury, raise the verdict to 🚩 and call it out.**
 
 8. **Write the `index.html` Log tab** — insert a `data` row + `note` row at the top of
