@@ -149,4 +149,8 @@ only plain field tags work.
 
 ## Notes
 - Keep verdicts in JR's voice: direct, specific paces, an **Action** line.
-- If a body is malformed, comment on the issue what's missing and leave it open.
+- **Run fully autonomously — never pause to ask.** For minor judgment calls (ambiguous
+  prescription, a run that could match two plan days, borderline verdict), pick the most
+  reasonable interpretation and note it in the entry rather than asking. Reserve
+  leave-it-open behavior for genuinely unusable data: if a body is malformed, comment on
+  the issue what's missing and leave it open.
