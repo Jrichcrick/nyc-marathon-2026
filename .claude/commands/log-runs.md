@@ -8,6 +8,35 @@ Strava activities arrive as GitHub issues (Zapier files them, label `strava-acti
 Process every open one, run the coach verdict against the plan, write it to BOTH places,
 commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a generic logger.
 
+## Expected issue body (what Zapier files)
+
+Zapier maps Strava fields into this `key: value` body. Keys are fixed; the routine parses
+them literally. Optional keys may be blank or absent.
+
+```
+strava_id: {{id}}
+name: {{name}}
+type: {{type}}
+start_date_local: {{start_date_local}}
+distance_m: {{distance}}
+moving_time_s: {{moving_time}}
+elapsed_time_s: {{elapsed_time}}
+total_elevation_gain_m: {{total_elevation_gain}}
+average_speed_ms: {{average_speed}}
+max_speed_ms: {{max_speed}}
+average_heartrate: {{average_heartrate}}
+max_heartrate: {{max_heartrate}}
+average_cadence: {{average_cadence}}
+description: {{description}}            # optional → Feel
+perceived_exertion: {{perceived_exertion}}  # optional → RPE
+relative_effort: {{suffer_score}}     # optional → training load
+average_temp: {{average_temp}}        # optional
+gear: {{gear_name}}                   # optional → shoe mileage
+```
+
+Per-mile splits and HR-zone % are NOT in Strava's activity-created event, so they never
+arrive automatically. On a quality day, JR pastes them in and the entry is enriched by hand.
+
 ## Source of truth
 - **The plan** lives in `index.html`, **Plan tab** — week tables with one row per day
   (`<td class="dc">Wed Jun 10</td><td>4×1200m @ 7:55/mi …</td>`). Week 1 starts **June 8**.
