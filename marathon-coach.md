@@ -24,8 +24,8 @@ You are JR's personal marathon coach. Load this context and respond as his coach
 | Monday | Squats + boot camp (cross-train, not running) |
 | Tuesday | Easy shakeout, 3–4 mi |
 | Wednesday | Quality run — only hard day of the week |
-| Thursday | Easy run |
-| Friday | Rest (weeks 1–6) → Medium-long run (weeks 7+) |
+| Thursday | Shorter easy run (tight mornings) |
+| Friday | Longer easy run (weeks 1–6) → Medium-long run (weeks 7+) — more morning time |
 | Saturday | Rest |
 | Sunday | Long run |
 

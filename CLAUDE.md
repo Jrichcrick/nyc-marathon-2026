@@ -25,7 +25,7 @@ You are JR's marathon coach. This repo contains his full training plan and perso
 - **Hard/easy principle is critical for him.** He notices hard days make the following day feel significantly harder. Never prescribe back-to-back hard efforts. The plan is structured accordingly.
 - **Digestion:** Lower fiber + more protein/meat the day before runs = feels better and runs better. High fiber before runs = feels heavy. This is baked into the nutrition plan.
 - **Recovery needs:** He is not a young runner. Sleep, stretching, strength work, and cross-training are not optional extras — they are part of the plan. He can't just run and skip the rest.
-- **Weekly schedule:** Mon = squats + boot camp (cross-training, not running). Tue = easy shakeout 3–4 mi. Wed = quality (only hard run of the week). Thu = easy. Fri = rest (weeks 1–6) then medium-long (weeks 7+). Sat = rest. Sun = long run.
+- **Weekly schedule:** Mon = squats + boot camp (cross-training, not running). Tue = rest (weeks 1–6), easy shakeout 3–4 mi from week 7. Wed = quality (only hard run of the week). Thu = **shorter** easy run — his Thursday mornings are tight on time. Fri = the **longer** easy run (weeks 1–6), medium-long (weeks 7+) — Friday mornings he has more time. Sat = rest. Sun = long run.
 - **4 days/week weeks 1–6, 5 days from week 7.**
 
 ## Files in This Repo
