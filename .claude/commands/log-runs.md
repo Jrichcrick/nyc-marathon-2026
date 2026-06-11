@@ -32,14 +32,22 @@ perceived_exertion: {{perceived_exertion}}  # optional → RPE
 relative_effort: {{suffer_score}}     # optional → training load
 average_temp: {{average_temp}}        # optional
 gear: {{gear_name}}                   # optional → shoe mileage
-splits_standard: {{=JSON.stringify(gives[...]["splits_standard"])}}  # optional → per-mile splits as a JSON array
+splits_distance_m: {{splits_standard[]distance}}        # optional → per-mile splits
+splits_moving_time_s: {{splits_standard[]moving_time}}
+splits_avg_hr: {{splits_standard[]average_heartrate}}
+splits_elev_diff_m: {{splits_standard[]elevation_difference}}
+laps_distance_m: {{laps[]distance}}                     # optional → watch laps (exact interval reps)
+laps_moving_time_s: {{laps[]moving_time}}
+laps_avg_hr: {{laps[]average_heartrate}}
 ```
 
-`splits_standard`, when present, is a JSON array of per-mile split objects, each with
-`distance` (m), `moving_time`/`elapsed_time` (s), `average_speed` (m/s), `average_heartrate`,
-`elevation_difference` (m), `split` (mile index). Parse it (steps 3 & 7) to build the
-per-mile table. (HR-zone % is still not in the feed; only splits are.) If `splits_standard` is
-absent or unparseable, just skip the splits table — the rest of the entry is unaffected.
+The `splits_*` and `laps_*` keys each hold a **comma-separated list** (one value per
+mile/lap, parallel arrays — zip them by position). Splits = per-mile; laps = the watch's
+workout laps, which on interval days give EXACT rep times (e.g. each 1200m as its own lap).
+Per-lap pace = (moving_time/60)/(distance/1609.34). (HR-zone % is still not in the feed.)
+If these keys are absent, blank, or misaligned in length, skip the table — the rest of the
+entry is unaffected. Note: Zapier expressions can't use JS functions like JSON.stringify —
+only plain field tags work.
 
 ## Source of truth
 - **The plan** lives in `index.html`, **Plan tab** — week tables with one row per day
@@ -66,15 +74,16 @@ absent or unparseable, just skip the splits table — the rest of the entry is u
    `type`, `strava_id`. **Optional fields (use if present, ignore if blank/missing):**
    `description` (JR's own note → use as **Feel**), `perceived_exertion` (RPE),
    `relative_effort` (Strava suffer_score), `average_temp`, `gear`,
-   `splits_standard` (JSON array of per-mile splits).
+   `splits_*` (per-mile splits as parallel comma lists), `laps_*` (watch laps, ditto).
 
 3. **Convert:** miles = `distance_m`/1609.34 · pace = (`moving_time_s`/60)/miles → `M:SS/mi`
    · elevation ft = `total_elevation_gain_m`×3.28084. Only log `type: Run`; for anything
    else close the issue with "skipped — not a run".
-   **Splits:** if `splits_standard` is present, parse the JSON. For each split compute
-   per-mile pace = (`moving_time`/60)/(`distance`/1609.34) → `M:SS`, and read its
-   `average_heartrate` and `elevation_difference` (×3.28084 → ft). This gives the per-mile
-   pace · HR table and, on a quality day, the actual work-rep pace.
+   **Splits/laps:** if the `splits_*` keys are present, split each on commas and zip by
+   position; per-mile pace = (`moving_time`/60)/(`distance`/1609.34) → `M:SS`, HR from
+   `splits_avg_hr`, elevation diff ×3.28084 → ft. Same for `laps_*` — on interval days the
+   laps are the ground truth for rep pace (each rep is its own lap). Prefer laps over mile
+   splits when judging reps; use mile splits for the narrative table.
 
 4. **Dedupe:** if either log already contains that `strava_id` (stamped as an HTML comment
    in `training-log.md`), skip and close the issue. Never double-log.
@@ -95,8 +104,9 @@ absent or unparseable, just skip the splits table — the rest of the entry is u
 
 7. **Write `training-log.md`** — new entry at the top of the current section, matching the
    existing format, including `<!-- strava_id: {id} -->` and a Strava link. HR-zone % is NOT
-   in the API — omit it. If `splits_standard` was present, add a **Mile splits (pace · HR)**
-   line (e.g. `1) 9:33 · 146 · 2) 8:37 · 153 · …`); otherwise omit it. For **Feel**, use
+   in the API — omit it. If splits arrived, add a **Mile splits (pace · HR)** line
+   (e.g. `1) 9:33 · 146 · 2) 8:37 · 153 · …`); if laps arrived on a quality day, add a
+   **Reps** line with each rep's pace. Otherwise omit those lines. For **Feel**, use
    `description` verbatim if present, else "(auto-import — no athlete note)". If
    `relative_effort`, `perceived_exertion`, `average_temp`, or `gear` are present, weave them
    in (effort/heat context, shoe).
