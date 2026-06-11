@@ -9,14 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 1 — June 8–14
 
-### Wed Jun 10 — ⚠️ Interval day, distance short
+### Wed Jun 10 — ✅ Intervals nailed at target pace
 <!-- strava_id: 18863997596 -->
 - **Prescribed:** 4×1200m @ 7:55/mi (90 sec jog recovery) = 7 mi total
-- **Actual:** 6.19 mi @ 8:57/mi avg · 55:24 moving · 55 ft gain
-- **HR (avg/max):** 157 / 180
-- **Relative Effort:** 102 · **Gear:** Brooks Range 2 Brooks baby blue 1
+- **Actual:** 6.19 mi @ 8:57/mi avg (whole run) · 55:24 moving · 55 ft gain
+- **Intervals:** 4×~6 min @ **7:59/mi avg** — essentially dead-on the 7:55 target (Strava Workout Analysis: "4×6min intervals at 7:59/mi avg, with endurance warm-up and cool-down")
+- **Mile splits (pace · HR):** 1) 9:33 · 146 (warm-up, −106 ft) · 2) 8:37 · 153 · 3) 8:15 · 156 · 4) 8:49 · 163 · 5) 8:58 · 169 · 6) 9:25 · 156 · 0.1) 9:41 · 156
+- **HR (avg/max):** 157 / 180 · **Relative Effort:** 102 · **Gear:** Brooks Range 2
 - **Feel:** (auto-import — no athlete note)
-- **Coach notes:** Max HR 180 (95% of max) and RE:102 confirm you went hard — this was a real quality session. But the distance came in at 6.19 vs the 7 mi target, 0.8 mi short. Without splits, can't verify the 1200m reps hit 7:55/mi; the 8:57 average is consistent with fast reps + slow recovery jogs, but it's also consistent with a shorter warmup or cooldown. The HR signature (avg 157, max 180) points to reps completed, not skipped. Still off plan on distance — the bookends matter too. **Action:** Check the splits on the Strava app for this run to confirm the 1200m reps hit 7:55/mi. Next interval session, don't shortchange the warmup or cooldown.
+- **Coach notes:** With the splits in, the picture flips — this was a strong session. The work intervals averaged 7:59/mi against a 7:55 target; 4 sec/mi is noise, you hit the pace that matters. HR built cleanly through the reps (146 → 169) and topped at 180 — exactly the interval response I want, no sandbagging. The auto-flag was only about total distance (6.19 vs 7 mi) because you trimmed ~0.8 mi off the easy warm-up/cool-down bookends — a rounding error on a day where the quality was bang-on. Verdict upgraded ⚠️→✅. **Action:** keep the rep execution exactly like this; just tack on a few more minutes of easy cool-down next time to land the full 7.
 - [View on Strava](https://www.strava.com/activities/18863997596)
 
 ---
