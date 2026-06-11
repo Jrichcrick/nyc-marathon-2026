@@ -97,6 +97,16 @@ only plain field tags work.
 6. **Verdict** per `CLAUDE.md`: right day for the effort (hard/easy principle is critical),
    pace vs the zone, avg HR vs ~190 max (>~75% Z3+ on an easy day = intensity miss),
    distance vs prescribed. Pick ✅ on plan · ⚠️ off plan · 🚩 flag.
+   **Weather adjustment:** judge effort in context of conditions. Temperature source, in
+   order: `average_temp` from the feed (often blank — JR's watch doesn't record it) →
+   JR's `description` ("hot", "humid") → if pace/HR look anomalous and no temp is known,
+   do a quick web search for the weather in New York, NY at `start_date_local` before
+   judging. Heat rules of thumb: above ~70°F expect ~10–15 s/mi slower per 10°F at the
+   same effort, plus HR drift across the run. NEVER flag a run as off-plan for being
+   slower or shorter than prescribed on a hot day (≥75°F) — cutting distance or pace in
+   heat is good judgment. The heat miss to actually flag is the opposite: running AT or
+   FASTER than the prescribed easy pace in heat (HR drift confirms the hidden cost).
+   Record the temperature in the entry whenever known.
    **For quality sessions (intervals/tempo), judge the WORK reps, not the whole-run
    average.** If splits are present, identify the fast/work miles and compare their pace to
    the prescribed rep pace — hitting rep pace ✅ even if total volume is a touch short. Don't

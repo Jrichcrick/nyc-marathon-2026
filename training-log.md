@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 1 — June 8–14
 
+### Thu Jun 11 — ⚠️ Easy day cut short in heat; pace ran hot for the conditions
+<!-- strava_id: 18877535229 -->
+- **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
+- **Actual:** 4.52 mi @ 9:16/mi avg · 41:54 moving · 205 ft gain · ~80°F
+- **Mile splits (pace · HR):** 1) 9:21 · 142 · 2) 9:18 · 148 · 3) 9:14 · 157 · 4) 8:59 · 166 · 0.5) 9:25 · 168
+- **HR (avg/max):** 155 / 173 · **Relative Effort:** 67 · **Gear:** Brooks Range 2
+- **Feel:** "Got out late and it's very hot — felt more effortful." (relayed in chat)
+- **Coach notes:** Two separate things here. Cutting 5 to 4.52 in 80° heat after a late start — that's the right call, not a miss; don't make it up. The actual miss is **pace direction**: heat should push easy pace SLOWER (9:35–9:50 territory), and instead you ran 9:16 with mile 4 at 8:59. The HR tells the story — 142 in mile 1 climbing to 168 by the end on a basically flat route is cardiac drift from heat, and you leaned into it instead of backing off. RE 67 for 4.5 "easy" miles confirms it cost more than an easy day should. **Action:** Friday is easy 4 per the plan — in this heat, hold 9:35+ and let the HR stay low. Do NOT stack make-up miles the day before a rest day and two days before your first 12-miler; Sunday is the run that matters this week.
+- [View on Strava](https://www.strava.com/activities/18877535229)
+
 ### Wed Jun 10 — ✅ Intervals nailed at target pace
 <!-- strava_id: 18863997596 -->
 - **Prescribed:** 4×1200m @ 7:55/mi (90 sec jog recovery) = 7 mi total
