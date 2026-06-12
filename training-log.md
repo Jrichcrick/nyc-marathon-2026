@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 1 — June 8–14
 
+### Fri Jun 12 — ⚠️ Easy day run too fast in the heat; same pattern as Thursday
+<!-- strava_id: 18890064891 -->
+- **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
+- **Actual:** 5.01 mi @ 9:05/mi avg · 45:32 moving · 228 ft gain · ~79°F / 70% humidity
+- **Mile splits (pace · HR):** 1) 9:19 · 146 · 2) 9:22 · 156 · 3) 9:01 · 161 · 4) 8:43 · 167 · 5) 9:01 · 172
+- **HR (avg/max):** 160 / 181 · **Relative Effort:** 94 · **Gear:** Brooks Range 2
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** Distance right — 5.01 of 5 mi. Everything else is Thursday's story repeated: 9:05 avg on a 79°F/70% humidity morning is 15 sec/mi under the easy floor, and the splits show it got progressively harder — opened at 9:19, then 9:01, 8:43, 9:01 through miles 3–5, HR climbing from 146 to 172. That 84% max HR average isn't easy running in the heat, it's tempo in disguise. RE 94 for an "easy" 5 miles confirms it — a genuine easy day costs about half of that. Three consecutive easy sessions (Jun 5, Jun 11, today) have all been faster than the zone; the heat is amplifying the cost each time. **Action:** Sunday's 12-miler is the week's anchor — run it truly easy. In heat ≥75°F, that means 9:30–9:50 from mile 1, push to 9:45–10:00 if the humidity hangs around, and let HR stay under 150 rather than chasing the 9:20 floor.
+- [View on Strava](https://www.strava.com/activities/18890064891)
+
 ### Thu Jun 11 — ⚠️ Easy day cut short in heat; pace ran hot for the conditions
 <!-- strava_id: 18877535229 -->
 - **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
