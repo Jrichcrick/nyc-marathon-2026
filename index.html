@@ -85,6 +85,18 @@
   .log-table .v-ok { color: #22c55e; font-weight: 700; white-space: nowrap; }
   .log-table .v-warn { color: #facc15; font-weight: 700; white-space: nowrap; }
   .log-table .v-flag { color: #ef4444; font-weight: 700; white-space: nowrap; }
+
+  /* Collapsible plan weeks */
+  .week > .wt { cursor: pointer; user-select: none; }
+  .week > .wt h3::after { content: ' ▾'; font-size: 0.65em; opacity: 0.4; }
+  .week.collapsed > .wt h3::after { content: ' ▸'; opacity: 0.55; }
+  .week.collapsed > table { display: none; }
+
+  /* Collapsible log sections */
+  .log-week { cursor: pointer; user-select: none; }
+  .log-week::after { content: ' ▾'; font-size: 0.75em; opacity: 0.4; }
+  .log-week.lw-collapsed::after { content: ' ▸'; opacity: 0.55; }
+  .log-week.lw-collapsed + table.log-table { display: none; }
 </style>
 </head>
 <body>
@@ -99,8 +111,8 @@
 <div class="tabs">
   <div class="tabs-inner">
     <button class="tab-btn active" onclick="switchTab('plan',this)">Training Plan</button>
-    <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
     <button class="tab-btn" onclick="switchTab('log',this)">Training Log</button>
+    <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
   </div>
 </div>
 
@@ -109,7 +121,7 @@
 <!-- ===== TRAINING PLAN ===== -->
 <div id="tab-plan" class="tab-panel active">
 
-  <div class="note blue" style="margin-top:0; margin-bottom:24px;">This week (June 4–7) is a warmup — just run easy. Official Week 1 starts Monday June 8.</div>
+  <div id="this-week-banner" class="note blue" style="margin-top:0; margin-bottom:24px;">Loading…</div>
 
   <h2>Training Paces</h2>
   <div class="pace-grid">
@@ -726,7 +738,7 @@
     <span>🚩 <strong style="color:#ef4444">Flag</strong> (recovery / injury / discipline)</span>
   </div>
 
-  <div class="log-summary"><strong>Week 1 (4 of 5 runs logged):</strong> Wed intervals nailed at 7:59/mi rep pace (✅). Thu and Fri easy runs both logged under the easy floor in ~79–80°F heat — distance right both days, but pace averaged 9:16 and 9:05 with HR climbing to 168/172. Heat rule: slow down, not speed up. Sun 12-mi long run is the week's anchor — run it truly easy at 9:30–9:50 regardless of pace feel; push to 9:45–10:00 if the heat is back.</div>
+  <div class="log-summary"><strong>Week 1 complete (4/4 runs):</strong> Wed intervals nailed at 7:59/mi rep pace (✅). Thu and Fri easy runs both under the easy floor in ~79–80°F heat — pace averaged 9:16 and 9:05, HR climbing to 168/172. Sun long run cut 12→6.6 mi in 95°F heat — right call (✅). Fix for Week 2: on days below 80°F, hold 9:30–9:45 from mile 1.</div>
 
   <div class="log-week">Week 1 — June 8–14</div>
 
@@ -735,6 +747,12 @@
       <tr><th>Date</th><th>Type</th><th>Prescribed</th><th>Actual</th><th>Pace</th><th>Effort</th><th>✓</th></tr>
     </thead>
     <tbody>
+      <tr class="data">
+        <td><strong>Sun Jun 14</strong></td><td>Long run</td><td>12 mi @ 9:20–9:45</td><td><strong>6.60 mi</strong></td><td><strong>9:48</strong></td><td>157/171 HR<br>~95°F</td><td class="v-ok">✅</td>
+      </tr>
+      <tr class="note">
+        <td colspan="7">NYC hit 95°F — cutting 12 to 6.6 miles was exactly the right call. Pace averaged 9:48 (appropriately slow for the heat), splits 9:39/9:58/9:46/9:35/10:00/9:48 then 9:16 on the last 0.6; HR climbed 150→166 from heat drift, not effort. Week 1 complete: intervals ✅, easy runs ⚠️ (pace too hot on cooler days), long run ✅. Fix for Week 2: on days below 80°F, hold 9:30–9:45 from mile 1. <span class="feel">Feel: (auto-import — no athlete note)</span></td>
+      </tr>
       <tr class="data">
         <td><strong>Fri Jun 12</strong></td><td>Easy</td><td>5 mi @ 9:20–9:45</td><td><strong>5.01 mi</strong></td><td><strong>9:05</strong></td><td>160/181 HR<br>RE: 94 · ~79°F</td><td class="v-warn">⚠️</td>
       </tr>
@@ -798,6 +816,66 @@ function switchTab(name, btn) {
   document.getElementById('tab-' + name).classList.add('active');
   btn.classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+{
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+
+  // Helper: parse a date cell like "Mon Jun 8" or "Sun Jun 14" into a Date
+  function parseDc(text) { return new Date(text.trim() + ' 2026'); }
+
+  // Collapsible plan weeks — click header to toggle
+  document.querySelectorAll('.week > .wt').forEach(wt => {
+    wt.addEventListener('click', () => wt.closest('.week').classList.toggle('collapsed'));
+  });
+
+  // Auto-collapse plan weeks whose last day is in the past
+  document.querySelectorAll('.week').forEach(week => {
+    const cells = week.querySelectorAll('td.dc');
+    if (!cells.length) return;
+    const last = parseDc(cells[cells.length - 1].textContent);
+    if (!isNaN(last) && last < today) week.classList.add('collapsed');
+  });
+
+  // Collapsible log sections — click heading to toggle
+  document.querySelectorAll('.log-week').forEach(lw => {
+    lw.addEventListener('click', () => lw.classList.toggle('lw-collapsed'));
+  });
+
+  // Auto-collapse log sections for past weeks (parse "Month D–D" end date from heading)
+  document.querySelectorAll('.log-week').forEach(lw => {
+    const m = lw.textContent.match(/(\w+)\s+\d+[–\-](\d+)/);
+    if (!m) return;
+    const end = new Date(m[1] + ' ' + m[2] + ', 2026');
+    if (!isNaN(end) && end < today) lw.classList.add('lw-collapsed');
+  });
+
+  // "This week" banner — find active week and show today's workout
+  const banner = document.getElementById('this-week-banner');
+  if (banner) {
+    let activeWeek = null;
+    document.querySelectorAll('.week').forEach(week => {
+      const cells = week.querySelectorAll('td.dc');
+      if (!cells.length) return;
+      const first = parseDc(cells[0].textContent);
+      const last  = parseDc(cells[cells.length - 1].textContent);
+      if (!isNaN(first) && !isNaN(last) && first <= today && today <= last) activeWeek = week;
+    });
+    if (!activeWeek) {
+      banner.textContent = 'No active training week — race week or off-season.';
+    } else {
+      const title = activeWeek.querySelector('h3')?.textContent || 'This week';
+      const label = today.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      let wod = null;
+      activeWeek.querySelectorAll('tr').forEach(row => {
+        const dc = row.querySelector('td.dc');
+        if (!dc) return;
+        const d = parseDc(dc.textContent);
+        if (!isNaN(d) && d.toDateString() === today.toDateString()) wod = row.cells[1]?.textContent;
+      });
+      banner.innerHTML = '<strong>' + title + '</strong> &nbsp;·&nbsp; ' + label + ': <strong>' + (wod || 'Rest') + '</strong>';
+    }
+  }
 }
 </script>
 </body>

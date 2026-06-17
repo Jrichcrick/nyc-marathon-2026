@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 1 — June 8–14
 
+### Sun Jun 14 — ✅ Long run cut in extreme heat (95°F) — right call
+<!-- strava_id: 18919875836 -->
+- **Prescribed:** Long run 12 mi easy @ 9:20–9:45/mi
+- **Actual:** 6.60 mi @ 9:48/mi avg · 1:04:45 moving · 318 ft gain · ~95°F
+- **Mile splits (pace · HR):** 1) 9:39 · 150 · 2) 9:58 · 159 · 3) 9:46 · 159 · 4) 9:35 · 148 · 5) 10:00 · 159 · 6) 9:48 · 161 · 0.6) 9:16 · 166
+- **HR (avg/max):** 157 / 171 · **Gear:** Brooks Range 2
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** NYC hit 95°F on this day — not a running day, a survival day. Cutting 12 miles to 6.6 in those conditions isn't a miss, it's exactly the right call. Pace averaged 9:48 (appropriately slower than the easy floor) and splits ran mostly even through six miles before HR climbed to 166 on the final stretch — heat cardiac drift, not intensity. In 95°F any sustained running drives HR up regardless of pace. The six main splits (9:39/9:58/9:46/9:35/10:00/9:48) are all well within heat-adjusted effort territory. Week 1 is done: intervals nailed on Wednesday, two hot easy runs Thursday/Friday where pace ran too fast for conditions, and a heat-smart long run Sunday. The fix going into Week 2 is the easy-pace floor on cooler mornings — 9:30–9:45 from mile 1, not 9:05. **Action:** Don't make up the missing miles — that run is done, move forward. Week 2 opens with a tempo Wednesday; let today reset fully before then.
+- [View on Strava](https://www.strava.com/activities/18919875836)
+
 ### Fri Jun 12 — ⚠️ Easy day run too fast in the heat; same pattern as Thursday
 <!-- strava_id: 18890064891 -->
 - **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
