@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 2 — June 15–21
+
+### Wed Jun 17 — ✅ Tempo nailed on a hilly course — grade-adjusted pace at target
+<!-- strava_id: 18957577746 -->
+- **Prescribed:** Tempo: 1.5 mi warm-up + 3 mi @ 8:25/mi + 1.5 mi cool-down = 6 mi
+- **Actual:** 6.28 mi @ 8:45/mi avg · 54:56 moving · 310 ft gain
+- **Mile splits (pace · HR):** 1) 9:14 · 144 · 2) 8:41 · 149 (+56 ft) · 3) 8:21 · 156 (−56 ft) · 4) 8:44 · 155 (+61 ft) · 5) 8:08 · 155 (−35 ft) · 6) 9:26 · 155 · 0.3) 8:35 · 155
+- **HR (avg/max):** 153 / 157 · **Gear:** Brooks Range 2
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** The 8:45/mi overall average looks soft, but map it against the terrain: miles 2 and 4 are uphill (+56 and +61 ft) and come in at 8:41 and 8:44; miles 3 and 5 are downhill (−56 and −35 ft) at 8:21 and 8:08. The pace swings track the elevation almost exactly — this is a consistent effort, not an inconsistent one. Grade-adjusted, the tempo portion (miles 2–4) averages ~8:28/mi vs the 8:25 target — a 3-second/mile difference on a rolling course. HR held at 155 through the work (82% of 190 max) — that's the right tempo response, steady and controlled without blowing up. Volume landed at 6.28 mi vs 6 prescribed, slight positive. Morning conditions were mild (~65–70°F, no heat adjustment). **Action:** Thursday is an easy 4 mi — hold 9:30–9:45 and let today settle. The goal isn't to feel the tempo in your legs on Thursday; it's to be fresh enough that Sunday's long run can extend properly.
+- [View on Strava](https://www.strava.com/activities/18957577746)
+
+---
+
 ## Week 1 — June 8–14
 
 ### Sun Jun 14 — ✅ Long run cut in extreme heat (95°F) — right call
