@@ -31,7 +31,7 @@ description: {{description}}            # optional → Feel
 perceived_exertion: {{perceived_exertion}}  # optional → RPE
 relative_effort: {{suffer_score}}     # optional → training load
 average_temp: {{average_temp}}        # optional
-gear: {{gear_name}}                   # optional → shoe mileage
+gear: {{gear_name}}                   # optional — IGNORE: JR doesn't keep Strava gear current, so it's unreliable. Never log it.
 splits_distance_m: {{splits_standard[]distance}}        # optional → per-mile splits
 splits_moving_time_s: {{splits_standard[]moving_time}}
 splits_avg_hr: {{splits_standard[]average_heartrate}}
@@ -73,8 +73,9 @@ only plain field tags work.
    (m/s), `average_heartrate`, `max_heartrate`, `average_cadence`, `start_date_local`,
    `type`, `strava_id`. **Optional fields (use if present, ignore if blank/missing):**
    `description` (JR's own note → use as **Feel**), `perceived_exertion` (RPE),
-   `relative_effort` (Strava suffer_score), `average_temp`, `gear`,
+   `relative_effort` (Strava suffer_score), `average_temp`,
    `splits_*` (per-mile splits as parallel comma lists), `laps_*` (watch laps, ditto).
+   (`gear` is in the feed but **never logged** — JR's Strava gear isn't kept current.)
 
 3. **Convert:** miles = `distance_m`/1609.34 · pace = (`moving_time_s`/60)/miles → `M:SS/mi`
    · elevation ft = `total_elevation_gain_m`×3.28084. Only log `type: Run`; for anything
@@ -118,8 +119,8 @@ only plain field tags work.
    (e.g. `1) 9:33 · 146 · 2) 8:37 · 153 · …`); if laps arrived on a quality day, add a
    **Reps** line with each rep's pace. Otherwise omit those lines. For **Feel**, use
    `description` verbatim if present, else "(auto-import — no athlete note)". If
-   `relative_effort`, `perceived_exertion`, `average_temp`, or `gear` are present, weave them
-   in (effort/heat context, shoe).
+   `relative_effort`, `perceived_exertion`, or `average_temp` are present, weave them
+   in (effort/heat context). **Never log gear/shoe — JR's Strava gear is unreliable; ignore the `gear` field entirely.**
    **If JR's note mentions pain or injury, raise the verdict to 🚩 and call it out.**
 
 8. **Write the `index.html` Log tab** — insert a `data` row + `note` row at the top of
