@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 2 — June 15–21
 
+### Thu Jun 18 — ✅ Easy day finally run easy — HR control landed
+<!-- strava_id: 18969616420 -->
+- **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
+- **Actual:** 5.52 mi @ 9:22/mi avg · 51:45 moving · 264 ft gain · early 5:49 AM start (cool)
+- **Mile splits (pace · HR):** 1) 9:41 · 137 · 2) 9:36 · 145 (+49 ft) · 3) 9:32 · 140 · 4) 9:26 · 144 · 5) 9:05 · 146 · 0.5) 8:31 · 143
+- **HR (avg/max):** 142 / 151 · **Relative Effort:** 43 · **Gear:** Brooks Range 2
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** This is the one I've been waiting three weeks for. Avg HR 142 (75% of 190 max), max only 151 — that is genuinely easy aerobic running, not the tempo-in-disguise we saw Jun 11/12 where HR climbed to 168–172. Pace landed at 9:22, right at the top of the easy band, and the splits stayed honest the whole way (HR 137→146, dead flat) even as pace drifted from 9:41 to 9:05. The last half-mile at 8:31 was a relaxed fast finish, not a surge — HR held at 143, so it cost nothing. The early 5:49 AM start did the work: get out before the heat and the easy floor takes care of itself. RE 43 confirms it — about half the cost of last week's "easy" runs. Distance 5.52 vs 5 prescribed, slight positive. Note: skipped the strides (out of time) — no issue, they're an optional sprinkle. The day after a controlled tempo, run truly easy, exactly as drawn up. **Action:** Friday is easy 5 @ 9:30–9:45 — repeat this. Same early start, same low HR; if time allows, 4–6 flat strides at the end. Then Saturday rest and a fresh long run Sunday.
+- [View on Strava](https://www.strava.com/activities/18969616420)
+
 ### Wed Jun 17 — ✅ Tempo nailed on a hilly course — grade-adjusted pace at target
 <!-- strava_id: 18957577746 -->
 - **Prescribed:** Tempo: 1.5 mi warm-up + 3 mi @ 8:25/mi + 1.5 mi cool-down = 6 mi
