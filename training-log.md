@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 2 — June 15–21
 
+### Fri Jun 19 — ⚠️ Easy run over effort in 86°F midday heat — same pattern, fast finish
+<!-- strava_id: 18986896502 -->
+- **Prescribed:** Easy 5 mi @ 9:30–9:45/mi
+- **Actual:** 5.32 mi @ 9:18/mi avg · 49:31 moving · 214 ft gain · 86°F midday (12:39 PM start)
+- **Mile splits (pace · HR):** 1) 9:04 · 149 · 2) 9:16 · 158 (+30 ft) · 3) 9:33 · 156 (−46 ft) · 4) 9:44 · 163 (+60 ft) · 5) 9:02 · 166 · 0.32) 8:55 · 168
+- **HR (avg/max):** 159 / 173 · **Relative Effort:** 94
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** Weather confirmed: ~86°F (30°C) at noon in NYC. In those conditions, easy pace should run 9:45–10:05+, not 9:18. The splits play out in three acts — miles 1–2 opened hot (9:04/9:16, below the easy floor regardless of temperature); miles 3–4 corrected near the zone (9:33/9:44 — right idea); then mile 5 surged to 9:02 with HR already at 166, last 0.32 at 8:55/168. The mid-run correction was real but the fast finish erased it. HR 159 avg (84% of 190 max) drifted the entire run — heat plus effort, not aerobic steady state. RE 94 is identical to the Jun 12 ⚠️ flag and more than double yesterday's RE 43. Positive: 5.32 vs 5 mi, distance fine. The problem isn't volume, it's the effort bucket. **Action:** Saturday rest is mandatory — no "active recovery" walk-jogs. Sunday's long run is 13 mi easy. Check the forecast before you set the alarm: if it's 80°F+, 5:30–6 AM start. Target 9:45–10:05/mi and hold HR under 155. The fatigue from today won't fully clear in 24 hours — go out conservative and let the legs tell you in miles 3–4 where you are.
+- [View on Strava](https://www.strava.com/activities/18986896502)
+
 ### Thu Jun 18 — ✅ Easy day finally run easy — HR control landed
 <!-- strava_id: 18969616420 -->
 - **Prescribed:** Easy 5 mi @ 9:20–9:45/mi
