@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 2 — June 15–21
 
+### Sun Jun 21 — ✅ Long run 13.49 mi at easy effort — Week 2 complete
+<!-- strava_id: 19011718050 -->
+- **Prescribed:** Long run: 13 mi easy
+- **Actual:** 13.49 mi @ 9:31/mi avg · 2:08:16 moving · 743 ft gain
+- **Mile splits (pace · HR):** 1) 9:30 · 141 · 2) 9:41 · 148 (+38 ft) · 3) 9:26 · 145 (−66 ft) · 4) 9:33 · 150 (+22 ft) · 5) 9:38 · 154 (+53 ft) · 6) 9:29 · 150 (−41 ft) · 7) 9:17 · 153 (−5 ft) · 8) 9:42 · 153 (+32 ft) · 9) 9:43 · 148 (−30 ft) · 10) 9:41 · 153 (+3 ft) · 11) 9:28 · 149 (−43 ft) · 12) 9:44 · 158 (+60 ft) · 13) 9:10 · 160 (−25 ft) · 0.49) 8:44 · 166
+- **HR (avg/max):** 152 / 171 · **Relative Effort:** 185
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** Solid execution — exactly the long run Week 2 needed. 13.49 mi at 9:31/mi sits dead in the 9:20–9:45 easy zone, and the splits back that up: the faster miles (9:17 mi 7, 9:10 mi 13) track the terrain, not effort ratcheting. HR climbed from 141 in mile 1 to 160 in mile 13 — textbook aerobic drift over 2h 8m, nothing alarming. The 8:52 AM start (later than a June heat ideal) didn't show up in the data: HR was controlled, pace stayed honest, no blow-up anywhere in the 13 main miles. Max 171 came only in the final 0.49-mi fragment (HR 166 avg), which reads as a natural loose finishing stride. RE 185 is what a genuine long run should cost — about double a short easy day, appropriate for the distance. Week 2 complete: 4/4 runs. Tempo ✅, Thu easy ✅, Fri ⚠️ (heat overreach), Sun long run ✅. Pattern confirmed: early-morning starts control HR on easy days; Friday's midday heat was the outlier. **Action:** Week 3 opens Wednesday with a quality session. Rest Monday (squats/boot camp), rest Tuesday — let this long run clear fully before going hard again.
+- [View on Strava](https://www.strava.com/activities/19011718050)
+
 ### Fri Jun 19 — ⚠️ Easy run over effort in 86°F midday heat — same pattern, fast finish
 <!-- strava_id: 18986896502 -->
 - **Prescribed:** Easy 5 mi @ 9:30–9:45/mi
