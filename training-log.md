@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 3 — June 22–28
 
+### Thu Jun 25 — ⚠️ Easy run slightly over effort — fast finish day before intervals
+<!-- strava_id: 19061524126 -->
+- **Prescribed:** Easy 5 mi @ 9:30–9:45/mi
+- **Actual:** 5.16 mi @ 9:21/mi avg · 48:17 moving · 225 ft gain
+- **Mile splits (pace · HR):** 1) 9:17 · 143 (−77 ft) · 2) 9:29 · 155 (+29 ft) · 3) 9:36 · 159 (+43 ft) · 4) 9:15 · 158 (−45 ft) · 5) 9:19 · 162 (+1 ft) · 0.16) 8:30 · 169 (−1 ft)
+- **HR (avg/max):** 156 / 171 · **Relative Effort:** 82
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** The terrain tells part of the story: miles 1 and 4 are the fastest (9:17, 9:15) and also the biggest downhills (−77 ft, −45 ft). The uphill miles — 2 at +29 ft, 3 at +43 ft — both land in the easy zone at 9:29 and 9:36. Grade-adjusted, much of this run was honest easy effort. But the final act undercuts the verdict: mile 5 runs 9:19 on essentially flat ground (11 sec under the easy floor with no terrain excuse), then the closing 0.16 mi pushes to 8:30 with HR at 169 — a genuine push the day before the interval session. The HR arc confirms it: opened at 143 (the best easy-day start since training began — 8:05 AM start did its job), then drifted 26 bpm to 169. That's more than rolling terrain explains; effort accumulated and the fast finish drove it. RE 82 is double the genuine easy day (RE 43, Jun 18) and right under the flagged easy runs (RE 94). Distance 5.16 vs 5 mi is fine. The issue isn't the run as a whole — it's what the closing push cost on a day meant to preserve Friday freshness. **Action:** Tomorrow is the 5×1000m — the most important workout of Week 3. Go in as fresh as possible: no extra movement today, good hydration, light dinner. Start properly: 1.5 mi easy warm-up at 9:30+, then lap each rep individually in watch workout mode. Target 7:45–8:00/mi per rep with a 2-minute jog recovery between each. Five clean reps is the goal — if reps 4–5 drift to 8:05, fine; don't blow up the session chasing pace.
+- [View on Strava](https://www.strava.com/activities/19061524126)
+
 ### Wed Jun 24 — ⚠️ Evening progression build, 6.33 mi — interval structure not executed
 <!-- strava_id: 19055616532 -->
 - **Prescribed:** 5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total
