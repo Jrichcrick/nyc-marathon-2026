@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 3 — June 22–28
+
+### Wed Jun 24 — ⚠️ Evening progression build, 6.33 mi — interval structure not executed
+<!-- strava_id: 19055616532 -->
+- **Prescribed:** 5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total
+- **Actual:** 6.33 mi @ 8:48/mi avg · 55:42 moving · 297 ft gain
+- **Mile splits (pace · HR):** 1) 9:15 · 141 (−26 ft) · 2) 9:12 · 148 (+36 ft) · 3) 8:58 · 147 (−61 ft) · 4) 8:57 · 147 (+16 ft) · 5) 8:36 · 147 (+56 ft) · 6) 8:11 · 147 (−39 ft) · 0.32) 7:58 · 147 (−17 ft)
+- **HR (avg/max):** 146 / 152 · **Relative Effort:** 71
+- **Feel:** (auto-import — no athlete note)
+- **Coach notes:** The splits tell the story: 9:15 → 9:12 → 8:58 → 8:57 → 8:36 → 8:11 → 7:58 — that's a continuous build, not an interval session. Intervals have a signature: look at Jun 10 (9:33/8:37/8:15/8:49/8:58/9:25) — fast miles surrounded by slower recovery-jog miles that drag the per-mile average down. Here the splits decline steadily from warm-up through the finish with no recovery valleys. The watch recorded one lap covering the full 6.33 miles, confirming this was a single continuous effort. That said, the quality work is real — miles 5 and 6 at 8:36 and 8:11, the closing 0.32 at 7:58, took genuine push. RE 71 is right for a hard build: more expensive than an easy day (RE 43–67), less than full interval intensity (RE 102). Good that you ran something hard on the hard day. Two things short of the prescription: the interval structure wasn't executed (no 1000m reps at target pace with recovery jogs), and total distance is 6.33 vs 7 mi. On HR: five consecutive miles reporting exactly 147 with a max of only 152 is a HRM data issue — the strap likely lost contact mid-run, so effort can't be judged from HR this session. Evening start, ~75–80°F NYC conditions, not a significant factor. **Action:** Thursday is easy 5 mi — hold 9:30–9:45, don't touch quality again until next Wednesday. For next week's interval session, use watch workout/interval mode to lap each rep individually so I have actual rep paces to judge against the target.
+- [View on Strava](https://www.strava.com/activities/19055616532)
+
+---
+
 ## Week 2 — June 15–21
 
 ### Sun Jun 21 — ✅ Long run 13.49 mi at easy effort — Week 2 complete
