@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 3 — June 22–28
 
+### Fri Jun 26 — ⚠️ Interval session: 4/5 reps completed, all reps ahead of pace
+<!-- strava_id: 19073964381 -->
+- **Prescribed:** 5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total
+- **Actual:** 6.14 mi @ 8:42/mi avg · 53:28 moving · 62 ft gain
+- **Reps (from watch laps):** 1) 7:49/mi · 2) 7:46/mi · 3) 7:53/mi · 4) 7:37/mi — all ahead of 7:55 target
+- **Mile splits (pace · HR):** 1) 9:30 · 141 (−18 ft) · 2) 8:37 · 157 (+4 ft) · 3) 8:21 · 168 (−12 ft) · 4) 8:32 · 154 (+5 ft) · 5) 8:11 · 164 (+3 ft) · 6) 8:52 · 166 (+22 ft) · 0.15) 9:28 · 158 (−18 ft)
+- **HR (avg/max):** 158 / 184 · **Relative Effort:** 100
+- **Coach notes:** The rep data is clean and better than target: 7:49, 7:46, 7:53, 7:37 vs 7:55/mi prescribed — every single rep was ahead of pace, and the last rep was the fastest. The lap structure shows the right architecture: 1.5-mi warmup at 9:27, then 4 clean reps of ~1000m with ~330m recovery jogs between each, then a 0.7-mi cooldown at 9:49. That's exactly the session format we wanted. One rep short of 5 — 4/5 completed, total 6.14 mi vs 7. The max HR of 184 (97% of 190 max) on rep 4 tells the story: the system was at lactate ceiling by the last rep. Stopping there instead of grinding a fifth rep in compromised form was the right call — and he ran that final rep at 7:37, not 8:10, which is what a dying rep looks like. RE 100 is appropriate interval cost. Note: this week's quality session was rescheduled from Wednesday (lost to a rough day) to Friday — the structure that mattered got done. **Action:** Saturday full rest — non-negotiable, max HR 184 means the system was hit hard. Sunday is 14 mi easy @ 9:20–9:45. If the legs feel heavy through mile 2, settle at 9:30–9:50 and trust the aerobic stimulus is still working.
+- [View on Strava](https://www.strava.com/activities/19073964381)
+
 ### Thu Jun 25 — ⚠️ Easy run slightly over effort — fast finish day before intervals
 <!-- strava_id: 19061524126 -->
 - **Prescribed:** Easy 5 mi @ 9:30–9:45/mi
