@@ -118,7 +118,7 @@ only plain field tags work.
    in the API — omit it. If splits arrived, add a **Mile splits (pace · HR)** line
    (e.g. `1) 9:33 · 146 · 2) 8:37 · 153 · …`); if laps arrived on a quality day, add a
    **Reps** line with each rep's pace. Otherwise omit those lines. For **Feel**, use
-   `description` verbatim if present, else "(auto-import — no athlete note)". If
+   `description` verbatim if present; omit the Feel line entirely if description is blank or absent. If
    `relative_effort`, `perceived_exertion`, or `average_temp` are present, weave them
    in (effort/heat context). **Never log gear/shoe — JR's Strava gear is unreliable; ignore the `gear` field entirely.**
    **If JR's note mentions pain or injury, raise the verdict to 🚩 and call it out.**
@@ -130,7 +130,7 @@ only plain field tags work.
      <td><strong>{Day Mon DD}</strong></td><td>{Type}</td><td>{prescribed short}</td><td><strong>{miles} mi</strong></td><td><strong>{pace}</strong></td><td>{avg}/{max} HR<br>{elev} ft</td><td class="v-ok|v-warn|v-flag">{✅|⚠️|🚩}</td>
    </tr>
    <tr class="note">
-     <td colspan="7">{one-paragraph coach read}. <span class="feel">Feel: (auto-import — no athlete note)</span></td>
+     <td colspan="7">{one-paragraph coach read}. {If description present: <span class="feel">Feel: {description}</span> — otherwise omit entirely}</td>
    </tr>
    ```
    Also refresh the `<div class="log-summary">` and the `<div class="log-week">` heading if
