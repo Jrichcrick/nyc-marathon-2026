@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 3 — June 22–28
 
+### Sun Jun 28 — ✅ Long run 14.10 mi at easy pace — Week 3 complete
+<!-- strava_id: 19099356682 -->
+- **Prescribed:** Long run: 14 mi easy
+- **Actual:** 14.10 mi @ 9:31/mi avg · 2:14:12 moving · 722 ft gain
+- **Mile splits (pace · HR):** 1) 9:44 · 148 (−20 ft) · 2) 9:33 · 148 (+33 ft) · 3) 9:42 · 144 (−30 ft) · 4) 9:49 · 147 (+7 ft) · 5) 9:45 · 149 (+23 ft) · 6) 9:18 · 150 (−26 ft) · 7) 9:15 · 159 (−1 ft) · 8) 9:40 · 158 (+26 ft) · 9) 9:11 · 156 (−32 ft) · 10) 9:22 · 161 (+34 ft) · 11) 9:13 · 161 (−80 ft) · 12) 9:49 · 164 (+76 ft) · 13) 9:23 · 167 (−16 ft) · 14) 9:08 · 169 (−17 ft) · 0.15) 9:01 · 174
+- **HR (avg/max):** 156 / 177 · **Relative Effort:** 232
+- **Coach notes:** 14.10 mi at 9:31/mi — distance target hit, pace right in the easy zone, Week 3's long run delivered. The opening was controlled: miles 1–5 ran 9:44/9:33/9:42/9:49/9:45, HR anchored 144–149 — exactly the conservative start called for after Friday's max HR 184 session. The legs were heavy (they should have been), and the early pacing shows JR trusted the plan instead of chasing the watch. Cardiac drift through the back half is the story: HR climbed steadily from 150 (mile 6) to 169 (mile 14), with the final 0.15 mi at 174. That's more drift than the Jun 21 long run (141→160 over 13 mi), which makes sense — 48 hours after full interval effort, the system is running on more fatigue. What matters is that pace held throughout: no blow-up, no spiral, no bail-out. The faster splits in miles 6–7 (9:18/9:15) and the closing 9:23/9:08 track downhills and natural finish, not effort surges. RE 232 is proportionally higher than Jun 21's RE 185 — 0.61 more miles, more fatigued starting system, the math fits. This closes out a complicated Week 3: quality migrated to Friday, intervals got done 5/5 ✅, long run landed on target ✅. **Action:** Week 4 is a recovery week (~26 mi). Wednesday Jul 1 is Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down. Full rest Monday (squats/boot camp) and Tuesday. Tempo target is 5 sec/mi faster than Week 2's 8:25 — honor the step-up but read the legs going in after this week's load.
+- [View on Strava](https://www.strava.com/activities/19099356682)
+
 ### Fri Jun 26 — ✅ Interval session: 5/5 reps done, cooldown cut short for work
 <!-- strava_id: 19073964381 -->
 - **Prescribed:** 5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total
