@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 4 — June 29–July 5
+
+### Wed Jul 1 — ✅ Tempo nailed — 3 mi @ 8:21/mi, 1 sec off target
+<!-- strava_id: 19137116645 -->
+- **Prescribed:** Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down = 5 mi
+- **Actual:** 4.97 mi @ 8:55/mi avg · 44:18 moving · 82 ft gain
+- **Reps:** Tempo block (lap 2): 3.00 mi @ 8:21/mi, HR 164 — 1 sec/mi off target
+- **Mile splits (pace · HR):** 1) 9:24 · 135 (−53 ft) · 2) 8:27 · 161 (−5 ft) · 3) 8:33 · 162 (+7 ft) · 4) 8:05 · 171 (−3 ft) · 5) 10:06 · 165 (+56 ft)
+- **HR (avg/max):** 158 / 177 · **Relative Effort:** 81
+- **Coach notes:** Clean tempo execution. The laps tell the story: 1.00 mi warmup at 9:25 → 3.00 mi tempo at 8:21 (target 8:20 — dead on) → 0.97 mi cooldown at 10:13. The tempo block held steady despite some terrain variation: miles 2–4 ran 8:27/8:33/8:05 — the 8:05 in mile 4 traces the slight downhill (−3 ft), the 8:33 in mile 3 a +7 ft gain. Grade-adjusted, this is consistent tempo effort from start to finish. HR progression through the tempo block was textbook: 161 → 162 → 171, finishing at lap avg 164 (86% of 190 max) — exactly the right physiological response to sustained tempo effort. Total 4.97 vs 5 mi: 0.03 miles short, a rounding error. RE 81 is appropriate for a tempo session. This is exactly what a recovery week quality day should look like: prescribed structure executed, effort delivered, nothing spent beyond the task. **Action:** Thursday easy 4 mi @ 9:30–9:45. The legs may carry some tempo fatigue tomorrow morning — keep the effort honest, HR under 155. If they're heavy through mile 2, don't push the pace. Recovery week means the hard stuff stays short and contained.
+- [View on Strava](https://www.strava.com/activities/19137116645)
+
+---
+
 ## Week 3 — June 22–28
 
 ### Sun Jun 28 — ✅ Long run 14.10 mi at easy pace — Week 3 complete
