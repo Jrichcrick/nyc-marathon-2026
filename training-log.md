@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 4 — June 29–July 5
 
+### Thu Jul 2 — 🚩 Easy pace held through historic heat — hidden cost, not a good sign
+<!-- strava_id: 19155148259 -->
+- **Prescribed:** Easy 4 mi @ 9:30–9:45/mi
+- **Actual:** 5.03 mi @ 9:36/mi avg · 48:20 moving · 209 ft gain · 2:49 PM start amid NYC's hottest day of the year (feels-like 100–110°F statewide, ozone air quality advisory in effect)
+- **Mile splits (pace · HR):** 1) 9:23 · 150 (−16 ft) · 2) 9:33 · 166 (+47 ft) · 3) 9:25 · 171 (−52 ft) · 4) 10:12 · 170 (+67 ft) · 5) 9:24 · 178 (−43 ft)
+- **HR (avg/max):** 167 / 183 · **Relative Effort:** 129
+- **Coach notes:** On paper this looks clean — 9:36/mi average sits right inside the 9:30–9:45 prescribed band. The HR data tells the real story. Mile 1 opens at HR 150, already high for an easy-pace start; by mile 3 it's 171, mile 5 it's 178 — a 28-point drift while pace barely moved (9:23 → 9:24, essentially flat). Flat pace plus climbing HR is the exact signature of heat cost: the effort required to hold the same speed kept rising the whole run. Avg HR 167 is 88% of the 190 estimate — Z4 territory for what should have been a Z1–Z2 easy day. RE 129 is nearly as expensive as Wednesday's tempo (RE 81) and well above every other easy run this cycle (compare RE 43, 82, 94) — for a 5-mile easy run, that's a genuine red flag, not noise. The 209 ft of climb (uphill miles 2 and 4, +47/+67 ft, are the two slowest splits) explains some of the drift but not the pattern on the downhill miles too. This is exactly the heat scenario the plan warns about: it's not the runs that fall apart in the heat that are the risk, it's the ones that hold pace anyway — the cost just moves from the split time to the cardiovascular system. Starting at 2:49 PM, dead in the middle of the worst heat of the year, made this harder than it needed to be. The activity title JR gave this run — "The hardest thing I've ever done" — says the same thing the HR data says. No pain or injury reported, so this isn't that kind of flag; it's a heat-discipline flag. **Action:** No run scheduled tomorrow (Friday is the CrossFit swap) — good, the system gets a real break before Sunday's long run. If this heat wave is still active for the next run, target pace goes out the window: run by HR (cap ~155) not by the watch, and shift to a pre-7 AM start. Hydrate and salt aggressively today and tomorrow — RE 129 in this heat is a real fluid/electrolyte draw.
+- [View on Strava](https://www.strava.com/activities/19155148259)
+
 ### Wed Jul 1 — ✅ Tempo nailed — 3 mi @ 8:21/mi, 1 sec off target
 <!-- strava_id: 19137116645 -->
 - **Prescribed:** Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down = 5 mi
