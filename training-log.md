@@ -9,6 +9,13 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 4 — June 29–July 5
 
+### Fri Jul 3 — ⚠️ Hero WOD "Glen" scaled — heavy session in 98°F, second straight heat day
+- **Type:** CrossFit Hero WOD (swapped from Easy 5 mi per plan) — self-reported, no Strava data
+- **Workout:** For time — 135/95 lb clean & jerk ×30, run 1 mile, 15-ft rope climb ×10 ascents, run 1 mile, 100 burpees
+- **Actual:** 49:05, Scaled · 98°F
+- **Scaling:** Clean & jerk at 55 lbs (down from 95 lb women's Rx) · rope climbs: 2 full ascents, 6 "half-ish," 2 linked out
+- **Coach notes:** Glen is one of the longer, nastier Hero WODs — heavy barbell work, two miles of running, ten rope-climb ascents, and 100 burpees, all for time. The scaling was the right call: 55 lb C&J and partial credit on the rope climbs (a skill you're still building) instead of grinding reps at a weight or movement that wasn't there yet. 49:05 for that volume is a legitimate effort. What matters more than the score is the context: this is back-to-back heat exposure — yesterday's easy run flagged HR drift in 100–110°F feels-like conditions, and today stacked 2 miles of running plus max lifting/gymnastics effort on top at 98°F. That's real accumulated load heading into the weekend. The buffer works in your favor here: Saturday is already a full rest day before Sunday's 12-mile long run (recovery week volume), so the system gets a real reset. **Action:** Hydrate and refuel hard today and tomorrow — a Hero WOD in this heat costs more than a normal session. Sunday, check the forecast before setting the alarm; if it's still hot, go early and keep the long run genuinely easy (9:20–9:45) — the lighter recovery-week volume isn't license to push pace.
+
 ### Thu Jul 2 — 🚩 Easy pace held through historic heat — hidden cost, not a good sign
 <!-- strava_id: 19155148259 -->
 - **Prescribed:** Easy 4 mi @ 9:30–9:45/mi
