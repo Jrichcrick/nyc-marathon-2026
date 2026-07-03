@@ -28,6 +28,12 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **Coach notes:** Clean tempo execution. The laps tell the story: 1.00 mi warmup at 9:25 → 3.00 mi tempo at 8:21 (target 8:20 — dead on) → 0.97 mi cooldown at 10:13. The tempo block held steady despite some terrain variation: miles 2–4 ran 8:27/8:33/8:05 — the 8:05 in mile 4 traces the slight downhill (−3 ft), the 8:33 in mile 3 a +7 ft gain. Grade-adjusted, this is consistent tempo effort from start to finish. HR progression through the tempo block was textbook: 161 → 162 → 171, finishing at lap avg 164 (86% of 190 max) — exactly the right physiological response to sustained tempo effort. Total 4.97 vs 5 mi: 0.03 miles short, a rounding error. RE 81 is appropriate for a tempo session. This is exactly what a recovery week quality day should look like: prescribed structure executed, effort delivered, nothing spent beyond the task. **Action:** Thursday easy 4 mi @ 9:30–9:45. The legs may carry some tempo fatigue tomorrow morning — keep the effort honest, HR under 155. If they're heavy through mile 2, don't push the pace. Recovery week means the hard stuff stays short and contained.
 - [View on Strava](https://www.strava.com/activities/19137116645)
 
+### Mon Jun 29 — ✅ Boot camp: "Halfway" — 11+15 rounds RX
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** 20-min AMRAP: 3 back squat (AHAP/UB), 9 push-up, 12 KB sumo deadlift high pull (53/35)
+- **Score:** 11+15 rounds RX · 143# back squat held straight through the whole AMRAP
+- **Coach notes:** Full squat load held unbroken across a 20-minute AMRAP — that's real leg and posterior-chain volume going into the week, on top of the running plan. This is exactly the kind of session the plan expects Monday to absorb before Tuesday's rest day clears it. No conflict with Wednesday's tempo. **Action:** nothing to adjust — Tuesday rest does its job here.
+
 ---
 
 ## Week 3 — June 22–28
@@ -69,6 +75,12 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **Coach notes:** The splits tell the story: 9:15 → 9:12 → 8:58 → 8:57 → 8:36 → 8:11 → 7:58 — that's a continuous build, not an interval session. Intervals have a signature: look at Jun 10 (9:33/8:37/8:15/8:49/8:58/9:25) — fast miles surrounded by slower recovery-jog miles that drag the per-mile average down. Here the splits decline steadily from warm-up through the finish with no recovery valleys. The watch recorded one lap covering the full 6.33 miles, confirming this was a single continuous effort. That said, the quality work is real — miles 5 and 6 at 8:36 and 8:11, the closing 0.32 at 7:58, took genuine push. RE 71 is right for a hard build: more expensive than an easy day (RE 43–67), less than full interval intensity (RE 102). Good that you ran something hard on the hard day. Two things short of the prescription: the interval structure wasn't executed (no 1000m reps at target pace with recovery jogs), and total distance is 6.33 vs 7 mi. On HR: five consecutive miles reporting exactly 147 with a max of only 152 is a HRM data issue — the strap likely lost contact mid-run, so effort can't be judged from HR this session. Evening start, ~75–80°F NYC conditions, not a significant factor. **Action:** Thursday is easy 5 mi — hold 9:30–9:45, don't touch quality again until next Wednesday. For next week's interval session, use watch workout/interval mode to lap each rep individually so I have actual rep paces to judge against the target.
 - [View on Strava](https://www.strava.com/activities/19055616532)
 
+### Mon Jun 22 — ✅ Boot camp: "Red Light" — 101 cal RX
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** EMOM ×28 min: Min 1 — 5 back squat (AHAP/UB); Min 2 — max-calorie Air Assault bike; Min 3 — 40-sec wall sit; Min 4 — rest
+- **Score:** 101 calories RX · squat load progressed 123# → 133# → 143#
+- **Coach notes:** Ascending-load EMOM with a bike sprint and wall-sit mixed in — good mix of strength and anaerobic conditioning, not just barbell volume. Loading went up as the session went (123→133→143), which is the right way to build into a heavy squat day without grinding the early reps. This is the hard/easy split doing its job: hard leg work Monday, full rest Tuesday, quality running doesn't start until Wednesday. **Action:** nothing to adjust.
+
 ---
 
 ## Week 2 — June 15–21
@@ -108,6 +120,12 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **HR (avg/max):** 153 / 157
 - **Coach notes:** The 8:45/mi overall average looks soft, but map it against the terrain: miles 2 and 4 are uphill (+56 and +61 ft) and come in at 8:41 and 8:44; miles 3 and 5 are downhill (−56 and −35 ft) at 8:21 and 8:08. The pace swings track the elevation almost exactly — this is a consistent effort, not an inconsistent one. Grade-adjusted, the tempo portion (miles 2–4) averages ~8:28/mi vs the 8:25 target — a 3-second/mile difference on a rolling course. HR held at 155 through the work (82% of 190 max) — that's the right tempo response, steady and controlled without blowing up. Volume landed at 6.28 mi vs 6 prescribed, slight positive. Morning conditions were mild (~65–70°F, no heat adjustment). **Action:** Thursday is an easy 4 mi — hold 9:30–9:45 and let today settle. The goal isn't to feel the tempo in your legs on Thursday; it's to be fresh enough that Sunday's long run can extend properly.
 - [View on Strava](https://www.strava.com/activities/18957577746)
+
+### Mon Jun 15 — ✅ Boot camp: "High Heels" — 133 lbs RX
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** 3 rounds, loaded barbell: 0–3 min 15 back squat, 3–6 min 30 alternating back-rack lunges, 6–9 min 15 weighted glute bridges
+- **Score:** 133 lbs RX · loads 123→73→123, 133→73→153, 133→73→153 across the 3 rounds
+- **Coach notes:** Posterior-chain and single-leg focused — squats, lunges, glute bridges — exactly the strength work that supports marathon-specific durability (hips/glutes are what break down late in long runs). Loads climbed across rounds (up to 153 lbs on lunges/bridges) while still finishing all 3 rounds. This is the strength side of the plan doing real work, not just a formality. **Action:** nothing to adjust — keep stacking these on Mondays.
 
 ---
 
@@ -150,6 +168,12 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **HR (avg/max):** 157 / 180 · **Relative Effort:** 102
 - **Coach notes:** With the splits in, the picture flips — this was a strong session. The work intervals averaged 7:59/mi against a 7:55 target; 4 sec/mi is noise, you hit the pace that matters. HR built cleanly through the reps (146 → 169) and topped at 180 — exactly the interval response I want, no sandbagging. The auto-flag was only about total distance (6.19 vs 7 mi) because you trimmed ~0.8 mi off the easy warm-up/cool-down bookends — a rounding error on a day where the quality was bang-on. Verdict upgraded ⚠️→✅. **Action:** keep the rep execution exactly like this; just tack on a few more minutes of easy cool-down next time to land the full 7.
 - [View on Strava](https://www.strava.com/activities/18863997596)
+
+### Mon Jun 8 — ✅ Boot camp: "Measured" — 145 RX
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** Ascending-load ladder, 12 burpees every round: 0–3 min 20 back squat (135/95), 3–6 min 16 back squat (185/125), 6–9 min 12 back squat (205/135), 9–12 min 8 back squat (225/145), 12–15 min 4 back squat (225+/144+)
+- **Score:** 145 RX — worked up to 225+ lbs on the barbell
+- **Coach notes:** Week 1's opening Monday and it's a heavy one — squat load climbed from 135 to 225+ lbs across the ladder, burpees stacked on every round. That's a serious strength stimulus to open the training cycle on. This is why Tuesday stays a full rest day through Week 6: the legs need to absorb this before any running quality starts Wednesday. **Action:** nothing to adjust — this is the plan working as intended.
 
 ---
 
