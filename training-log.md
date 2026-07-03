@@ -171,9 +171,9 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ### Mon Jun 8 — ✅ Boot camp: "Measured" — 145 RX
 - **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
-- **Workout:** Ascending-load ladder, 12 burpees every round: 0–3 min 20 back squat (135/95), 3–6 min 16 back squat (185/125), 6–9 min 12 back squat (205/135), 9–12 min 8 back squat (225/145), 12–15 min 4 back squat (225+/144+)
-- **Score:** 145 RX — worked up to 225+ lbs on the barbell
-- **Coach notes:** Week 1's opening Monday and it's a heavy one — squat load climbed from 135 to 225+ lbs across the ladder, burpees stacked on every round. That's a serious strength stimulus to open the training cycle on. This is why Tuesday stays a full rest day through Week 6: the legs need to absorb this before any running quality starts Wednesday. **Action:** nothing to adjust — this is the plan working as intended.
+- **Workout:** Ascending-load ladder, 12 burpees every round: 0–3 min 20 back squat, 3–6 min 16 back squat, 6–9 min 12 back squat, 9–12 min 8 back squat, 12–15 min 4 back squat (women's Rx loads throughout: 95 → 125 → 135 → 145 → 143 lbs on the top rung, 33 lb bar)
+- **Score:** 145 RX — squat topped out at 143 lbs (33 lb bar), women's Rx
+- **Coach notes:** Week 1's opening Monday and it's a heavy one — squat load climbed 95→125→135→145→143 lbs across the ladder (women's Rx, 33 lb bar), burpees stacked on every round. That's a serious strength stimulus to open the training cycle on. This is why Tuesday stays a full rest day through Week 6: the legs need to absorb this before any running quality starts Wednesday. **Action:** nothing to adjust — this is the plan working as intended.
 
 ---
 
