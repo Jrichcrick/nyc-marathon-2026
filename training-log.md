@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 4 — June 29–July 5
 
+### Sun Jul 5 — ✅ Long run 13.12 mi at easy effort — Week 4 complete
+<!-- strava_id: 19191685369 -->
+- **Prescribed:** Long run: 12 mi easy
+- **Actual:** 13.12 mi @ 9:39/mi avg · 2:06:43 moving · 623 ft gain · ~76°F, mid-morning start
+- **Mile splits (pace · HR):** 1) 9:32 · 140 · 2) 9:35 · 149 · 3) 9:37 · 141 · 4) 9:32 · 152 · 5) 9:46 · 155 · 6) 9:27 · 153 · 7) 9:44 · 154 · 8) 9:48 · 156 · 9) 9:51 · 158 · 10) 9:48 · 155 · 11) 10:03 · 161 · 12) 9:24 · 154 · 13) 9:12 · 163
+- **HR (avg/max):** 153 / 173 · **Relative Effort:** 193
+- **Coach notes:** Beat the 12-mile recovery-week target by over a mile and never left the easy band doing it — pace held 9:12–10:03 the whole way, right where it should for the current 9:20–9:45 zone (mile 13's 9:12 reads as a normal finishing pickup, not a pace violation). HR climbs from 140 at the start to the 150s–160s by the back half, but that's the expected shape for a 2+ hour run with 623 ft of rolling terrain, not a flat-pace/climbing-HR heat-cost signature like Thursday's — pace never accelerated to compensate, it just drifted with duration and hills. This lands the day after two straight days of real heat/load exposure (Thu's flag, Friday's Hero WOD in 98°F), and the system handled it well: full volume, full pace control, no red flags. Week 4 recovery week closes clean. **Action:** Week 5 steps back up to ~35 miles starting tomorrow — normal boot camp Monday, no adjustment needed.
+- [View on Strava](https://www.strava.com/activities/19191685369)
+
 ### Fri Jul 3 — ⚠️ Hero WOD "Glen" scaled — heavy session in 98°F, second straight heat day
 - **Type:** CrossFit Hero WOD (swapped from Easy 5 mi per plan) — self-reported, no Strava data
 - **Workout:** For time — 135/95 lb clean & jerk ×30, run 1 mile, 15-ft rope climb ×10 ascents, run 1 mile, 100 burpees
