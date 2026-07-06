@@ -129,7 +129,7 @@
 
   <div id="this-week-banner" class="note blue" style="margin-top:0; margin-bottom:24px;">Loading…</div>
 
-  <h2 class="ch2">Training Paces</h2>
+  <h2 class="ch2 collapsed">Training Paces</h2>
   <div class="pace-grid">
     <div class="pace-card"><div class="zone">Easy</div><div class="now">9:20–9:45/mi</div><div class="arrow">→ 9:00–9:20 race day</div><div class="feel">Fully conversational</div></div>
     <div class="pace-card"><div class="zone">Marathon Pace</div><div class="now">9:00/mi</div><div class="arrow">Goal race pace</div><div class="feel">Comfortably hard, sustained</div></div>
@@ -138,7 +138,7 @@
   </div>
 
   <!-- PHASE 1 -->
-  <h2>Phase 1 — Base Building</h2>
+  <h2 class="ch2 phase-h">Phase 1 — Base Building</h2>
   <div class="phase">
     <div class="tag t-base">Weeks 1–4 · 4 days/week</div>
     <p>Wed/Thu/Fri/Sun. Tuesday stays rest — your legs are still absorbing Monday boot camp. Thursday is the shorter easy day (tighter mornings), Friday carries the longer one — easy, not a push. Tuesday gets added at week 7.</p>
@@ -201,7 +201,7 @@
   </div>
 
   <!-- PHASE 2 -->
-  <h2>Phase 2 — Build 1</h2>
+  <h2 class="ch2 phase-h">Phase 2 — Build 1</h2>
   <div class="phase">
     <div class="tag t-build">Weeks 5–8 · 4 → 5 days/week</div>
     <p>Introduce marathon pace. Long run reaches 18 miles. Friday starts getting longer. Tuesday easy shakeout added at week 7 as your 5th day.</p>
@@ -266,7 +266,7 @@
   </div>
 
   <!-- PHASE 3 -->
-  <h2>Phase 3 — Build 2</h2>
+  <h2 class="ch2 phase-h">Phase 3 — Build 2</h2>
   <div class="phase">
     <div class="tag t-build">Weeks 9–12 · 5 days/week</div>
     <p>Peak volume. Long runs hit 20–22 miles. MP segments begin on medium and long runs.</p>
@@ -329,7 +329,7 @@
   </div>
 
   <!-- PHASE 4 -->
-  <h2>Phase 4 — Peak &amp; Race-Specific</h2>
+  <h2 class="ch2 phase-h">Phase 4 — Peak &amp; Race-Specific</h2>
   <div class="phase">
     <div class="tag t-peak">Weeks 13–16 · Hardest block</div>
     <p>Heavy MP work. Simulate race conditions. This is where sub-4 gets built.</p>
@@ -392,7 +392,7 @@
   </div>
 
   <!-- PHASE 5 -->
-  <h2>Phase 5 — Taper</h2>
+  <h2 class="ch2 phase-h">Phase 5 — Taper</h2>
   <div class="phase">
     <div class="tag t-taper">Weeks 17–20</div>
     <p>Volume drops. Intensity stays. Don't add extra miles to feel ready — trust the work.</p>
@@ -991,6 +991,18 @@ function switchTab(name, btn) {
     if (!cells.length) return;
     const last = parseDc(cells[cells.length - 1].textContent);
     if (!isNaN(last) && last < today) week.classList.add('collapsed');
+  });
+
+  // Auto-collapse phases whose last week is fully in the past (e.g. Phase 1 once it's done)
+  document.querySelectorAll('.phase-h').forEach(h2 => {
+    const phase = h2.nextElementSibling;
+    if (!phase || !phase.classList.contains('phase')) return;
+    const weeks = phase.querySelectorAll('.week');
+    if (!weeks.length) return;
+    const cells = weeks[weeks.length - 1].querySelectorAll('td.dc');
+    if (!cells.length) return;
+    const last = parseDc(cells[cells.length - 1].textContent);
+    if (!isNaN(last) && last < today) h2.classList.add('collapsed');
   });
 
   // Collapsible log sections — click heading to toggle
