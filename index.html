@@ -97,6 +97,12 @@
   .log-week::after { content: ' ▾'; font-size: 0.75em; opacity: 0.4; }
   .log-week.lw-collapsed::after { content: ' ▸'; opacity: 0.55; }
   .log-week.lw-collapsed + table.log-table { display: none; }
+
+  /* Collapsible plan-tab reference sections (Paces / Weekly Schedule / Where to Run) */
+  .ch2 { cursor: pointer; user-select: none; }
+  .ch2::after { content: ' ▾'; font-size: 0.65em; opacity: 0.4; }
+  .ch2.collapsed::after { content: ' ▸'; opacity: 0.55; }
+  .ch2.collapsed + * { display: none; }
 </style>
 </head>
 <body>
@@ -123,31 +129,12 @@
 
   <div id="this-week-banner" class="note blue" style="margin-top:0; margin-bottom:24px;">Loading…</div>
 
-  <h2>Training Paces</h2>
+  <h2 class="ch2">Training Paces</h2>
   <div class="pace-grid">
     <div class="pace-card"><div class="zone">Easy</div><div class="now">9:20–9:45/mi</div><div class="arrow">→ 9:00–9:20 race day</div><div class="feel">Fully conversational</div></div>
     <div class="pace-card"><div class="zone">Marathon Pace</div><div class="now">9:00/mi</div><div class="arrow">Goal race pace</div><div class="feel">Comfortably hard, sustained</div></div>
     <div class="pace-card"><div class="zone">Tempo</div><div class="now">8:20–8:30/mi</div><div class="arrow">→ 8:00–8:10 race day</div><div class="feel">Hard but controlled, 20–40 min</div></div>
     <div class="pace-card"><div class="zone">Intervals</div><div class="now">7:50–8:00/mi</div><div class="arrow">→ 7:30–7:45 race day</div><div class="feel">5K effort, short repeats</div></div>
-  </div>
-
-  <h2>Weekly Schedule</h2>
-  <table>
-    <tr><th>Day</th><th>Role</th></tr>
-    <tr><td class="dc">Monday</td><td>Squats + boot camp — strength &amp; cross-train (not running)</td></tr>
-    <tr><td class="dc">Tuesday</td><td>Rest (weeks 1–6) → Easy shakeout (weeks 7+)</td></tr>
-    <tr><td class="dc">Wednesday</td><td><strong>Quality run — only hard running day of the week</strong></td></tr>
-    <tr><td class="dc">Thursday</td><td>Easy run</td></tr>
-    <tr><td class="dc">Friday</td><td>Easy run (weeks 1–6) → Medium-long run (weeks 7+)</td></tr>
-    <tr><td class="dc">Saturday</td><td>Rest</td></tr>
-    <tr><td class="dc">Sunday</td><td><strong>Long run</strong></td></tr>
-  </table>
-
-  <h2>Where to Run</h2>
-  <div class="tg">
-    <div class="tc"><div class="wt2">Intervals</div><div class="loc">Central Park loop</div><div class="why">200m markers — out-and-back so hills average out</div></div>
-    <div class="tc"><div class="wt2">Tempo</div><div class="loc">Hudson River Greenway</div><div class="why">Flat — lock into pace without elevation fighting you</div></div>
-    <div class="tc"><div class="wt2">Easy &amp; Long</div><div class="loc">Central Park</div><div class="why">Race finishes here — knowing Cat Hill is an advantage</div></div>
   </div>
 
   <!-- PHASE 1 -->
@@ -503,6 +490,25 @@
     <tr><td>Half marathon</td><td>Late Aug / early Sep</td><td>MP reality check</td></tr>
     <tr><td>10K</td><td>Late September</td><td>Sharpen before taper</td></tr>
   </table>
+
+  <h2 class="ch2 collapsed">Weekly Schedule</h2>
+  <table>
+    <tr><th>Day</th><th>Role</th></tr>
+    <tr><td class="dc">Monday</td><td>Squats + boot camp — strength &amp; cross-train (not running)</td></tr>
+    <tr><td class="dc">Tuesday</td><td>Rest (weeks 1–6) → Easy shakeout (weeks 7+)</td></tr>
+    <tr><td class="dc">Wednesday</td><td><strong>Quality run — only hard running day of the week</strong></td></tr>
+    <tr><td class="dc">Thursday</td><td>Easy run</td></tr>
+    <tr><td class="dc">Friday</td><td>Easy run (weeks 1–6) → Medium-long run (weeks 7+)</td></tr>
+    <tr><td class="dc">Saturday</td><td>Rest</td></tr>
+    <tr><td class="dc">Sunday</td><td><strong>Long run</strong></td></tr>
+  </table>
+
+  <h2 class="ch2 collapsed">Where to Run</h2>
+  <div class="tg">
+    <div class="tc"><div class="wt2">Intervals</div><div class="loc">Central Park loop</div><div class="why">200m markers — out-and-back so hills average out</div></div>
+    <div class="tc"><div class="wt2">Tempo</div><div class="loc">Hudson River Greenway</div><div class="why">Flat — lock into pace without elevation fighting you</div></div>
+    <div class="tc"><div class="wt2">Easy &amp; Long</div><div class="loc">Central Park</div><div class="why">Race finishes here — knowing Cat Hill is an advantage</div></div>
+  </div>
 
 </div><!-- /tab-plan -->
 
@@ -990,6 +996,11 @@ function switchTab(name, btn) {
   // Collapsible log sections — click heading to toggle
   document.querySelectorAll('.log-week').forEach(lw => {
     lw.addEventListener('click', () => lw.classList.toggle('lw-collapsed'));
+  });
+
+  // Collapsible plan-tab reference sections (Paces / Weekly Schedule / Where to Run)
+  document.querySelectorAll('.ch2').forEach(h => {
+    h.addEventListener('click', () => h.classList.toggle('collapsed'));
   });
 
   // Auto-collapse log sections for past weeks (parse "Month D–D" end date from heading)
