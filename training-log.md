@@ -7,6 +7,14 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 5 — July 6–12
+
+### Mon Jul 6 — ✅ Boot camp: "Canoe" — 138 lbs Rx++, extra round
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** 6 rounds: 10 back squat (bodyweight-based load) + 500m row, rest as needed
+- **Score:** 138 lbs Rx++ (150% bodyweight) · did an extra 10 squats beyond the prescribed 6 rounds
+- **Coach notes:** Strong Monday — 150% bodyweight on 60+ back squat reps across 6 rounds interspersed with 3,000m of rowing, then added an extra set on top. Right day for it (Monday is the load-absorption day, Tuesday's rest clears it before Wednesday's quality). One thing to flag given yesterday's long run ran hotter than expected on accumulated fatigue: "ease into Monday" was the read, and this was the opposite — Rx++ plus bonus volume. Squats aren't running-specific fatigue, so it's not a direct conflict, but it adds to total systemic load in a week that's already stepping up to ~35 miles. **Action:** Tuesday rest is non-negotiable. Check in before Wednesday's 5×1000m — if legs feel flat, trim reps rather than force the full set.
+
 ## Week 4 — June 29–July 5
 
 ### Sun Jul 5 — ✅ Long run 13.12 mi at easy effort — Week 4 complete
