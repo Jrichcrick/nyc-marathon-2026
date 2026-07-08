@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 5 — July 6–12
 
+### Wed Jul 8 — ⚠️ Progression build on the easy day — finished in tempo territory
+<!-- strava_id: 19228350061 -->
+- **Prescribed:** Easy 6 mi (intervals moved to Friday this week)
+- **Actual:** 6.41 mi @ 8:56/mi avg · 57:18 moving · 325 ft gain
+- **Mile splits (pace · HR):** 1) 9:12 · 141 (−24 ft) · 2) 9:10 · 157 (+49 ft) · 3) 9:05 · 147 (−55 ft) · 4) 9:12 · 156 (+29 ft) · 5) 8:44 · 163 (+11 ft) · 6) 8:29 · 164 (−32 ft) · 0.41) 8:20 · 169 (+7 ft)
+- **HR (avg/max):** 155 / 172 · **Relative Effort:** 93
+- **Coach notes:** This is a progression run, not an easy run. Splits build steadily from 9:12 down to 8:20 for the closing partial mile, with HR climbing from 141 in mile 1 to 164–169 by the finish (86–89% of ~190 max — solidly Z3–Z4). The last mile-plus (8:29, 8:20) sits right in current tempo territory (8:20–8:30/mi), and the whole-run average (8:56/mi) already runs faster than the current easy zone (9:20–9:45), before even counting the fast finish. No pain or injury reported, so this stays a discipline flag rather than a red one, but it cuts against the exact reason Wed and Fri got swapped this week — Wed was carved out easy specifically to keep legs fresh for Friday's 5×1000m. **Action:** No signs of overuse, but treat today's HR/pace load as real. Keep Thursday's easy 6 mi honest — run by HR (cap ~155), not by feel — and save the only hard effort this week for Friday's intervals.
+- [View on Strava](https://www.strava.com/activities/19228350061)
+
 ### Mon Jul 6 — ✅ Boot camp: "Canoe" — 138 lbs Rx++, extra round
 - **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
 - **Workout:** 6 rounds: 10 back squat (bodyweight-based load) + 500m row, rest as needed
