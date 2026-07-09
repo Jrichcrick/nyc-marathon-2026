@@ -9,13 +9,14 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 5 — July 6–12
 
-### Thu Jul 9 — ⚠️ Cut nearly in half, and finished fast again
+### Thu Jul 9 — ⚠️ Cut short by work, but the fast-finish pattern is still worth watching
 <!-- strava_id: 19242179431 -->
 - **Prescribed:** Easy 6 mi
 - **Actual:** 3.44 mi @ 9:03/mi avg · 31:09 moving · 182 ft gain
 - **Mile splits (pace · HR):** 1) 9:34 · 144 (−50 ft) · 2) 8:57 · 152 (+1 ft) · 3) 9:04 · 154 (+58 ft) · 0.43) 8:10 · 154 (−85 ft)
 - **HR (avg/max):** 150 / 159 · **Relative Effort:** 42
-- **Coach notes:** Distance is the real issue here — 3.44 mi against a 6-mile prescription, barely over half. No pain/injury noted, and Thursday mornings are the tight one on his schedule, so a time-crunch cut is the likely explanation, but there's no note confirming it. The pace pattern is the same story as Wednesday in miniature: builds from 9:34 down to an 8:10/mi finish. To his credit, HR stayed capped in the low-150s per yesterday's action (avg 150, max 159 — never cracked Z3), so the HR-cap discipline held even as the pace crept. **Action:** Whatever cut today short, don't let it become a habit — Friday's 5×1000m @ 7:55/mi is the week's only hard session and needs full legs under it. Show up rested; the fast finishes on easy days need to stop bleeding into quality days.
+- **Feel:** "Work called. Had to stop."
+- **Coach notes:** Distance shortfall is fully explained — work call cut it off, not a discipline issue. Right call to stop rather than rush back out. The pace pattern is still the same story as Wednesday in miniature: builds from 9:34 down to an 8:10/mi finish. To his credit, HR stayed capped in the low-150s per yesterday's action (avg 150, max 159 — never cracked Z3), so the HR-cap discipline held even as the pace crept. **Action:** No makeup needed — move on. Friday's 5×1000m @ 7:55/mi is the week's only hard session; show up rested and keep the fast finishes off the easy days.
 - [View on Strava](https://www.strava.com/activities/19242179431)
 
 ### Wed Jul 8 — ⚠️ Progression build on the easy day — finished in tempo territory
