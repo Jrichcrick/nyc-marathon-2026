@@ -9,12 +9,22 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 5 — July 6–12
 
+### Thu Jul 9 — ⚠️ Cut nearly in half, and finished fast again
+<!-- strava_id: 19242179431 -->
+- **Prescribed:** Easy 6 mi
+- **Actual:** 3.44 mi @ 9:03/mi avg · 31:09 moving · 182 ft gain
+- **Mile splits (pace · HR):** 1) 9:34 · 144 (−50 ft) · 2) 8:57 · 152 (+1 ft) · 3) 9:04 · 154 (+58 ft) · 0.43) 8:10 · 154 (−85 ft)
+- **HR (avg/max):** 150 / 159 · **Relative Effort:** 42
+- **Coach notes:** Distance is the real issue here — 3.44 mi against a 6-mile prescription, barely over half. No pain/injury noted, and Thursday mornings are the tight one on his schedule, so a time-crunch cut is the likely explanation, but there's no note confirming it. The pace pattern is the same story as Wednesday in miniature: builds from 9:34 down to an 8:10/mi finish. To his credit, HR stayed capped in the low-150s per yesterday's action (avg 150, max 159 — never cracked Z3), so the HR-cap discipline held even as the pace crept. **Action:** Whatever cut today short, don't let it become a habit — Friday's 5×1000m @ 7:55/mi is the week's only hard session and needs full legs under it. Show up rested; the fast finishes on easy days need to stop bleeding into quality days.
+- [View on Strava](https://www.strava.com/activities/19242179431)
+
 ### Wed Jul 8 — ⚠️ Progression build on the easy day — finished in tempo territory
 <!-- strava_id: 19228350061 -->
 - **Prescribed:** Easy 6 mi (intervals moved to Friday this week)
 - **Actual:** 6.41 mi @ 8:56/mi avg · 57:18 moving · 325 ft gain
 - **Mile splits (pace · HR):** 1) 9:12 · 141 (−24 ft) · 2) 9:10 · 157 (+49 ft) · 3) 9:05 · 147 (−55 ft) · 4) 9:12 · 156 (+29 ft) · 5) 8:44 · 163 (+11 ft) · 6) 8:29 · 164 (−32 ft) · 0.41) 8:20 · 169 (+7 ft)
 - **HR (avg/max):** 155 / 172 · **Relative Effort:** 93
+- **Feel:** "Felt really easy — that's why I went faster. Getting under 8:00/mi would've taken more work than I had."
 - **Coach notes:** This is a progression run, not an easy run. Splits build steadily from 9:12 down to 8:20 for the closing partial mile, with HR climbing from 141 in mile 1 to 164–169 by the finish (86–89% of ~190 max — solidly Z3–Z4). The last mile-plus (8:29, 8:20) sits right in current tempo territory (8:20–8:30/mi), and the whole-run average (8:56/mi) already runs faster than the current easy zone (9:20–9:45), before even counting the fast finish. No pain or injury reported, so this stays a discipline flag rather than a red one, but it cuts against the exact reason Wed and Fri got swapped this week — Wed was carved out easy specifically to keep legs fresh for Friday's 5×1000m. **Action:** No signs of overuse, but treat today's HR/pace load as real. Keep Thursday's easy 6 mi honest — run by HR (cap ~155), not by feel — and save the only hard effort this week for Friday's intervals.
 - [View on Strava](https://www.strava.com/activities/19228350061)
 
