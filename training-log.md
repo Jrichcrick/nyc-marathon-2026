@@ -9,6 +9,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 5 — July 6–12
 
+### Fri Jul 10 — ✅ 5×1000m nailed on pace — but HR cost climbed hard in the heat
+<!-- strava_id: 19254821386 -->
+- **Prescribed:** 5×1000m @ 7:55/mi = 8 mi total (moved from Wed)
+- **Actual:** 6.03 mi @ 8:58/mi avg · 54:04 moving · 15 ft gain · ~74–76°F and humid at the 6:49 AM start (overnight low 73°F)
+- **Reps:** 1) 7:51 · 157 HR · 2) 7:50 · 157 HR · 3) 7:53 · 147 HR · 4) 7:54 · 175 HR · 5) 7:52 · 174 HR — every rep at or under the 7:55/mi target
+- **Mile splits (pace · HR):** 1) 9:52 · 130 · 2) 8:31 · 150 · 3) 8:25 · 155 · 4) 8:50 · 150 · 5) 8:52 · 171 · 6) 9:17 · 169
+- **HR (avg/max):** 154 / 184 · **Relative Effort:** 86
+- **Coach notes:** This is the workout, executed clean — five reps at 7:50–7:54/mi, every one at or under the 7:55 target, no drift in pace across the set. That's the headline. But the HR data tells a second story: reps 1–2 ran at 157, reps 4–5 ran at 174–175 — an 18-point climb to hold the exact same pace. That's the heat signature the plan warns about: it's not the reps that slow down in warm conditions that cost you, it's the ones that hold pace anyway, because the cost just moves from the split time to the cardiovascular system. Start temp was ~74–76°F and humid (overnight low only 73°F) — plenty warm for early July mileage at sub-8 pace. The recovery jogs back this up: each rest window was ~2 minutes flat, but the distance covered in that window shrank every time (322m → 312m → 276m → 210m) while recovery HR never dropped below 150 — legs and heart rate both losing ground to recover between reps as the set went on. Total distance (6.03 vs the plan's 8 mi) is not a miss — it's short warmup/recovery/cooldown volume around a fully-completed rep set, and the plan is explicit that trimmed connective volume doesn't dock a quality day when the reps are on target. Context for the week: this is the third day running with faster-than-nominal effort (Wed's progression run, Thu's fast finish, now this), and Friday is the one day that's *supposed* to be hard — so no violation of the hard/easy principle, but it does mean the week's total load is higher than the mileage suggests heading into Sunday's step-up to 15 miles.
+- **Action:** Full use of Saturday's rest day — no boot camp bonus rounds, no bonus mileage. Sunday's 15-miler is the week's biggest step-up (up from 12–13); go out at genuine easy effort (9:20–9:45) and watch the HR-drift pattern from today — if it shows up again on an easy long run, that's the heat/fatigue combo talking, not a pace problem to fix by running faster.
+- [View on Strava](https://www.strava.com/activities/19254821386)
+
 ### Thu Jul 9 — ⚠️ Cut short by work, but the fast-finish pattern is still worth watching
 <!-- strava_id: 19242179431 -->
 - **Prescribed:** Easy 6 mi
