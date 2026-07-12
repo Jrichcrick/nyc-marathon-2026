@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 5 — July 6–12
 
+### Sun Jul 12 — ✅ Long run 15.26 mi at 9:31/mi — genuinely easy, Week 5 complete
+<!-- strava_id: 19285452124 -->
+- **Prescribed:** Long run: 15 mi easy
+- **Actual:** 15.26 mi @ 9:31/mi avg · 2:25:18 moving · 797 ft gain · 11:13 AM start, warm midday NYC summer conditions (no watch temp logged; forecast context puts feels-like in the low-to-mid 80s°F by late morning)
+- **Mile splits (pace · HR):** 1) 9:15 · 147 (−12 ft) · 2) 9:41 · 150 (+35 ft) · 3) 9:31 · 148 (−61 ft) · 4) 9:00 · 156 (+14 ft) · 5) 9:37 · 151 (+14 ft) · 6) 9:39 · 154 (+41 ft) · 7) 9:32 · 151 (−51 ft) · 8) 9:26 · 153 (−3 ft) · 9) 9:47 · 153 (+41 ft) · 10) 9:38 · 151 (−12 ft) · 11) 9:28 · 153 (−46 ft) · 12) 9:36 · 157 (+13 ft) · 13) 9:39 · 157 (+5 ft) · 14) 9:52 · 161 (+60 ft) · 15) 9:24 · 160 (−41 ft) · 16 (0.25 mi) 8:47 · 164 (−16 ft)
+- **HR (avg/max):** 154 / 170 · **Relative Effort:** 233 (highest of the cycle — expected, it's the longest run so far)
+- **Coach notes:** This is the follow-through on Friday's action item — after three straight harder-than-nominal days (Wed's progression finish, Thu's fast-finish pattern, Fri's genuine hard day), Sunday needed to be a real easy effort, and it was. 15.26 mi beats the 15-mile target, and the splits sit almost entirely inside the 9:20–9:45 easy zone — only mile 4's 9:00 dips below it, a single outlier against 15 other miles that behaved. No fast finish, no early speed; pace stayed essentially flat start to finish. HR tells a mild heat-drift story — 147 in mile 1 climbing to 160–164 by the finish, a ~15–17 point rise with pace holding constant — but this is the tame version of that pattern, not the red-flag version from two weeks ago. No watch temp was logged and JR left no note, but an 11:13 AM summer start in NYC puts this comfortably into the warm-but-not-extreme range (mid-70s to low-80s°F by then), which accounts for the drift without raising concern. Critically, pace never sped up to compensate the way Wed's and Thu's did — that's the discipline the plan is looking for on a long run. Elevation (797 ft) is on the hillier side for this cycle, consistent with the split-to-split HR bounces tracking the elevation column. Week 5 closes at 5/5 sessions — running volume finished at ~31.1 of the ~35-mile target (Thu's work-call cut and Fri's trimmed warmup account for the gap; every quality/effort target inside those runs was still hit). **Action:** Full rest is earned — no bonus anything today. Recovery week context isn't due yet per the plan, so expect Week 6 to hold or step up; check in on how the legs feel Monday before committing to boot camp load, given this is the biggest single mileage day of the cycle so far.
+- [View on Strava](https://www.strava.com/activities/19285452124)
+
 ### Fri Jul 10 — ✅ 5×1000m nailed on pace — but HR cost climbed hard in the heat
 <!-- strava_id: 19254821386 -->
 - **Prescribed:** 5×1000m @ 7:55/mi = 8 mi total (moved from Wed)
