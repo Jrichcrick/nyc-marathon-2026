@@ -7,6 +7,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 6 — July 13–19
+
+### Thu Jul 16 — 🚩 First run since the foot/hip flag — run 40+ s/mi over easy, no word on either
+<!-- strava_id: 19343957576 -->
+- **Prescribed:** Easy 6 mi
+- **Actual:** 6.23 mi @ 8:52/mi avg · 55:16 moving · 82 ft gain · 7:51 PM start, ~77°F evening (no watch temp; NWS had NYC steady around 77°F with rain chances that evening)
+- **Mile splits (pace · HR):** 1) 8:59 · 138 · 2) 8:46 · 159 · 3) 8:46 · 162 · 4) 8:54 · 163 · 5) 8:55 · 167 · 6) 8:40 · 171 · 0.23) 9:38 · 170
+- **HR (avg/max):** 160 / 176 · **Relative Effort:** 114 (18.3 per mile — heavier per-mile load than any long run or interval session this cycle)
+- **Coach notes:** First activity since Sunday's flag. Wednesday's tempo produced no data — treating it as skipped, which is fine; missed quality doesn't get made up. Distance is on target (6.23 vs 6), and that's where the good news ends. The easy zone is 9:20–9:45/mi, and on a 77°F evening the adjusted target is more like 9:30–10:00 — this went 8:52 average with miles 2–6 at 8:40–8:55 and HR 159–171, which is 84–90% of ~190 max, solidly Z3–Z4 for five straight miles. HR climbed 138→171 at flat pace — that drift is the heat cost showing up even though the pace never eased. Per-mile load (18.3 RE/mi) is above every long run and quality session of the cycle. What makes this red instead of yellow: it's the first run on a right foot with a dull metatarsal ache at rest — possible early stress reaction, still not evaluated — plus the flagged right hip, and the activity has no description, so there is zero information on how either one handled it. JR took the Week 6 hold off to make his own call; that's his call to make, but making it means reporting what the foot and hip are saying. Running near-marathon-pace effort on an unevaluated foot ache is the exact scenario that turns a two-week problem into a two-month one. **Action:** Report on the foot and hip — during the run, after, and tomorrow morning. If the at-rest ache is still there, the PT eval happens before Sunday's 18-miler, full stop. If Friday's easy 7 goes ahead, it's run by HR — cap 150, 9:30+/mi — not like this one.
+- [View on Strava](https://www.strava.com/activities/19343957576)
+
 ## Week 5 — July 6–12
 
 ### Sun Jul 12 — 🚩 Long run 15.26 mi at 9:31/mi — right foot/hip flagged after this run
