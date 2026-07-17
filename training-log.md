@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 6 — July 13–19
 
+### Fri Jul 17 — ⚠️ Easy 7 nailed on pace, but Thursday's HR cap wasn't held
+<!-- strava_id: 19349352883 -->
+- **Prescribed:** Easy 7 mi @ 9:30/mi — with a specific condition set two days ago: run by HR, cap 150
+- **Actual:** 7.84 mi @ 9:29/mi avg · 74:21 moving · 461 ft gain · 7:23 AM start (no watch temp logged; early enough to be well clear of the day's heat)
+- **Mile splits (pace · HR):** 1) 9:25 · 145 · 2) 9:20 · 155 · 3) 9:08 · 152 · 4) 9:27 · 154 · 5) 9:36 · 155 · 6) 9:49 · 159 · 7) 9:42 · 154 · 0.84) 9:25 · 158
+- **HR (avg/max):** 154 / 166 · **Relative Effort:** 120 (15.3 per mile — lower load than Thursday's 18.3/mi, but same shape)
+- **Coach notes:** Distance and pace both clear the base prescription — 7.84 mi at 9:29/mi sits right in the 9:20–9:45 easy band and beats the 7-mile target. That's the half that went right. The other half: Thursday's entry set an explicit condition for this run — "by HR, cap 150" — precisely because it landed right after the foot/hip flag cleared and on the tail of a heat/smoke-flagged session. That cap wasn't held. Mile 1 opened at 145 (under cap), but every split from mile 2 on ran 152–159, averaging 154 for the run — and three of those miles (2, 3, 4 at 9:20, 9:08, 9:27) were faster than the 9:30 floor while HR sat above the cap. It's the same pattern Thursday got flagged for — legs reading easy, HR reading otherwise — just a milder version (154/166 here vs 160/176 Thursday). No pain or injury reported this time, and the foot/hip flag is cleared, so this stays a discipline flag, not a red one.
+- **Action:** Sunday's 18 is the real test. Hold it honestly in the 9:20–9:45 band by pace, and don't let HR drift the way it has the last two runs — if it's sitting at 150+ for extended stretches on 18 miles, that's a reason to ease pace, not push through. Check in on the foot and hip Saturday morning and again after Sunday's long run — Thursday's all-clear still hasn't been tested on real mileage yet.
+- [View on Strava](https://www.strava.com/activities/19349352883)
+
 ### Thu Jul 16 — 🚩 First run since the foot/hip flag — run 40+ s/mi over easy, no word on either
 <!-- strava_id: 19343957576 -->
 - **Prescribed:** Easy 6 mi
