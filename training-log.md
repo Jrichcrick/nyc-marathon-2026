@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 7 — July 20–26
+
+### Wed Jul 22 — ⚠️ Quality day skipped — ran 6.4 easy instead of 5×1200m, and HR finally behaved
+<!-- strava_id: 19418723790 -->
+- **Prescribed:** 5×1200m @ 7:55/mi (90 sec jog) = 9 mi total
+- **Actual:** 6.40 mi @ 9:09/mi avg · 58:32 moving · 310 ft gain · 9:43 AM start (no watch temp logged)
+- **Mile splits (pace · HR · elev):** 1) 9:26 · 141 (−18 ft) · 2) 9:14 · 151 (+36 ft) · 3) 9:03 · 150 (−54 ft) · 4) 9:12 · 150 (+37 ft) · 5) 9:18 · 148 (+12 ft) · 6) 8:53 · 152 (−34 ft) · 0.40) 8:38 · 154 (+3 ft)
+- **HR (avg/max):** 149 / 158 · **Relative Effort:** 78
+- **Coach notes:** This isn't the interval session — it's an easy run wearing the same day of the week. The watch shows one continuous lap for the whole 58:32 (no rep/recovery structure at all), and every split sits between 8:38 and 9:26/mi — nowhere near the 7:55/mi rep target, not even on the fastest mile. Total distance also lands at 6.40 mi against 9 prescribed. So the quality session didn't happen today, full stop. That said, the substitution reads like the right call, not a lapse: Sunday's 18-miler was the third straight run with HR running hot at easy pace, and the Jul 19 action line said plainly to trim Wednesday if it still felt off. It did, and the response was to back off the pace entirely rather than force 7:55 reps onto legs still carrying that load. And it worked — avg HR 149/max 158 is the most controlled effort in three weeks, with only the last two miles brushing 152–154. No pain or injury noted. This is a discipline miss on the prescription, but a fitness-preserving one.
+- **Action:** No makeup for the missed intervals — move forward, not backward. Thursday's shorter easy run is the read on whether that HR control holds two days after an 18-miler, or whether today's calm was just fresher legs from skipping the hard work. If HR creeps back into the 150s+ at easy pace on a short run, that's the fatigue signal, not a fluke. Friday's medium-long is the real test of whether this week needs another trim.
+- [View on Strava](https://www.strava.com/activities/19418723790)
+
+---
+
 ## Week 6 — July 13–19
 
 ### Sun Jul 19 — 🚩 Long run 18.09 mi at 9:39/mi — beat the target, but HR ran hot the whole way, third day running
