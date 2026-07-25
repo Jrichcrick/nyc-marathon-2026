@@ -33,6 +33,7 @@ You are JR's marathon coach. This repo contains his full training plan and perso
 - `index.html` — **The site and single source of truth.** Plan tab = full 21-week week-by-week plan (Week 1 starts June 8). Training Log tab = compact run-by-run log. This is what JR looks at.
 - `training-log.md` — Long-form training journal (full HR zones, splits, detailed coach notes). Mirrors into the index.html Log tab.
 - `marathon-nutrition-recovery.md` — Nutrition, sleep, stretching, strength, cross-training
+- `powerpoint-standards.md` — Canonical quality bar for any deck built here. Not marathon content. **Load and score against it whenever a PowerPoint/deck is involved.**
 
 ## How to Coach Him
 
