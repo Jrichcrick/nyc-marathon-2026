@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 7 — July 20–26
 
+### Fri Jul 24 — ⚠️ Medium 9 beat the target, but pace ran well over the easy zone with no HR to check the cost
+<!-- strava_id: 19452270158 -->
+- **Prescribed:** Medium: 9 mi easy
+- **Actual:** 9.24 mi @ 8:58/mi avg · 82:57 moving · 416 ft gain · 7:23 AM start (no watch temp; overnight lows this week have run 66–71°F, so figure low-to-mid 70s at the gun — nothing extreme)
+- **Mile splits (pace · elev):** 1) 7:59 (−1 ft) · 2) 9:20 (+8 ft) · 3) 9:22 (−4 ft) · 4) 9:05 (−4 ft) · 5) 9:15 (−15 ft) · 6) 9:22 (+23 ft) · 7) 9:03 (−4 ft) · 8) 8:53 (−8 ft) · 9) 8:31 (+6 ft) · 0.24) 8:38 (−3 ft)
+- **HR:** No data — watch wasn't worn today.
+- **Coach notes:** Distance is clean — 9.24 mi beats the 9-mile target. Pace is the issue: 8:58/mi average runs well inside tempo-adjacent territory relative to the current 9:20–9:45 easy band, and the shape makes it worse, not better. Mile 1 at 7:59 is almost certainly a GPS/auto-lap artifact (the feed also logged a 22+ mph max speed spike somewhere in the run, which doesn't happen on a training run — likely a signal glitch, not a real surge), so don't read that one literally. But miles 8–9 closing at 8:53 and 8:31, plus an 8:38 partial, is a real fast finish, the same pattern flagged before on easy/medium days (Jul 8, Jul 9) — legs picking up pace late instead of holding steady. Miles 2–7 sat 9:03–9:22, which is close to the top of the zone but still a touch quick across the board. Normally HR would settle whether this cost anything; today there's no way to know, and that's the bigger issue than the pace itself — the one day the effort ran hot is the one day the guardrail wasn't on the wrist.
+- **Action:** Wear the watch Sunday, no exceptions — the 16-miler is not the day to run blind on effort, especially coming off a week with a skipped shakeout, swapped quality session, and a missed Thursday. Keep Sunday's opening miles honest and controlled rather than letting the legs decide, the way the last two miles did here.
+- [View on Strava](https://www.strava.com/activities/19452270158)
+
 ### Wed Jul 22 — ⚠️ Quality day swapped — ran Thursday's easy 6 a day early instead of 5×1200m
 <!-- strava_id: 19418723790 -->
 - **Prescribed:** 5×1200m @ 7:55/mi (90 sec jog) = 9 mi total
