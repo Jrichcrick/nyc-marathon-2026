@@ -12,7 +12,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 HTML = (ROOT / "index.html").read_text()
 
 # Only parse the plan region (the Phase 1 header ... up to the course-notes marker).
-plan_html = HTML[HTML.index("<h2>Phase 1"):HTML.index("<!-- COURSE NOTES -->")]
+plan_html = HTML[HTML.index("Phase 1 —"):HTML.index("<!-- COURSE NOTES -->")]
 
 phase = ""
 week = ""
@@ -56,7 +56,7 @@ def derive_miles(w):
 
 
 # Walk the plan HTML line-anchored on the markers we care about.
-for chunk in re.split(r"(<h2>|<div class=\"wt\">|<div class=\"tag t-race\">|<tr[^>]*>)", plan_html):
+for chunk in re.split(r"(<h2[^>]*>|<div class=\"wt\">|<div class=\"tag t-race\">|<tr[^>]*>)", plan_html):
     c = chunk.strip()
     mph = re.match(r"(Phase \d+ —[^<]*)</h2>", c)
     if mph:

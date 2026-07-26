@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 7 — July 20–26
 
+### Sun Jul 26 — ⚠️ Long run 16.10 mi at 9:32/mi — pace finally held honest, but HR still runs hot on "easy"
+<!-- strava_id: 19477273423 -->
+- **Prescribed:** Long run: 16 mi easy
+- **Actual:** 16.10 mi @ 9:32/mi avg · 2:33:22 moving (2:36:40 elapsed) · 883 ft gain · 10:38 AM start (no watch temp logged; a late-morning July start in NYC typically runs upper 70s–low 80s by then)
+- **Mile splits (pace · HR · elev):** 1) 9:22 · 144 (−25 ft) · 2) 9:27 · 153 (+50 ft) · 3) 9:22 · 149 (−47 ft) · 4) 9:34 · 153 (+1 ft) · 5) 9:36 · 152 (−1 ft) · 6) 9:39 · 155 (+47 ft) · 7) 9:38 · 152 (−32 ft) · 8) 9:46 · 152 (−5 ft) · 9) 9:44 · 154 (+33 ft) · 10) 9:32 · 153 (−19 ft) · 11) 9:24 · 153 (−50 ft) · 12) 9:26 · 160 (+23 ft) · 13) 9:25 · 162 (+3 ft) · 14) 9:14 · 159 (+56 ft) · 15) 9:34 · 158 (−47 ft) · 16) 9:22 · 162 (−3 ft) · 0.14) 9:09 · 167 (−8 ft)
+- **HR (avg/max):** 155 / 168 · **Relative Effort:** 251 (15.6/mi — in line with this cycle's other long runs)
+- **Coach notes:** Distance and pace are the half of this that's been missing all month: 16.10 mi beats the 16-mile target, and 9:32/mi avg sits mid-band in the 9:20–9:45 easy zone. Splits ran a tight 9:14–9:47 across all sixteen full miles — the most even long run of the cycle, and exactly what Friday's entry asked for after that run closed with two miles at 8:53/8:31. The watch was worn too, per Friday's explicit ask, and it caught what pace alone would've missed: HR opened controlled at 144 on mile 1, then sat 148–162 for basically the rest of the run, climbing to 158–167 over the final three miles/partial while pace held steady or even eased slightly (9:14, 9:34, 9:22, 9:09). That's the same "legs reading easy, HR reading otherwise" shape flagged on Jul 16, 17, and 19 — a fourth instance, though milder than the 18-miler's 156/179 (this one's 155/168) despite a similarly late, likely-warm 10:38 AM start with no watch temp logged. Relative Effort (251, 15.6/mi) sits right in line with this cycle's other long runs, so this isn't an overreach on load — it's the same recurring HR-vs-pace gap, just on a run where the pace half was finally handled right. No pain or injury reported.
+- **Action:** Week 8 starts tomorrow as a recovery week (~28 mi) — use it as an actual reset, not just lower mileage. If HR is still parking in the 150s on easy pace at the bottom of a recovery week, that's the signal true easy pace needs to sit below 9:20 for now, not that effort is the problem. And Wednesday's tempo (1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down) is not optional this week — two straight weeks of skipped quality sessions is enough.
+- [View on Strava](https://www.strava.com/activities/19477273423)
+
 ### Fri Jul 24 — ⚠️ Medium 9 beat the target, but pace ran well over the easy zone with no HR to check the cost
 <!-- strava_id: 19452270158 -->
 - **Prescribed:** Medium: 9 mi easy
