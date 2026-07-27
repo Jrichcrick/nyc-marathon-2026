@@ -101,13 +101,29 @@ only plain field tags work.
    **Weather adjustment:** judge effort in context of conditions. Temperature source, in
    order: `average_temp` from the feed (often blank — JR's watch doesn't record it) →
    JR's `description` ("hot", "humid") → if pace/HR look anomalous and no temp is known,
-   do a quick web search for the weather in New York, NY at `start_date_local` before
-   judging. Heat rules of thumb: above ~70°F expect ~10–15 s/mi slower per 10°F at the
-   same effort, plus HR drift across the run. NEVER flag a run as off-plan for being
-   slower or shorter than prescribed on a hot day (≥75°F) — cutting distance or pace in
-   heat is good judgment. The heat miss to actually flag is the opposite: running AT or
-   FASTER than the prescribed easy pace in heat (HR drift confirms the hidden cost).
-   Record the temperature in the entry whenever known.
+   **always look up the actual observed conditions — never guess from seasonal norms and
+   never state "no data" as a final answer.** Plain `WebSearch` for a specific past date
+   returns unreliable, sometimes self-contradictory numbers (it tends to synthesize
+   climatology instead of that day's actual reading). The reliable source is NWS's own
+   daily climate summary (CLI report) for Central Park, fetched directly:
+   `WebFetch` on `https://forecast.weather.gov/product.php?site=OKX&issuedby=NYC&product=CLI&format=CI&version=N`
+   — `version=1` is the most recent day, each higher number steps back roughly 1–2 more
+   issuances (not exactly 1/day; try adjacent versions to land on the target date). Each
+   report gives that day's actual max temp + time it occurred and min temp + time — use
+   those two anchor points to estimate the temp during the run's actual window (a run
+   starting mid-morning is well past the ~dawn low and still climbing toward the
+   afternoon max; a run finishing early afternoon is close to peak heat). Cross-check
+   against the plan's own past entries before assuming a date was hot — "climatologically
+   the warmest day of the year" (a 30-year normal) and "actually hot this specific year"
+   are different claims; the CLI report states the actual high AND the normal high for
+   that date, so you can see if the day ran above, at, or below normal. Heat rules of
+   thumb: above ~70°F expect ~10–15 s/mi slower per 10°F at the same effort, plus HR drift
+   across the run. NEVER flag a run as off-plan for being slower or shorter than
+   prescribed on a hot day (≥75°F) — cutting distance or pace in heat is good judgment.
+   The heat miss to actually flag is the opposite: running AT or FASTER than the
+   prescribed easy pace in heat (HR drift confirms the hidden cost) — this applies to any
+   portion of the run, including a fast/hot closing mile on an otherwise controlled long
+   run. Record the temperature (and time-of-day estimate) in the entry whenever known.
    **For quality sessions (intervals/tempo), judge the WORK reps, not the whole-run
    average.** If splits are present, identify the fast/work miles and compare their pace to
    the prescribed rep pace — hitting rep pace ✅ even if total volume is a touch short. Don't
