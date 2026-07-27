@@ -40,6 +40,13 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **Action:** No makeup for the missed intervals — move on. Thursday itself is now off too (5:30 AM train for work), so this week skips both the shakeout and the quality session. Friday's prescribed medium 9 mi easy is next up — run it genuinely easy, no pressure to compensate for lost volume. Saturday stays rest as planned; don't add a session to make up for this week's gaps, that's exactly how a light week turns into an overreach week right before Sunday's 16-miler.
 - [View on Strava](https://www.strava.com/activities/19418723790)
 
+### Mon Jul 20 — ✅ Boot camp: "Hawkeyes" (13:46 scaled) + evening boot camp class — full Monday load right after Sunday's flagged 18-miler
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** "Hawkeyes" — 2 rounds: 12-9-6 back squat (Rx 225/155) + 24-18-12 Russian kettlebell swing (Rx 70/53)
+- **Score:** 13:46, Scaled — 113# back squat (KB stayed at the 53# Rx weight), plus JR's own note of roughly 12 extra squat reps building up in weight afterward (6 @ 123#, 6 @ 133#). Also attended a separate boot camp class that evening — both halves of Monday's prescription done.
+- **Coach notes:** 54 squat reps at 113# plus the extra ladder up to 133#, and 108 KB swing reps at 53#, is real volume on its own — then a second full boot camp session that night on top of it. Both pieces of Monday's prescription got done, so nothing was skipped, but the timing is worth flagging: this landed the day immediately after Sunday's flagged 18-miler, which was the third day in a row with a hot-HR pattern and whose own entry explicitly called for "a real recovery push" that week, not stacking more load. This is very likely what actually set up Wednesday's crash — that entry already noted JR came in "sore from Sunday's long run and Monday's boot camp" before swapping out the intervals. Now it's clear that soreness had two hard sessions behind it in one day, not one, which makes skipping Wednesday's quality the right read in hindsight, not a discipline lapse.
+- **Action:** Not retroactive — but going forward, a day that stacks both the squats WOD and a boot camp class works fine after a clean Sunday, and less well after a flagged one. On weeks where Sunday's long run comes in hot (like this one did), pick one Monday session or scale both down, rather than the full combo.
+
 ---
 
 ## Week 6 — July 13–19
