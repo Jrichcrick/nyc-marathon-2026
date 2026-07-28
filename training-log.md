@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 8 — July 27–August 2
+
+### Tue Jul 28 — ✅ Easy shakeout 3.32 mi at 9:23/mi — recovery week opener, mild evening, terrain-driven HR bumps only
+<!-- strava_id: 19507309589 -->
+- **Prescribed:** Easy shakeout: 3 mi
+- **Actual:** 3.32 mi @ 9:23/mi avg · 31:05 moving (31:08 elapsed) · 152 ft gain · 6:34 PM start (no watch temp logged; NWS Central Park recorded today's actual high as a mild 79°F at 12:33 PM, 6°F below the 85°F normal for the date — well past that midday peak by the 6:34 PM start, likely low-to-mid 70s and cooling, nothing to flag on heat)
+- **Mile splits (pace · HR · elev):** 1) 9:27 · 136 (−17 ft) · 2) 9:40 · 152 (+51 ft) · 3) 9:03 · 155 (−39 ft) · 0.31) 9:19 · 152 (−11 ft)
+- **HR (avg/max):** 148 / 164 · **Relative Effort:** 36
+- **Coach notes:** First day of the Week 8 recovery block, and it did its job — 3.32 mi beats the 3-mile shakeout target, 9:23/mi avg sits right at the brisk edge of the 9:20–9:45 easy band but still inside it. The split shape is terrain, not a fast finish: mile 2 slowed to 9:40 climbing a real hill (+51 ft) and HR jumped to 152, mile 3 sped back up to 9:03 on the descent (−39 ft) with HR peaking at 155, then the closing partial eased to 9:19/152 — nothing like the late-surge pattern flagged on Jul 8/9/24. Avg HR 148 is a touch above the ~142 (75% of 190 max) easy threshold, but on a hilly 3-mile flush the evening after Monday's boot camp, that reads as normal warm-up/terrain drift, not the sustained hot-HR pattern from Jul 16/17/19 — three miles isn't enough distance for that signal to mean much either way. No pain or injury reported.
+- **Action:** Wednesday's tempo (1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down) is the real session this week — hold the work miles honest at 8:15/mi, don't let tonight's brisk-easy pace bleed into it.
+- [View on Strava](https://www.strava.com/activities/19507309589)
+
+---
+
 ## Week 7 — July 20–26
 
 ### Sun Jul 26 — ⚠️ Long run 16.10 mi at 9:32/mi — pace finally held honest, but HR still runs hot on "easy"
