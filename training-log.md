@@ -7,6 +7,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 8 — July 27–August 2 (Recovery, ~28 mi)
+
+### Mon Jul 27 — ✅ Squats: "Evergreen" (19:38 scaled) — loads rebounded to a cycle high, one session not two
+- **Type:** Cross-training (squats) — self-reported, no Strava data
+- **Workout:** "Evergreen" — for time: 30 back squat (Rx 225/155) + 60 dumbbell push press (Rx 50/35) + 90 wallball shot (Rx 20/14)
+- **Score:** 19:38, Scaled — back squat 133# × 18, 143# × 6, 153# × 6; push press 25# DBs; wallball 10#. No boot camp class reported alongside it this time.
+- **Coach notes:** The barbell number is the story. 153# on the closing reps ties the highest load of the whole cycle (Jun 15's "High Heels" topped out at 153), and 18 reps at 133# before that is a real working set, not a warm-up. Last Monday's "Hawkeyes" ran at 113# — that was the outlier, and this confirms it was a fatigue read the day after the flagged 18-miler rather than lost strength. Squat loads across the cycle now sit 133–153# consistently (145, 153, 143, 143, 138, 113, 153), which is a stable, slightly rising base. Where this needs watching is the legs, not the bar: 30 back squats plus 90 wallballs is 120 squat-pattern reps under a clock, and the wallball is the piece that leaves quads sore two days out. It landed on day 1 of the recovery week, the day after Sunday's 16-miler — structurally the same setup as Jul 20 → Jul 22, which ended in the skipped intervals. Two things are different and both are in JR's favor: Sunday's run was the cleanest of the cycle (even splits, no fast finish) rather than a flagged one, and only one Monday session went in instead of a WOD plus an evening boot camp class — exactly what the Jul 20 action asked for on weeks like this. The scaling choices back that up: 25# DBs (vs 35 Rx) and a 10# ball (vs 14) kept this from being a full-body grind and put the load where he actually wanted it.
+- **Action:** Today's 3-mi shakeout stays genuinely easy — it's a shakeout, not a workout, and if the quads are cooked from 90 wallballs, cut it to 2 miles or drop it entirely. That costs nothing this week. What can't get dropped is Wednesday's tempo (1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down): that's two straight weeks without a quality session done as prescribed, and the entire point of a recovery week is to arrive at that run with fresh legs. Don't let Monday's squats become the reason for a third miss. Confirm whether a boot camp class went in on top of the WOD — if it did, that changes the read on Wednesday.
+
+---
+
 ## Week 7 — July 20–26
 
 ### Sun Jul 26 — ⚠️ Long run 16.10 mi at 9:32/mi — pace finally held honest, but HR still runs hot on "easy"
