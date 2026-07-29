@@ -9,6 +9,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 8 — July 27–August 2
 
+### Wed Jul 29 — ✅ Tempo nailed — 3.00 mi work block at 8:19/mi, first quality session executed clean in three weeks
+<!-- strava_id: 19516586600 -->
+- **Prescribed:** Tempo: 1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down = 5 mi
+- **Actual:** 5.01 mi total · 43:34 moving (43:37 elapsed) · 116 ft gain · 9:10 AM start (no watch temp logged; NWS's Central Park CLI report for today hasn't posted yet — yesterday, Jul 28, ran a mild 79°F high at 12:33 PM, 6°F below the 85°F normal for the date, so nothing in recent conditions points to unusual heat this morning)
+- **Reps (watch laps):** 1.00 mi warm-up @ 8:55/mi → **tempo block: 3.00 mi @ 8:19/mi** (target 8:15/mi — 4 sec/mi off, essentially on target) → 1.00 mi cool-down @ 9:33/mi (+ 0.01 mi tail)
+- **Mile splits (pace · elev):** 1) 8:54 (−20 ft) · 2) 8:24 (+2 ft) · 3) 8:22 (−1 ft) · 4) 8:13 (+1 ft) · 5) 9:34 (+1 ft)
+- **HR:** No data — watch/strap not worn or not synced today.
+- **Coach notes:** This is the tempo session Sunday's write-up called "not optional," and it landed clean — the first quality day executed as prescribed in three weeks (Jul 22's intervals got swapped for an easy day, and the two "quality" attempts before that were compromised too). The watch's own lap markers confirm real structure, not just an easy 5-miler: lap 1 is the 8:55/mi warm-up mile, lap 2 is a single continuous 3.00-mile block at 8:19/mi — 4 seconds/mile off the 8:15 target, well inside normal execution noise and actually faster than the plan's current 8:20–8:30/mi tempo zone — and lap 3 eases into a 9:33 cool-down mile. Mile splits back it up cleanly: 8:54 → 8:24 → 8:22 → 8:13, progressively faster through the work miles with no sag, then the expected slowdown to 9:34 on the cool-down. No HR to check the physiological cost — same gap as several runs this month — but the pace shape alone tells a clean story: no fast finish problem, no missed structure, no drift. No pain or injury reported (no description filed on this activity).
+- **Action:** Keep doing exactly this. Thursday's easy 5 stays easy (9:20–9:45) — don't let today's tempo effort bleed into it. Wear the watch/HR strap for Sunday's long run at minimum; the HR-drift-in-heat pattern flagged the last several weeks is only visible when it's on the wrist.
+- [View on Strava](https://www.strava.com/activities/19516586600)
+
 ### Tue Jul 28 — ✅ Easy shakeout 3.32 mi at 9:23/mi — recovery week opener, mild evening, terrain-driven HR bumps only
 <!-- strava_id: 19507309589 -->
 - **Prescribed:** Easy shakeout: 3 mi
