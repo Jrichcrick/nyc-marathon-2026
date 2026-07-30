@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 8 — July 27–August 2
 
+### Thu Jul 30 — ⚠️ Easy 5 ran 8:41/mi with HR climbing to 172 — the day right after Wednesday's tempo
+<!-- strava_id: 19528670557 -->
+- **Prescribed:** Easy 5 mi
+- **Actual:** 5.10 mi @ 8:41/mi avg · 44:18 moving (44:21 elapsed) · 215 ft gain · 8:06 AM start (no watch temp logged; NWS's Jul 30 CLI report isn't posted yet — yesterday's low was 69°F at 8:10 AM, almost the same clock time as today's start, so figure ~69–71°F at the gun, a mild morning with nothing to explain the pace or HR here)
+- **Mile splits (pace · HR · elev):** 1) 8:49 · 147 (−34 ft) · 2) 8:47 · 151 (+3 ft) · 3) 9:01 · 154 (+30 ft) · 4) 8:17 · 160 (−44 ft) · 5) 8:30 · 166 (+9 ft) · 0.10) 8:53 · 171 (−17 ft)
+- **HR (avg/max):** 156 / 172 · **Relative Effort:** 81 (higher per-mile load than an easy 5 should cost — closer to a tempo day's price tag)
+- **Coach notes:** Every mile of this ran faster than the 9:20–9:45 easy zone — not a fast-finish problem, the whole run sat in tempo-adjacent territory from mile 1 (8:49) on, and mile 4 (8:17, partly downhill) was barely slower than yesterday's actual prescribed tempo pace (8:19/mi). HR backs up that this wasn't free speed: it opened controlled at 147, then climbed step by step to 154 → 160 → 166 → 171 as the pace also got faster, not slower — the same "legs pushing while HR climbs" shape flagged repeatedly this cycle, except this time it's stacked directly on the day after a real hard session instead of before one. Mild morning temps (~69–71°F, comparable hour to yesterday's low) rule out heat as the cause. New marathon shoes (ASICS Novablast 4) went on for this run per JR's report in chat — shoes that feel fast can make an easy day sneak into tempo pace without it feeling like effort, which lines up with exactly what happened here. No pain or injury reported.
+- **Action:** This is the hard/easy principle getting violated by JR's own pace choice rather than the plan's — Wednesday was the one hard day this week, and Thursday exists specifically to be short and easy so Friday's medium-long and Sunday's long run aren't compromised. Tomorrow's medium-long stays in regular trainers, genuinely easy (9:20–9:45) from mile 1. Save the new marathon shoes for quality days, the occasional short shakeout, and race-specific work — not standard easy mileage — see chat for the full shoe-rotation answer.
+- [View on Strava](https://www.strava.com/activities/19528670557)
+
 ### Wed Jul 29 — ✅ Tempo nailed — 3.00 mi work block at 8:19/mi, first quality session executed clean in three weeks
 <!-- strava_id: 19516586600 -->
 - **Prescribed:** Tempo: 1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down = 5 mi
