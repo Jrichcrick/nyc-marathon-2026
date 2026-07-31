@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 8 — July 27–August 2
 
+### Fri Jul 31 — ⚠️ Easy 7 ran 9:04/mi in real midday heat — HR drift confirms the cost, second easy day in a row run too hot
+<!-- strava_id: 19545292799 -->
+- **Prescribed:** Easy 7 mi
+- **Actual:** 7.01 mi @ 9:04/mi avg · 63:33 moving (64:02 elapsed) · 291 ft gain · 11:52 AM start (no watch temp logged; NWS Central Park hourly obs show ~81°F at 11:51 AM climbing to ~83°F by 12:51 PM with mid-50s% humidity — real midday heat across the entire run window, not a mild day)
+- **Mile splits (pace · HR · elev):** 1) 8:59 · 148 (+1 ft) · 2) 9:03 · 158 (+28 ft) · 3) 9:05 · 156 (−34 ft) · 4) 9:22 · 158 (−2 ft) · 5) 9:26 · 160 (+46 ft) · 6) 8:29 · 165 (−49 ft) · 7) 9:03 · 165 (+6 ft)
+- **HR (avg/max):** 159 / 178 · **Relative Effort:** 124 (comparable per-mile load to Thursday's 81, stacked on top of it rather than after real recovery)
+- **Coach notes:** Current easy zone is 9:20–9:45/mi. Only miles 4 (9:22) and 5 (9:26) landed in that band — the other five (8:59, 9:03, 9:05, 8:29, 9:03) all ran meaningfully faster, some nearly a full band-width quicker. On a cool day that's a pace-discipline note; at 81–83°F with mid-50s% humidity across the whole window, it's the specific heat miss the plan flags — running at or faster than easy pace in real heat, with HR drift confirming the hidden cost rather than free speed. HR opened at a reasonable 148 on mile 1, then climbed step by step through 158, 156, 158, 160, and held at 165 for the final two miles — including mile 6's surge to 8:29 (aided by a real downhill, −49 ft, but still close to a minute-per-mile pickup) where HR kept climbing instead of easing, on the fastest mile of the run. This is the second straight "easy" day run meaningfully hot: Thursday flagged 8:41/mi with HR to 172 the day after tempo, and now Friday adds a genuine heat tax on top instead of the reset a recovery week is supposed to deliver. No pain or injury reported.
+- **Action:** Sunday's long run needs actual easy pace and a real HR ceiling — two days running 9-flat-or-under "easy" has used up the margin for a third. If Sunday brings similar heat, that's a reason to slow further, not hold pace — run it by HR, not by watch pace, and let this week's reduced recovery-week mileage (~28 mi) do its job instead of chasing pace on every run.
+- [View on Strava](https://www.strava.com/activities/19545292799)
+
 ### Thu Jul 30 — ⚠️ Easy 5 ran 8:41/mi with HR climbing to 172 — the day right after Wednesday's tempo
 <!-- strava_id: 19528670557 -->
 - **Prescribed:** Easy 5 mi
