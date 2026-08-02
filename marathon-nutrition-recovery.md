@@ -13,22 +13,58 @@
 - **More protein/meat the day before** — you feel better and run better
 - This is your gut telling you something real. Honor it every time.
 
+### Your actual food constraint (this drives everything below)
+
+**You don't like starchy carbs and you don't keep them on hand.** No white rice, pasta, bagels, or bread in the house. That's a real constraint, not a preference to argue with — a plan built on foods you won't eat is a plan you won't follow.
+
+**Your carb sources instead:** sweet potatoes (your pick), white potatoes, bananas, quinoa, honey, coconut water.
+
+**The tension to manage:** sweet potatoes carry more fiber than white rice — about 4g peeled, 6g with skin, versus 0.6g for a cup of white rice. That's fine 12+ hours out, and it's the reason prep matters when the window gets short:
+
+- **Always peel them before a run.** The skin is most of the fiber.
+- **Roast or mash soft** — chunks sit heavier than mash.
+- **Moderate portion** the day before, not a mountain.
+
 ### Day Before a Long Run or Quality Session
 
 | Meal | What to eat | What to avoid |
 |------|-------------|---------------|
-| Breakfast | Eggs, bacon or sausage, white toast | Oatmeal, bran, raw vegetables |
-| Lunch | Chicken/beef + white rice or pasta, small salad | Large salads, legumes, whole grains |
-| Dinner | Steak or chicken + white pasta or rice, light sauce | Broccoli, beans, lentils, heavy sauces |
-| Snacks | Banana, white bread with peanut butter | High-fiber bars, raw fruit with skin |
+| Breakfast | Eggs + chicken or sausage; Greek yogurt with peanut butter | Oatmeal, bran, raw vegetables |
+| Lunch | Chicken or beef + peeled sweet potato, small salad | Large leafy salads, legumes, whole grains |
+| Dinner | Chicken/steak/eggs + peeled sweet potato (or ½–¾ cup quinoa), light sauce | Broccoli, beans, lentils, big raw-veg volume, heavy sauces |
+| Snacks | Banana, peanut butter, Greek yogurt | **Power bars** (see below), raw fruit with skin |
+
+**On power bars:** most are fiber-loaded and some carry sugar alcohols — exactly what makes you feel heavy on a run. Fine on a rest day, but keep them out of the 24 hours before a long run or quality session. Banana + peanut butter or Greek yogurt does the same job without the gut cost.
 
 **Hydrate more than usual** — aim for pale yellow urine by end of day.
 
-### Race Morning (applies to long runs too)
+### Race Morning (and every long run morning)
 
-- **2–3 hours before:** 400–600 calories. Bagel + peanut butter + banana. Keep it familiar — don't experiment.
-- **60 min before:** Small snack if needed (half a banana, a few crackers)
-- **Coffee:** Fine if you drink it normally. Don't add it race morning if you don't usually drink it.
+**Target:** 400–600 calories, 2–3 hours before. Low fiber, zero surprises.
+
+**Your race morning meal, built from foods you actually eat:**
+
+| Item | Calories | Carbs | Fiber |
+|------|----------|-------|-------|
+| 1 large sweet potato, peeled + mashed | ~180 | ~40g | ~4g |
+| 2 tbsp peanut butter | ~190 | ~7g | ~2g |
+| 1 banana | ~105 | ~27g | ~3g |
+| **Total** | **~475** | **~74g** | **~9g** |
+
+Calories and carbs land exactly where they should. **The fiber is on the high side** — ideal race morning is under ~5g, and this is roughly double that. It may be completely fine for you, or it may feel heavy. There's only one way to find out, and you have the runway to do it:
+
+### The race-morning test protocol — start now, not in October
+
+You have roughly a dozen long runs left before November 1. **Every one of them is a race morning rehearsal.** Use them:
+
+1. **Next several long runs:** eat the meal above, 2.5–3 hours before, and note how it sat — heavy, fine, or GI trouble.
+2. **If it feels heavy:** drop to half a banana (−3g fiber), or swap the sweet potato for a **peeled white potato** (~2g fiber instead of 4g). You eat those too, and they're the lowest-fiber real-food carb in your rotation.
+3. **If it works:** that's your race food. Locked. Don't change it, don't improvise at the expo.
+
+**Deadline: have this settled by end of September.** That leaves the October long runs to confirm it under race-like conditions. The one unbreakable rule on November 1 is *no new foods* — which means whatever you eat that morning has to be something you've already eaten before a dozen long runs.
+
+- **60 min before:** small snack if needed — half a banana
+- **Coffee:** fine if you drink it normally. Don't add it race morning if you don't usually.
 - **No new foods race morning.** Ever.
 
 ---
@@ -66,12 +102,17 @@ Pick one and stick with it all training. Your stomach needs to learn it.
 This window matters most for recovery, especially as you get older.
 
 - **Protein + carbs:** 20–30g protein, 40–60g carbs
-- Examples: chocolate milk (genuinely ideal), Greek yogurt + banana, eggs + toast, protein shake + fruit
 - Don't skip this because you're not hungry. It directly affects how you feel the next day.
+
+**Your go-to recovery shake** — banana, cherries, spinach, protein powder, coconut water. This is your favorite and it's genuinely well-built for *after* a run: protein powder covers the protein target, banana and cherries cover carbs, coconut water replaces electrolytes, and tart cherries have real anti-inflammatory evidence behind them for muscle recovery.
+
+**Important: this is a post-run shake, not a pre-run one.** The spinach and cherries are exactly the fiber/roughage your gut doesn't want in the hours *before* a run. Same ingredients, right timing — after, not before.
+
+Other options: Greek yogurt + banana + peanut butter, eggs + peeled sweet potato, chocolate milk.
 
 ### Dinner after long runs
 - Higher protein than normal (6–8oz meat)
-- Moderate carbs to replenish glycogen
+- Moderate carbs to replenish glycogen — sweet potato is ideal here, and post-run you can leave the skin on
 - Don't overfill — you're recovering, not rewarding
 
 ### Hydration after long runs
@@ -217,8 +258,23 @@ Completely normal. Hard efforts create micro-damage in muscle fibers. The next d
 ## Race Week Specifics
 
 - **No new foods the week of the race.** Not the restaurant near the expo, not the pasta dinner the night before.
-- **Carb load starting Wednesday Oct 28:** 70–75% of calories from carbs, cut fat and fiber
 - **Salt more than usual** the last 2–3 days to help water retention and prevent hyponatremia
 - **Avoid alcohol** after Wednesday Oct 28
 - **Friday Oct 30:** Full pre-run protocol. Eat early, sleep early.
 - **Race morning:** Eat 2.5–3 hours before your corral time. NYC start times are early — figure out your exact gun time and work backwards.
+
+### Carb loading without starchy carbs (Wed Oct 28 onward)
+
+Target is 70–75% of calories from carbs for the final 3 days, with fat and fiber cut. **This is the hardest part of race week for you**, because the standard playbook is pasta, rice, and bread — and you eat none of them.
+
+Doing it with your foods means volume, and the fiber adds up fast. Your levers:
+
+- **Peeled white potatoes** — the workhorse. Lowest fiber per gram of carb of anything you'll eat. Mashed, salted, plain.
+- **Peeled sweet potatoes** — use them, but they can't be the whole load; the fiber gets away from you at carb-loading volume.
+- **Bananas** — easy, portable, ~27g carbs each.
+- **Honey** — nearly pure carbs, zero fiber. Stir it into yogurt or onto potatoes. This is your cheat code for hitting the target without more volume.
+- **Coconut water and juice** — liquid carbs, no fiber, doubles as hydration.
+
+**Cut hard during these 3 days:** the recovery smoothie's spinach and cherries, big salads, walnuts, raw vegetables. Everything that's normally the healthy choice works against you here — this is the one week where low residue beats nutrient density.
+
+**Rehearse this too.** Pick a long run in October, carb load the two days before it exactly this way, and see how it lands. Race week is not the time to discover that potato-and-honey volume doesn't sit well.
