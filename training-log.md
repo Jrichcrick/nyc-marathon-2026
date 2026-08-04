@@ -7,6 +7,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 9 — August 3–9
+
+### Mon Aug 3 — ✅ Boot camp: "Paddle" (26:50 Rx) — bodyweight++ squat ladder, right day, but it opens the biggest week of the cycle
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** "Paddle" — 10-9-8-7-6-5-4-3-2-1 back squat (bodyweight) with a 250m row between each set
+- **Score:** 26:50, **Rx** — JR's note: "Body weight ++" (loaded above bodyweight on the bar). That's 55 back-squat reps plus ~2,250–2,500m of rowing broken across the ladder.
+- **Coach notes:** Right day, right dose, done Rx and then some — no complaints about the session itself. 55 squat reps with rowing between every set is real posterior-chain and aerobic work, and Monday is exactly where the plan wants it. What earns the note is the calendar around it: this landed the morning after Sunday's ⚠️ 13.18-mi long run — the one that finished 9:11 / 8:58 / 7:34 with HR peaking at 179 — and it opens Week 9, the first week of the peak build block: ~42 miles, 4×1600m @ 7:55/mi on Wednesday, first MP miles Friday, and a 20-mile long run Sunday. The Jul 20 precedent is the one to keep in view: heavy Monday right after a flagged Sunday, and Wednesday's intervals never happened. The difference in JR's favor is that this was one session, not the WOD-plus-evening-class double he ran that day, and the recovery week that just ended left him in better shape than Jul 20 did. So this stays green — but the margin for a sloppy Tuesday is gone. No pain or injury reported.
+- **Action:** Tuesday's 4-mile shakeout is a flush, not a workout — 9:20–9:45/mi, no faster, and cut it to 3 if the legs are flat from this. Check in before Wednesday's 4×1600m: if the legs are still heavy from today, trim to 3 reps rather than force all four. Protect Sunday's 20-miler — that's the session this week is actually built around, and it's the longest run since Jul 19.
+
+---
+
 ## Week 8 — July 27–August 2
 
 ### Sun Aug 2 — ⚠️ Long run 13.18 mi in real heat — smart water stop at mile 8.4, but closing miles ran hard again — Week 8 complete
@@ -59,6 +70,13 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **Coach notes:** First day of the Week 8 recovery block, and it did its job — 3.32 mi beats the 3-mile shakeout target, 9:23/mi avg sits right at the brisk edge of the 9:20–9:45 easy band but still inside it. The split shape is terrain, not a fast finish: mile 2 slowed to 9:40 climbing a real hill (+51 ft) and HR jumped to 152, mile 3 sped back up to 9:03 on the descent (−39 ft) with HR peaking at 155, then the closing partial eased to 9:19/152 — nothing like the late-surge pattern flagged on Jul 8/9/24. Avg HR 148 is a touch above the ~142 (75% of 190 max) easy threshold, but on a hilly 3-mile flush the evening after Monday's boot camp, that reads as normal warm-up/terrain drift, not the sustained hot-HR pattern from Jul 16/17/19 — three miles isn't enough distance for that signal to mean much either way. No pain or injury reported.
 - **Action:** Wednesday's tempo (1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down) is the real session this week — hold the work miles honest at 8:15/mi, don't let tonight's brisk-easy pace bleed into it.
 - [View on Strava](https://www.strava.com/activities/19507309589)
+
+### Mon Jul 27 — ✅ Boot camp: "Evergreen" (19:38 scaled) — correctly scaled for a recovery week, and a new top-end squat load
+- **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
+- **Workout:** "Evergreen" — For time: 30 back squat (Rx 225/155), 60 dumbbell push press (Rx 50/35), 90 wallball shot (Rx 20/14)
+- **Score:** 19:38, Scaled — back squat run as an ascending ladder: **18 reps @ 133# · 6 @ 143# · 6 @ 153#**; push press at 25# (vs 35 Rx), wallball at 10# (vs 14 Rx). No second boot camp class reported.
+- **Coach notes:** This is the Monday the Jul 20 entry asked for. That day stacked a full WOD *and* an evening boot camp class right after a flagged 18-miler, and the Action line said: on weeks where Sunday comes in hot, pick one session or scale down. Sunday Jul 26's 16-miler came in ⚠️ with a hot finish — and this Monday was one session, with both accessory movements scaled well below Rx (25# push press, 10# wallball) to keep the metcon from turning into a second hard day. That's the right read, deliberately made. Meanwhile the squat itself didn't get soft: the 133 → 143 → 153# ladder puts **153# as the heaviest back squat logged this cycle** (previous top was 143–145# on Jun 8 / Jun 22 / Jun 29). Strength progressing while the conditioning load gets dialed back is exactly the shape a recovery week should have. The proof it worked is Tuesday: the Jul 28 shakeout came in ✅ at 9:23/mi the evening after this, with HR drift that read as terrain, not residual fatigue. No pain or injury reported.
+- **Action:** Nothing to adjust — this is the template for a recovery-week Monday. Repeat this pattern (scale the metcon, keep the squat load honest, skip the double session) whenever Sunday's long run comes in flagged.
 
 ---
 
