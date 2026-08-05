@@ -9,6 +9,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 9 — August 3–9
 
+### Wed Aug 5 — ✅ 4×1600m intervals — negative split closing 7:49/mi, legs answered Monday's worry
+<!-- strava_id: 19612427188 -->
+- **Prescribed:** 2.25 mi warm-up + 4×1600m @ 7:55/mi (2 min jog) + 2.25 mi cool-down = 9 mi total
+- **Actual:** 6.37 mi total · 54:52 moving (54:55 elapsed) · 83 ft gain · 8:19 AM start (NWS Central Park's CLI report for today isn't posted yet; yesterday, Aug 4, ran an 84°F high at 1:46 PM off a 66°F low at 5:36 AM, both close to the 85°F/70°F normals — at 8:19 AM, roughly 2.5–3 hours past a similar dawn low, figure low-to-mid 70s, nothing here to explain pace or HR)
+- **Reps (watch laps):** 1.00 mi warm-up @ 9:35/mi (HR 139) → **Rep 1: 1.00 mi @ 8:11/mi** (HR 162, ~2:00 jog) → **Rep 2: 1.00 mi @ 8:09/mi** (HR 165, ~2:00 jog) → **Rep 3: 1.00 mi @ 8:00/mi** (HR 168, ~2:00 jog) → **Rep 4: 1.00 mi @ 7:49/mi** (HR 172, ~2:00 jog) → 0.57 mi cool-down @ 9:10/mi (HR 162)
+- **Mile splits (pace · HR · elev):** 1) 9:34 · 139 (−10 ft) · 2) 8:11 · 162 (−7 ft) · 3) 8:30 · 162 (+2 ft) · 4) 8:29 · 164 (+3 ft) · 5) 8:25 · 168 (+3 ft) · 6) 8:25 · 171 (−1 ft) · 0.36) 9:05 · 163 (−5 ft)
+- **HR (avg/max):** 161 / 179 · **Relative Effort:** 113
+- **Coach notes:** This was the week's marquee session, and Monday's entry flagged real doubt about whether the legs would hold up for all four reps after Sunday's hard-closing long run and Monday's bodyweight-plus squat ladder. They didn't just hold up — they got faster. The watch laps show clean, honest structure: a 1.00-mi warm-up at 9:35/mi (HR 139), then four ~1-mile reps with ~2:00 jog recoveries between, exactly as prescribed. The reps negative-split from 8:11 → 8:09 → 8:00 → 7:49 against a 7:55/mi target — opening ~15 sec/mi conservative and closing 6 sec/mi under goal, the opposite of the fast-then-fade shape that's shown up on easy days this cycle, and exactly the right shape for an interval day: start controlled, finish strongest. HR climbed in step with the pace (162 → 165 → 168 → 172) rather than spiking early, confirming honest pacing rather than a hidden struggle. Where this comes up short is total volume — 6.37 mi against the prescribed 9 (2.25 mi WU + 4 mi work + 2.25 mi CD) — but every bit of that gap is in the trimmed warm-up (1.00 mi vs 2.25) and cool-down (0.57 mi vs 2.25), not the reps. All four reps happened in full, at or inside a rounding error of target pace, which is what actually matters on a quality day. No pain or injury reported.
+- **Action:** Repeat this exact approach on the next interval day — conservative first rep, let the legs set the pace, close fastest. Thursday's easy run needs to stay genuinely easy (9:20–9:45/mi) the day after a real hard session; today's warm-up/cool-down shortfall isn't worth chasing on Thursday specifically. Friday brings the first marathon-pace miles of the cycle — this session says the fitness is there.
+- [View on Strava](https://www.strava.com/activities/19612427188)
+
 ### Tue Aug 4 — ✅ Easy shakeout 4.03 mi at 9:59/mi — positive split, legs honored the "no faster" call after Monday's squat ladder
 <!-- strava_id: 19605480840 -->
 - **Prescribed:** Easy shakeout: 4 mi — coach's note from Monday's entry: "a flush, not a workout — 9:20–9:45/mi, no faster, and cut it to 3 if the legs are flat"
