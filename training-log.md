@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 9 — August 3–9
 
+### Tue Aug 4 — ✅ Easy shakeout 4.03 mi at 9:59/mi — positive split, legs honored the "no faster" call after Monday's squat ladder
+<!-- strava_id: 19605480840 -->
+- **Prescribed:** Easy shakeout: 4 mi — coach's note from Monday's entry: "a flush, not a workout — 9:20–9:45/mi, no faster, and cut it to 3 if the legs are flat"
+- **Actual:** 4.03 mi @ 9:59/mi avg · 40:15 moving (40:20 elapsed) · 31 ft gain · 7:38 PM start (NWS Central Park CLI: today's actual high 84°F at 1:46 PM, low 66°F at 5:36 AM, both essentially at the 85°F/70°F normals for the date — run started nearly 6 hours past the peak, so figure upper 70s and cooling, nothing unusual)
+- **Mile splits (pace · HR · elev):** 1) 9:53 · 140 (−17 ft) · 2) 9:54 · 149 (0 ft) · 3) 9:57 · 143 (+1 ft) · 4) 10:04 · 143 (+14 ft) · 0.03) 15:00 · 154 (−1 ft, tail)
+- **HR (avg/max):** 144 / 155 · **Relative Effort:** 34
+- **Coach notes:** This is exactly the shakeout Monday's entry asked for. Full 4 miles run (didn't need the cut-to-3 fallback), and pace came in slower than the 9:20–9:45 easy zone the whole way — 9:53 → 9:54 → 9:57 → 10:04, a genuine positive split with no late surge. That's the opposite of the fast-finish-plus-climbing-HR pattern flagged repeatedly this cycle (Jul 30, Jul 31, Aug 2) — here the legs slowed and stayed slowed, which is the honest read of a flush day after a heavy bodyweight-plus squat ladder. HR sat modest throughout (140–149, avg 144), a touch above the ~142 (75% of 190 max) easy threshold but not a concern given the squat load still in the legs and an evening still carrying some of the day's 84°F heat. No pain or injury reported.
+- **Action:** Legs did their job resetting — check in again before Wednesday's 4×1600m @ 7:55/mi. If they're still heavy, trim to 3 reps rather than force all four; if they've come back, go for the full session. This is the discipline Sunday's 20-miler needs the rest of the week to protect.
+- [View on Strava](https://www.strava.com/activities/19605480840)
+
 ### Mon Aug 3 — ✅ Boot camp: "Paddle" (26:50 Rx) — bodyweight++ squat ladder, right day, but it opens the biggest week of the cycle
 - **Type:** Cross-training (squats + boot camp) — self-reported, no Strava data
 - **Workout:** "Paddle" — 10-9-8-7-6-5-4-3-2-1 back squat (bodyweight) with a 250m row between each set
