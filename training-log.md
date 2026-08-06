@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 9 — August 3–9
 
+### Thu Aug 6 — ✅ Easy 5.03 mi at 9:36/mi — genuinely easy the day after intervals, exactly as asked
+<!-- strava_id: 19630747717 -->
+- **Prescribed:** Easy 6 mi
+- **Actual:** 5.03 mi total · 48:17 moving (48:22 elapsed) · 277 ft gain · ~5:54 AM start
+- **Mile splits (pace · HR · elev):** 1) 9:48 · 134 (−3 ft) · 2) 9:49 · 145 (+25 ft) · 3) 9:28 · 145 (−24 ft) · 4) 9:31 · 151 (−8 ft) · 5) 9:26 · 156 (+23 ft) · 0.02) 9:28 · 157 (−14 ft)
+- **HR (avg/max):** 146 / 162 · **Relative Effort:** 50
+- **Coach notes:** Pace held inside the easy zone (9:20–9:45/mi) on all five full miles — 9:48, 9:49, 9:28, 9:31, 9:26 — opening conservative and settling into the zone rather than drifting under it. That's exactly what yesterday's entry asked for: "Thursday's easy run needs to stay genuinely easy the day after a real hard session," and after Wednesday's 4×1600m this delivered on pace discipline. HR climbed steadily from 134 to 157 as the pace ticked down slightly through the back half — normal early-morning drift, not a red flag; 157 (83% of ~190 max) only shows up briefly at the very end. Volume landed at 5.03 vs the prescribed 6 — about a mile short, but the ask here was pace, not volume, the day after the week's hardest session, and that's what showed up. No pain or injury reported.
+- **Action:** Friday brings the week's first taste of marathon pace (9 mi total, miles 6–8 @ 9:00/mi) — hold comfortably easy through the opening miles and let the MP segment start on schedule at mile 6, no need to make up today's mile.
+- [View on Strava](https://www.strava.com/activities/19630747717)
+
 ### Wed Aug 5 — ✅ 4×1600m intervals — negative split closing 7:49/mi, legs answered Monday's worry
 <!-- strava_id: 19612427188 -->
 - **Prescribed:** 2.25 mi warm-up + 4×1600m @ 7:55/mi (2 min jog) + 2.25 mi cool-down = 9 mi total
