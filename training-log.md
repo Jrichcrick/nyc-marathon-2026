@@ -125,7 +125,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ### Wed Jul 22 — ⚠️ Quality day swapped — ran Thursday's easy 6 a day early instead of 5×1200m
 <!-- strava_id: 19418723790 -->
-- **Prescribed:** 5×1200m @ 7:55/mi (90 sec jog) = 9 mi total
+- **Prescribed:** 2.25 mi warm-up + 5×1200m @ 7:55/mi (90 sec jog) + 2.25 mi cool-down = 9 mi total
 - **Actual:** 6.40 mi @ 9:09/mi avg · 58:32 moving · 310 ft gain · 9:43 AM start (no watch temp logged)
 - **Mile splits (pace · HR · elev):** 1) 9:26 · 141 (−18 ft) · 2) 9:14 · 151 (+36 ft) · 3) 9:03 · 150 (−54 ft) · 4) 9:12 · 150 (+37 ft) · 5) 9:18 · 148 (+12 ft) · 6) 8:53 · 152 (−34 ft) · 0.40) 8:38 · 154 (+3 ft)
 - **HR (avg/max):** 149 / 158 · **Relative Effort:** 78
@@ -190,7 +190,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ### Fri Jul 10 — 🚩 5×1000m nailed on pace — right foot/hip pain traced back to this session
 <!-- strava_id: 19254821386 -->
-- **Prescribed:** 5×1000m @ 7:55/mi = 8 mi total (moved from Wed)
+- **Prescribed:** 2 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 2 mi cool-down = 8 mi total (moved from Wed)
 - **Actual:** 6.03 mi @ 8:58/mi avg · 54:04 moving · 15 ft gain · ~74–76°F and humid at the 6:49 AM start (overnight low 73°F)
 - **Reps:** 1) 7:51 · 157 HR · 2) 7:50 · 157 HR · 3) 7:53 · 147 HR · 4) 7:54 · 175 HR · 5) 7:52 · 174 HR — every rep at or under the 7:55/mi target
 - **Mile splits (pace · HR):** 1) 9:52 · 130 · 2) 8:31 · 150 · 3) 8:25 · 155 · 4) 8:50 · 150 · 5) 8:52 · 171 · 6) 9:17 · 169
@@ -284,7 +284,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ### Fri Jun 26 — ✅ Interval session: 5/5 reps done, cooldown cut short for work
 <!-- strava_id: 19073964381 -->
-- **Prescribed:** 5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total
+- **Prescribed:** 1.5 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 1.5 mi cool-down = 7 mi total
 - **Actual:** 6.14 mi @ 8:42/mi avg · 53:28 moving · 62 ft gain
 - **Reps (Apple Watch):** 1) 7:55/mi (target — watch mislabeled this rep, data unreliable) · 2) 7:46/mi · 3) 7:48/mi · 4) 7:52/mi · 5) 7:35/mi — all at or ahead of 7:55 target
 - **Mile splits (pace · HR):** 1) 9:30 · 141 (−18 ft) · 2) 8:37 · 157 (+4 ft) · 3) 8:21 · 168 (−12 ft) · 4) 8:32 · 154 (+5 ft) · 5) 8:11 · 164 (+3 ft) · 6) 8:52 · 166 (+22 ft) · 0.15) 9:28 · 158 (−18 ft)
@@ -303,7 +303,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ### Wed Jun 24 — ⚠️ Evening progression build, 6.33 mi — interval structure not executed
 <!-- strava_id: 19055616532 -->
-- **Prescribed:** 5×1000m @ 7:55/mi (2 min jog recovery) = 7 mi total
+- **Prescribed:** 1.5 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 1.5 mi cool-down = 7 mi total
 - **Actual:** 6.33 mi @ 8:48/mi avg · 55:42 moving · 297 ft gain
 - **Mile splits (pace · HR):** 1) 9:15 · 141 (−26 ft) · 2) 9:12 · 148 (+36 ft) · 3) 8:58 · 147 (−61 ft) · 4) 8:57 · 147 (+16 ft) · 5) 8:36 · 147 (+56 ft) · 6) 8:11 · 147 (−39 ft) · 0.32) 7:58 · 147 (−17 ft)
 - **HR (avg/max):** 146 / 152 · **Relative Effort:** 71
@@ -396,7 +396,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ### Wed Jun 10 — ✅ Intervals nailed at target pace
 <!-- strava_id: 18863997596 -->
-- **Prescribed:** 4×1200m @ 7:55/mi (90 sec jog recovery) = 7 mi total
+- **Prescribed:** 1.75 mi warm-up + 4×1200m @ 7:55/mi (90 sec jog) + 1.75 mi cool-down = 7 mi total
 - **Actual:** 6.19 mi @ 8:57/mi avg (whole run) · 55:24 moving · 55 ft gain
 - **Intervals:** 4×~6 min @ **7:59/mi avg** — essentially dead-on the 7:55 target (Strava Workout Analysis: "4×6min intervals at 7:59/mi avg, with endurance warm-up and cool-down")
 - **Mile splits (pace · HR):** 1) 9:33 · 146 (warm-up, −106 ft) · 2) 8:37 · 153 · 3) 8:15 · 156 · 4) 8:49 · 163 · 5) 8:58 · 169 · 6) 9:25 · 156 · 0.1) 9:41 · 156

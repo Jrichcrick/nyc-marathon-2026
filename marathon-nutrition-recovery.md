@@ -171,6 +171,16 @@ Do it after runs, not before.
 - Lateral shuffles: 10 yards each way
 - Easy jog: first mile always slower than easy pace
 
+### Before quality runs (Wednesday): add to the above
+You warm up slowly — the training log shows it in every negative-split session. Trimming the warm-up doesn't save the session's energy for the reps, it just makes rep 1 slow.
+
+1. **5 min dynamic** (routine above)
+2. **Full prescribed warm-up miles** @ 9:45–10:15/mi — deliberately slower than easy pace
+3. **4 × 20 sec strides** at rep pace, 60 sec walk between — last one finishes 2–3 min before rep 1
+4. **Then start the work.** Rep 1 should feel controlled, not like a cold start.
+
+The cool-down is part of the prescription too, not optional volume. Full reps, then the full easy miles back down.
+
 ### After runs: Static stretching (10 minutes minimum)
 Hold each stretch 30–45 seconds. Don't rush.
 
@@ -189,6 +199,27 @@ Hold each stretch 30–45 seconds. Don't rush.
 - Quads — front and sides
 - Calves — especially around Achilles insertion
 - Upper back / thoracic spine
+
+---
+
+## Breathing
+
+Breathing is the effort gauge that responds instantly. Heart rate lags 30–60 seconds, runs hot in heat and on short sleep, and runs artificially *low* the day after hard work. Set the effort by breath, confirm with HR afterward.
+
+| Rhythm (steps in : steps out) | Where it belongs | Pace | Talk test |
+|---|---|---|---|
+| 3:3 | Warm-up, cool-down, recovery jogs | 9:45–10:15/mi | Easy conversation |
+| 3:2 | Easy runs, long runs, marathon pace | 9:00–9:45/mi | Full sentences |
+| 2:1 | Tempo, intervals | 7:50–8:30/mi | A few words |
+| 1:1 | Maximal — race finish only | — | Nothing |
+
+### Rules
+- **Keep the odd-count patterns (3:2, 2:1).** The exhale lands on alternating feet instead of hammering the same side every breath.
+- **Belly, not chest.** Hand on stomach standing still — it should push out on the inhale.
+- **In through nose and mouth, out through mouth.** Nose-only doesn't move enough air above easy pace.
+- **1:1 on a hill means the hill is being run too hard.** Hold the rhythm and let the pace slow — effort constant, not pace constant.
+- **If 3:2 won't hold on an easy run, the run is too fast.** Slow down until it does.
+- **Race cue:** marathon pace should sit at 3:2 through halfway and only drift to 2:1 in the last 6 miles. At 2:1 by mile 6, you went out too fast.
 
 ---
 
