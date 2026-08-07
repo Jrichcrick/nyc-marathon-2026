@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 9 — August 3–9
 
+### Fri Aug 7 — ✅ First MP taste — 3-mile marathon-pace block averaged 8:59/mi vs 9:00 target, right through real morning heat
+<!-- strava_id: 19641594740 -->
+- **Prescribed:** Medium: 9 mi, miles 6–8 @ 9:00/mi (first MP taste)
+- **Actual:** 8.03 mi total · 73:21 moving (73:27 elapsed) · 390 ft gain · 7:49 AM start (NWS Central Park's CLI report for today, Aug 7, isn't posted yet; yesterday, Aug 6, hit an actual high of 88°F at 12:29 PM off a 75°F low at 2:25 AM — both above the 84°F normal for the date, genuine heat — at 7:49 AM, roughly 5.5 hours past a similarly warm overnight low, figure upper 70s climbing toward 80°F by the ~9:02 AM finish)
+- **Mile splits (pace · HR · elev):** 1) 9:08 · 141 (−27 ft) · 2) 9:07 · 152 (+45 ft) · 3) 9:25 · 150 (−9 ft) · 4) 9:12 · 148 (−41 ft) · 5) 9:11 · 150 (−20 ft) · 6) 9:14 · 154 (+71 ft) · 7) 8:55 · 161 (−49 ft) · 8) 8:49 · 163 (+14 ft) · 0.03) 9:35 · 172 (−12 ft)
+- **HR (avg/max):** 153 / 174 · **Relative Effort:** 109
+- **Coach notes:** First marathon-pace work of the cycle, and it lands close to the mark. Miles 6–8 (splits 6, 7, 8) — 9:14 → 8:55 → 8:49 — average out to 8:59/mi against the 9:00/mi target, essentially dead-on for a maiden MP block. Real heat was in play: yesterday's NWS Central Park report shows Aug 6 hit an actual 88°F, 4°F above the 84°F normal for the date, off a 75°F overnight low — starting at 7:49 AM today, roughly 5.5 hours past a similarly warm dawn low, this was likely upper-70s and climbing toward 80°F by the finish. HR backs up honest effort rather than a lucky number: controlled through the build (141 → 152 → 150 → 148 → 150), then climbing with the work — 154 on the first MP mile, 161 and 163 through the next two, with a brief 172 spike on the closing 0.03-mi tail. Total volume landed 8.03 mi against the 9-mile prescription, but every bit of that gap is a skipped cool-down mile — the run stops right after mile 8, with nothing logged easing off after the MP block — not the work itself, exactly the right place to trim on a hot morning. Splits 1–5 ran a touch brisk relative to the 9:20–9:45 easy zone (9:07–9:25 across the board), continuing this cycle's pattern of running a bit hot on the easy portions, but HR stayed in check (141–152) so it's a note, not a flag. No pain or injury reported (no description filed).
+- **Action:** Rest Saturday, then Sunday brings the 20-mile long run — the longest of the cycle. Hold genuine easy pace from mile 1 and manage it by HR given today confirms real heat is back; the fast-finish habit that's shown up on easy days this cycle is the one thing to guard against on a run this long.
+- [View on Strava](https://www.strava.com/activities/19641594740)
+
 ### Thu Aug 6 — ✅ Easy 5.03 mi at 9:36/mi — genuinely easy the day after intervals, exactly as asked
 <!-- strava_id: 19630747717 -->
 - **Prescribed:** Easy 6 mi
