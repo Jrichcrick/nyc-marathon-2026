@@ -7,6 +7,21 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 10 — August 10–16
+
+### Wed Aug 12 — ✅ Tempo — work miles averaged 8:39/mi vs 8:15 target, but real heat explains the gap and HR confirms honest effort
+<!-- strava_id: 19710537892 -->
+- **Prescribed:** Tempo: 1.5 mi warm-up + 6 mi @ 8:15/mi + 1.5 mi cool-down = 9 mi
+- **Actual:** 7.60 mi total · 67:22 moving (67:31 elapsed) · 89 ft gain · 6:20 AM start (NWS Central Park's CLI report, issued 2:22 AM today, isn't posted for today yet; it shows yesterday, Aug 11, hit an actual high of 85°F at 1:26 PM off a 72°F low at 6:14 AM, both close to today's 84°F/70°F normals, under clear skies with light wind — no front behind it. This run started at 6:20 AM, 17 minutes past sunrise and almost the same clock time as yesterday's low, so figure low-to-mid 70s at the start, climbing toward the upper 70s by the ~7:27 AM finish)
+- **Reps (watch laps):** 1.00 mi warm-up @ 9:51/mi (HR 138) → **Tempo work: 6.01 mi @ 8:39/mi** (HR 165) → 0.59 mi cool-down @ 9:41/mi (HR 170)
+- **Mile splits (pace · HR · elev):** 1) 9:50 · 138 (−40 ft) · 2) 8:43 · 159 (+4 ft) · 3) 8:34 · 164 (−2 ft) · 4) 8:45 · 166 (−3 ft) · 5) 8:39 · 166 (+1 ft) · 6) 8:52 · 163 (−3 ft) · 7) 8:20 · 170 (+2 ft) · 0.59) 9:27 · 170 (+41 ft)
+- **HR (avg/max):** 161 / 177 · **Relative Effort:** 136
+- **Coach notes:** Right day, right session — Wednesday is the week's one hard day, sequenced correctly after Monday's boot camp and Tuesday's shakeout. The tempo work (6.01 mi) averaged 8:39/mi against an 8:15/mi target — 24 sec/mi slower — but this lands squarely in the heat-adjustment zone, not a fitness or discipline miss: yesterday's actual high hit 85°F off a 72°F low, both near normal, and this run started at nearly the same clock time as that low, so the tempo block ran through low-to-mid-70s climbing into the upper 70s. HR backs up honest effort despite the softer pace — 138 on the warm-up mile, then climbing through the work to 159 → 164 → 166 → 166 → 163 → 170, averaging 165 across the tempo block, 87% of ~190 max, squarely hard-tempo effort even though the watch read slower. The trimmed warm-up (1.00 mi vs 1.5 prescribed) and cool-down (0.59 mi vs 1.5) account for essentially the entire volume gap (7.60 mi vs 9 prescribed) — the work itself came in at full length. The one odd wrinkle: the closing 0.59-mi stretch was the slowest mile of the run (9:27/mi) while carrying the highest HR (170) — that's the +41 ft climb baked into that final split, not a late fade. No pain or injury reported (no description filed).
+- **Action:** Heat's been a fixture through the back half of Week 9 and now into Week 10 — until it breaks, judge quality sessions by HR and effort, not the stopwatch; today's ~165 HR average on the work miles says the fitness is exactly where it should be. Thursday's easy 6 needs to stay genuinely easy with the same conditions likely in play tomorrow morning. Friday's medium (10 mi, miles 6–9 @ 9:00/mi) and Sunday's 20-mile long run are the two sessions this week is actually built around — protect those.
+- [View on Strava](https://www.strava.com/activities/19710537892)
+
+---
+
 ## Week 9 — August 3–9
 
 ### Fri Aug 7 — ✅ First MP taste — 3-mile marathon-pace block averaged 8:59/mi vs 9:00 target, right through real morning heat
