@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 10 — August 10–16
 
+### Thu Aug 13 — ⚠️ Easy 6 ran 9:14/mi, closing mile 8:31 — full volume but pace ran hot the day after Wednesday's fatigue-driven tempo, no HR to check the cost
+<!-- strava_id: 19724953799 -->
+- **Prescribed:** Easy 6 mi
+- **Actual:** 6.06 mi total · 55:58 moving (56:38 elapsed) · 251 ft gain · 7:57 AM start (NWS Central Park's CLI report for today, Aug 13, isn't posted yet; yesterday, Aug 12, hit an actual high of 84°F at 4:40 PM off a 71°F low at 7:24 AM, both about 1°F above normal — this run started at almost the same clock time as yesterday's low, so figure low-to-mid 70s at the outset, climbing toward the upper 70s by the ~8:53 AM finish — a mild, unremarkable morning, not a heat day)
+- **Mile splits (pace · elev):** 1) 9:31 (−14 ft) · 2) 9:34 (+34 ft) · 3) 9:26 (−8 ft) · 4) 9:15 (−34 ft) · 5) 9:15 (−1 ft) · 6) 8:31 (+18 ft)
+- **HR:** not recorded on this activity
+- **Coach notes:** Distance came in essentially full (6.06 vs the prescribed 6) — good. Pace is the issue: miles 1–5 sat right at or just past the top of the 9:20–9:45 easy zone (9:31, 9:34, 9:26, 9:15, 9:15), then mile 6 dropped to 8:31/mi, 49+ sec/mi under the zone floor and the fastest mile of the run, right at the close. No HR or cadence came through on this activity, so there's no way to confirm what that closing mile cost — but the shape (steady descent into a fast last mile) is the same fast-finish pattern flagged repeatedly this cycle (Jul 9, Jul 30, Jul 31, Jun 25, Jun 19, Jun 12). It also runs against Wednesday's explicit call: "Thursday's easy 6 needs to be genuinely conservative, cut it short if the legs are still flat rather than force the mileage" — instead it ran the full distance and finished faster than prescribed. Weather isn't the excuse this time — yesterday's high was 84°F, about a degree above normal, and this run started at essentially the same clock time as yesterday's comfortable 71°F morning low; nothing here explains a fast finish. No pain or injury reported (no description filed).
+- **Action:** Hold the reins tighter on Friday's medium (10 mi, miles 6–9 @ 9:00/mi) — today's closing-mile speed-up doesn't read as "legs still flat," so the MP block itself can likely go as planned, but the easy miles around it need to actually stay easy. The bigger fix is the standing pattern: if the legs feel good enough to run 8:31 on a day labeled easy, that's marathon-pace-adjacent effort banked on a day meant for recovery — save it for a day that's asking for it, because the whole point of an easy day is what it saves you for Sunday.
+- [View on Strava](https://www.strava.com/activities/19724953799)
+
 ### Wed Aug 12 — ✅ Tempo — work miles averaged 8:39/mi vs 8:15 target, real fatigue off Sunday's 20-miler was the driver, heat secondary
 <!-- strava_id: 19710537892 -->
 - **Prescribed:** Tempo: 1.5 mi warm-up + 6 mi @ 8:15/mi + 1.5 mi cool-down = 9 mi
