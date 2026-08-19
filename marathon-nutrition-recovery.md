@@ -153,6 +153,19 @@ Sleep is when your body actually builds the fitness you earned in training. Skim
 - **Dark room** — use blackout shades or a sleep mask if needed
 - **If you slept badly before a long run:** Do it anyway, but back off pace. One bad night won't ruin the run. A string of them will.
 
+### Monday night boot camp — the Tuesday problem
+
+Boot camp is a Monday **night** class, and it is the single biggest sleep disruptor on the schedule. It breaks the 4-hour rule above every week: hard evening training leaves core temperature, adrenaline and cortisol elevated for 2–4 hours, so falling asleep is harder and the sleep you do get is shallower. The result is a well-documented chain — bad Monday night, wrecked Tuesday, compromised Wednesday quality session.
+
+It is not sleep *or* boot camp. The class is generating a meaningful share of the bad sleep.
+
+**Keep the day, fix the time.** Monday is structurally the right slot — it's the furthest point from both Wednesday's quality session and Sunday's long run. Moving boot camp to Tuesday night would put the disruption one day closer to the hard run and make things worse. The problem is the hour, not the weekday.
+
+- **Best fix:** move to a morning or lunchtime class if one exists. This solves the problem outright.
+- **If it has to stay at night:** finish at least 3 hours before bed. Cool shower afterwards — actively drop core temp rather than waiting it out. Real food within an hour (protein + carbs). No screens for the last 30 minutes. No alcohol afterwards, which is doubly costly on a night that's already compromised.
+- **During peak weeks (9–16):** cut the squat load and keep the class. The conditioning is the part worth protecting; a heavy bodyweight squat ladder the night before a wrecked Tuesday is the expensive half, and it isn't buying marathon fitness.
+- **Tuesday's shakeout is optional and sleep-conditional** (see the Plan tab). Skipping it after a short night is the correct call, not a missed session. Wednesday is the priority.
+
 ### Race week sleep
 Don't stress if you sleep badly the night before the race — almost everyone does. The night *two nights before* (Friday Oct 30) is the one that actually matters. Protect that one.
 
