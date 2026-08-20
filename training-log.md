@@ -9,6 +9,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 11 — August 17–23
 
+### Thu Aug 20 — ✅ Easy 6 run as two sessions, 4.85 mi at 6 AM + 2.02 mi at 8 AM, 6.87 mi combined at 9:20/mi with HR held in the mid-140s throughout
+<!-- strava_id: 19821366989 -->
+<!-- strava_id: 19822629701 -->
+- **Prescribed:** Easy 6 mi
+- **Actual:** 6.87 mi combined across two separate activities · 64:12 moving total · 314 ft gain · Session 1: 6:02 AM start, 4.85 mi, 45:07 moving, avg HR 144/max 158 → ~72-min gap → Session 2: 8:00 AM start, 2.02 mi, 19:05 moving, avg HR 144/max 154 (NWS Central Park's CLI report for today, Aug 20, isn't posted yet; yesterday, Aug 19, hit an actual high of 85°F at 1:58 PM off a 69°F low at 5:57 AM, both within 2°F of the 83°F/69°F normals for the date — Session 1 started almost exactly at yesterday's low time, so figure upper-60s at the outset; Session 2 started nearly 2 hours later and further into the morning climb, so figure low-to-mid 70s — mild both times, not a heat factor)
+- **Session 1 splits (pace · HR · elev):** 1) 9:56 · 134 (−26 ft) · 2) 9:23 · 149 (+43 ft) · 3) 9:20 · 146 (−6 ft) · 4) 9:00 · 148 (−28 ft) · 0.85) 8:44 · 145 (+13 ft)
+- **Session 2 splits (pace · HR · elev):** 1) 9:30 · 141 (−54 ft) · 2) 9:16 · 147 (+16 ft)
+- **HR (avg/max, combined):** 144 / 158 · **Relative Effort:** 41 + 18 = 59 combined
+- **Coach notes:** Unusual structure — two separate recorded activities almost an hour and a quarter apart, rather than one continuous run — but nothing in the data reads as a problem, so it's a note, not a flag. Combined distance (6.87 mi) beats the 6-mile prescription, and the pacing is basically clean: only Session 1's mile 4 (9:00/mi) dips meaningfully under the 9:20–9:45 easy floor, a single 20–45 sec/mi outlier, not the sustained fast-finish pattern that's shown up repeatedly this cycle (nothing here drops into 8:3x territory). What matters most given yesterday's session: HR sat in a tight 141–149 band across both runs, averaging 144 in each — genuinely easy effort, no drift, no residual load from Wednesday's 5×1600m (which pushed HR to 180). That's exactly what a Thursday after a hard Wednesday needs to look like, and it delivered on both counts — real distance, real recovery. Weather was mild both mornings per yesterday's NWS report (Aug 19: 85°F high / 69°F low, both near normal), nothing to explain or excuse. No pain or injury reported (no description filed on either activity).
+- **Action:** Friday brings the medium 10 (miles 5–9 @ 9:00/mi) — carry today's controlled effort into it, hold genuinely easy through the non-MP miles and let the work window do the work. If splitting a run into two sessions becomes a regular thing, it's fine as long as it keeps showing up in the data this controlled — today's HR is the proof it wasn't a stealth double-hard-day, just an easy 6 in two pieces.
+- [View on Strava (session 1)](https://www.strava.com/activities/19821366989) · [View on Strava (session 2)](https://www.strava.com/activities/19822629701)
+
+---
+
 ### Wed Aug 19 — ✅ 5×1600m all five completed at 8:14/mi avg vs 7:50 target — reps ran 24 s/mi slow but HR hit 90% max and the negative split says the legs gave what they had three days off RE 339
 <!-- strava_id: 19808503995 -->
 - **Prescribed:** 2 mi warm-up + 5×1600m @ 7:50/mi (2 min jog) + 2 mi cool-down = 10 mi total
