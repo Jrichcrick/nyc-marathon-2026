@@ -9,6 +9,18 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 11 — August 17–23
 
+### Fri Aug 21 — ⚠️ Medium 10 mi — MP block (miles 5–9) ran 21 sec/mi faster than the 9:00/mi target, negative-split inside the block itself, and the "cool-down" mile never actually cooled down
+<!-- strava_id: 19836512954 -->
+- **Prescribed:** Medium: 10 mi, miles 5–9 @ 9:00/mi
+- **Actual:** 10.04 mi total · 1:31:45 moving (elapsed identical — no stopping) · 476 ft gain · 7:04 AM start, ~8:36 AM finish (NWS's CLI report for today, Aug 21, isn't posted yet; yesterday, Aug 20, hit an actual high of 84°F at 10:55 AM off a 63°F low at 9:22 PM the prior night, with 83°F as the normal high for today — a notably cool overnight low for mid-August. A 7:04 AM start lands well into the post-dawn warm-up but off a cool base, so figure upper-60s at the outset climbing toward the low 70s by the finish — mild, not a heat factor either way)
+- **Mile splits (pace · HR · elev):** 1) 9:24 · 138 (−11 ft) · 2) 9:56 · 138 (+33 ft) · 3) 10:01 · 132 (−47 ft) · 4) 9:58 · 141 (+61 ft) · 5) 8:54 · 147 (−47 ft) · 6) 9:02 · 154 (+33 ft) · 7) 8:35 · 157 (−37 ft) · 8) 8:33 · 159 (−1 ft) · 9) 8:10 · 167 (+52 ft) · 10) 8:48 · 156 (−37 ft)
+- **HR (avg/max):** 148 / 179 · **Relative Effort:** 102
+- **Coach notes:** Distance is fine — 10.04 mi beats the 10-mile prescription — and the structure is right on paper: miles 1–4 easy, miles 5–9 the MP block, matching today's plan exactly (this week moved the block to miles 5–9, one mile earlier than last week's 6–9). The first four miles were genuinely conservative — 9:24, 9:56, 10:01, 9:58, all inside or below the 9:20–9:45 easy zone, HR sitting low at 132–141. That's the right way to open a medium day. The MP block is where it breaks down. Prescribed pace was 9:00/mi; the five work miles averaged **8:39/mi — 21 sec/mi faster than target** — and it wasn't steady-too-fast, it was a negative split *inside* the block itself: 8:54 → 9:02 → 8:35 → 8:33 → 8:10, the last rep 44 sec/mi quicker than the first. HR tracked it up in lockstep, 147 to 167, a real 20-beat climb, not a flat effort. Then instead of easing off, mile 10 — which should have been an easy cool-down — came in at 8:48/mi with HR still at 156, faster than any of the four true easy miles that opened the run. This is the same signature that's shown up repeatedly this cycle: Aug 13's hot closing mile, Aug 14's MP block that started two miles early, even the disciplined Aug 16 twenty-miler's fast closing mile. The pattern isn't "can't hit MP pace" — 8:39/mi is well inside sub-4 fitness — it's that MP work keeps drifting toward "as fast as feels good" instead of "exactly 9:00, on command." No pain or injury reported.
+- **Action:** Sunday's 22-miler has its own MP block, miles 16–20 @ 9:00/mi, deep into the run's most fatigued stretch — treat 9:00 as a ceiling to hold, not a floor to beat. The skill this cycle still needs is running goal pace *by feel*, on demand, not faster when it's available — that's what actually transfers to race day pacing discipline. If miles 1–15 feel laboured Sunday, the plan already says drop the MP block and finish easy; don't let a good-feeling mile 16 turn into another 8:10.
+- [View on Strava](https://www.strava.com/activities/19836512954)
+
+---
+
 ### Thu Aug 20 — ✅ Easy 6 run as two sessions, 4.85 mi at 6 AM + 2.02 mi at 8 AM, 6.87 mi combined at 9:20/mi with HR held in the mid-140s throughout
 <!-- strava_id: 19821366989 -->
 <!-- strava_id: 19822629701 -->
