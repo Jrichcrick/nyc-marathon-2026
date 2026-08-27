@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 12 — August 24–30
+
+### Thu Aug 27 — ⚠️ Easy 5 mi came in short and hot — 4.27 mi at 8:59/mi (essentially MP pace), HR climbed 133→170, day after Wednesday's tempo
+<!-- strava_id: 19922162177 -->
+- **Prescribed:** Easy 5 mi
+- **Actual:** 4.27 mi total · 38:21 moving (38:26 elapsed) · 213 ft gain · 7:55 AM start
+- **Mile splits (pace · HR · elev):** 1) 8:59 · 133 (−73 ft) · 2) 8:45 · 149 (+18 ft) · 3) 9:30 · 164 (+54 ft) · 4) 8:49 · 166 (−39 ft) · 0.26) 8:36 · 170 (−9 ft)
+- **HR (avg/max):** 154 / 175 · **Relative Effort:** 60
+- **Coach notes:** This is Week 12's first session — a recovery week, and Thursday is supposed to be the short, easy, time-crunched day — and it ran the opposite of that brief. 4.27 mi averaged 8:59/mi, inside marathon-pace territory (9:00/mi target) and nowhere near the 9:20–9:45 easy zone, and it wasn't one fast mile: 8:59 → 8:45 → 9:30 (the only net-uphill mile, +54 ft, the one place effort matched pace) → 8:49 → 8:36 to close. HR climbed the entire way, 133 to 149 to 164 to 166 to 170 — real drift, not a blip, and 170 on a supposed easy day is north of 89% of an estimated 190 max. Weather isn't the explanation: yesterday's (Aug 26) actual high was a mild 81°F at 1:39 PM off a 64°F low at 5:12 AM, both close to the 82°F/68°F normals for the date, and this run started 7:55 AM — comfortably past the overnight low, so figure upper-60s to low-70s throughout. Distance came up short too, 4.27 vs the prescribed 5 mi — so this is the worst combination available on an easy day: shorter *and* faster, the day directly after Wednesday's tempo, in a week that exists specifically to back off. No description or RPE filed, no pain reported.
+- **Action:** Hold 9:20–9:45 on every easy mile this week, especially the day after Wednesday's hard session — that's the entire point of the hard/easy split. If Thursday mornings are tight on time, cut the distance, not the pace; today did the reverse of both.
+- [View on Strava](https://www.strava.com/activities/19922162177)
+
+---
+
 ## Week 11 — August 17–23
 
 ### Sun Aug 23 — ⚠️ Long run cut to 12.02 mi (from 22) — deliberate call after a brutal work week and travel, not a miss
