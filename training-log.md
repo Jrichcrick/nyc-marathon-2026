@@ -9,6 +9,18 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 12 — August 24–30
 
+### Fri Aug 28 — ✅ Easy 7 mi turned into 8.30 mi at 9:28/mi in 80°F evening heat — the run he almost skipped came in clean
+<!-- strava_id: 19940955435 -->
+- **Prescribed:** Easy 7 mi
+- **Actual:** 8.30 mi total · 1:18:35 moving (1:18:38 elapsed) · 404 ft gain · 4:22 PM start
+- **Mile splits (pace · HR · elev):** 1) 9:27 · 130 (−18 ft) · 2) 9:34 · 152 (+39 ft) · 3) 9:19 · 146 (−47 ft) · 4) 9:24 · 145 (+6 ft) · 5) 9:26 · 157 (+3 ft) · 6) 9:34 · 161 (+39 ft) · 7) 9:36 · 158 (−24 ft) · 8) 9:14 · 160 (−10 ft) · 0.30) 9:59 · 161 (−1 ft)
+- **HR (avg/max):** 152 / 172 · **Relative Effort:** 116
+- **Coach notes:** Almost didn't happen — JR called himself lazy for skipping the morning slot, then went out at 4:22 PM instead, straight into 80°F with a heat index of 83 and 67% humidity (confirmed live via NWS at 5:51 PM, right as this run was wrapping up). Given that, 8.30 mi at 9:28/mi is a good outcome: distance beats the 7-mi prescription, and the overall average sits comfortably inside the 9:20–9:45 easy zone despite the heat. Six of eight full miles landed 9:19–9:36, right in or on the edge of the zone. Only mile 8 dipped to 9:14 at HR 160 — a mild echo of this cycle's recurring fast-finish pattern, but a minor one (6 sec/mi under the floor, nowhere near the 8:30s-range blowouts logged earlier in August) and easily explained by 78+ minutes of accumulated heat load rather than a discipline slip. HR tells the real story: 130 on the opening mile, climbing into a 150s–160s band by mile 2 and holding there the rest of the way — that's heat-driven cardiac drift, not a fitness signal, and it's the exact cost the pre-run heat guidance called for (pace actually held up better than the "+10–15 sec/mi per 10°F" rule of thumb predicted, meaning effort — not pace — absorbed the heat, which is the right trade). No pain reported.
+- **Action:** Nothing to fix here — this is what a heat-adjusted easy run should look like. Keep an eye on mile 8's pattern if a hot/fast closing mile keeps showing up on other days; otherwise Saturday's rest and Sunday's 14-mi long run are the ones that matter this week.
+- [View on Strava](https://www.strava.com/activities/19940955435)
+
+---
+
 ### Thu Aug 27 — ⚠️ Easy 5 mi came in short and hot — 4.27 mi at 8:59/mi (essentially MP pace), HR climbed 133→170, day after Wednesday's tempo
 <!-- strava_id: 19922162177 -->
 - **Prescribed:** Easy 5 mi
