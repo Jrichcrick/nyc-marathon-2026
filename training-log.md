@@ -9,6 +9,18 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 12 — August 24–30
 
+### Sun Aug 30 — ⚠️ Long run: 15.10 mi at 9:43/mi, recovery week's 14-mi target beaten — but the fast/hot closing mile pattern struck again, mile 15 at 9:02/mi right as the day hit its peak heat
+<!-- strava_id: 19970826918 -->
+- **Prescribed:** Long run: 14 mi easy
+- **Actual:** 15.10 mi total · 2:26:40 moving (2:30:35 elapsed) · 771 ft gain · 9:37 AM start, ~12:08 PM finish
+- **Mile splits (pace · HR · elev):** 1) 9:45 · 139 (−10 ft) · 2) 9:45 · 146 (+35 ft) · 3) 9:43 · 142 (−62 ft) · 4) 9:53 · 147 (+47 ft) · 5) 9:18 · 146 (−64 ft) · 6) 10:03 · 151 (+64 ft) · 7) 9:54 · 147 (−14 ft) · 8) 9:48 · 147 (−9 ft) · 9) 9:42 · 150 (−2 ft) · 10) 9:41 · 154 (+49 ft) · 11) 9:38 · 150 (−47 ft) · 12) 9:55 · 152 (+5 ft) · 13) 9:59 · 155 (+29 ft) · 14) 9:38 · 154 (−24 ft) · 15) 9:02 · 161 (−9 ft) · 0.10) 9:22 · 165 (−5 ft)
+- **HR (avg/max):** 149 / 168 · **Relative Effort:** 183
+- **Coach notes:** Distance beats the recovery week's 14-mi prescription (15.10 mi), and for fourteen of fifteen miles this was clean, disciplined easy running — 9:18 to 10:03/mi, comfortably inside or around the 9:20–9:45 zone, HR climbing gradually from 139 into the low 150s as expected over a 2.5-hour effort. Today's actual NWS CLI report for Central Park confirms the conditions: high of 78°F at 12:38 PM off a low of 67°F at 6:34 AM (both close to normal for the date). A 9:37 AM start put this run squarely in the climb toward that afternoon peak, and the ~12:08 PM finish landed just 30 minutes shy of the day's hottest point — meaning the back half of this run was the hottest part of the day, not the front. That's exactly when mile 15 broke pattern: 9:02/mi, essentially marathon pace, with HR jumping to 161 and then 165 on the closing partial — a real, HR-confirmed surge, not noise, and it happened at the worst possible time to push, both heat-wise and week-wise. This is the same signature flagged repeatedly this cycle (Aug 13's hot closing mile, Aug 14's early MP block, Aug 16's fast finish, Aug 21's negative-split MP block, Aug 28's mile 8) — a recurring inability to hold pace down when the legs feel good late in a run. On a recovery week specifically designed to back off after Week 11's peak volume, that's the wrong mile to speed up on. No pain or injury reported.
+- **Action:** This is the last easy mile you get before Phase 4 opens — Week 13 starts Monday with the hardest block of the cycle (3×2 mi @ 8:05/mi Wednesday, 22-mi long run with a 7-mile MP block @ 9:00/mi next Sunday). The skill you still need is holding pace *down* by choice, not just hitting it fast when it's available — practice that discipline on the easy miles now, because Sunday's MP block needs you to hold 9:00 as a ceiling for 7 straight miles late in a long run, not a floor you blow through in mile 1.
+- [View on Strava](https://www.strava.com/activities/19970826918)
+
+---
+
 ### Fri Aug 28 — ✅ Easy 7 mi turned into 8.30 mi at 9:28/mi in 80°F evening heat — the run he almost skipped came in clean
 <!-- strava_id: 19940955435 -->
 - **Prescribed:** Easy 7 mi
