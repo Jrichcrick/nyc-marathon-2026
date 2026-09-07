@@ -1,0 +1,43 @@
+name: Strava ingest
+
+# Files new Strava activities as issues, replacing the Zapier Zap.
+#
+# One-time setup (Settings → Secrets and variables → Actions → New repository secret):
+#   STRAVA_CLIENT_ID       from https://www.strava.com/settings/api
+#   STRAVA_CLIENT_SECRET   same page
+#   STRAVA_REFRESH_TOKEN   see README-strava-setup.md for how to mint one
+#
+# Runs every 3 hours. Trigger by hand any time from the Actions tab
+# ("Run workflow"), optionally widening the lookback to backfill.
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: 'How many days back to scan for un-filed activities'
+        required: false
+        default: '14'
+
+permissions:
+  issues: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: File new activities
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '14' }}
+        run: python3 scripts/strava_to_issues.py
