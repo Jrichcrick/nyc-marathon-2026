@@ -4,14 +4,19 @@ description: Ingest new Strava activities (filed as GitHub issues) into the trai
 
 # /log-runs — Ingest Strava activities into the training log
 
-Strava activities arrive as GitHub issues (Zapier files them, label `strava-activity`).
+Strava activities arrive as GitHub issues, filed by the `Strava ingest` GitHub Action
+(`.github/workflows/strava-ingest.yml`, label `strava-activity`). It polls the Strava API
+directly every 3 hours and can be run on demand from the Actions tab with a wider
+`lookback_days` to backfill. It replaced a Zapier Zap in Sep 2026 after that Zap silently
+stopped for 8 days; see `README-strava-setup.md`.
 Process every open one, run the coach verdict against the plan, write it to BOTH places,
 commit, push, and close the issue. Act as JR's coach per `CLAUDE.md`, not a generic logger.
 
-## Expected issue body (what Zapier files)
+## Expected issue body (what the ingest Action files)
 
-Zapier maps Strava fields into this `key: value` body. Keys are fixed; the routine parses
-them literally. Optional keys may be blank or absent.
+`scripts/strava_to_issues.py` maps Strava API fields into this `key: value` body. Keys are
+fixed; the routine parses them literally. Optional keys may be blank or absent. The
+template below shows the Strava field behind each key.
 
 ```
 strava_id: {{id}}
@@ -46,8 +51,8 @@ mile/lap, parallel arrays — zip them by position). Splits = per-mile; laps = t
 workout laps, which on interval days give EXACT rep times (e.g. each 1200m as its own lap).
 Per-lap pace = (moving_time/60)/(distance/1609.34). (HR-zone % is still not in the feed.)
 If these keys are absent, blank, or misaligned in length, skip the table — the rest of the
-entry is unaffected. Note: Zapier expressions can't use JS functions like JSON.stringify —
-only plain field tags work.
+entry is unaffected. The Action fetches each activity's *detail* endpoint, so splits and
+laps are present whenever the watch recorded them.
 
 ## Source of truth
 - **The plan** lives in `index.html`, **Plan tab** — week tables with one row per day
@@ -62,11 +67,12 @@ only plain field tags work.
 
 ## Steps
 
-1. **Pull the queue:**
-   ```bash
-   gh issue list --label strava-activity --state open --json number,title,body --limit 50
-   ```
-   If empty, stop.
+1. **Pull the queue** — list open issues labelled `strava-activity`.
+   Use the GitHub MCP tools (`mcp__github__list_issues`, then `mcp__github__issue_read`);
+   the `gh` CLI is NOT available in this environment. If empty, stop — but before
+   reporting "nothing to log", sanity-check that the ingest Action is still healthy:
+   if the newest `strava-activity` issue is more than a few days old, check the Actions
+   tab for failed `Strava ingest` runs rather than assuming JR simply hasn't run.
 
 2. **Parse** each issue's `key: value` body. RAW Strava units: `distance_m` (m),
    `moving_time_s`/`elapsed_time_s` (s), `total_elevation_gain_m` (m), `average_speed_ms`
@@ -169,10 +175,9 @@ only plain field tags work.
     git push
     ```
 
-12. **Close the issue:**
-    ```bash
-    gh issue close {number} --comment "Logged → index.html + training-log.md + data/log.csv"
-    ```
+12. **Close the issue** with `mcp__github__issue_write` (method `update`, `state: closed`,
+    `state_reason: completed`), appending a short summary to the body:
+    "Logged → index.html + training-log.md + data/log.csv" plus the one-line verdict.
 
 ## Notes
 - Keep verdicts in JR's voice: direct, specific paces, an **Action** line.
