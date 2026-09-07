@@ -45,6 +45,20 @@ def http(url, *, data=None, headers=None, method=None):
     raise SystemExit(f"gave up on {url}")
 
 
+REQUIRED = ("STRAVA_CLIENT_ID", "STRAVA_CLIENT_SECRET", "STRAVA_REFRESH_TOKEN")
+
+
+def preflight():
+    """Fail with a readable message rather than an opaque 400 from Strava."""
+    missing = [k for k in REQUIRED if not os.environ.get(k, "").strip()]
+    if missing:
+        raise SystemExit(
+            "Missing repository secret(s): " + ", ".join(missing) + "\n"
+            "Add them under Settings -> Secrets and variables -> Actions.\n"
+            "See README-strava-setup.md for how to obtain each value."
+        )
+
+
 def strava_token():
     payload = urllib.parse.urlencode({
         "client_id": os.environ["STRAVA_CLIENT_ID"],
@@ -149,6 +163,7 @@ def main():
     gh_token = os.environ["GITHUB_TOKEN"]
     lookback = int(os.environ.get("LOOKBACK_DAYS", "14"))
 
+    preflight()
     token = strava_token()
     after = int(time.time()) - lookback * 86400
     activities = strava_get("athlete/activities", token, after=after, per_page=100)
