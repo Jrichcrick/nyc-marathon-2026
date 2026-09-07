@@ -7,18 +7,14 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
-## Week 14 — September 7–13
-
-### Mon Sep 7 — ✅ 20 mi — first 20+ since Aug 16, delivered one day late off a rough work week *(self-reported — Zapier didn't file this run, metrics pending)*
-<!-- self-reported: no strava_id; Zapier integration not firing since Aug 30 -->
-- **Prescribed:** Week 13's Sun Sep 6 long run — 22 mi (miles 13–20 @ 9:00/mi), run a day late on Monday
-- **Actual:** 20 mi (JR self-reported). Moving time, pace, HR, elevation and splits **not available** — the Strava→GitHub pipeline stopped filing activities after Aug 30, so this entry is distance-only until the data arrives.
-- **Coach notes:** This is the run that changes the picture. Before it, the last effort over 15 miles was Aug 16 — three weeks back — and Week 13 looked completely blank from the outside. It wasn't; the pipeline was down. Long-run history now reads Aug 9 (20.02), Aug 16 (20.14), Aug 23 (12.02), Aug 30 (15.10), Sep 7 (20). That's five long runs in five weeks with three at 20+, which is a genuinely solid platform for the back half of this build — a different situation entirely from the one I described when the log looked empty. Two miles short of the prescribed 22, and it's unknown whether the miles 13–20 MP block happened, so this isn't a clean read of the session yet. But the volume landed after a rough work week, and getting the long run done a day late is worth far more than getting it done on schedule or not at all. Verdict is provisional pending the actual metrics.
-- **Action:** Week 14 needs reshuffling — this 20-miler landed on Monday, which is the day Week 14 opens, so Wednesday's tempo now sits only 2 days after a 20-miler instead of the usual 3. See the note below; don't run Wednesday as written.
-
----
-
 ## Week 13 — Aug 31–September 6
+
+### Sun Sep 6 — ✅ 20 mi long run, run on the prescribed day — first 20+ since Aug 16 *(self-reported — Zapier didn't file it, metrics pending)*
+<!-- self-reported: no strava_id; Zapier integration not firing since Aug 30 -->
+- **Prescribed:** Long run: 22 mi (miles 13–20 @ 9:00/mi)
+- **Actual:** 20 mi (JR self-reported), run Sunday as scheduled. Moving time, pace, HR, elevation and splits **not available** — the Strava→GitHub pipeline stopped filing activities after Aug 30, so this entry is distance-only until the data arrives.
+- **Coach notes:** This is the run that changes the picture. Before it, the last effort over 15 miles was Aug 16 — three weeks back — and Week 13 looked completely blank from the outside. It wasn't; the pipeline was down. Long-run history now reads Aug 9 (20.02), Aug 16 (20.14), Aug 23 (12.02), Aug 30 (15.10), Sep 6 (20). Five long runs in five weeks with three at 20+, which is a genuinely solid platform for the back half of this build. Two miles short of the prescribed 22, and it's unknown whether the miles 13–20 MP block happened, so it isn't a clean read of the session yet — but it landed on the right day, after a work week that had already cost the rest of Week 13. Verdict provisional pending metrics.
+- **Action:** Monday Sep 7 was Labor Day and taken as full rest instead of squats + boot camp — correct call the day after a 20-miler, and it means Week 14 runs as originally written. No reshuffle needed.
 
 ### Fri Sep 4 — ⚠️ 7.5 mi vs a prescribed medium 10 with an MP block *(self-reported — Zapier didn't file this run, metrics pending)*
 <!-- self-reported: no strava_id; Zapier integration not firing since Aug 30 -->

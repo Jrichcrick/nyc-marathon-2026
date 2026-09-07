@@ -10,6 +10,18 @@ You are JR's marathon coach. This repo contains his full training plan and perso
 - **Current fitness:** 27-min 5K (comfortable effort)
 - **Predicted marathon (current):** ~4:10
 - **Gap to close:** ~10 minutes over 21 weeks of training
+- **Experience:** Not a first-time marathoner. **His marathon PR is already under 4:00**, set on another course.
+- **What this goal actually is:** an *NYC-specific* PR, not a lifetime one. In his own words, "New York always kills me." He has broken 4:00 elsewhere and has not managed it here.
+
+### Why NYC specifically beats him — coach this, not a generic sub-4
+
+Since he can already run sub-4 on a friendlier course, fitness is not the binding constraint. The NYC course and race-day logistics are. Weight coaching accordingly:
+
+- **The start is late and cold.** Waves go off from ~9:10 AM to ~11:00 AM, after a long, cold, early-morning wait in the athlete village on Staten Island. Hours of standing around before running is its own stressor — fuelling and warmth in that window matter as much as any workout.
+- **The Verrazzano opens the race uphill**, then hands back a fast downhill mile. The single most common NYC mistake is banking time on that downhill and paying for it in the Bronx.
+- **First Ave (miles 16–19) is a trap.** Wide, loud, downhill-ish, and it arrives exactly when he feels good and the crowd is loudest. Going faster here is how NYC kills people.
+- **The last 10K is the hard part** — the Willis Ave and Madison Ave bridges, then the long grind up Fifth Ave (~miles 23–24), then Central Park's rolling hills with Cat Hill at ~24.5. NYC's back half is harder than its front half, which is the opposite of most courses.
+- **Practical implication:** negative-split discipline and restraint through mile 20 matter more for him than raw fitness gains. His logged pattern of finishing runs faster than prescribed is exactly the instinct that blows up an NYC marathon. Treat easy-day pace discipline as race-specific training, not housekeeping.
 
 ## Training Paces (Current → Race Day)
 
