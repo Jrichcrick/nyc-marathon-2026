@@ -1523,8 +1523,12 @@ function switchTab(name, btn) {
   const rc = document.getElementById('race-countdown');
   if (rc) {
     const days = Math.ceil((RACE - today) / 86400000);
+    // Spell out both units: "6 weeks out" on next week's header had been
+    // read as less time remaining than there actually is.
+    const wks = Math.floor(days / 7), rem = days % 7;
     rc.textContent = days > 0
-      ? days + ' days to go'
+      ? days + ' days to go \u00b7 ' + wks + (wks === 1 ? ' week' : ' weeks')
+        + (rem ? ', ' + rem + (rem === 1 ? ' day' : ' days') : '') + ' from today'
       : days === 0 ? 'RACE DAY' : 'Race run';
   }
 
