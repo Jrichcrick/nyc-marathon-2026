@@ -7,6 +7,24 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 14 — September 7–13
+
+### Sep 7–13 — 🚩 **Zero runs.** Chigger bites clustered around the right ankle, right under the sock line — running would have meant rubbing broken skin for 44 miles. Deliberate call, not a miss.
+- **Prescribed:** ~44 mi — Tue shakeout 4 · Wed tempo 1.5 WU + 7 mi @ 8:05 + 1.5 CD · Thu easy 6 · Fri medium 10 (mi 4–8 @ 9:00) · Sun long 20 (mi 12–18 @ 9:00)
+- **Actual:** 0 miles, 0 runs. Mon Sep 7 was Labor Day rest. Nothing from Sep 8 through Sep 13.
+- **Reason:** A cluster of chigger bites around the right ankle, concentrated exactly where the sock cuff and shoe collar sit. JR couldn't tolerate fabric on them and chose not to scar the area by running on it.
+- **Coach notes:** **This is the right call and it is not a discipline miss.** Running 44 miles on an open bite cluster under a shoe collar is how you turn a two-week skin problem into a five-week cellulitis problem, and there is no version of this training block that survives a skin infection at the ankle. Taking the week is cheap; the alternative isn't. **What it cost:** the Sep 9 tempo, the Sep 11 medium with its MP block, and — the one that actually stings — the Sep 13 long run with miles 12–18 at 9:00, which the Sep 6 review named the make-or-break rehearsal. That was the session meant to answer whether 9:00/mi holds late on a morning start with a normal week behind it. It's still unanswered. **The bigger picture is the three-week trend, not this week alone:** Week 12 at 27.7 mi, Week 13 at 27.7 mi, Week 14 at zero — across what was written as the highest-volume, most race-specific block of the cycle. **What it did not cost:** meaningful aerobic fitness. Nine days off (last run Sep 6, first run back Sep 15) is worth a couple of percent of VO2 and some plasma volume, both of which come back inside two weeks. Three 20-milers since Aug 9 are still in the bank, and miles 1–12 of Sep 6 were the most disciplined easy running of the cycle. **And it bought something the log had been asking for out loud:** HR 163 at 9:27/mi on Sep 4, Relative Effort 512 on Sep 6 — both textbook under-recovery readings. He needed rest. He got it by the worst available mechanism and at the worst available time, but he got it, and he comes into Week 15 the freshest he's been since June.
+- **Action — no makeup miles, none of it gets repaid.** Plan rebuilt Sep 13 across the remaining seven weeks:
+  - **Week 15 (Sep 14–20) — return, ~34 mi, no quality session.** Tue Sep 15 is a 4-mile test run at 9:30–9:50; the gate is skin tolerance and the absence of calf/Achilles pull, not pace. Wed is easy 6 + strides instead of intervals. Sun Sep 20 is 13 mi easy, morning start, no MP block. The risk this week is tissue tolerance after nine days unloaded, not fitness.
+  - **Week 16 (Sep 21–27) — build, ~41 mi.** Quality returns Wed Sep 23 as 5 mi @ 8:10 (not 8:05 — start honest). Sun Sep 27 long 17 with miles 10–15 @ 9:00.
+  - **Week 17 (Sep 28–Oct 4) — peak, ~46 mi.** 5×1600m Wed. **Sun Oct 4 is the decision point: 20 mi with miles 12–18 @ 9:00, or race a half in 1:52–1:55.**
+  - **Week 18 (Oct 5–11) — ~38 mi, midweek cut, long run kept.** Sun Oct 11 is 18 mi with miles 8–14 @ 9:00, run as a full dress rehearsal (race shoes, kit, gels, race-morning wake-and-wait timing). Last long run of the cycle, three weeks out.
+  - **Weeks 19–20 — taper cut from three weeks to two** (~30 mi, ~23 mi). He is undertrained, not overtrained; a three-week taper would waste runway he no longer has.
+- **Ankle protocol for the return:** cover the cluster (hydrocolloid patch or kinesio strip) before every run, low socks that sit below the bites, bottom two eyelets loosened so the collar isn't pressing on it, and no scratching. Spreading redness, warmth, red streaking or pus is a doctor, not a coaching call.
+- **Sub-4 verdict:** still live. The margin is gone, and the unproven thing is what it always was — holding 9:00/mi late in a long run, which he has not yet done on any prescribed MP block this cycle. **Oct 4 decides it.** Hold the block and we race sub-4. Fade again and we go out at 9:15, negative-split, and target 4:00–4:05 with upside — which on this course is still the smarter race.
+
+---
+
 ## Week 13 — Aug 31–September 6
 
 ### Sun Sep 6 — ⚠️ 20.08 mi at 9:37/mi — easy miles held beautifully, then the prescribed MP block never happened: miles 13–20 ran 9:48/mi, *slower* than the easy portion. RE 512, the highest of the cycle by half again. 2:26 PM start.
