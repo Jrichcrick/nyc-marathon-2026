@@ -51,7 +51,17 @@
   .week { margin-bottom: 22px; }
   .week:last-child { margin-bottom: 0; }
   .wt { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-  .wt h3 { margin: 0; }
+  .wt h3 { margin: 0 auto 0 0; }
+  .wt h2 { margin-right: auto; }
+  .cd { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap;
+        color: #3bb3a3; background: #10201e; border: 1px solid #1d4a44; padding: 2px 8px; border-radius: 4px; margin-left: 8px; }
+  .cd.cd-near { color: #facc15; background: #1f1c0c; border-color: #5c4f13; }
+  .cd.cd-race { color: #ef4444; background: #200f0f; border-color: #5c1f1f; }
+  .cd.cd-done { color: #555; background: #161616; border-color: #232323; font-weight: 600; }
+  .log-week .cd { margin-left: 10px; text-transform: none; letter-spacing: 0; }
+  .tw-countdown { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+                  color: #3bb3a3; margin: 0 0 14px; }
+  .tw-countdown .d { color: #666; font-weight: 600; letter-spacing: 0; text-transform: none; }
   .badge { font-size: 0.74rem; color: #666; background: #1a1a1a; padding: 2px 8px; border-radius: 4px; }
   .badge.r { color: #3b82f6; }
   .badge.p { color: #ef4444; }
@@ -128,7 +138,7 @@
 <div class="header">
   <div class="header-inner">
     <h1>NYC Marathon 2026</h1>
-    <div class="meta">Sunday, November 1, 2026 &nbsp;·&nbsp; <span class="goal">Goal: Sub-4:00 (9:00/mi)</span> &nbsp;·&nbsp; 20 weeks</div>
+    <div class="meta">Sunday, November 1, 2026 &nbsp;·&nbsp; <span class="goal">Goal: Sub-4:00 (9:00/mi)</span> &nbsp;·&nbsp; <span id="race-countdown">—</span></div>
   </div>
 </div>
 
@@ -145,6 +155,8 @@
 
 <!-- ===== THIS WEEK ===== -->
 <div id="tab-week" class="tab-panel active">
+
+  <div class="tw-countdown" id="tw-countdown">—</div>
 
   <div class="wt"><h2 style="margin:0;border:none;padding:0;">Week 15 &nbsp;·&nbsp; Sep 14–20</h2><span class="badge r">~34 miles · Return week</span></div>
 
@@ -530,7 +542,7 @@
         <tr><td class="dc">Thu Sep 10</td><td>Easy 6 mi</td></tr>
         <tr><td class="dc">Fri Sep 11</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
         <tr><td class="dc">Sat Sep 12</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Sep 13</td><td>Long run: 20 mi (miles 12–18 @ 9:00/mi) — <em>7 continuous MP miles. Hold 9:20–9:45 through mile 11 so the block is run on genuinely tired legs</em></td></tr>
+        <tr><td class="dc">Sun Sep 13</td><td><strong style="color:#ef4444">Not run.</strong> Prescribed was: long run 20 mi (miles 12–18 @ 9:00/mi) — <em>the make-or-break rehearsal. Rescheduled to Sun Oct 4.</em></td></tr>
         <tr><td colspan="2" style="color:#ef4444"><strong>NOT RUN — zero running miles this week.</strong> A cluster of chigger bites around the right ankle, directly under the sock and shoe collar, made fabric unbearable. JR chose to protect the skin rather than scar it. <em>Correct call — and not made up. The plan rebuilds forward from Week 15.</em></td></tr>
       </table>
     </div>
@@ -1492,6 +1504,66 @@ function switchTab(name, btn) {
   // Collapsible plan weeks — click header to toggle
   document.querySelectorAll('.week > .wt').forEach(wt => {
     wt.addEventListener('click', () => wt.closest('.week').classList.toggle('collapsed'));
+  });
+
+  // ---- Countdown to race day (Sun Nov 1, 2026) ----
+  const RACE = new Date('November 1, 2026');
+  const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+  function weekLabel(n) {
+    if (n <= 0) return 'Race week';
+    if (n === 1) return '1 week to go';
+    return n + ' weeks to go';
+  }
+
+  function chip(n, past) {
+    const el = document.createElement('span');
+    el.className = 'cd' + (past ? ' cd-done' : n <= 0 ? ' cd-race' : n <= 2 ? ' cd-near' : '');
+    el.textContent = past ? (n <= 0 ? 'Race week' : n + ' weeks out') : weekLabel(n);
+    return el;
+  }
+
+  // Header: days remaining
+  const rc = document.getElementById('race-countdown');
+  if (rc) {
+    const days = Math.ceil((RACE - today) / 86400000);
+    rc.textContent = days > 0
+      ? days + ' days to go'
+      : days === 0 ? 'RACE DAY' : 'Race run';
+  }
+
+  // Plan tab: a countdown chip on every week header
+  document.querySelectorAll('.week').forEach(week => {
+    const cells = week.querySelectorAll('td.dc');
+    const wt = week.querySelector('.wt');
+    if (!cells.length || !wt) return;
+    const last = parseDc(cells[cells.length - 1].textContent);
+    if (isNaN(last)) return;
+    wt.appendChild(chip(Math.round((RACE - last) / WEEK_MS), last < today));
+  });
+
+  // This Week tab: the prominent line. Keyed off the week the TAB shows
+  // (which runs a day ahead of the calendar on the final day of a week),
+  // not off whichever week today happens to fall in.
+  const twc = document.getElementById('tw-countdown');
+  const twH = document.querySelector('#tab-week .wt h2');
+  if (twc && twH) {
+    const m = twH.textContent.match(/Week\s+(\d+)/);
+    const wks = m ? 21 - parseInt(m[1], 10) : 0;
+    // One Sunday long run per week still to come; race day itself isn't one.
+    const runs = wks === 1 ? '1 long run left' : wks + ' long runs left';
+    twc.innerHTML = wks <= 0
+      ? 'Race week <span class="d">\u00b7 Sun Nov 1</span>'
+      : weekLabel(wks).replace(' to go', ' out') +
+        ' <span class="d">\u00b7 ' + runs + ' \u00b7 race Sun Nov 1</span>';
+  }
+
+  // Log tab: retrospective "N weeks out" on each week heading
+  document.querySelectorAll('.log-week').forEach(lw => {
+    const m = lw.textContent.match(/Week\s+(\d+)/);
+    if (!m) return;
+    lw.appendChild(document.createTextNode(' '));
+    lw.appendChild(chip(21 - parseInt(m[1], 10), true));
   });
 
   // Auto-collapse plan weeks whose last day is in the past
