@@ -249,27 +249,27 @@ You can't just run forever and skip this part anymore. Cross-training:
 
 | Activity | Benefit | When to use |
 |----------|---------|-------------|
-| **StairMaster** | Aerobic base, **glutes + calves + hip extensors**, zero impact. The closest non-running match to what NYC's back half asks for | **Replacement only** — see the rule below. Never the day before a long run or quality session |
+| StairMaster | Aerobic base, glutes + calves, zero impact | Replacement for a run you can't do — not an addition |
 | Cycling (bike or spin) | Aerobic base, quad + glute strength, zero impact | Any rest day, or swap for easy runs when legs are beat |
 | Swimming | Full body, zero impact, great for mental reset | Rest days, injury prevention |
 | Yoga | Mobility, hip flexors, breathing, stress | 1–2x/week, especially during peak phase |
 | Strength training | Injury prevention, power, running economy | 2x/week on rest days |
 
-### The StairMaster rule (added Sep 13, 2026)
+### If you can't run, don't take a zero
 
-The week of Sep 7–13 went to zero running miles — chigger bites at the ankle made shoes impossible — and what saved it from being genuinely blank was three hours on the StairMaster. That's the lesson, and it now has a rule.
+The week of Sep 7–13 lost every running mile to ankle bites. What kept it from being blank was time on the StairMaster. Standing rule from that: **any day running isn't possible — skin, a niggle, travel, no safe route — do easy cross-training for roughly the time the run would have taken.** Stairs, bike, whatever's there.
 
-**Use it as a replacement, not an addition.**
+It is a **replacement, not an addition.** Don't stack it on top of a normal training week, and never the day before a long run or a quality session. JR's limiter is recovery capacity, not aerobic stimulus.
 
-- **Any day running isn't possible** — skin, a niggle, travel, weather, no safe route — do the StairMaster at easy conversational effort for roughly the time the run would have taken. That's the insurance policy. A week like Sep 7–13 should never be a zero again.
-- **Any day the legs are beat but the schedule says easy miles**, swapping in stairs is a legitimate call, not a cop-out.
-- **Do not add it on top of a normal training week.** Not during Weeks 16–18. JR's limiter has never been aerobic stimulus — it's recovery capacity, and the log says so out loud: HR 163 at 9:27/mi on Sep 4, Relative Effort 512 on Sep 6. An extra hour of leg loading in a 41–46 mile week makes the Wednesday quality session worse, not better.
-- **Never the day before a long run or a quality session.** Stair climbing is heavy sustained calf and glute work. It violates hard/easy exactly the way a second hard run would.
-- **Never in the taper** (Weeks 19–20). The point of the taper is arriving fresh. Restlessness is not a reason to add load.
+### The 12 lb weighted vest — not this cycle
 
-**Why it earns a place at all:** stairs load glutes, calves and hip extensors under sustained climbing — the muscles that fail in the last 10K, and the closest thing a machine offers to Fifth Avenue and Cat Hill. It's the right tool. It's just not a tool with room in a peak week.
+Good tool, wrong season. Shelved until after Nov 1.
 
-**No hills needed from a machine, though.** Central Park's Big Loop already gives real hills on every long run, Cat Hill included. Stairs are for the days running doesn't happen.
+- **Never run in it.** Added mass increases Achilles, calf and knee loading on every footstrike. Given the July foot/hip flag and a nine-day layoff, that's the exact profile that gets hurt.
+- **It adds nothing to Monday.** He already squats a loaded barbell up to 145 lb — more load, better controlled, than 12 lb on the shoulders.
+- **The runway is wrong.** Running-economy gains attributed to vest work come from base-phase blocks of 8–12+ weeks. There are six weeks left and every one is allocated.
+
+**When it's worth using:** next winter's base phase, worn for walking and hiking. Revisit in December.
 
 ### Strength Training (2x/week, 20–30 min)
 
