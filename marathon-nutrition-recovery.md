@@ -249,10 +249,27 @@ You can't just run forever and skip this part anymore. Cross-training:
 
 | Activity | Benefit | When to use |
 |----------|---------|-------------|
+| **StairMaster** | Aerobic base, **glutes + calves + hip extensors**, zero impact. The closest non-running match to what NYC's back half asks for | **Replacement only** — see the rule below. Never the day before a long run or quality session |
 | Cycling (bike or spin) | Aerobic base, quad + glute strength, zero impact | Any rest day, or swap for easy runs when legs are beat |
 | Swimming | Full body, zero impact, great for mental reset | Rest days, injury prevention |
 | Yoga | Mobility, hip flexors, breathing, stress | 1–2x/week, especially during peak phase |
 | Strength training | Injury prevention, power, running economy | 2x/week on rest days |
+
+### The StairMaster rule (added Sep 13, 2026)
+
+The week of Sep 7–13 went to zero running miles — chigger bites at the ankle made shoes impossible — and what saved it from being genuinely blank was three hours on the StairMaster. That's the lesson, and it now has a rule.
+
+**Use it as a replacement, not an addition.**
+
+- **Any day running isn't possible** — skin, a niggle, travel, weather, no safe route — do the StairMaster at easy conversational effort for roughly the time the run would have taken. That's the insurance policy. A week like Sep 7–13 should never be a zero again.
+- **Any day the legs are beat but the schedule says easy miles**, swapping in stairs is a legitimate call, not a cop-out.
+- **Do not add it on top of a normal training week.** Not during Weeks 16–18. JR's limiter has never been aerobic stimulus — it's recovery capacity, and the log says so out loud: HR 163 at 9:27/mi on Sep 4, Relative Effort 512 on Sep 6. An extra hour of leg loading in a 41–46 mile week makes the Wednesday quality session worse, not better.
+- **Never the day before a long run or a quality session.** Stair climbing is heavy sustained calf and glute work. It violates hard/easy exactly the way a second hard run would.
+- **Never in the taper** (Weeks 19–20). The point of the taper is arriving fresh. Restlessness is not a reason to add load.
+
+**Why it earns a place at all:** stairs load glutes, calves and hip extensors under sustained climbing — the muscles that fail in the last 10K, and the closest thing a machine offers to Fifth Avenue and Cat Hill. It's the right tool. It's just not a tool with room in a peak week.
+
+**No hills needed from a machine, though.** Central Park's Big Loop already gives real hills on every long run, Cat Hill included. Stairs are for the days running doesn't happen.
 
 ### Strength Training (2x/week, 20–30 min)
 
