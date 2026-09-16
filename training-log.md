@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 15 — September 14–20
+
+### Tue Sep 15 — ⚠️ 4.53 mi on the return test run — the explicit ceiling was 9:30–9:50/mi, no faster, and it broke twice: miles 3–4 dipped under the floor, then the closing 0.53 mi hit 8:44/mi with HR to 165
+<!-- strava_id: 20190687332 -->
+- **Prescribed:** Easy 4 mi — the test run. 9:30–9:50/mi, no faster. Tape/cover the ankle, low socks below the bites, bottom two eyelets loosened. If fabric on the bites is unbearable by mile 1, turn around — that's information, not a failure.
+- **Actual:** 4.53 mi total · 42:36 moving (46:32 elapsed) · 244 ft gain · 3:11 PM start
+- **Mile splits (pace · HR · elev):** 1) 9:48 · 138 (−10 ft) · 2) 9:31 · 154 (+42 ft) · 3) 9:19 · 156 (−7 ft) · 4) 9:21 · 155 (−33 ft) · 0.53) 8:44 · 165 (−6 ft)
+- **HR (avg/max):** 152 / 169 · **Relative Effort:** 93
+- **Coach notes:** This was never supposed to be about pace — the real gate after nine days completely off running was skin tolerance and the absence of a calf/Achilles pull — but 9:30–9:50/mi, no faster, was still the explicit instruction. Mile 1 opened right in the window at 9:48, mile 2 at 9:31 still inside it — a genuinely cautious start. Then it slipped: mile 3 at 9:19 and mile 4 at 9:21 are both already faster than the stated 9:30 floor, and the closing 0.53 mi dropped to 8:44/mi with HR climbing to 165 — the same progressive speed-up that's recurred all cycle, now on the one run this training block specifically asked to be held back. NWS confirms this wasn't heat — actual high just 72°F, mild. No description or note was filed, which matters more than usual today: the plan explicitly asked for a report on how the bites and the ankle felt under a shoe and sock ("if fabric is unbearable by mile 1, turn around — that's information"), and none came through. HR topping out at 169 isn't alarming by itself, but coming off zero running for nine days, a progressively faster close is exactly the loading pattern the return protocol was built to avoid — tissue that hasn't taken impact in over a week doesn't need a test run turning into moderate effort in the last half-mile.
+- **Action:** Ask directly how the ankle and skin felt — that answer didn't make it into the data. Hold the literal pace ceiling on Wednesday's 6 mi + strides (the strides are fine, short and controlled; the aerobic 6 miles are not the place to speed up). If Tuesday's surge caused any calf or Achilles tightness, swap Thursday's easy 4 for the StairMaster per the new rule rather than pushing through it.
+- [View on Strava](https://www.strava.com/activities/20190687332)
+
+---
+
 ## Week 14 — September 7–13
 
 ### Sep 7–13 — 🚩 **Zero runs.** Chigger bites clustered around the right ankle, right under the sock line — running would have meant rubbing broken skin for 44 miles. Deliberate call, not a miss.
