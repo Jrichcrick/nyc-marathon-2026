@@ -7,6 +7,34 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 15 — September 14–20
+
+### Wed Sep 16 — ✅ **First run back: 6.29 mi at 9:41/mi, avg HR 152, and — for the first time in this entire log — no fast finish.** Then strides, hit at 5:13/mi top speed.
+<!-- strava_id: 20205585599 -->
+- **Prescribed:** Easy 6 mi + 6×20-sec strides
+- **Actual:** 6.29 mi · 1:00:53 moving (1:00:56 elapsed — 3 seconds of stopping) · 292 ft gain · **3:43 PM start**
+- **Mile splits (pace · HR · elev):** 1) 9:49 · 146 (−29 ft) · 2) 9:41 · 155 (+47 ft) · 3) 9:37 · 154 (−48 ft) · 4) 9:33 · 152 (+10 ft) · 5) 9:43 · 147 (+21 ft) · 6) 9:45 · 158 (−28 ft) · 0.29) 9:37 · 158 (−10 ft)
+- **HR (avg/max):** 152 / 166 · **Relative Effort:** 133
+- **Coach notes:** Nine days without a footstrike, and this came back **clean.** Distance beats the 6-mi prescription. Pace averaged 9:41 — inside the 9:20–9:45 easy zone and sitting at its slow end, which is exactly where a first run back belongs. But the line that matters is the split sheet: **9:49, 9:41, 9:37, 9:33, 9:43, 9:45.** Six miles inside a 16-second band, and the two slowest full miles of the day are miles 1 and 6. **He did not speed up at the end.** Go back through this log — Jun 12, Jun 19, Jul 9, Jul 31, Aug 13 (8:31 close), Aug 21, Aug 27 (8:36 close), Aug 28, Aug 30 (9:02 close) — the fast closing mile is the single most repeated flag of this cycle, and the Sep 6 review said the skill he still needed was holding pace *down* by choice. He just did it, unprompted, on the day it was easiest to get carried away. **HR corroborates:** opened at 146, averaged 152 (~80% of an estimated 190 max), never touched 170. Compare Sep 4 — 9:27/mi average costing 163 with a 158 opening mile, flagged then as a textbook under-recovery reading. That gap has closed completely. RE 133 for 6.3 miles is a normal, cheap aerobic session, against 239 for 7.65 miles two weeks ago. **Caveat worth recording:** a 3:43 PM start again, the fourth afternoon run flagged this cycle. It didn't cost anything here at 6 easy miles. It will on Oct 4.
+- **Action:** Nothing to fix. This is what a return run should look like and it answers the only question Week 15 was built to ask — the legs tolerate impact and the engine is intact. Hold this exact discipline Friday (easy 7) and Sunday (easy 13, morning start).
+- [View on Strava](https://www.strava.com/activities/20205585599)
+
+### Wed Sep 16 — ✅ Strides: 0.67 mi in 6:56, **top speed 5:13/mi**, HR 160/173
+<!-- strava_id: 20205585548 -->
+- **Prescribed:** 6×20-sec strides to close Wednesday's easy run
+- **Actual:** 0.67 mi · 6:56 moving · 4:45 PM start, immediately off the back of the 6.29-mi run · 12 ft gain
+- **HR (avg/max):** 160 / 173 · **Relative Effort:** 20 · **Max speed: 5.144 m/s = 5:13/mi**
+- **Coach notes:** Logged as its own activity, which is why the 10:24/mi average means nothing — that number is mostly walking recoveries. The number that counts is **max speed: 5:13/mi pace.** Nine days off a footstrike and the legs still produced genuine turnover, with HR peaking at 173 and the whole thing costing an RE of 20. Strides done right: short, fast, fully recovered between, no fatigue cost. **This is the direct answer to "I can't sprint."** He can. On Wednesday he ran 5:13/mi pace. What he can't do is surge at the end of an easy run four days into a return week — which is a completely different thing, and not a test of anything.
+- **Action:** Keep strides in. They're free speed maintenance at near-zero recovery cost, and they're the one place in a return week where running fast is correct.
+- [View on Strava](https://www.strava.com/activities/20205585548)
+
+### Tue Sep 15 — Not run. The prescribed 4-mi test run was skipped; the return started Wednesday instead.
+- **Prescribed:** Easy 4 mi — the test run, gated on skin tolerance
+- **Actual:** No activity filed.
+- **Coach notes:** No makeup, no penalty — a missed easy day in a return week is nothing. It does change one number, though: **Wednesday was the first run back, which makes Thursday Sep 17 only the second.** Any reading taken off Thursday's run is a reading off run number two after a nine-day layoff, and should be weighted accordingly.
+
+---
+
 ## Week 14 — September 7–13
 
 ### Sep 7–13 — 🚩 **Zero runs.** Chigger bites clustered around the right ankle, right under the sock line — running would have meant rubbing broken skin for 44 miles. Deliberate call, not a miss.
