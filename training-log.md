@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 15 — September 14–20
 
+### Thu Sep 17 — ⚠️ 4.28 mi at 9:22/mi — distance right and the aerobic numbers are genuinely encouraging, but the closing 0.28 mi went 8:41/mi. Second fast close in three runs back.
+<!-- strava_id: 20213990285 -->
+- **Prescribed:** Easy 4 mi — with an explicit out: swap 40 min on the StairMaster if the ankle was raw after Tuesday and Wednesday. "This is the droppable run, not a droppable day."
+- **Actual:** 4.28 mi · 40:05 moving (40:05 elapsed — zero stopped time) · 213 ft gain · 8:03 AM start
+- **Mile splits (pace · HR · elev):** 1) 9:25 · 147 (−75 ft) · 2) 9:22 · 152 (+18 ft) · 3) 9:31 · 159 (+58 ft) · 4) 9:22 · 157 (−39 ft) · 0.28) **8:41 · 164** (−13 ft)
+- **HR (avg/max):** 154 / 168 · **Relative Effort:** 98
+- **Coach notes:** He ran it rather than taking the StairMaster swap, which means the ankle held — three runs back and the bites are no longer the limiter. That's the headline, and it's good news. **The aerobic read is better than good.** Compare directly to Sep 4, the last time he ran an easy-paced medium: that run averaged 9:27/mi at **avg HR 163**, which got flagged here as a textbook under-recovery marker. Today ran *faster* — 9:22/mi — at **154**, nine beats lower, for an RE of 98. Faster pace, materially lower heart rate, three runs off a nine-day layoff. Whatever the forced break cost in fitness, it clearly paid something back in freshness, and the 160+ bpm easy-pace warning from early September has cleared. **The problem is the last 0.28 of a mile.** It ran 8:41/mi, roughly 40 sec/mi under the easy floor and the fastest segment of the day, with HR jumping to 164 — the run's peak. Tuesday closed at 8:44/mi and was flagged for exactly this. Wednesday was clean and got specific credit for it: *"the first time in this log a run closed at the pace it opened."* Today undoes that, which makes it two fast closes in the three runs of this return week. The average itself is also on the quick side — 9:22/mi sits at the absolute floor of the 9:20–9:45 easy band, and Tuesday's prescription for this week was explicitly 9:30–9:50, no faster. Nothing here is dangerous in isolation; a 0.28-mile pickup is not what tears an Achilles. But the week's stated job was "get a normal training week on the board" with no quality in it, and the habit is reasserting itself the moment the legs start feeling good again. No pain or injury reported.
+- **Action:** Friday's easy 7 is the week's longest run and the last one before Sunday. Run it at **9:30–9:50 start to finish, and finish it there** — if the closing half mile is the fastest again, that's three in four and it becomes the thing to fix rather than a note at the bottom of an entry. The aerobic markers say the engine came back from the layoff in good shape; that's exactly the condition under which he historically starts spending easy days. Sunday's 13 easy is unchanged: before 8 AM, 9:20–9:45 the whole way, no MP block, no fast finish.
+- [View on Strava](https://www.strava.com/activities/20213990285)
+
 ### Wed Sep 16 — ✅ **6.29 mi at 9:41/mi, avg HR 152 — and no fast finish, one day after Tuesday's close broke the ceiling at 8:44/mi.** Then strides, at 5:13/mi top speed.
 <!-- strava_id: 20205585599 -->
 - **Prescribed:** Easy 6 mi + 6×20-sec strides
