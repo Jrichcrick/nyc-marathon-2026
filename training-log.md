@@ -9,6 +9,18 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 15 — September 14–20
 
+### Fri Sep 18 — ⚠️ 7.70 mi at 9:34/mi. Distance beats the 7 prescribed and the average sits in the easy zone — but **HR climbed 143 → 171 and Relative Effort came in at 205.** Third fast close in four runs. This is the run that explains why the week feels heavy.
+<!-- strava_id: 20230604201 -->
+- **Prescribed:** Easy 7 mi
+- **Actual:** 7.70 mi · 1:13:43 moving (1:13:46 elapsed — 3 seconds of stopping) · 434 ft gain · **1:04 PM start**
+- **Mile splits (pace · HR · elev):** 1) 9:37 · 143 (−14 ft) · 2) 9:50 · 152 (+43 ft) · 3) 9:41 · 150 (−72 ft) · 4) 9:30 · 160 (+21 ft) · 5) 9:30 · 161 (+21 ft) · 6) 9:46 · 165 (+35 ft) · 7) 9:23 · 164 (−58 ft) · **0.70) 9:11 · 171** (+8 ft)
+- **HR (avg/max):** 158 / 174 · **Relative Effort:** 205
+- **Coach notes:** On paper this passes — 7.70 mi against 7 prescribed, 9:34/mi average sitting inside the 9:20–9:45 easy band. **The cost says otherwise.** Average HR 158 for an easy run, against 152 on Wednesday at a slower 9:41. The climb is the tell: 143, 152, 150, 160, 161, 165, 164, 171. **Heart rate kept rising even on the mile where pace slowed** (mile 6, 9:46 at HR 165) — that's cardiac drift on a tired body, not effort he chose. **Relative Effort 205** is the number to sit with. Aug 28 covered *more* distance at a comparable pace — 8.30 mi at 9:28/mi — in 80°F heat, for **RE 116.** Friday cost 76% more for seven-tenths of a mile less. It lands closer to Sep 4's 239, which this log flagged as a textbook under-recovery reading, than to any normal easy day. **And the close: 0.70 mi at 9:11/mi with HR peaking at 171.** That is the **third fast finish in four runs** — Tue 8:44 at 165, Thu 8:41 at 164, now 9:11 at 171. Wednesday, the one run he held flat, was also the only run of the week that cost a normal amount.
+- **Why the week feels heavy — the mechanism, not the mood:** five runs in six days off a nine-day layoff is a real re-adaptation load, and blood volume is still rebuilding. On top of that, **four of this week's five runs started in the afternoon** (3:11 PM, 3:43 PM, 1:04 PM; only Thursday went at 8:03 AM). And every one of them finished with a surge. **You remember a run by its last mile.** Finish every easy run at 165–171 bpm and every run files itself in memory as hard — regardless of how controlled the first six miles were. The heaviness is real, and it is largely manufactured in the last half-mile.
+- **The aerobic markers are still moving the right way.** Thursday ran 9:22/mi at average HR 154 against Sep 4's 9:27/mi at 163 — nine beats better at a faster pace. Fitness and feel have decoupled this week. Trust the first number.
+- **Action:** **Sunday drops from 13 mi to 11**, and the distance is the least important part of that sentence. Morning start, before 8 AM, non-negotiable — it's the fourth time this cycle the afternoon habit has shown up in the effort numbers. **Pace 9:45–10:00/mi, deliberately slower than the easy zone floor.** No strides, no surge, no closing mile. If HR passes 160 at that pace, walk until it drops. The job on Sunday is time on feet at the lowest possible cost, because Week 16 is where the build actually starts and it needs a body that arrives recovered.
+- [View on Strava](https://www.strava.com/activities/20230604201)
+
 ### Thu Sep 17 — ⚠️ 4.28 mi at 9:22/mi — distance right and the aerobic numbers are genuinely encouraging, but the closing 0.28 mi went 8:41/mi. Second fast close in three runs back.
 <!-- strava_id: 20213990285 -->
 - **Prescribed:** Easy 4 mi — with an explicit out: swap 40 min on the StairMaster if the ankle was raw after Tuesday and Wednesday. "This is the droppable run, not a droppable day."
