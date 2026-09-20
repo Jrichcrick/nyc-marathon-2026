@@ -6,6 +6,33 @@
 
 ---
 
+## Eating Early, and Eating Enough
+
+**JR's own words:** he likes good food, has a history of a not-great relationship with it, doesn't treat it as punishment, needs real nutrition as he gets older, and can't do fasting — he feels he needs nutrients earlier in the day. He wondered whether that was in his head.
+
+**It isn't. Both halves of that instinct are correct, and the plan is built around them.**
+
+### Why earlier matters more now
+
+**Anabolic resistance.** With age, a given amount of protein triggers less muscle repair than it used to. The practical fix is a bigger dose per meal: roughly **30–40g of protein per sitting**, where a younger athlete gets the same response from ~20g. Spreading protein across the day beats loading it all at dinner. A banana at 6 AM is pre-run fuel — it does not start the recovery clock.
+
+### Under-fuelling is the actual risk here
+
+At 40+ miles a week, the danger in front of him is eating **too little**, not too much. Chronic low energy availability — taking in less than training burns — produces poor recovery, hormonal disruption, bone loss, suppressed immunity and injury. It affects men as readily as women and is routinely missed in male masters runners.
+
+**It shows up in the data before it shows up in how you feel.** The clearest marker is an elevated heart rate at easy pace. Sep 4 2026 is the worked example: 9:27/mi at an average HR of 163, when his easy runs normally sit in the low 150s. That reading appeared during a stretch of disrupted eating and a brutal work week.
+
+### The rules that follow from this
+
+- **No fasted running.** Not before quality sessions, not before long runs, not on easy days. Something goes in first, even if it's only half a banana.
+- **Never skip a meal to "make up for" a missed run.** The two aren't connected, and treating them as connected is the exact trade this plan refuses to make.
+- **Timing in this plan is about digestion, never restriction.** Food is kept out of the ~90 minutes before running because fibre and volume sit badly mid-run. That is the only reason. It is not a calorie decision.
+- **Pre-run fuel is not breakfast.** On days with an early class or an early run, the small thing beforehand is fuel; **the real meal comes after**, within the hour, and it needs to be a genuine 30–40g of protein plus carbs.
+- **If a portion in the plan looks small, eat more.** Prescribed portions are floors, not ceilings.
+- **Long runs need a second breakfast.** The recovery shake is ~300 calories against the 1,500–2,000 a long run costs. Shake first, then a full meal within the hour.
+
+---
+
 ## Pre-Run Nutrition (Day Before and Morning Of)
 
 ### What works for you specifically
