@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 16 — September 21–27
+
+### Tue Sep 22 — 🚩 3.19 mi shakeout at 8:50/mi — an optional day run faster than marathon pace, the day before the block's first quality session back
+<!-- strava_id: 20280974655 -->
+- **Prescribed:** Easy shakeout: 4 mi at **9:30–9:50/mi**, after teaching a 7 AM Pilates class — optional; skip if Monday night's sleep was short. Wednesday is the priority.
+- **Actual:** 3.19 mi total · 28:08 moving (28:16 elapsed) · 130 ft gain · 7:59 AM start
+- **Mile splits (pace · HR · elev):** 1) 8:58 · 109 (−6 ft) · 2) 9:01 · 151 (−3 ft) · 3) 8:37 · 160 (−3 ft) · 0.18) 8:28 · 163 (−2 ft)
+- **HR (avg/max):** 141 / 166 · **Relative Effort:** 43
+- **Coach notes:** Distance came in short of the 4-mi optional target — that's fine, this run is optional and Wednesday's the priority. Pace is not fine. This wasn't judged against the general 9:20–9:45 easy zone — the day's own plan called out an explicit 9:30–9:50/mi for this run, the same kind of hard ceiling as Sep 15's. 8:50/mi average blows through the top of that by 40–60 sec/mi, is faster than marathon pace (9:00), and edges into tempo territory (8:20–8:30). The splits show it building, not settling: 8:58 → 9:01 → 8:37 → 8:28 on the closing partial, with HR climbing 109 → 151 → 160 → 163 right alongside it. Mile 1's HR of 109 is almost certainly a strap/GPS-settling artifact rather than a true easy effort, but from mile 2 on this reads like a genuine progressive push, not noise. It's also worth noting this ran on a half-banana pre-fuel after teaching a 7 AM class, not a rested morning — the kind of stacked-fatigue day that should produce a slower run, not a faster one. This is the same shape flagged exactly one week ago on the Sep 15 return test run, where the explicit 9:30–9:50 ceiling broke twice and the close hit 8:44/mi with HR to 165 — except that run had an excuse (nine days off, easing skin back into a shoe collar). This one doesn't. It's a fully voluntary shakeout he could have skipped outright, and it came in even faster, faster ceiling and all. JR's own activity title — "Fun. Can I run a whole marathon at this pace in 6 weeks?" — says he knows exactly what happened.
+- **Action:** Wednesday's tempo (5 mi @ 8:10, "start the block honest") needs fresh legs, not recovered ones — if there's any hangover tomorrow morning, this run is why. Hold literal 9:20–9:45 (or the day's stated ceiling, if tighter) on Thursday's easy 4 and the non-MP miles of Friday's medium. This is the second time in two weeks the same pattern has shown up against an explicit written pace ceiling, not just the general zone (Sep 15, now Sep 22) — worth setting a GPS pace alert on easy days if that's what it takes to actually hold it.
+- [View on Strava](https://www.strava.com/activities/20280974655)
+
+---
+
 ## Week 15 — September 14–20
 
 ### Sun Sep 20 — ✅ **13.85 mi at 9:44/mi, average HR 148 — the lowest-cost long run of the entire cycle, and the flattest.** First half 9:42, second half 9:45. Week 15 closed.
