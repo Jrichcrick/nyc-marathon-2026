@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 16 — September 21–27
 
+### Thu Sep 24 — 🚩 4.15 mi at 9:06/mi — **third consecutive day** (Tue/Wed/Thu) the written pace ceiling broke, and the fourth instance in ten days. This time it broke from mile one: 9:24 → 9:18 → 9:13 → 8:39 → 8:10 on the close, HR 135 → 160.
+<!-- strava_id: 20309417483 -->
+- **Prescribed:** Easy 4 mi after Pilates, **9:30–9:50/mi**, with the plan itself flagging the exact risk that morning: "Hold the ceiling — Tuesday ran 8:50/mi against this same explicit ceiling and got flagged." Yesterday's entry independently warned: "today is easy 4 after Pilates, and it needs to be genuinely easy — that's three consecutive days of quality-adjacent running otherwise."
+- **Actual:** 4.15 mi · 37:50 moving (37:58 elapsed — 8 seconds of stopping) · 184 ft gain · 6:09 AM start (before the 6:45 AM Pilates class, not after — schedule flipped from the plan)
+- **Mile splits (pace · HR · elev):** 1) 9:24 · 135 (−30 ft) · 2) 9:18 · 135 (+55 ft) · 3) 9:13 · 141 (−49 ft) · 4) 8:39 · 151 (+30 ft) · 0.15) 8:10 · 160 (−24 ft)
+- **HR (avg/max):** 141 / 162 · **Relative Effort:** 48
+- **Coach notes:** This is the third day in a row the written pace discipline has failed, and both this morning's own plan text and yesterday's coach note named the exact risk before it happened. It's also a different shape than the last three. Sep 15 and Sep 22 were fast closes off a controlled start; Sep 23 was an honest tempo run on the wrong day. **This one never had a controlled start** — mile 1 opened at 9:24, already under the 9:30 floor, then built: 9:24 → 9:18 → 9:13 → 8:39 → 8:10 on the closing 0.15. Average 9:06/mi sits 24–44 sec/mi under the ceiling for the entire run, not just a closing surge. HR tracks it cleanly — 135 for the first two miles, then 141, 151, 160 — a genuine progressive push, not noise. Four instances of the same explicit written ceiling breaking in ten days (Sep 15, Sep 22, Sep 23, now Sep 24) is no longer a series of isolated slips; it's the pattern this file keeps describing and the plan keeps calling out in writing without it changing the outcome. No pain or injury noted.
+- **Action:** Words on the plan aren't holding this discipline — try a mechanism instead of a reminder: a GPS pace alert or audio cue on easy days, since three consecutive written warnings (Sep 22's action line, Sep 23's action line, this morning's plan text) have not changed the result. Friday's easy 5 (tempo already cancelled to protect Sunday) needs to actually be easy — a fourth straight day of this pattern leaves Sunday's 17-miler with six continuous MP miles carrying legs that have been spending themselves all week instead of banking rest for it. That session, not any of these shakeouts, is the one that matters.
+- [View on Strava](https://www.strava.com/activities/20309417483)
+
 ### Wed Sep 23 — ⚠️ **He ran the tempo anyway.** Prescribed easy 4–5 at 9:30–9:50 on five hours of sleep; ran 5.12 mi at 8:53/mi with **miles 2–5 at 8:42/mi, HR 160.** The work was good. The day was wrong, and it costs Friday.
 <!-- strava_id: 20297353189 -->
 - **Prescribed:** Easy 4–5 mi at 9:30–9:50 — the tempo had been moved off this day that morning, after he reported roughly five hours of sleep. His own recovery doc: *"when in doubt, go easy."*
