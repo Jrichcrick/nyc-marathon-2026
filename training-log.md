@@ -9,6 +9,22 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 16 — September 21–27
 
+### Wed Sep 30 — ✅ **5×1600m, all five done, reps at 8:19/mi against a 7:50 target.** Recovery jogs dead on 2:00, rep 5 the fastest *and* the cheapest. Last hard session before Oct 4.
+<!-- strava_id: 20392749880 -->
+<!-- strava_id: 20392750027 -->
+<!-- strava_id: 20392750019 -->
+- **Prescribed:** 2 mi warm-up + 5×1600m @ 7:50/mi (2 min jog) + 2 mi cool-down = 10 mi total
+- **Actual (three Strava files, one session):** 8.51 mi · 76:49 moving · 95 ft gain · 7:59 AM start. The watch was stopped and restarted mid-session, splitting the workout across three activities — **merged here into a single entry**, since it was one session. Nothing was lost: the lap data survived in every file.
+- **Reconstructed session:**
+  - *File 1 (7:59 AM):* 1.50 mi warm-up @ 9:52/mi (HR 142) → **REP 1 — 0.76 mi captured @ 8:11/mi (HR 160)**, cut off when the watch stopped
+  - *File 2 (8:21 AM):* **REP 2 — 8:24/mi (HR 164)** · jog 2:00 · **REP 3 — 8:22/mi (HR 164)** · jog 1:59 · **REP 4 — 8:15/mi (HR 164)** · jog 1:59 · **REP 5 — 8:14/mi (HR 155)** · jog 1:59
+  - *File 3 (9:03 AM):* 1.47 mi cool-down @ 9:51/mi (HR 146)
+- **Four fully-recorded reps:** 4.00 mi @ **8:19/mi** · **Relative Effort:** 198 across the three files
+- **Coach notes:** All five reps went in. The volume gap (8.51 vs 10 prescribed) is entirely trimmed warm-up (1.50 vs 2) and cool-down (1.47 vs 2) — **the work came in at full length**, which is what counts on a quality day. Rep pace landed at 8:19/mi against a 7:50 target, 29 sec/mi off. In isolation that reads like a miss; in context it is exactly where this cycle has always sat. Aug 5's four reps averaged 8:02, Aug 19's five averaged 8:14, today's four averaged 8:19 — **7:50 has never once been touched this cycle**, across three attempts, and today's came three days after a 17-miler with a six-mile marathon-pace block in it. **The shape is right.** The recorded reps ran 8:24 → 8:22 → 8:15 → 8:14: a clean negative split, fastest last. Recovery jogs came in at 2:00, 1:59, 1:59, 1:59 against a prescribed 2:00 — no stolen rest, four times over. And the most encouraging number in the file is rep 5's heart rate: **8:14/mi at HR 155, against 164 on the three reps before it.** The fastest rep was also the cheapest. That is a body with something left, not one hanging on. **On the watch:** the three-file split cost nothing here because the lap button was used. Had it been mile splits only, the boundaries would have been unreadable — the same problem raised on Sep 25, solved the same way.
+- **What it means for Sunday:** not much, and that is the correct answer. **7:50 rep pace is a speed target, and speed has never been the constraint** — this athlete ran strides at a 5:13/mi top speed four days off a nine-day layoff. Sub-4 lives or dies on whether 9:00/mi holds deep into a long run, and the only relevant evidence is Sunday's six miles at 9:13/mi with HR 158. Today was maintenance: keep the system sharp, don't spend anything. It did that.
+- **Action:** **That was the last hard session before Oct 4. Nothing else this week gets to be hard.** Thursday and Friday are easy and nothing else — 9:20–9:45, no auditioning marathon pace, no "just seeing what's there." Saturday is total rest with the full prep protocol: early low-fibre dinner, lights out 9:00 PM, everything laid out. **Sunday: 20 mi, miles 12–18 @ 9:00, out the door before 8 AM.** Sunday's 9:13 block came off one recovery day and an 11:55 AM start. This one gets four easy days and cool morning air. That difference is the whole reason the number should move.
+- [Strava: warm-up + rep 1](https://www.strava.com/activities/20392749880) · [reps 2–5](https://www.strava.com/activities/20392750027) · [cool-down](https://www.strava.com/activities/20392750019)
+
 ### Sun Sep 27 — ✅ **17.21 mi. The MP block held: 6.00 mi at 9:13/mi, HR 158, deep in a long run and it did not collapse.** First one all cycle that didn't. Week 16 closed.
 <!-- strava_id: 20358439289 -->
 - **Prescribed:** Long run 17 mi, miles 10–15 @ 9:00/mi — 6 continuous MP miles. Hold 9:20–9:45 through mile 9 so the block lands on tired legs. Out before 8 AM.
