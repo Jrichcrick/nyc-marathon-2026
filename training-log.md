@@ -9,6 +9,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 17 — Sep 28–October 4
 
+### Fri Oct 2 — ✅ **9.07 mi, and the MP block landed at 9:06/mi against a 9:00 target. Six seconds off — the tightest marathon-pace block of the cycle.**
+<!-- strava_id: 20419758182 -->
+- **Prescribed:** Medium: 9 mi, miles 4–8 @ 9:00/mi
+- **Actual:** 9.07 mi · 1:23:41 moving (1:23:49 elapsed) · 424 ft gain · 7:43 AM start · **no heart rate recorded**
+- **Mile splits (pace · elev):** 1) 9:10 (−16 ft) · 2) 9:32 (+46 ft) · 3) 9:21 (−47 ft) · **4) 8:55 (−4 ft)** · **5) 9:01 (−3 ft)** · **6) 9:18 (+52 ft)** · **7) 9:04 (−30 ft)** · **8) 9:13 (−10 ft)** · 9) 9:25 (+3 ft) · 0.07) 9:19
+- **The three segments:** miles 1–3 opener → 3.00 mi @ 9:21/mi · **miles 4–8 MP block → 5.00 mi @ 9:06/mi** · mile 9 home → 1.07 mi @ 9:24/mi
+- **Coach notes:** Distance came in at 9.07 against 9 prescribed, and the block went where it was supposed to go. **Five continuous miles at 9:06/mi against a 9:00 target is the closest any MP block has come this cycle** — Aug 7's three miles hit 8:59 but sat early in a short run, Aug 21's five ran 8:39 (24 sec/mi *too fast*), Sep 6's attempt collapsed to 9:48, and Sep 27's six came in at 9:13. This one is six seconds off, held for five miles, with the opener run honestly at 9:21 rather than drifting fast. Inside the block the only mile over 9:13 was mile 6 at 9:18, which carried +52 ft of climb; on flat and downhill ground the block sat at 8:55–9:04. **The one real loss is heart rate — none was recorded.** Without it there's no read on what 9:06 actually cost, which is exactly the number that matters most right now. Sep 27's block ran 9:13 at HR 158; whether today's slightly faster block came cheaper or dearer is unknowable. Wear the strap Sunday — Oct 4's HR is the single most informative number left in this cycle.
+- **A correction that belongs in the record:** Friday's prescription was changed *after* this run, on the mistaken assumption it hadn't happened yet — the plan was briefly rewritten to "easy 5–6, MP block cut," on the reasoning that five marathon-pace miles two days out would spend what Sunday needs. **That edit has been reverted.** The session as written was the right session, it was run correctly, and the log should not suggest otherwise. The underlying caution still applies to Saturday: total rest, no exceptions.
+- **Action:** **Saturday is total rest and full prep.** Dinner by 6:30 PM — 6–8oz steak or chicken plus applesauce rather than sweet potato (≈1g fibre against 4g). No alcohol. Lay out shoes, shorts, **charged watch with the HR strap**, 4 gels, bottle. Lights out 9:00 PM, alarm 5:00 AM. **Sunday: 20 mi, miles 12–18 @ 9:00, out the door 7:30 AM.** Two MP blocks now sit in the last six days — 9:13 for six miles on Sep 27 and 9:06 for five today — which is the strongest back-to-back marathon-pace evidence of the whole build. Sunday asks for seven, deeper into the run, off four easy days and a morning start.
+- [View on Strava](https://www.strava.com/activities/20419758182)
+
 ### Wed Sep 30 — ✅ **5×1600m, all five done, reps at 8:19/mi against a 7:50 target.** Recovery jogs dead on 2:00, rep 5 the fastest *and* the cheapest. Last hard session before Oct 4.
 <!-- strava_id: 20392749880 -->
 <!-- strava_id: 20392750027 -->
