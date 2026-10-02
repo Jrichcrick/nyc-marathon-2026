@@ -7,7 +7,7 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
-## Week 16 — September 21–27
+## Week 17 — Sep 28–October 4
 
 ### Wed Sep 30 — ✅ **5×1600m, all five done, reps at 8:19/mi against a 7:50 target.** Recovery jogs dead on 2:00, rep 5 the fastest *and* the cheapest. Last hard session before Oct 4.
 <!-- strava_id: 20392749880 -->
@@ -24,6 +24,10 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 - **What it means for Sunday:** not much, and that is the correct answer. **7:50 rep pace is a speed target, and speed has never been the constraint** — this athlete ran strides at a 5:13/mi top speed four days off a nine-day layoff. Sub-4 lives or dies on whether 9:00/mi holds deep into a long run, and the only relevant evidence is Sunday's six miles at 9:13/mi with HR 158. Today was maintenance: keep the system sharp, don't spend anything. It did that.
 - **Action:** **That was the last hard session before Oct 4. Nothing else this week gets to be hard.** Thursday and Friday are easy and nothing else — 9:20–9:45, no auditioning marathon pace, no "just seeing what's there." Saturday is total rest with the full prep protocol: early low-fibre dinner, lights out 9:00 PM, everything laid out. **Sunday: 20 mi, miles 12–18 @ 9:00, out the door before 8 AM.** Sunday's 9:13 block came off one recovery day and an 11:55 AM start. This one gets four easy days and cool morning air. That difference is the whole reason the number should move.
 - [Strava: warm-up + rep 1](https://www.strava.com/activities/20392749880) · [reps 2–5](https://www.strava.com/activities/20392750027) · [cool-down](https://www.strava.com/activities/20392750019)
+
+---
+
+## Week 16 — September 21–27
 
 ### Sun Sep 27 — ✅ **17.21 mi. The MP block held: 6.00 mi at 9:13/mi, HR 158, deep in a long run and it did not collapse.** First one all cycle that didn't. Week 16 closed.
 <!-- strava_id: 20358439289 -->
