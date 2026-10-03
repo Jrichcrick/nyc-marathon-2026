@@ -7,6 +7,13 @@ name: Strava ingest
 #   STRAVA_CLIENT_SECRET   same page
 #   STRAVA_REFRESH_TOKEN   see README-strava-setup.md for how to mint one
 #
+# Additional athletes: one STRAVA_REFRESH_TOKEN_<NAME> secret each, minted by
+# that athlete from their OWN Strava account (Strava has no way to read another
+# athlete's activities, so there is no shortcut around them authorizing it).
+# The slot below is already wired — until the secret exists it resolves to an
+# empty string and the script skips that athlete. To add a third, copy the line
+# and add the matching secret; the suffix becomes the athlete's tag in the log.
+#
 # Runs every 3 hours. Trigger by hand any time from the Actions tab
 # ("Run workflow"), optionally widening the lookback to backfill.
 
@@ -35,6 +42,8 @@ jobs:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          # Dormant until the secret is added — see the note at the top.
+          STRAVA_REFRESH_TOKEN_MATT: ${{ secrets.STRAVA_REFRESH_TOKEN_MATT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '14' }}
         run: python3 scripts/strava_to_issues.py

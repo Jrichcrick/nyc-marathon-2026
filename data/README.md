@@ -14,8 +14,13 @@ them up offsite to GitHub.
   ```
 
 - **`log.csv`** — every actual run (one row per run, oldest-first, append-only).
-  Columns: `date, day, week, type, prescribed, actual_mi, pace, moving_time, avg_hr, max_hr, elevation_ft, verdict, strava_id, relative_effort, feel, notes`.
+  Columns: `date, day, week, type, prescribed, actual_mi, pace, moving_time, avg_hr, max_hr, elevation_ft, verdict, strava_id, relative_effort, feel, notes, athlete`.
   `relative_effort` = Strava's suffer_score; `feel` = JR's own Strava note (blank if he didn't write one).
+  `athlete` = whose run it is (`jr`, or a training partner's roster slug). It is the LAST
+  column so the positional queries below keep working.
+  **Every tally must filter to `athlete=="jr"`** — partner rows are stored for reference,
+  not to be averaged into JR's mileage. Partner rows carry no `verdict`, `prescribed`,
+  `week`, or `notes`; they are never written to `training-log.md` or the site's Log tab.
   The Strava auto-ingest (`.claude/commands/log-runs.md`) appends a row per run.
 
 - **`build_plan_csv.py`** — regenerates `plan.csv` from `index.html`.
@@ -26,8 +31,12 @@ them up offsite to GitHub.
 # All long runs in the plan
 awk -F, '$8=="Long"' data/plan.csv
 
-# Every run flagged off-plan
-awk -F, '$12=="off-plan"' data/log.csv
+# Every one of JR's runs flagged off-plan
+#   ($NF is the athlete column — being last, it survives commas inside quoted notes)
+awk -F, '$NF=="jr" && $12=="off-plan"' data/log.csv
+
+# JR's total logged mileage (partners excluded)
+awk -F, 'NR>1 && $NF=="jr"{s+=$6} END{print s" mi"}' data/log.csv
 
 # Total prescribed mileage
 awk -F, 'NR>1{s+=$9} END{print s" mi"}' data/plan.csv

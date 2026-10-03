@@ -60,14 +60,61 @@ Actions tab → **Strava ingest** → **Run workflow**. Set *lookback_days* to
 cover the missing stretch (e.g. `30`) and run it. Everything Zapier missed gets
 filed at once, then `/log-runs` picks it up as normal.
 
+## Adding another athlete (e.g. a training partner)
+
+**Strava will not hand you someone else's runs.** The API only returns the
+authenticated athlete's activities; there is no endpoint that lists another
+athlete's runs by ID, following them doesn't change that, and the API
+agreement is explicit that you don't get data for athletes who haven't
+authorized the app. The one shared-feed route, `/clubs/{id}/activities`,
+returns no activity ID, no date, no HR and no splits, and names people only as
+"First L." — useless for this log format.
+
+So a second athlete is a second refresh token, and **they have to mint it
+themselves.** It is a real ask: that token grants this repo read access to
+their entire activity history, including private activities (`activity:read_all`).
+Make sure they understand that before they hand it over, and that their runs
+will be stored in this repo.
+
+1. **They** do step 2 above — same authorize URL with *your* client ID, approved
+   while signed into *their* Strava account — and send you the `refresh_token`.
+   They never need your client secret: run the `curl` exchange yourself with the
+   `code` they paste you, or send them the secret only if you'd rather they ran it.
+2. Add it as `STRAVA_REFRESH_TOKEN_<NAME>`, e.g. **`STRAVA_REFRESH_TOKEN_MATT`**.
+   The suffix, lowercased, becomes their tag: `athlete: matt`.
+3. That's it for Matt — `.github/workflows/strava-ingest.yml` already passes that
+   secret through, so the next scheduled run picks him up. For anyone else, add a
+   matching line to the workflow's `env:` block first.
+
+To stop ingesting someone, delete their secret — the slot going empty is skipped
+silently. Ask them to revoke the app at <https://www.strava.com/settings/apps>
+too; deleting the secret stops the reading, revoking ends the grant.
+
+### What happens to their runs
+
+Their activities are filed as issues with the same `strava-activity` label and an
+`athlete:` key, then `/log-runs` routes on it: partner runs land in `data/log.csv`
+with the `athlete` column set and nothing else. They never reach `training-log.md`
+or the site's Training Log tab, and they are never given a coach verdict — the plan
+and paces in `CLAUDE.md` are JR's. See "Whose run is it?" in
+`.claude/commands/log-runs.md`.
+
+If a partner's token expires, the ingest files everyone else's runs as normal and
+*then* exits non-zero, so the Action goes red without one stale token silently
+costing you your own runs — which is exactly how the Zap failure went unnoticed
+for 8 days.
+
 ## How it behaves
 
 - Runs every 3 hours; also runnable by hand from the Actions tab.
 - Scans the last 14 days by default and files anything not already present.
 - **Deduped by `strava_id`** against every issue in the repo, open or closed, so
   re-running is always safe and can never double-file a run.
-- Issue title and body match the old Zapier output exactly, including per-mile
-  `splits_*` and watch `laps_*`, so the `/log-runs` skill needs no changes.
+- Issue title and body match the old Zapier output, including per-mile `splits_*`
+  and watch `laps_*`, plus an `athlete:` key naming whose run it is. JR's own issue
+  titles are unchanged; a partner's are prefixed, e.g. `Strava (Matt): …`.
+- Multi-athlete: one refresh-token secret per athlete, each minted by that athlete.
+  See "Adding another athlete" above.
 
 ## If it stops working
 

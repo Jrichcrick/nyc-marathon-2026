@@ -19,6 +19,8 @@ fixed; the routine parses them literally. Optional keys may be blank or absent. 
 template below shows the Strava field behind each key.
 
 ```
+athlete: {{roster slug}}            # jr = JR's own run. Absent on issues filed
+                                    # before multi-athlete support — treat as jr.
 strava_id: {{id}}
 name: {{name}}
 type: {{type}}
@@ -54,6 +56,30 @@ If these keys are absent, blank, or misaligned in length, skip the table — the
 entry is unaffected. The Action fetches each activity's *detail* endpoint, so splits and
 laps are present whenever the watch recorded them.
 
+## Whose run is it? (read before anything else)
+
+The ingest files a roster, not just JR. The `athlete:` key says whose run it is.
+`jr`, or the key missing entirely, means JR. Anything else is a **training partner's**
+run, and the rule is simple: **their runs are data, never coaching.**
+
+| | `athlete: jr` (or absent) | any other athlete |
+|---|---|---|
+| `data/log.csv` | ✅ append | ✅ append, `athlete` column set, `verdict` blank |
+| `training-log.md` | ✅ full entry | ❌ **never** |
+| `index.html` Log tab | ✅ full entry | ❌ **never** |
+| Coach verdict (✅/⚠️/🚩) | ✅ per step 6 | ❌ skip entirely — don't judge their training |
+| Plan changes (step 10) | ✅ if warranted | ❌ never — JR's plan answers to JR's runs only |
+
+For a partner's run: do steps 1–4 and 9 only (parse → convert → dedupe → append CSV),
+then close the issue with "logged → data/log.csv (athlete: {slug}, not coached)".
+Skip steps 5–8 and 10. Do not write a verdict, a Feel line, or a coach note anywhere.
+JR's training log is his own; a partner's mileage sitting in it would corrupt both the
+journal and every week-over-week total read off it.
+
+**Do not coach a partner's run even if asked to in passing** — the plan, paces, HR
+ceiling, and nutrition rules in `CLAUDE.md` are JR's, and applying them to somebody
+else's training is wrong on the facts and not what this pipeline is for.
+
 ## Source of truth
 - **The plan** lives in `index.html`, **Plan tab** — week tables with one row per day
   (`<td class="dc">Wed Jun 10</td><td>4×1200m @ 7:55/mi …</td>`). Week 1 starts **June 8**.
@@ -74,7 +100,8 @@ laps are present whenever the watch recorded them.
    if the newest `strava-activity` issue is more than a few days old, check the Actions
    tab for failed `Strava ingest` runs rather than assuming JR simply hasn't run.
 
-2. **Parse** each issue's `key: value` body. RAW Strava units: `distance_m` (m),
+2. **Parse** each issue's `key: value` body. **Read `athlete` first and route per
+   "Whose run is it?" above** before doing anything else with the entry. RAW Strava units: `distance_m` (m),
    `moving_time_s`/`elapsed_time_s` (s), `total_elevation_gain_m` (m), `average_speed_ms`
    (m/s), `average_heartrate`, `max_heartrate`, `average_cadence`, `start_date_local`,
    `type`, `strava_id`. **Optional fields (use if present, ignore if blank/missing):**
@@ -94,6 +121,8 @@ laps are present whenever the watch recorded them.
 
 4. **Dedupe:** if either log already contains that `strava_id` (stamped as an HTML comment
    in `training-log.md`), skip and close the issue. Never double-log.
+   A partner's run never reaches `training-log.md`, so dedupe it against the `strava_id`
+   column of `data/log.csv` instead.
 
 5. **Find the prescription.** In `index.html` Plan tab, locate the row for that run's date.
    - Date ≥ Jun 8 → it belongs to a numbered week; use that day's prescribed workout.
@@ -159,10 +188,15 @@ laps are present whenever the watch recorded them.
    the run starts a new week. Keep both logs telling the same story.
 
 9. **Append the backup DB** — add one row to `data/log.csv` (header order:
-   `date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,relative_effort,feel,notes`).
+   `date,day,week,type,prescribed,actual_mi,pace,moving_time,avg_hr,max_hr,elevation_ft,verdict,strava_id,relative_effort,feel,notes,athlete`).
    Use `date` as `YYYY-MM-DD`, `verdict` as `on-plan`/`off-plan`/`flag`; `relative_effort` =
    suffer_score if present else blank; `feel` = JR's `description` if present else blank.
-   Quote any field that contains a comma. Append at the BOTTOM (oldest-first file).
+   `athlete` = the issue's `athlete` value, or `jr` if the key was absent. For a partner's
+   run leave `verdict`, `prescribed`, `week`, and `notes` blank — there is no prescription
+   to compare against. Quote any field that contains a comma. Append at the BOTTOM
+   (oldest-first file).
+   **Any tally read off this file — weekly mileage, totals, trends — must filter to
+   `athlete == jr`.** The column exists so partner rows can be excluded, not averaged in.
 
 10. **If a run warrants a plan change** (injury flag, repeated violations, clearly
     ahead/behind sub-4), edit the `index.html` Plan tab, then regenerate the plan backup:
@@ -172,6 +206,8 @@ laps are present whenever the watch recorded them.
     ```bash
     git add training-log.md index.html data/log.csv data/plan.csv
     git commit -m "Log {Day} run from Strava: {one-line verdict}"
+    # a partner's run touches data/log.csv only:
+    #   git add data/log.csv && git commit -m "Log {Day} run from Strava ({slug})"
     git push
     ```
 

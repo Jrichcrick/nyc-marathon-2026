@@ -1,15 +1,25 @@
 #!/usr/bin/env python3
 """Poll Strava for recent activities and file each one as a GitHub issue.
 
-Replaces the Zapier Zap that fed this repo. Emits exactly the same issue
-title and `key: value` body the /log-runs skill already parses, so nothing
-downstream has to change.
+Replaces the Zapier Zap that fed this repo. Emits the same issue title and
+`key: value` body the /log-runs skill already parses, plus an `athlete:` key
+so a roster of more than one athlete can share the pipeline.
+
+Strava's API only ever returns the *authenticated* athlete's activities —
+there is no endpoint that lists someone else's runs, and the API agreement
+forbids using data for athletes who haven't authorized the app. So a second
+athlete means a second refresh token, minted by that athlete themselves.
 
 Required environment:
   STRAVA_CLIENT_ID, STRAVA_CLIENT_SECRET, STRAVA_REFRESH_TOKEN  (repo secrets)
   GITHUB_TOKEN, GITHUB_REPOSITORY                               (provided by Actions)
 Optional:
-  LOOKBACK_DAYS  how far back to scan (default 14)
+  LOOKBACK_DAYS            how far back to scan (default 14)
+  STRAVA_ATHLETE           slug for the primary athlete (default "jr")
+  STRAVA_REFRESH_TOKEN_*   one per additional athlete; the suffix is the slug,
+                           e.g. STRAVA_REFRESH_TOKEN_MATT -> athlete "matt".
+                           Unset or empty is simply skipped, so a slot can sit
+                           dormant in the workflow until the token exists.
 """
 import json
 import os
@@ -22,6 +32,8 @@ import urllib.request
 STRAVA = "https://www.strava.com"
 API = "https://api.github.com"
 LABEL = "strava-activity"
+TOKEN_PREFIX = "STRAVA_REFRESH_TOKEN_"
+DEFAULT_ATHLETE = "jr"
 
 
 def http(url, *, data=None, headers=None, method=None):
@@ -59,11 +71,28 @@ def preflight():
         )
 
 
-def strava_token():
+def roster():
+    """[(slug, refresh_token)] — the primary athlete first, then any extras.
+
+    All athletes authorize the same Strava API application, so client id and
+    secret are shared; only the refresh token differs.
+    """
+    primary = os.environ.get("STRAVA_ATHLETE", "").strip().lower() or DEFAULT_ATHLETE
+    people = [(primary, os.environ["STRAVA_REFRESH_TOKEN"].strip())]
+    for key, value in sorted(os.environ.items()):
+        if not key.startswith(TOKEN_PREFIX) or not value.strip():
+            continue
+        slug = key[len(TOKEN_PREFIX):].lower()
+        if slug and slug != primary:
+            people.append((slug, value.strip()))
+    return people
+
+
+def strava_token(refresh_token):
     payload = urllib.parse.urlencode({
         "client_id": os.environ["STRAVA_CLIENT_ID"],
         "client_secret": os.environ["STRAVA_CLIENT_SECRET"],
-        "refresh_token": os.environ["STRAVA_REFRESH_TOKEN"],
+        "refresh_token": refresh_token,
         "grant_type": "refresh_token",
     }).encode()
     tok = http(f"{STRAVA}/oauth/token", data=payload, method="POST")
@@ -118,10 +147,11 @@ def csv(values):
     return ",".join("" if v is None else str(v) for v in values)
 
 
-def build_body(a):
+def build_body(a, slug):
     splits = a.get("splits_standard") or []
     laps = a.get("laps") or []
     fields = [
+        ("athlete", slug),
         ("strava_id", a.get("id")),
         ("name", a.get("name")),
         ("type", a.get("type")),
@@ -158,19 +188,12 @@ def build_body(a):
     return "\n".join(lines)
 
 
-def main():
-    repo = os.environ["GITHUB_REPOSITORY"]
-    gh_token = os.environ["GITHUB_TOKEN"]
-    lookback = int(os.environ.get("LOOKBACK_DAYS", "14"))
-
-    preflight()
-    token = strava_token()
+def file_activities(slug, refresh_token, repo, gh_token, lookback, seen, *, primary):
+    """File one athlete's un-filed activities. Returns the number filed."""
+    token = strava_token(refresh_token)
     after = int(time.time()) - lookback * 86400
     activities = strava_get("athlete/activities", token, after=after, per_page=100)
-    print(f"Strava returned {len(activities)} activities in the last {lookback} days")
-
-    seen = already_filed(repo, gh_token)
-    print(f"{len(seen)} activities already filed in this repo")
+    print(f"[{slug}] Strava returned {len(activities)} activities in the last {lookback} days")
 
     filed = 0
     for summary in sorted(activities, key=lambda x: x.get("start_date", "")):
@@ -179,17 +202,56 @@ def main():
             continue
         # The summary payload has no splits, laps, or description — fetch the detail.
         a = strava_get(f"activities/{sid}", token)
-        title = f"Strava: {a.get('name')} — {a.get('start_date_local')}"
+        # JR's own titles stay exactly as Zapier wrote them; everyone else is
+        # marked in the title so the issue list is readable at a glance.
+        label = "Strava" if primary else f"Strava ({slug.title()})"
+        title = f"{label}: {a.get('name')} — {a.get('start_date_local')}"
         gh(
             f"/repos/{repo}/issues",
             gh_token,
-            data={"title": title, "body": build_body(a), "labels": [LABEL]},
+            data={"title": title, "body": build_body(a, slug), "labels": [LABEL]},
             method="POST",
         )
-        print(f"  filed {sid}: {title}")
+        print(f"  [{slug}] filed {sid}: {title}")
+        seen.add(sid)
         filed += 1
+    return filed
+
+
+def main():
+    repo = os.environ["GITHUB_REPOSITORY"]
+    gh_token = os.environ["GITHUB_TOKEN"]
+    lookback = int(os.environ.get("LOOKBACK_DAYS", "14"))
+
+    preflight()
+    people = roster()
+    print("Roster: " + ", ".join(slug for slug, _ in people))
+
+    seen = already_filed(repo, gh_token)
+    print(f"{len(seen)} activities already filed in this repo")
+
+    filed, failures = 0, []
+    for index, (slug, refresh_token) in enumerate(people):
+        # One athlete's revoked token must never stop the others from being
+        # filed: this repo has already lost 8 days of runs to an ingest that
+        # died quietly. Keep going, then exit non-zero so the Action goes red.
+        try:
+            filed += file_activities(
+                slug, refresh_token, repo, gh_token, lookback, seen, primary=index == 0
+            )
+        except SystemExit as e:
+            failures.append(f"{slug}: {e}")
+        except Exception as e:
+            failures.append(f"{slug}: {e.__class__.__name__}: {e}")
 
     print(f"Done. Filed {filed} new activit{'y' if filed == 1 else 'ies'}.")
+    if failures:
+        print(f"\nFailed for {len(failures)} athlete(s):")
+        for failure in failures:
+            print("  " + failure)
+        print("Re-mint that athlete's refresh token; see README-strava-setup.md.")
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
