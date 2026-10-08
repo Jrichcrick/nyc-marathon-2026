@@ -7,6 +7,22 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 18 — October 5–11
+
+### Wed Oct 7 — ✅ **Tempo block: 3.00 mi at 8:14/mi, HR 159 — the fastest sustained tempo of the cycle, at the lowest cost.** Taper's working.
+<!-- strava_id: 20488894482 -->
+- **Prescribed:** 1 mi warm-up + 3 mi @ 8:20–8:30/mi + 1 mi cool-down = 5 mi *(trimmed Oct 4 from 4 mi @ 8:05 — sharpness maintenance, not a test)*
+- **Actual:** 6.06 mi · 53:01 moving (53:10 elapsed) · 20 ft gain — dead flat · 8:35 AM start
+- **Activity title, theirs:** *"LFG"*
+- **Watch laps — the ground truth:** 1.00 mi warm-up @ 9:41/mi (HR 135) → **TEMPO: 3.00 mi @ 8:14/mi (HR 159)** → extra mile @ 8:43/mi (HR 164) → 1.06 mi cool-down @ 9:28/mi (HR 167)
+- **Mile splits (pace · HR):** 1) 9:30 · 135 · 2) 8:25 · 155 · 3) 8:13 · 155 · 4) 8:04 · 168 · 5) 8:43 · 164 · 6) 9:24 · 167 · 0.06) 10:54 · 166
+- **HR (avg/max):** 157 / 175 · **Relative Effort:** 144
+- **Coach notes:** **This is the clearest piece of evidence yet that the taper is paying.** Put the tempo history side by side: Aug 12 ran 6.01 mi at 8:39/mi for HR 165 · Sep 25 ran 5.00 mi at 8:36/mi for HR 167 · **today ran 8:14/mi for HR 159.** Twenty-two seconds per mile faster than the last one, at eight beats lower. That is not a small shift, and it arrived three days after a 22-mile long run — exactly when fatigue should still be in the legs. The block also beat its own target: 8:14 against a prescribed 8:20–8:30. For once that's worth noting without a flag attached, because the session was explicitly built as maintenance rather than a test, and the heart rate says it cost almost nothing — RE 144 for the whole outing. **Shape was right too.** Warm-up genuinely easy at 9:41/HR 135, then the block settled immediately (8:25, 8:13, 8:04 across the three miles, HR climbing 155 → 155 → 168 only on the last). **The one thing to name:** an extra mile at 8:43/HR 164 went in after the block before the cool-down started, taking the session to 6.06 mi against 5 prescribed. On any other week that's a shrug. Four days before the final long run of the cycle it's a mile that didn't need to exist. Not damaging — just unnecessary, and this is the stretch where unnecessary is the only real risk left.
+- **Action:** **Thursday easy 4, Friday easy 7, Saturday rest — and that's it until Sunday.** The 8:14 is banked and it means something: the engine is sharper now than at any point in this build. **Do not spend it before Oct 11.** Sunday's 18 with miles 8–14 @ 9:00 is a dress rehearsal, not a performance — race shoes, race kit, race gels, 5:00 AM wake with the full 2h45m gap before the start. Nothing new after that day. And hold 9:00 flat in the block; today proved there's more available, which is precisely why it should stay in the tank.
+- [View on Strava](https://www.strava.com/activities/20488894482)
+
+---
+
 ## Week 17 — Sep 28–October 4
 
 ### Sun Oct 4 — ⭐✅ **22.07 mi. THE MP BLOCK BEAT THE TARGET: 7.00 miles at 8:58/mi against a 9:00 goal, HR 157, miles 12–18, and it got *faster* to the end.** Then two extra miles home. This is the session. Sub-4 is no longer a question.
