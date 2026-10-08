@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 18 — October 5–11
 
+### Thu Oct 8 — ⚠️ **4.62 mi at 9:06/mi against a 9:30–9:50 ceiling, HR reaching 164 on an easy day, closing 0.62 at 8:51.** Three days before the last long run of the cycle.
+<!-- strava_id: 20502146113 -->
+- **Prescribed:** Easy 4 mi at 9:30–9:50/mi. Wednesday's entry said it plainly: *"Thursday easy 4, Friday easy 7, Saturday rest — and that's it until Sunday. Do not spend it before Oct 11."*
+- **Actual:** 4.62 mi · 42:03 moving (42:20 elapsed) · 205 ft gain · 8:12 AM start
+- **Mile splits (pace · HR · elev):** 1) 9:12 · 103 (−79 ft) · 2) 9:12 · 137 (+50 ft) · 3) 9:04 · **164** (−7 ft) · 4) 9:06 · **164** (−39 ft) · 0.62) **8:51 · 160** (−2 ft)
+- **HR (avg/max):** 144 / 167 · **Relative Effort:** 83 — *(mile 1's 103 is a strap artefact, not a real reading; it drags the average down and the true easy-day average is nearer 150)*
+- **Coach notes:** Every mile came in under the floor — 9:12, 9:12, 9:04, 9:06 — then the closing 0.62 dropped to 8:51. **The ceiling was 9:30–9:50 and the slowest mile was 9:12**, which is 18 seconds below the *bottom* of it. More telling than pace is heart rate: **164 on miles 3 and 4**, which is the same figure recorded during Wednesday's tempo work at 8:14/mi. Running 52 sec/mi slower for the same cardiac cost, the day after a quality session, is the signature of a body that was asked for recovery and told to work instead. Nothing here is dangerous in isolation — RE 83, under five miles, no pain reported. **It is the timing that makes it count.** This is taper. The fitness was banked on Oct 4 and confirmed on Oct 7; there is nothing left to gain and three days to protect. An easy day run 30 sec/mi hot takes a small bite out of Sunday's dress rehearsal and a smaller one out of Nov 1, and the only reason to take either bite is impatience. **It is also the thirteenth flagged instance of this exact pattern** — and the fourth since the taper began, when it stopped being a training-quality problem and became a race-risk one.
+- **Action:** **Friday's easy 7 is the one that matters now.** 9:30–9:50 from the first mile, and finish it there — not 9:12, not 9:06. If a pace alert is what it takes, set one; the suggestion has been in this log since Sep 22. Saturday is total rest. **Sunday is a dress rehearsal, not a performance:** 18 mi with miles 8–14 @ **9:00 flat**, race shoes, race kit, race gels, 5:00 AM wake with the full 2h45m gap before the start. Nothing new after that day. Wednesday's 8:14/HR 159 proved the engine is sharper than at any point in this build. **That is precisely the argument for spending none of it before November 1.**
+- [View on Strava](https://www.strava.com/activities/20502146113)
+
 ### Wed Oct 7 — ✅ **Tempo block: 3.00 mi at 8:14/mi, HR 159 — the fastest sustained tempo of the cycle, at the lowest cost.** Taper's working.
 <!-- strava_id: 20488894482 -->
 - **Prescribed:** 1 mi warm-up + 3 mi @ 8:20–8:30/mi + 1 mi cool-down = 5 mi *(trimmed Oct 4 from 4 mi @ 8:05 — sharpness maintenance, not a test)*
