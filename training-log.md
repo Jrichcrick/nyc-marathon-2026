@@ -9,6 +9,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 18 — October 5–11
 
+### Fri Oct 9 — 🚩 **Easy 7 run at 8:49/mi against a 9:30–9:50 ceiling. Mile 1 was 8:17. The slowest mile of the day was still 22 sec under the floor.** Two days before the last long run of the cycle.
+<!-- strava_id: 20514929705 -->
+- **Prescribed:** Easy 7 mi at **9:30–9:50/mi**. Thursday's entry, verbatim: *"Friday's easy 7 is the one that matters now. 9:30–9:50 from the first mile, and finish it there — not 9:12, not 9:06."*
+- **Actual:** 7.02 mi · 61:54 moving (62:07 elapsed) · 295 ft gain · 7:50 AM start · **no heart rate recorded**
+- **Activity title, theirs:** *"Being in shape is more fun"*
+- **Mile splits:** 1) **8:17** · 2) 9:00 · 3) 8:39 · 4) 9:03 · 5) 8:43 · 6) 9:08 · 7) 8:52
+- **Average: 8:49/mi** — 41 to 61 sec/mi faster than the prescribed range
+- **Coach notes:** **Every single mile came in under 9:10 on a day whose floor was 9:30.** Mile 1 opened at **8:17 — seventy-three seconds under the bottom of the range**, and the slowest mile of the whole run (9:08) still missed it by 22. An average of 8:49/mi is eleven seconds faster than *marathon pace*. This was an easy day, two days before the final long run of a 21-week build, and it was run quicker than the pace being targeted for 26.2 miles on November 1. **The title is honest and it is also the problem.** Being in shape *is* more fun, and the fitness is genuinely there — Oct 4's seven miles at 8:58 and Oct 7's tempo at 8:14/HR 159 are the proof. But a taper only works if the fitness goes **unspent**, and this is the fifth easy day since the taper began to be run at or near race pace. **No heart rate was recorded**, so there's no reading on what it cost, which is its own small loss: Thursday's run showed HR 164 at 9:06, and today was 17 sec/mi faster still. **This is the fourteenth flagged instance of this pattern in the log and the fifth in eleven days.** It is no longer a training-quality note. With the fitness banked and 23 days to the start line, **this is the single largest remaining risk to the race** — ahead of the course, the weather, or anything about pacing on the day.
+- **Action:** **Tomorrow is total rest. Not an easy 3, not "just moving" — rest.** Then Sunday is 18 mi with miles 8–14 at **9:00 flat**, and the number that matters most on Sunday is not the block, it's **miles 1–7: 9:30–9:50, no faster.** On Oct 4 the opening eleven miles were run at 9:41 — slower than permitted — and that is precisely why the seven that followed came in at 8:58. The discipline and the result were the same event. **Set a pace alert before Sunday.** The suggestion has been in this log since Sep 22 and has now been overtaken five times; a watch beeping is a smaller intervention than a race lost on First Avenue. And treat Sunday as a rehearsal: race shoes, race kit, race gels, 5:00 AM wake with the full 2h45m gap. Nothing new after that day.
+- [View on Strava](https://www.strava.com/activities/20514929705)
+
 ### Thu Oct 8 — ⚠️ **4.62 mi at 9:06/mi against a 9:30–9:50 ceiling, HR reaching 164 on an easy day, closing 0.62 at 8:51.** Three days before the last long run of the cycle.
 <!-- strava_id: 20502146113 -->
 - **Prescribed:** Easy 4 mi at 9:30–9:50/mi. Wednesday's entry said it plainly: *"Thursday easy 4, Friday easy 7, Saturday rest — and that's it until Sunday. Do not spend it before Oct 11."*
