@@ -87,6 +87,22 @@
   .tw-clock { width: 100%; margin: 8px 0 4px; font-size: 0.85rem; }
   .tw-clock td { padding: 6px 10px; }
   .tw-clock td:first-child { color: #facc15; font-weight: 700; white-space: nowrap; width: 84px; }
+  /* Race plan */
+  .rp-table { width:100%; border-collapse:collapse; font-size:0.84rem; margin-bottom:18px; }
+  .rp-table th { background:#1a1a1a; color:#777; text-align:left; padding:7px 9px; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; }
+  .rp-table td { padding:6px 9px; border-bottom:1px solid #1c1c1c; color:#ccc; }
+  .rp-table td.mi { color:#666; width:38px; font-variant-numeric:tabular-nums; }
+  .rp-table td.pc { font-weight:700; color:#fff; width:62px; font-variant-numeric:tabular-nums; }
+  .rp-table td.el { color:#777; width:72px; font-variant-numeric:tabular-nums; font-size:0.8rem; }
+  .rp-table tr.hill td { background:#1a1512; }
+  .rp-table tr.hill td.pc { color:#f59e0b; }
+  .rp-table tr.trap td { background:#1a1214; }
+  .rp-table tr.trap td.pc { color:#f87171; }
+  .rp-table tr.gel td.note::after { content:' ⛽'; }
+  .rp-big { background:#101817; border:1px solid #3bb3a3; border-radius:8px; padding:14px 16px; margin-bottom:18px; }
+  .rp-big .n { font-size:1.6rem; font-weight:800; color:#3bb3a3; font-variant-numeric:tabular-nums; }
+  .rp-rule { background:#141414; border:1px solid #252525; border-left:4px solid #facc15; border-radius:8px; padding:12px 16px; margin-bottom:12px; font-size:0.87rem; color:#ccc; }
+  .rp-rule b { color:#fff; }
   .sb { background: #111; border: 1px solid #222; border-radius: 10px; padding: 22px 24px; margin-bottom: 20px; }
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   @media (max-width: 580px) { .two { grid-template-columns: 1fr; } .header-inner { flex-direction: column; } }
@@ -145,6 +161,7 @@
 <div class="tabs">
   <div class="tabs-inner">
     <button class="tab-btn active" onclick="switchTab('week',this)">This Week</button>
+    <button class="tab-btn" onclick="switchTab('race',this)">Race Plan</button>
     <button class="tab-btn" onclick="switchTab('plan',this)">Training Plan</button>
     <button class="tab-btn" onclick="switchTab('log',this)">Training Log</button>
     <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
@@ -267,6 +284,99 @@
   </div>
 
 </div><!-- /tab-week -->
+
+<!-- ===== RACE PLAN ===== -->
+<div id="tab-race" class="tab-panel">
+
+  <h2 style="margin-top:0;">NYC Marathon · Sunday Nov 1 · the mile-by-mile</h2>
+
+  <div class="rp-big">
+    <div style="color:#888;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;">Target finish</div>
+    <div class="n">3:56:50</div>
+    <div style="font-size:0.86rem;color:#bbb;margin-top:6px;">Sub-4 needs <b style="color:#fff;">9:09/mi</b>. This plan averages <b style="color:#fff;">9:02</b> and finishes with <b style="color:#fff;">3 minutes 10 seconds</b> in hand. Run 26.45 on your watch instead of 26.2 and it still comes in at <b style="color:#fff;">3:59:06</b>. The cushion is deliberate — it absorbs the extra distance everyone runs weaving, and one bad mile.</div>
+  </div>
+
+  <div class="tw-rule">
+    <b>The plan is not a flat 9:00.</b> NYC isn't flat, so the targets aren't either — they give time back on every climb and take it back on the flats. <b>Nine of the twenty-six miles are deliberately slower than goal pace.</b> Run the numbers in the table, not the average in your head.
+  </div>
+
+  <table class="rp-table">
+    <thead><tr><th>Mi</th><th>Target</th><th>Elapsed</th><th>What's happening</th></tr></thead>
+    <tbody>
+      <tr class="hill"><td class="mi">1</td><td class="pc">9:35</td><td class="el">0:09:35</td><td class="note"><b>VERRAZZANO — UP.</b> A mile of climb, packed shoulder to shoulder. Let it be slow. Everyone around you is making their first mistake.</td></tr>
+      <tr class="trap"><td class="mi">2</td><td class="pc">8:50</td><td class="el">0:18:25</td><td class="note">Bridge <b>DOWN</b>. Let gravity carry you — do not drive it. This downhill is the single most common NYC error.</td></tr>
+      <tr><td class="mi">3</td><td class="pc">8:55</td><td class="el">0:27:20</td><td class="note">4th Ave, Brooklyn. Settle in. Long, wide, straight.</td></tr>
+      <tr><td class="mi">4</td><td class="pc">8:55</td><td class="el">0:36:15</td><td class="note"></td></tr>
+      <tr class="gel"><td class="mi">5</td><td class="pc">8:55</td><td class="el">0:45:10</td><td class="note"><b>GEL #1</b></td></tr>
+      <tr><td class="mi">6</td><td class="pc">8:55</td><td class="el">0:54:05</td><td class="note"></td></tr>
+      <tr><td class="mi">7</td><td class="pc">8:55</td><td class="el">1:03:00</td><td class="note"></td></tr>
+      <tr><td class="mi">8</td><td class="pc">8:55</td><td class="el">1:11:55</td><td class="note">Still Brooklyn. Still boring. Good.</td></tr>
+      <tr><td class="mi">9</td><td class="pc">8:55</td><td class="el">1:20:50</td><td class="note">Lafayette Ave — narrows, crowd tightens</td></tr>
+      <tr class="gel"><td class="mi">10</td><td class="pc">8:55</td><td class="el">1:29:45</td><td class="note"><b>GEL #2</b></td></tr>
+      <tr><td class="mi">11</td><td class="pc">8:55</td><td class="el">1:38:40</td><td class="note">Bedford Ave</td></tr>
+      <tr><td class="mi">12</td><td class="pc">8:55</td><td class="el">1:47:35</td><td class="note"></td></tr>
+      <tr><td class="mi">13</td><td class="pc">8:55</td><td class="el">1:56:30</td><td class="note"><b>HALF ≈ 1:56:30.</b> Williamsburg. If you are more than a minute ahead here, slow down.</td></tr>
+      <tr class="hill"><td class="mi">14</td><td class="pc">9:10</td><td class="el">2:05:40</td><td class="note">Pulaski Bridge → Queens. Short climb, give it the time.</td></tr>
+      <tr class="trap"><td class="mi">15</td><td class="pc">8:55</td><td class="el">2:14:35</td><td class="note">Queens. Flat and quick. <b>Feeling great here is not information.</b> The bridge is next.</td></tr>
+      <tr class="hill"><td class="mi">16</td><td class="pc">9:40</td><td class="el">2:24:15</td><td class="note"><b>QUEENSBORO. THE MILE THAT DECIDES YOUR RACE.</b> Lower deck, no crowd, a mile of climb. Run by breath, not watch. <b>Losing 45 seconds here is the plan working.</b></td></tr>
+      <tr class="gel"><td class="mi">17</td><td class="pc">9:05</td><td class="el">2:33:20</td><td class="note">Off the ramp into the wall of noise on First Ave. <b>GEL #3.</b> Recover one mile before you settle.</td></tr>
+      <tr class="trap"><td class="mi">18</td><td class="pc">8:55</td><td class="el">2:42:15</td><td class="note"><b>First Ave — the loudest trap in marathoning.</b> You will feel transformed. You are not. Hold 8:55.</td></tr>
+      <tr class="trap"><td class="mi">19</td><td class="pc">8:55</td><td class="el">2:51:10</td><td class="note">First Ave. Still 8:55.</td></tr>
+      <tr class="gel"><td class="mi">20</td><td class="pc">9:15</td><td class="el">3:00:25</td><td class="note">Willis Ave Bridge → Bronx. <b>GEL #4.</b> The race gets honest here.</td></tr>
+      <tr><td class="mi">21</td><td class="pc">9:05</td><td class="el">3:09:30</td><td class="note">Bronx. Quiet after First Ave. Just keep the rhythm.</td></tr>
+      <tr><td class="mi">22</td><td class="pc">9:05</td><td class="el">3:18:35</td><td class="note">Madison Ave Bridge → Harlem</td></tr>
+      <tr class="hill"><td class="mi">23</td><td class="pc">9:20</td><td class="el">3:27:55</td><td class="note"><b>FIFTH AVENUE CLIMB — the hardest mile of the race.</b> Long, gradual, grinding. This is what every MP block on tired legs was for.</td></tr>
+      <tr class="hill"><td class="mi">24</td><td class="pc">9:15</td><td class="el">3:37:10</td><td class="note">Fifth Ave, into the Park at 90th. Cat Hill ≈ 24.5.</td></tr>
+      <tr><td class="mi">25</td><td class="pc">9:05</td><td class="el">3:46:15</td><td class="note">Cat Hill behind you. Rolling. Spend what is left.</td></tr>
+      <tr><td class="mi">26</td><td class="pc">8:55</td><td class="el">3:55:10</td><td class="note">Out of the park, Central Park South, back in at Columbus Circle.</td></tr>
+      <tr><td class="mi">.2</td><td class="pc">—</td><td class="el"><b>3:56:50</b></td><td class="note"><b>FINISH.</b> The last 400m rises. You already know how to finish uphill.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>The five rules</h3>
+
+  <div class="rp-rule"><b>1. Lose the time on the bridges on purpose.</b> Miles 1, 14, 16, 20, 23 and 24 are all slower than goal, and that's the design. Holding 8:55 up the Queensboro saves 45 seconds and costs six minutes over the ten miles after it. You have been paying six to save forty-five.</div>
+
+  <div class="rp-rule"><b>2. Never make time back on a downhill.</b> Mile 2 off the Verrazzano and the ramp off the Queensboro are where the race is lost. Both feel like free speed. Both are quad damage you collect on Fifth Avenue.</div>
+
+  <div class="rp-rule"><b>3. Feeling fantastic is not information.</b> You will feel fantastic in Queens at mile 15 and superhuman on First Ave at 17. Both are adrenaline and crowd noise. <b>The only honest feedback in a marathon arrives after mile 20.</b></div>
+
+  <div class="rp-rule"><b>4. If you're ahead at the half, slow down.</b> Target is <b>1:56:30</b>. More than a minute up on that means you've borrowed from the Bronx. Give it back in Queens, not at mile 23.</div>
+
+  <div class="rp-rule"><b>5. The only mile you're allowed to be fast is 26.</b> Everything you don't spend before mile 20 is still available after it. That's not a motivational line — it's why your Oct 4 block closed with an 8:42 after opening eleven miles at 9:41.</div>
+
+  <h3>Fuelling</h3>
+  <table>
+    <thead><tr><th>When</th><th>What</th></tr></thead>
+    <tbody>
+      <tr><td><b>Miles 5, 10, 15*, 20</b></td><td>Gel, washed down with <b>water</b> — never Gatorade. <em>*Take #3 at 17 instead, coming off the Queensboro: you don't want to be swallowing on the climb.</em></td></tr>
+      <tr><td><b>Every aid station</b></td><td>Water. Small sip, pinch the cup. Don't gulp.</td></tr>
+      <tr><td><b>Every other station</b></td><td>Gatorade Endurance (what the course serves) — <b>only if you've trained with it.</b> If not, water plus your own gels, and carry a fifth gel as backup.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note red"><b>Carry your own gels.</b> Course gels appear around mile 18 and are not guaranteed to be your brand. Four on you, a fifth in a pocket.</div>
+
+  <h3>Race morning</h3>
+  <div class="note blue">
+    <b>I need your wave and corral time to finish this part.</b> NYC starts run from ~9:10 AM to ~11:00 AM, and everything below counts backwards from your gun time — the meal, the ferry, the village wait. Tell me the time on your bib confirmation and I'll build the morning hour by hour.
+  </div>
+  <table>
+    <thead><tr><th>Working backwards from gun time</th><th></th></tr></thead>
+    <tbody>
+      <tr><td><b>Gun − 3:00</b></td><td>Eat. 1 large sweet potato peeled + mashed · 2 tbsp peanut butter · 1 banana. The exact meal you've run every long run on.</td></tr>
+      <tr><td><b>Gun − 2:30</b></td><td>Transport to Staten Island (ferry or bus). Last toilet you'll trust.</td></tr>
+      <tr><td><b>Gun − 1:45</b></td><td>Athlete village. <b>Throwaway layers you don't mind losing.</b> It will be cold and you'll be sitting still a long time.</td></tr>
+      <tr><td><b>Gun − 0:45</b></td><td>Half banana or a gel. Drop the warm layers at the bag truck.</td></tr>
+      <tr><td><b>Gun − 0:20</b></td><td>Corral. Easy jogging on the spot, leg swings. You won't get a real warm-up — mile 1 is the warm-up, which is another reason it's 9:35.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <b>The village wait is a trainable thing and you've been training it.</b> Every long run this cycle used a 2h45m gap between eating and starting for exactly this reason. Hours of standing in the cold before running is its own stressor, and you've rehearsed it eight times.
+  </div>
+
+</div><!-- /tab-race -->
 
 <!-- ===== TRAINING PLAN ===== -->
 <div id="tab-plan" class="tab-panel">
@@ -622,7 +732,7 @@
         <tr><th>Day</th><th>Workout</th></tr>
         <tr><td class="dc">Mon Oct 12</td><td>Light cross-train or rest</td></tr>
         <tr><td class="dc">Tue Oct 13</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Oct 14</td><td>1.5 mi warm-up + 3×1000m @ 7:50/mi (90 sec jog) + 1.5 mi cool-down = 5 mi total</td></tr>
+        <tr><td class="dc">Wed Oct 14</td><td>1.5 mi warm-up + <strong>3×1000m at 8:00–8:10/mi</strong> (90 sec jog) + 1.5 mi cool-down = 5 mi — <em>was 7:50; corrected to a pace actually run this cycle (best rep average 8:14 on Sep 30, best tempo 8:14 on Oct 7). Taper sessions exist to stay sharp, not to set targets you have never hit. Run by feel: comfortably hard, nowhere near flat out.</em></td></tr>
         <tr><td class="dc">Thu Oct 15</td><td>Easy 4 mi</td></tr>
         <tr><td class="dc">Fri Oct 16</td><td>Easy 6 mi</td></tr>
         <tr><td class="dc">Sat Oct 17</td><td>Rest</td></tr>
@@ -636,7 +746,7 @@
         <tr><th>Day</th><th>Workout</th></tr>
         <tr><td class="dc">Mon Oct 19</td><td>Rest</td></tr>
         <tr><td class="dc">Tue Oct 20</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Oct 21</td><td>1.5 mi warm-up + 4×400m @ 7:45/mi (60 sec jog) + 1.25 mi easy cool-down = 4 mi total</td></tr>
+        <tr><td class="dc">Wed Oct 21</td><td>1.5 mi warm-up + <strong>4×400m at 7:30/mi</strong> (60 sec jog) + 1.25 mi cool-down = 4 mi — <em>was 7:45, which is slower per mile than your 1600m reps and makes no sense for 400s. ~1:52 each. Total hard running: six minutes. This is a nervous-system wake-up, not a workout.</em></td></tr>
         <tr><td class="dc">Thu Oct 22</td><td>Easy 3 mi</td></tr>
         <tr><td class="dc">Fri Oct 23</td><td>Easy 5 mi, miles 3–4 @ 9:00/mi (feel the pace)</td></tr>
         <tr><td class="dc">Sat Oct 24</td><td>Rest</td></tr>
@@ -654,10 +764,10 @@
       <tr><th>Day</th><th>Workout</th></tr>
       <tr><td class="dc">Mon Oct 26</td><td>Rest</td></tr>
       <tr><td class="dc">Tue Oct 27</td><td>3 mi easy with 4×100m strides</td></tr>
-      <tr><td class="dc">Wed Oct 28</td><td>Rest</td></tr>
-      <tr><td class="dc">Thu Oct 29</td><td>3 mi easy</td></tr>
-      <tr><td class="dc">Fri Oct 30</td><td>Rest — travel to NYC if needed. <strong>Sleep early tonight.</strong></td></tr>
-      <tr><td class="dc">Sat Oct 31</td><td>2 mi easy shakeout + bib pickup, gear check, early dinner</td></tr>
+        <tr><td class="dc">Wed Oct 28</td><td>Rest — <strong>carb load starts today.</strong> <em>Three days, ~70% of calories from carbs, fibre cut hard. See the Nutrition tab: peeled white potato, honey, banana, applesauce, coconut water. No alcohol from today.</em></td></tr>
+        <tr><td class="dc">Thu Oct 29</td><td>Easy 3 mi — <em>and go to the expo today if you can, not Saturday. Javits is a long walk on tired-feeling legs and Saturday should be short and calm.</em></td></tr>
+        <tr><td class="dc">Fri Oct 30</td><td><strong>Rest. The most important night of the cycle.</strong> <em>Nearly everyone sleeps badly the night before a marathon — it is the night TWO out that actually carries. Eat early, in bed by 9. No alcohol. Expo already done.</em></td></tr>
+        <tr><td class="dc">Sat Oct 31</td><td>2 mi easy shakeout <strong>+ 3×100m strides</strong> — <em>strides added: they wake the legs up without any cost. Lay out everything tonight: bib pinned, shoes, socks, kit, 5 gels, watch charged, throwaway layers for the village. Early dinner, in bed by 9.</em></td></tr>
       <tr class="race-day"><td class="dc">Sun Nov 1</td><td>RACE DAY — NYC Marathon. Goal: 9:00/mi. Finish under 4:00.</td></tr>
     </table>
   </div>

@@ -343,13 +343,65 @@ Completely normal. Hard efforts create micro-damage in muscle fibers. The next d
 
 ---
 
+## Taper Nutrition (Weeks 19–20, Oct 12–25)
+
+**The trap:** mileage drops ~40% while appetite stays where peak training set it. Three weeks of that is a few pounds you have to carry up Fifth Avenue.
+
+**The opposite trap, which is worse:** deliberately eating less to compensate. Do not. Under-fuelling during taper is how people arrive flat, sleep badly and get sick in race week — and it's exactly the failure mode your profile says to avoid. **Portions stay floors.**
+
+**What to actually do — almost nothing:**
+
+- **Keep protein exactly where it is.** 30–40g per meal, unchanged. Protein is what's repairing twelve weeks of accumulated damage, and taper is when that repair finally gets to happen. This is the last thing to cut.
+- **Let carbs drift down naturally with the mileage.** Not by rule, by appetite. Shorter runs mean you'll want the recovery shake less often — that's correct, and it's the adjustment happening on its own.
+- **Keep the post-run shake after anything over 45 minutes.** Skip it after a 3-miler; you didn't spend anything.
+- **Hydration stays constant.** It doesn't scale down with mileage, and you want to arrive at race week fully topped up rather than playing catch-up.
+- **Don't weigh yourself.** Tapering adds 2–4 lb of stored glycogen and the water bound to it. That is the point — it's fuel, not fat, and it's worth minutes on race day. A scale this month will tell you a true number and make you draw a false conclusion.
+
+### Immunity — the one real risk left
+
+The taper is when people get sick. Training load drops, stress hormones fall, and there's a well-documented window where you're more susceptible right as the race approaches. You already lost nine days of this cycle to one bug.
+
+- **Sleep is the single biggest lever** — 7.5–8h, 8–9h before the long runs
+- **Protein and total calories hold the line** (see above)
+- **Wash hands obsessively** the week of the expo. Javits is 50,000 people from everywhere
+- **Any sore throat in race week:** rest completely, don't "run it off"
+
+### Rehearse the carb load — Sun Oct 18
+
+**Do the full carb-load protocol on Fri Oct 16 and Sat Oct 17, then run Sunday's 12-miler on it.**
+
+This is the last long run with MP miles in it, which makes it the only remaining chance to find out whether potato-and-honey volume sits well before it matters. If it goes badly on Oct 18 you have two weeks to adjust. If you discover it on Oct 31 you have nothing.
+
+---
+
 ## Race Week Specifics
 
 - **No new foods the week of the race.** Not the restaurant near the expo, not the pasta dinner the night before.
 - **Salt more than usual** the last 2–3 days to help water retention and prevent hyponatremia
 - **Avoid alcohol** after Wednesday Oct 28
 - **Friday Oct 30:** Full pre-run protocol. Eat early, sleep early.
-- **Race morning:** Eat 2.5–3 hours before your corral time. NYC start times are early — figure out your exact gun time and work backwards.
+- **Race morning:** Eat 2.5–3 hours before your **gun time** (not the wave time on the website — the actual corral time on your confirmation). Work backwards from it; see the Race Plan tab.
+- **Salt deliberately Thu–Sat.** Salt your food more than feels normal. It helps you hold the water that comes with the glycogen, and it's the cheap insurance against hyponatremia on a long day.
+- **The village:** bring a banana or a gel for ~45 min before the gun, plus water. You'll be awake four or five hours before you run and the pre-race meal will be long gone.
+
+### How much carbohydrate, in your foods
+
+Target for Wed 28 → Sat 31 is roughly **7g of carbohydrate per kg of bodyweight per day**. The point of the list below is that you can hit that without a single food you don't eat:
+
+| Food | Carbs | Fibre |
+|---|---|---|
+| Large white potato, peeled, mashed | ~45g | ~2g |
+| Large sweet potato, peeled, mashed | ~40g | ~4g |
+| Banana | ~27g | ~3g |
+| 2 tbsp honey | ~34g | **0g** |
+| 1 cup unsweetened applesauce | ~28g | ~1g |
+| 3 medjool dates | ~54g | ~5g |
+| 500ml coconut water | ~22g | 0g |
+| 500ml sports drink | ~30g | **0g** |
+
+**Honey, applesauce and sports drink are the levers.** They carry carbohydrate with almost no fibre and no stomach volume, which is the entire problem with loading on whole foods. When you're short of target and already full, those three close the gap.
+
+**Fibre comes down hard from Wed 28.** No spinach or cherries in the shake, no salads, no raw veg, no beans, no nuts, no skins on anything. For four days, low residue beats nutrient density — you are not optimising health this week, you are optimising an empty gut and full muscles.
 
 ### Carb loading without starchy carbs (Wed Oct 28 onward)
 
