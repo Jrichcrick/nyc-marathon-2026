@@ -113,7 +113,7 @@ You have roughly a dozen long runs left before November 1. **Every one of them i
 - Gel at miles **5, 10, 15, 20**
 - Drink water at every aid station (small sip — no gulping)
 - Gatorade at every other aid station, or per thirst
-- **Only use gels/drinks you've trained with.** NYC provides Gatorade Endurance — train with it or carry your own.
+- **Only use gels/drinks you've trained with.** NYC serves Gatorade on course (NYRR's race-week guide names the formula) and Maurten gels at miles 12 and 18. Train with them or carry your own.
 
 ### Gel Options
 Pick one and stick with it all training. Your stomach needs to learn it.
@@ -386,7 +386,16 @@ This is the last long run with MP miles in it, which makes it the only remaining
 
 ### How much carbohydrate, in your foods
 
-Target for Wed 28 → Sat 31 is roughly **7g of carbohydrate per kg of bodyweight per day**. The point of the list below is that you can hit that without a single food you don't eat:
+**Targets, corrected Oct 14:** an earlier version of this section gave 7g/kg for all four days. That is the low end of normal daily intake for endurance training, not a carb load. The published guideline (ACSM / Academy of Nutrition and Dietetics / Dietitians of Canada joint position stand, Thomas, Erdman & Burke 2016) is **10–12g of carbohydrate per kg of bodyweight per day for the final 36–48 hours.**
+
+- **Wed 28 – Thu 29:** ~7–8 g/kg. Normal eating, fibre coming down.
+- **Fri 30 – Sat 31:** **~10 g/kg.** This is the load. It is a lot of food, which is exactly why the honey, applesauce, juice and sports-drink levers below matter. Liquids and honey get you there without the volume.
+- These are floors, not ceilings. Under-eating this week costs you on Fifth Avenue. Over-eating costs you nothing that matters.
+- Expect 2–4 lb on the scale. That's glycogen and the water stored with it. It's fuel.
+
+**Rehearse it Fri Oct 16 – Sat Oct 17** at the Fri–Sat amount, then run Sunday's 12 on it.
+
+You can hit those numbers without a single food you don't eat:
 
 | Food | Carbs | Fibre |
 |---|---|---|
