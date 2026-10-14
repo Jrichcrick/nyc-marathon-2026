@@ -7,6 +7,26 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 19 — October 12–18
+
+### Wed Oct 14 — ⚠️ **3×1000m run at 7:50, 7:50, 7:57 against an 8:00–8:10 ceiling. It felt hard because it was hard — and two of the three reasons are exactly what taper week one is supposed to feel like.**
+<!-- strava_id: 20581195955 -->
+- **Prescribed:** 1.5 mi warm-up at 9:45–10:15 + **3×1000m at 8:00–8:10/mi** (90 sec jog) + 1.5 mi cool-down = 5 mi
+- **Actual:** 5.60 mi · 51:00 moving (51:34 elapsed) · 83 ft gain · 7:39 AM start · **ASICS Novablast 4 — the race shoes**
+- **Watch laps, which are the only truth here:** warm-up **1.50 mi @ 9:38/mi, HR 145** → **rep 1: 1000m @ 7:50/mi (4:54), HR 170** → jog 315m, 1:59 → **rep 2: 1000m @ 7:50/mi (4:54), HR 173** → jog 329m, 1:59 → **rep 3: 1000m @ 7:57/mi (4:56), HR 176** → cool-down **1.83 mi @ 9:46/mi, HR 160**
+- **Mile splits (ignore these — no mile boundary matched a rep):** 9:48 · 8:31 · 8:24 · 8:39 · 9:40 · 9:47
+- **HR (avg/max):** 160 / **181** · **Relative Effort:** 143
+- **The headline: 7:50 was the number taken out of this session, and it went in twice anyway.** This workout was originally written at 7:50/mi and corrected down to 8:00–8:10 on Oct 12 for one stated reason — *"a pace actually run this cycle (best rep average 8:14)."* Eighteen days before the start line, on a taper week, off the back of an 18-miler three days earlier, both of the first two reps came in at **7:50/mi** — 24 sec/mi quicker than the best rep average of the entire build. **That is not a maintenance number. That is the race-day interval band arriving two weeks early.**
+- **Why it felt hard — three reasons, in order of how much they matter:**
+  1. **Taper week one is supposed to feel like this.** The training load has dropped but Sunday's fatigue hasn't cleared — RE 406 over 18.16 mi was three days ago. Volume falls first and freshness arrives second, usually in weeks two and three. **Feeling flat and heavy right now is on schedule, not a warning.** The sharpening shows up around Oct 25–31, which is the point of the whole structure.
+  2. **The reps were 10–20 sec/mi faster than the number.** Not a disaster over 1.87 miles of total work, but it's the difference between "comfortably hard" and what actually happened.
+  3. **HR says rep 1 and 2 were above the day's sustainable level.** 170 → 173 → **176**, while pace went 7:50 → 7:50 → **7:57**. Rising heart rate with falling pace is the classic read on starting a set too quick. The max of **181 is the highest in this log** — previous ceiling was 177.
+- **Two things were handled well without being asked:** the warm-up went in whole (1.50 mi at 9:38, HR 145 — genuinely easy), and the cool-down ran **long** at 1.83 mi instead of 1.5, at 9:46 with HR settling to 160. After a sharp set, a generous cool-down is the correct instinct. No bonus fast mile this time either, unlike Oct 7.
+- **Action — Thursday is the whole point of today:** easy 4 at **9:30–9:50**, in the **race socks**, which are still unsettled with 18 days left. Today cost more than a taper session was meant to, and the only way to collect on 7:50 is to not spend it again tomorrow. Friday medium-long, Saturday rest, **Sunday 12 with a short MP touch at miles 6–9 — and that one is 9:00, run on the rehearsed carb load (load Fri Oct 16 + Sat Oct 17).** Next Wednesday's 4×400m is the last quality session of the cycle. There is no session left between here and Nov 1 that can add fitness — today proved the fitness is there.
+- [View on Strava](https://www.strava.com/activities/20581195955)
+
+---
+
 ## Week 18 — October 5–11
 
 ### Sun Oct 11 — ⚠️ **18.16 mi. The opening seven held at 9:28 — the first disciplined easy portion in two weeks. Then the block ran 8:47 against an explicit "9:00 flat."** Last long run of the cycle. Week 18 closed.
