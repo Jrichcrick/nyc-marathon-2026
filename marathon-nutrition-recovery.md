@@ -380,7 +380,7 @@ This is the last long run with MP miles in it, which makes it the only remaining
 - **Salt more than usual** the last 2–3 days to help water retention and prevent hyponatremia
 - **Avoid alcohol** after Wednesday Oct 28
 - **Friday Oct 30:** Full pre-run protocol. Eat early, sleep early.
-- **Race morning:** Eat 2.5–3 hours before your **gun time** (not the wave time on the website — the actual corral time on your confirmation). Work backwards from it; see the Race Plan tab.
+- **Race morning (gun 10:20, bus 5:30):** two breakfasts. **#1 at 4:10 AM at home:** the usual sweet potato, peanut butter and banana. **#2 at 7:20 AM in the village (gun − 3:00), carried in:** banana + applesauce pouch + 1 tbsp honey, then ~500ml sports drink sipped until 9:00. Breakfast #1 is six hours before the gun, so on its own it won't last. Full timeline on the Race Plan tab.
 - **Salt deliberately Thu–Sat.** Salt your food more than feels normal. It helps you hold the water that comes with the glycogen, and it's the cheap insurance against hyponatremia on a long day.
 - **The village:** bring a banana or a gel for ~45 min before the gun, plus water. You'll be awake four or five hours before you run and the pre-race meal will be long gone.
 
