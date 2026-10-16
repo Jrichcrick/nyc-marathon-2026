@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 19 — October 12–18
 
+### Thu Oct 15 — ✅ **Easy 4.26 mi at 9:22/mi, HR 149, after Pilates.**
+<!-- strava_id: 20595078540 -->
+- **Prescribed:** Pilates 6:45, then easy 4 mi at 9:40–10:00 in the race socks
+- **Actual:** 4.26 mi · 39:55 moving (40:00 elapsed) · 9:22/mi · 213 ft gain · 8:01 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:24 · 136 · 2) 9:21 · 150 · 3) 9:40 · 154 · 4) 9:16 · 152 · 0.26) 8:34 · 155
+- **HR (avg/max):** 149 / 166 · **Relative Effort:** 74
+- **Coach notes:** Done, the day after intervals, straight off teaching Pilates. HR averaged 149 with a max of 166. That's an easy-day heart rate, and with yesterday's session in the legs it's a good sign. Pace 9:22 against a 9:40–10:00 band.
+- **Open:** the race socks. Strava doesn't record them. If they were on and nothing rubbed, they're settled.
+- [View on Strava](https://www.strava.com/activities/20595078540)
+
 ### Wed Oct 14 — ⚠️ **3×1000m at 7:50, 7:50, 7:57 against an 8:00–8:10 ceiling. Faster than prescribed, positive split, rising HR, three days after an 18-miler — which is why it felt hard.**
 <!-- strava_id: 20581195955 -->
 - **Prescribed:** 1.5 mi warm-up at 9:45–10:15 + **3×1000m at 8:00–8:10/mi** (90 sec jog) + 1.5 mi cool-down = 5 mi
