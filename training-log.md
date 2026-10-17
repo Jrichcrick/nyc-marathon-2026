@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 19 — October 12–18
 
+### Fri Oct 16 — ✅ **Easy 6.32 mi at 9:08/mi. Heart rate ran high: 161 average.**
+<!-- strava_id: 20621617286 -->
+- **Prescribed:** Easy 6 mi at 9:40–9:55, strap on; walk 60 sec if HR passes 160 on a flat mile. Carb-load rehearsal day 1.
+- **Actual:** 6.32 mi · 57:45 moving (58:01 elapsed) · 9:08/mi · 302 ft gain · 8:31 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:12 · 152 · 2) 9:14 · 161 · 3) 8:36 · 162 · 4) 9:09 · 163 · 5) 9:33 · 164 · 6) 9:01 · 162 · 0.32) 9:15 · 169
+- **HR (avg/max):** 161 / 178 · **Relative Effort:** 183
+- **Coach notes:** Done, distance in full. The number worth noting is heart rate. A 161 average is the second-highest of 31 easy runs in this log with HR data (only Jul 2, at 167, was higher). Relative Effort 183 is more than Wednesday's interval session (143). Thursday's easy 4 ran at HR 149, so this isn't a trend yet: one day. Common causes are short sleep, work stress, heat, a cold coming on, or not enough food the day before. Worth a check, not a worry.
+- **Action:** if you wake Sunday with a sore throat, or a resting HR noticeably above normal, run the 12 all easy and skip the 9:00 block. Otherwise run it as written.
+- [View on Strava](https://www.strava.com/activities/20621617286)
+
 ### Thu Oct 15 — ✅ **Easy 4.26 mi at 9:22/mi, HR 149, after Pilates.**
 <!-- strava_id: 20595078540 -->
 - **Prescribed:** Pilates 6:45, then easy 4 mi at 9:40–10:00 in the race socks
