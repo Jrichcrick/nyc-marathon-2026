@@ -9,6 +9,19 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 19 — October 12–18
 
+### Sun Oct 18 — ✅ **12.26 mi. Marathon-pace block averaged 8:55, on target, in the race shoes, on the carb load. Friday's heart rate was a one-off.**
+<!-- strava_id: 20638521013 -->
+- **Prescribed:** 12 mi: miles 1–5 at 9:30–9:45, miles 6–9 at 9:00 (8:55–9:05), miles 10–12 at 9:30–9:45. Gels at 5 and 10. Carb-load rehearsal day 3.
+- **Actual:** 12.26 mi · 1:52:02 moving (1:52:06 elapsed) · 9:08/mi · 675 ft gain · **10:52 AM start** · ASICS Novablast 4 (race pair)
+- **Segments:** miles 1–5 → **9:25/mi, HR 152** · miles 6–9 → **8:55/mi, HR 160** · miles 10–12.26 → 8:59/mi, HR 160
+- **Mile splits (pace · HR):** 1) 9:18 · 145 · 2) 9:20 · 154 · 3) 9:16 · 151 · 4) 9:41 · 152 · 5) 9:29 · 156 · 6) 9:14 · 156 · 7) 8:45 · 161 · 8) 9:01 · 162 · 9) 8:40 · 161 · 10) 8:38 · 163 · 11) 9:20 · 160 · 12) 9:21 · 156 · 0.26) 7:30 · 167
+- **HR (avg/max):** 157 / 176 · **Relative Effort:** 292
+- **What went well:** the last marathon-pace work of the cycle is done, and it averaged **8:55 over miles 6–9**, inside the 8:55–9:05 band. Race shoes, race gels, two days of carb loading underneath it, and a start time half an hour off the real 10:20 gun. **Heart rate settles Friday's question:** 152 through the easy miles and 160–163 at pace, the same as Oct 11's block (162 at 8:47). Nothing here suggests illness or fatigue. Friday looks like a one-off.
+- **For the record, without comment:** by mile splits the fast stretch was really miles 7–10 (8:45, 9:01, 8:40, 8:38 = 8:46), with mile 6 at 9:14. If you started the block by feel rather than at the mile 6 beep, that explains it. The last 0.26 ran at 7:30.
+- **Week 19 complete:** 28.4 mi (Wed 5.6 · Thu 4.3 · Fri 6.3 · Sun 12.3; optional Tue skipped).
+- **Open:** how the carb load sat in your stomach, and whether the watch workout worked.
+- [View on Strava](https://www.strava.com/activities/20638521013)
+
 ### Fri Oct 16 — ✅ **Easy 6.32 mi at 9:08/mi. Heart rate ran high: 161 average.**
 <!-- strava_id: 20621617286 -->
 - **Prescribed:** Easy 6 mi at 9:40–9:55, strap on; walk 60 sec if HR passes 160 on a flat mile. Carb-load rehearsal day 1.
