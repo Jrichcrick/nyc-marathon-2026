@@ -7,6 +7,19 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Week 20 — October 19–25
+
+### Tue Oct 20 — ✅ **Easy 3.30 mi at 9:44/mi, HR 143. Right in the band.**
+<!-- strava_id: 20667675627 -->
+- **Prescribed:** Optional easy 3 mi at 9:30–9:50 after Pilates
+- **Actual:** 3.30 mi · 32:09 moving (32:13 elapsed) · 9:44/mi · 143 ft gain · 6:22 PM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:49 · 138 · 2) 10:01 · 145 · 3) 9:36 · 145 · 0.30) 9:00 · 150
+- **HR (avg/max):** 143 / 162 · **Relative Effort:** 50
+- **Coach notes:** A textbook easy day. Pace inside the 9:30–9:50 band, heart rate 143. That's lower than Friday's 161 and in line with Thursday's 149, so Friday was a one-off. Legs fresh for tomorrow's 400s.
+- [View on Strava](https://www.strava.com/activities/20667675627)
+
+---
+
 ## Week 19 — October 12–18
 
 ### Sun Oct 18 — ✅ **12.26 mi. Marathon-pace block averaged 8:55, on target, in the race shoes, on the carb load. Friday's heart rate was a one-off.**
