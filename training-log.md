@@ -9,6 +9,17 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 20 — October 19–25
 
+### Wed Oct 21 — ✅ **4×400m: 1:54, 1:47, 1:48, 1:46. Last workout of the cycle, done, and it felt easy.**
+<!-- strava_id: 20674084228 -->
+- **Prescribed:** 1.5 mi warm-up + 4×400m at 7:30–7:45/mi (1:52–1:56), 60 sec jog + 1.25 mi cool-down = 4 mi
+- **Actual:** 4.44 mi · 40:23 moving (40:32 elapsed) · 9:06/mi overall · 152 ft gain · 7:43 AM start · ASICS Novablast 4 (everyday pair)
+- **Activity title, theirs:** *"4x400 … EASY"* · description: *"Do I like sprints?!"*
+- **Watch laps:** warm-up **1.50 mi @ 9:41, HR 144** → **rep 1: 1:54 (7:39/mi), HR 164** → jog 400m 2:21 → **rep 2: 1:47 (7:10/mi), HR 168** → jog 400m 2:25 → **rep 3: 1:48 (7:07/mi), HR 166** → jog 400m 2:18 → **rep 4: 1:46 (7:13/mi), HR 168** → cool-down **1.20 mi @ 9:46, HR 158**
+- **Rep average:** 7:17/mi. Recoveries were 400m jogs (~2:20) instead of 60 sec.
+- **HR (avg/max):** 155 / 177 · **Relative Effort:** 95
+- **Coach notes:** The last workout of the training cycle is done, and it was easy. Four quick reps, a full warm-up and cool-down, and longer recoveries than written, which only made it gentler. That's exactly what a taper workout is for: legs that feel fast and fresh.
+- [View on Strava](https://www.strava.com/activities/20674084228)
+
 ### Tue Oct 20 — ✅ **Easy 3.30 mi at 9:44/mi, HR 143. Right in the band.**
 <!-- strava_id: 20667675627 -->
 - **Prescribed:** Optional easy 3 mi at 9:30–9:50 after Pilates
