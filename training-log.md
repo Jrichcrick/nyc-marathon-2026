@@ -9,6 +9,14 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 20 — October 19–25
 
+### Thu Oct 22 — ✅ **Easy 3.08 mi at 8:58/mi, before Pilates.**
+<!-- strava_id: 20686079145 -->
+- **Prescribed:** Pilates 6:45, easy 3 mi at 9:30–9:50
+- **Actual:** 3.08 mi · 27:35 moving (27:51 elapsed) · 8:58/mi · 104 ft gain · 6:22 AM start · ASICS Novablast 4 (everyday pair) · **no heart rate recorded**
+- **Mile splits:** 1) 8:57 · 2) 9:28 · 3) 8:32 · 0.08) 8:15
+- **Coach notes:** Done, early, before class. Three easy miles in the bank.
+- [View on Strava](https://www.strava.com/activities/20686079145)
+
 ### Wed Oct 21 — ✅ **4×400m: 1:54, 1:47, 1:48, 1:46. Last workout of the cycle, done, and it felt easy.**
 <!-- strava_id: 20674084228 -->
 - **Prescribed:** 1.5 mi warm-up + 4×400m at 7:30–7:45/mi (1:52–1:56), 60 sec jog + 1.25 mi cool-down = 4 mi
