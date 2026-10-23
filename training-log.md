@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 20 — October 19–25
 
+### Fri Oct 23 — ✅ **6.30 mi, easy miles in the band and two quicker miles at 8:49 and 8:53. HR 145.**
+<!-- strava_id: 20700236618 -->
+- **Prescribed:** Easy 5 mi, miles 3–4 at 9:00 (8:55–9:05)
+- **Actual:** 6.30 mi · 58:17 moving (58:21 elapsed) · 9:15/mi · 405 ft gain · 7:56 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:42 · 140 · 2) 9:47 · 142 · 3) 9:30 · 141 · 4) 8:49 · 148 · 5) 8:53 · 151 · 6) 9:12 · 149 · 0.30) 8:09 · 153
+- **HR (avg/max):** 145 / 163 · **Relative Effort:** 99
+- **Coach notes:** A relaxed run. The easy miles sat at 9:30–9:47 with heart rate around 140, and the two race-pace miles came in at 8:49 and 8:53 for HR 148–151. That's race pace at an easy-ish heart rate 9 days out.
+- [View on Strava](https://www.strava.com/activities/20700236618)
+
 ### Thu Oct 22 — ✅ **Easy 3.08 mi at 8:58/mi, before Pilates.**
 <!-- strava_id: 20686079145 -->
 - **Prescribed:** Pilates 6:45, easy 3 mi at 9:30–9:50
