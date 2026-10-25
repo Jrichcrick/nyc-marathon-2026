@@ -13,7 +13,10 @@
   .header .meta { font-size: 0.8rem; color: #666; }
   .header .goal { color: #3bb3a3; font-weight: 700; }
   .tabs { background: #141414; border-bottom: 1px solid #2a2a2a; padding: 0 24px; }
-  .tabs-inner { max-width: 900px; margin: 0 auto; display: flex; }
+  .tabs-inner { max-width: 900px; margin: 0 auto; display: flex; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tabs-inner::-webkit-scrollbar { display: none; }
+  .tab-btn { white-space: nowrap; flex-shrink: 0; }
+  @media (max-width: 580px) { .tabs { padding: 0 8px; } .tab-btn { padding: 12px 12px; } }
   .tab-btn { padding: 14px 24px; font-size: 0.9rem; font-weight: 600; color: #666; background: none; border: none; border-bottom: 3px solid transparent; cursor: pointer; transition: all 0.15s; }
   .tab-btn:hover { color: #ccc; }
   .tab-btn.active { color: #3bb3a3; border-bottom-color: #3bb3a3; }
@@ -162,6 +165,7 @@
   <div class="tabs-inner">
     <button class="tab-btn active" onclick="switchTab('week',this)">This Week</button>
     <button class="tab-btn" onclick="switchTab('race',this)">Race Plan</button>
+    <button class="tab-btn" onclick="switchTab('philly',this)">NYC → Philly</button>
     <button class="tab-btn" onclick="switchTab('plan',this)">Training Plan</button>
     <button class="tab-btn" onclick="switchTab('log',this)">Training Log</button>
     <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
@@ -369,6 +373,78 @@
 
 
 </div><!-- /tab-race -->
+
+<!-- ===== NYC → PHILLY ===== -->
+<div id="tab-philly" class="tab-panel">
+
+  <h2 style="margin-top:0;">NYC → Philly · three weeks between marathons</h2>
+
+  <div class="note blue">
+    <b>Philadelphia Marathon · Sunday Nov 22 · 7:00 AM start</b>, 22nd St &amp; Benjamin Franklin Parkway. Exactly 21 days after NYC. <b>The goal is to run it easy and enjoy it.</b> NYC is the race; Philly is the victory lap. That makes these three weeks mostly <b>recovery</b>: no workouts, no marathon-pace miles, one moderate long run, then a short taper.
+  </div>
+
+  <h3>The rules for these three weeks</h3>
+  <ul>
+    <li><b>Pain decides, not the calendar.</b> Any sharp, one-sided, or worsening pain (shin, IT band, Achilles, knee, foot): stop the run and tell me. Soreness that eases as you warm up is normal for the first week; pain that gets worse is not.</li>
+    <li><b>Easy means 9:45–10:15 in week 1 and 9:30–9:50 after that.</b> Your legs will feel fine before they are; tendons and muscle repair lag the "I feel great" feeling by a week or two.</li>
+    <li><b>Eat like you're still training.</b> The week after a marathon is a repair week, and repair needs food: 30–40g protein at every meal, plenty of carbs, portions are floors. This is not the week to cut back.</li>
+    <li><b>Sleep is the main recovery tool.</b> 8 hours, every night.</li>
+    <li><b>Checkpoint Sun Nov 8.</b> If that easy 6 feels heavy, or anything hurts, we change the plan, up to running Philly as a walk-run or skipping it. Nothing about Philly is worth an injury.</li>
+  </ul>
+
+  <div class="week">
+    <div class="wt"><h3>Week 1 — Nov 2–8 · Recovery</h3><span class="badge">~11 miles</span></div>
+    <table>
+      <tr><td class="dc">Mon Nov 2</td><td><strong>Rest.</strong> Walk 20–30 min to loosen up. Eat well all day. No boot camp</td></tr>
+      <tr><td class="dc">Tue Nov 3</td><td><strong>Rest.</strong> Teaching Pilates is fine; don't demo anything deep or ballistic. Short walk</td></tr>
+      <tr><td class="dc">Wed Nov 4</td><td><strong>Rest</strong>, or 20–30 min walk or easy bike. Foam roll</td></tr>
+      <tr><td class="dc">Thu Nov 5</td><td>Pilates 6:45 → <strong>easy 2–3 mi at 9:45–10:15</strong>. First run back. If anything hurts, walk home</td></tr>
+      <tr><td class="dc">Fri Nov 6</td><td><strong>Easy 3 mi</strong> at 9:45–10:15, or rest if Thursday felt rough</td></tr>
+      <tr><td class="dc">Sat Nov 7</td><td>Rest</td></tr>
+      <tr><td class="dc">Sun Nov 8</td><td><strong>Easy 6 mi</strong> at 9:45–10:15. <b>Checkpoint run</b>: tell me how it felt</td></tr>
+    </table>
+  </div>
+
+  <div class="week">
+    <div class="wt"><h3>Week 2 — Nov 9–15 · Rebuild</h3><span class="badge">~24 miles</span></div>
+    <table>
+      <tr><td class="dc">Mon Nov 9</td><td>Boot camp, <strong>conditioning only</strong>: no squat load, no jumping. Or rest</td></tr>
+      <tr><td class="dc">Tue Nov 10</td><td>Pilates 7:00 (you teach) → <strong>easy 3 mi</strong> at 9:30–9:50</td></tr>
+      <tr><td class="dc">Wed Nov 11</td><td><strong>Easy 4 mi + 4 × 20-sec strides</strong>. Strides wake the legs up; they are not a workout</td></tr>
+      <tr><td class="dc">Thu Nov 12</td><td>Pilates 6:45 → <strong>easy 3 mi</strong></td></tr>
+      <tr><td class="dc">Fri Nov 13</td><td><strong>Easy 4 mi</strong></td></tr>
+      <tr><td class="dc">Sat Nov 14</td><td>Rest</td></tr>
+      <tr><td class="dc">Sun Nov 15</td><td><strong>Long run: 10 mi easy</strong> at 9:40–10:00. The only long run between the races. Practise your Philly fuelling: gel at mile 5</td></tr>
+    </table>
+  </div>
+
+  <div class="week">
+    <div class="wt"><h3>Week 3 — Nov 16–22 · Philly race week</h3><span class="badge">~10 miles + race</span></div>
+    <table>
+      <tr><td class="dc">Mon Nov 16</td><td>Rest. No boot camp</td></tr>
+      <tr><td class="dc">Tue Nov 17</td><td>Pilates 7:00 → <strong>easy 3 mi</strong></td></tr>
+      <tr><td class="dc">Wed Nov 18</td><td><strong>Easy 3 mi + 4 × 20-sec strides</strong></td></tr>
+      <tr><td class="dc">Thu Nov 19</td><td>Pilates 6:45 → <strong>easy 2 mi</strong>, or skip. Fibre starts coming down at dinner</td></tr>
+      <tr><td class="dc">Fri Nov 20</td><td><strong>Rest. Carb load day 1</strong> (~10 g carbs per kg bodyweight: honey, applesauce, juice, sports drink, peeled potatoes). Travel to Philly if going Friday. The official shakeout is 3:00 PM at the Art Museum steps, optional</td></tr>
+      <tr><td class="dc">Sat Nov 21</td><td><strong>2 mi easy shakeout. Carb load day 2.</strong> Expo/bib pickup (check the race emails for hours). Early dinner, in bed by 8:30. Lay everything out</td></tr>
+      <tr class="race-day"><td class="dc">Sun Nov 22</td><td>PHILADELPHIA MARATHON · 7:00 AM · run it easy</td></tr>
+    </table>
+  </div>
+
+  <h3>Philly race day</h3>
+  <table>
+    <tr><td class="dc">~4:00 AM</td><td>Up. Your usual pre-race breakfast (sweet potato, peanut butter, banana, or whatever worked at NYC), about 3 hours before the start</td></tr>
+    <tr><td class="dc">Corral</td><td>Check the race-week email for corral times. With a 7:00 start it's a short, simple morning compared with NYC</td></tr>
+    <tr><td class="dc">Pace</td><td><strong>9:45–10:15/mi, conversational.</strong> Heart rate around 140–150, your easy-day number, until mile 20. That's roughly a 4:15–4:25 finish. After 20, run however you feel</td></tr>
+    <tr><td class="dc">Fuel</td><td>Your own gels at 5, 10, 15 and 20, with water. The course gel is Crank Sports e-Gel. Only take it if you've tried it</td></tr>
+    <tr><td class="dc">After</td><td>Eat a real meal within the hour. Then take a proper break: two weeks of no structured running</td></tr>
+  </table>
+
+  <div class="note red">
+    <b>If NYC changes things, Philly changes too.</b> If anything hurts after Nov 1, if you're still wrecked at the Nov 8 checkpoint, or if NYC goes sideways and you're tempted to "make up for it" in Philly, we talk before you run it. Racing two marathons hard three weeks apart is how runners get hurt.
+  </div>
+
+</div><!-- /tab-philly -->
 
 <!-- ===== TRAINING PLAN ===== -->
 <div id="tab-plan" class="tab-panel">
