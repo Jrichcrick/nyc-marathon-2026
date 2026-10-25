@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Week 20 — October 19–25
 
+### Sun Oct 25 — ✅ **Easy 8.06 mi at 9:30/mi, HR 152. Last run before race week.**
+<!-- strava_id: 20729678701 -->
+- **Prescribed:** Easy 8 mi at 9:30–9:50, no pace work
+- **Actual:** 8.06 mi · 1:16:33 moving (1:16:37 elapsed) · 9:30/mi · 537 ft gain · 1:02 PM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:24 · 139 · 2) 9:30 · 155 · 3) 9:25 · 151 · 4) 9:34 · 150 · 5) 9:38 · 153 · 6) 9:44 · 154 · 7) 9:36 · 155 · 8) 9:13 · 158
+- **HR (avg/max):** 152 / 167 · **Relative Effort:** 166
+- **Coach notes:** Exactly the run asked for: eight easy miles in the band, steady all the way through. Watch laps show a 1 mi / 400m / 400m / 5.5 mi / 1.05 mi structure, so if that was a test of the custom workout, it recorded.
+- **Week 20 complete:** 25.2 mi (Tue 3.3 · Wed 4.4 · Thu 3.1 · Fri 6.3 · Sun 8.1). Race week starts tomorrow.
+- [View on Strava](https://www.strava.com/activities/20729678701)
+
 ### Fri Oct 23 — ✅ **6.30 mi, easy miles in the band and two quicker miles at 8:49 and 8:53. HR 145.**
 <!-- strava_id: 20700236618 -->
 - **Prescribed:** Easy 5 mi, miles 3–4 at 9:00 (8:55–9:05)
