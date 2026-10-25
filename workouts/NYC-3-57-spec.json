@@ -1,0 +1,196 @@
+{
+  "cooldown" : "skip",
+  "id" : "920C33CA-E21B-441E-BE1F-2734B13F8570",
+  "name" : "NYC 3:57",
+  "steps" : [
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 580,
+      "mile" : 1,
+      "name" : "01 UP 9:30-9:40 | BY 0:09:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 1120,
+      "mile" : 2,
+      "name" : "02 DOWN 8:50-9:00 | BY 0:18:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 1660,
+      "mile" : 3,
+      "name" : "03 8:50-9:00 | BY 0:27:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 2200,
+      "mile" : 4,
+      "name" : "04 8:50-9:00 | BY 0:36:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 2740,
+      "mile" : 5,
+      "name" : "05 GEL 8:50-9:00 | BY 0:45:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 3280,
+      "mile" : 6,
+      "name" : "06 8:50-9:00 | BY 0:54:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 3820,
+      "mile" : 7,
+      "name" : "07 8:50-9:00 | BY 1:03:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 4360,
+      "mile" : 8,
+      "name" : "08 8:50-9:00 | BY 1:12:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 4900,
+      "mile" : 9,
+      "name" : "09 8:50-9:00 | BY 1:21:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 5440,
+      "mile" : 10,
+      "name" : "10 GEL 8:50-9:00 | BY 1:30:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 5980,
+      "mile" : 11,
+      "name" : "11 8:50-9:00 | BY 1:39:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 6520,
+      "mile" : 12,
+      "name" : "12 8:50-9:00 | BY 1:48:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 7060,
+      "mile" : 13,
+      "name" : "13 8:50-9:00 | BY 1:57:40"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 7610,
+      "mile" : 14,
+      "name" : "14 PULASKI 9:00-9:10 | BY 2:06:50"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 8150,
+      "mile" : 15,
+      "name" : "15 8:50-9:00 | BY 2:15:50"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 8750,
+      "mile" : 16,
+      "name" : "16 BRIDGE EASY HR<=165 | BY 2:25:50"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 9290,
+      "mile" : 17,
+      "name" : "17 GEL 8:50-9:00 | BY 2:34:50"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 9830,
+      "mile" : 18,
+      "name" : "18 8:50-9:00 | BY 2:43:50"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 10370,
+      "mile" : 19,
+      "name" : "19 8:50-9:00 | BY 2:52:50"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 10920,
+      "mile" : 20,
+      "name" : "20 GEL 9:00-9:10 | BY 3:02:00"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 11460,
+      "mile" : 21,
+      "name" : "21 8:50-9:00 | BY 3:11:00"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 12000,
+      "mile" : 22,
+      "name" : "22 8:50-9:00 | BY 3:20:00"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 12560,
+      "mile" : 23,
+      "name" : "23 CLIMB 9:10-9:20 | BY 3:29:20"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 13110,
+      "mile" : 24,
+      "name" : "24 PARK 9:00-9:10 | BY 3:38:30"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 13650,
+      "mile" : 25,
+      "name" : "25 DOWN 8:50-9:00 | BY 3:47:30"
+    },
+    {
+      "alert" : "none",
+      "distance_mi" : 1,
+      "elapsed_by_seconds" : 14190,
+      "mile" : 26,
+      "name" : "26 8:50-9:00 | BY 3:56:30"
+    },
+    {
+      "alert" : "none",
+      "goal" : "open",
+      "mile" : "finish",
+      "name" : "FINISH 8:50-9:00 | BY 3:58:28"
+    }
+  ],
+  "warmup" : "skip"
+}
