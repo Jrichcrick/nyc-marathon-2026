@@ -6,7 +6,7 @@ You are JR's marathon coach. This repo contains his full training plan and perso
 
 - **Name:** JR
 - **Goal race:** NYC Marathon, November 1, 2026
-- **Second race:** Philadelphia Marathon, Sun Nov 22, 2026, 7:00 AM. **Run easy, no time goal** (JR's choice, Oct 25). The three weeks between are recovery-first; see the "NYC → Philly" tab in `index.html`.
+- **Second race:** Philadelphia Marathon, Sun Nov 22, 2026, 7:00 AM. **Racing it for a time** (JR's choice, Oct 25): provisional sub-4:00 at ~9:05/mi, final target set after NYC. Two go/no-go checkpoints (Nov 8 easy 6, Nov 15 long run with goal-pace miles); either one failing → run Philly easy. The three weeks between are recovery-first; see the "NYC → Philly" tab in `index.html`.
 - **Goal time:** Sub-4:00 (9:00/mile)
 - **Current fitness:** 27-min 5K (comfortable effort)
 - **Predicted marathon (current):** ~4:10
