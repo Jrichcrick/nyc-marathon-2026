@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Race Week — October 26 – November 1
+
+### Tue Oct 27 — ✅ **4.01 mi with the two race-pace miles at 8:56 and 8:41, HR 157–160. Watch rehearsal recorded all three steps.**
+<!-- strava_id: 20751704124 -->
+- **Prescribed:** Pilates, then 4 mi on the 3 mi Watch Rehearsal: mile 1 easy, miles 2–3 at 8:50–9:00, 1 easy mile after
+- **Actual:** 4.01 mi · 36:25 moving (36:29 elapsed) · 9:05/mi · 219 ft gain · 9:55 AM start · ASICS Novablast 4 (everyday pair)
+- **Watch laps:** 1) 9:27 · HR 137 · **2) 8:56 · HR 157** · **3) 8:41 · HR 160** · 4) 9:19 · HR 162
+- **HR (avg/max):** 155 / 170 · **Relative Effort:** 87
+- **Feel:** "it felt hard"
+- **Coach notes:** Race-pace work done and the watch did its job: three one-mile steps recorded as three laps. Heart rate at race pace (157–160) is the same range as the long-run race-pace blocks on Oct 4 (157 at 8:58) and Oct 11 (162 at 8:47). That's higher than Friday Oct 23's two race-pace miles (148–151), and feeling flat in race week is very common: the training load has dropped, carb loading hasn't started, and you ran straight after teaching. Nothing here suggests a problem.
+- [View on Strava](https://www.strava.com/activities/20751704124)
+
+---
+
 ## Week 20 — October 19–25
 
 ### Sun Oct 25 — ✅ **Easy 8.06 mi at 9:30/mi, HR 152. Last run before race week.**
