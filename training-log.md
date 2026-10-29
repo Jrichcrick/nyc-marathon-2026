@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Race Week — October 26 – November 1
 
+### Thu Oct 29 — ✅ **Easy 3.03 mi at 9:32/mi, HR 139: the lowest average heart rate of any run in this log.**
+<!-- strava_id: 20778047580 -->
+- **Prescribed:** Pilates 6:45, easy 3 mi at 9:30–9:50 (optional)
+- **Actual:** 3.03 mi · 28:52 moving (29:13 elapsed) · 9:32/mi · 133 ft gain · 8:26 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:33 · 137 · 2) 9:35 · 136 · 3) 9:29 · 143
+- **HR (avg/max):** 139 / 146 · **Relative Effort:** 40
+- **Coach notes:** This is the taper working. An average heart rate of 139 is the lowest of every run in this log with heart-rate data (the previous low was 141, on Sep 22 and Sep 24), at a steady 9:32 the morning after the first carb-load day. Two days after a race-pace session that felt hard, the legs are freshening up. Last run before Saturday's shakeout.
+- [View on Strava](https://www.strava.com/activities/20778047580)
+
 ### Tue Oct 27 — ✅ **4.01 mi with the two race-pace miles at 8:56 and 8:41, HR 157–160. Watch rehearsal recorded all three steps.**
 <!-- strava_id: 20751704124 -->
 - **Prescribed:** Pilates, then 4 mi on the 3 mi Watch Rehearsal: mile 1 easy, miles 2–3 at 8:50–9:00, 1 easy mile after
