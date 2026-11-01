@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Race Week — October 26 – November 1
 
+### Sat Oct 31 — ✅ **Shakeout 2.61 mi with strides. Done; legs awake.**
+<!-- strava_id: 20805450126 -->
+- **Prescribed:** 2 mi easy + 3 × 100m strides
+- **Actual:** 2.61 mi · 23:43 moving · 152 ft gain · 10:35 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:23 · 130 · 2) 9:28 · 154 · 0.61) 8:01 · 167 (strides)
+- **HR (avg/max):** 147 / 181 (the max is the strides) · **Relative Effort:** 41
+- **Coach notes:** Two easy miles opening at HR 130, then the strides. That's the last run before New York. The work is done.
+- [View on Strava](https://www.strava.com/activities/20805450126)
+
 ### Thu Oct 29 — ✅ **Easy 3.03 mi at 9:32/mi, HR 139: the lowest average heart rate of any run in this log.**
 <!-- strava_id: 20778047580 -->
 - **Prescribed:** Pilates 6:45, easy 3 mi at 9:30–9:50 (optional)
