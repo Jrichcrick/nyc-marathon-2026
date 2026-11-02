@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Race Week — October 26 – November 1
 
+### Sun Nov 1 — 🏁 **NYC Marathon. Finished, through a cramp. Watch elapsed 4:03:47 (official time to add).**
+<!-- strava_id: 20821820156 -->
+- **Plan:** "NYC 3:57" on the watch, 3:58:28 real-course budget, Orange Wave 3, 10:20 start
+- **Watch:** 26.68 mi (GPS long, as expected) · 4:01:56 moving · **4:03:47 elapsed** · HR 167 avg / 180 max · Relative Effort 917
+- **Watch laps (pace · HR):** 1) 9:07 · 159 · 2) 8:11 · 167 · 3–14) 8:35–8:60 · 162–169 · 15) 9:13 · 168 · **16 Queensboro) 9:23 · 172** · 17) 8:50 · 18) 8:40 · 19–21) 9:02–9:04 · 171–172 · **22) 10:11 · 23) 12:00 · 24) 11:02** (HR 160–170) · 25) 9:36 · **26) 8:46 · last 0.67) 8:44**
+- **What happened:** a cramp around watch miles 22–24 (Harlem into Fifth Ave). About 2 minutes stopped.
+- **What went right:** the Queensboro went exactly as planned, a controlled 9:23 with no blow-up, and First Ave stayed in hand. After the cramp, the last two miles were 8:46 and 8:44, among the fastest of the day.
+- [View on Strava](https://www.strava.com/activities/20821820156)
+
 ### Sat Oct 31 — ✅ **Shakeout 2.61 mi with strides. Done; legs awake.**
 <!-- strava_id: 20805450126 -->
 - **Prescribed:** 2 mi easy + 3 × 100m strides
