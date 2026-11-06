@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Recovery Week — November 2–8
 
+### Fri Nov 6 — ✅ **Easy 4.33 mi at 9:15/mi, HR 149 and steady. Recovery is coming along.**
+<!-- strava_id: 20884950241 -->
+- **Prescribed:** Easy 3 mi (up to 4 if feeling great)
+- **Actual:** 4.33 mi · 40:01 moving · 9:15/mi · 217 ft gain · 11:35 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:16 · 142 · 2) 9:14 · 149 · 3) 9:14 · 151 · 4) 9:04 · 151 · 0.33) 9:49 · 151
+- **HR (avg/max):** 149 / 154 · **Relative Effort:** 73
+- **Coach notes:** Steady effort the whole way: heart rate settled at 149–151 and never went above 154. That's lower than Thursday's evening run (152 average, rising to 158), which fits the heat-and-humidity explanation for Thursday. Body is recovering well five days after NYC.
+- [View on Strava](https://www.strava.com/activities/20884950241)
+
 ### Thu Nov 5 — ✅ **First run back after NYC: easy 3.10 mi at 9:36/mi. Calf felt fine.**
 <!-- strava_id: 20877127203 -->
 - **Prescribed:** Easy 3 mi at 9:45–10:15, first run since the marathon
