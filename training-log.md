@@ -7,6 +7,20 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Recovery Week — November 2–8
+
+### Thu Nov 5 — ✅ **First run back after NYC: easy 3.10 mi at 9:36/mi. Calf felt fine.**
+<!-- strava_id: 20877127203 -->
+- **Prescribed:** Easy 3 mi at 9:45–10:15, first run since the marathon
+- **Actual:** 3.10 mi · 29:47 moving · 9:36/mi · 77 ft gain · 7:15 PM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:25 · 144 · 2) 9:22 · 152 · 3) 9:31 · 158
+- **HR (avg/max):** 152 / 169 · **Relative Effort:** 67
+- **Feel:** calf fine; "felt like it took forever"
+- **Coach notes:** The calf held up, which is what this run was for. Heart rate is still a few beats above pre-race (Oct 29's easy 3 averaged 139), and runs feel long and slow for a week or two after a marathon. That's normal recovery, not lost fitness.
+- [View on Strava](https://www.strava.com/activities/20877127203)
+
+---
+
 ## Race Week — October 26 – November 1
 
 ### Sun Nov 1 — 🏁 **NYC Marathon. Official 4:03:41. Finished through a calf cramp, same calf issue as NYC 2024.**
