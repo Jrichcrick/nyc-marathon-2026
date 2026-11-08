@@ -150,25 +150,34 @@
   .ch2::after { content: ' ▾'; font-size: 0.65em; opacity: 0.4; }
   .ch2.collapsed::after { content: ' ▸'; opacity: 0.55; }
   .ch2.collapsed + * { display: none; }
+  .arch { border: 1px solid #232323; border-radius: 8px; margin-bottom: 14px; background: #121212; }
+  .arch > summary { cursor: pointer; padding: 14px 16px; font-weight: 700; color: #fff; font-size: 0.95rem; list-style: none; }
+  .arch > summary::-webkit-details-marker { display: none; }
+  .arch > summary::before { content: '\25B8  '; color: #3bb3a3; }
+  .arch[open] > summary::before { content: '\25BE  '; }
+  .arch > summary .d { color: #666; font-weight: 600; font-size: 0.82rem; margin-left: 6px; }
+  .arch > .arch-body { padding: 4px 16px 18px; }
+  .nw td.dc { white-space: nowrap; color: #fff; font-weight: 700; width: 96px; vertical-align: top; }
+  .nw tr.race-day td { color: #3bb3a3; }
+  .wk-h { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin: 34px 0 12px; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; }
+  .wk-h h2 { margin: 0; border: none; padding: 0; }
 </style>
 </head>
 <body>
 
 <div class="header">
   <div class="header-inner">
-    <h1>NYC Marathon 2026</h1>
-    <div class="meta">Sunday, November 1, 2026 &nbsp;·&nbsp; <span class="goal">Goal: Sub-4:00 · flag budget 3:58:28</span> &nbsp;·&nbsp; <span id="race-countdown">—</span></div>
+    <h1>Philadelphia Marathon 2026</h1>
+    <div class="meta">Sunday, November 22 · 7:00 AM &nbsp;·&nbsp; <span class="goal">Goal: sub-4:00</span> &nbsp;·&nbsp; <span id="race-countdown">—</span></div>
   </div>
 </div>
 
 <div class="tabs">
   <div class="tabs-inner">
     <button class="tab-btn active" onclick="switchTab('week',this)">This Week</button>
-    <button class="tab-btn" onclick="switchTab('race',this)">Race Plan</button>
-    <button class="tab-btn" onclick="switchTab('philly',this)">NYC → Philly</button>
-    <button class="tab-btn" onclick="switchTab('plan',this)">Training Plan</button>
-    <button class="tab-btn" onclick="switchTab('log',this)">Training Log</button>
-    <button class="tab-btn" onclick="switchTab('nutrition',this)">Nutrition &amp; Recovery</button>
+    <button class="tab-btn" onclick="switchTab('philly',this)">Philly Plan</button>
+    <button class="tab-btn" onclick="switchTab('log',this)">Log</button>
+    <button class="tab-btn" onclick="switchTab('archive',this)">Archive</button>
   </div>
 </div>
 
@@ -177,175 +186,91 @@
 <!-- ===== THIS WEEK ===== -->
 <div id="tab-week" class="tab-panel active">
 
-  <div class="wt"><h2 style="margin:0;border:none;padding:0;">Recovery Week &nbsp;·&nbsp; Nov 2–8</h2><span class="badge r">~12 miles · NYC → PHILLY WEEK 1</span></div>
+  <div class="wk-h" style="margin-top:0"><h2>This week · Nov 9–15</h2><span class="badge r">~28 miles · Philly in 2 weeks</span></div>
 
   <div class="tw-rule">
-    <strong>NYC is done: 4:03:41, through a calf cramp, with the Queensboro run exactly to plan and the last two miles at 8:46 and 8:44.</strong> This week is recovery, and it's what makes racing Philly possible. Rest Monday to Wednesday, two short easy runs, then Sunday's easy 6 as checkpoint 1. <strong>Eat like you're still training:</strong> a marathon is a repair job, and repair needs food. 30–40g protein at every meal, plenty of carbs, portions are floors. Salads and vegetables are back. <strong>Any sharp, one-sided or worsening pain: stop and tell me.</strong> Calf raises start next Monday, not this week.
+    <strong>Checkpoint 1 passed. The Philly time goal is on.</strong> Easy running all week, then Sunday's 12-miler with 3 miles at goal pace = Checkpoint 2. <strong>Calf raises Mon, Wed, Fri:</strong> 3 × 15 straight-knee + 3 × 15 bent-knee, 3 sec up, 3 sec down. Eat like you're training: 30–40g protein and carbs at every meal, portions are floors. <strong>Any sharp or worsening pain: stop and tell me.</strong>
   </div>
 
   <div class="tw-day">
-    <div class="tw-head"><span class="tw-date">Mon Nov 2</span><span class="tw-work">Rest · walk</span></div>
-    <div class="tw-sleep">Sleep as long as you can · In bed 9:30 PM</div>
+    <div class="tw-head"><span class="tw-date">Mon Nov 9</span><span class="tw-work">Boot camp, conditioning only · calf raises</span></div>
+    <div class="tw-sleep">In bed 9:30 PM</div>
     <ul>
-      <li><strong>20–30 min walk</strong> to loosen up. No boot camp. Gentle movement helps the calf more than stretching it hard</li>
-      <li><strong>Breakfast:</strong> 3 eggs + chicken sausage + sweet potato + Greek yogurt with honey + banana</li>
-      <li><strong>Lunch:</strong> 6–8oz chicken or beef + potato or quinoa + salad. <strong>Afternoon:</strong> yogurt + peanut butter + fruit</li>
-      <li><strong>Dinner:</strong> 8oz steak, chicken or salmon + potatoes + vegetables. Drink water through the day</li>
+      <li>No squat load, no jumping. Rest instead if you'd rather</li>
+      <li><strong>Calf raises</strong> after</li>
     </ul>
   </div>
 
   <div class="tw-day">
-    <div class="tw-head"><span class="tw-date">Tue Nov 3</span><span class="tw-work">Rest · teach Pilates 7:00</span></div>
+    <div class="tw-head"><span class="tw-date">Tue Nov 10</span><span class="tw-work">Teach Pilates 7:00 → easy 3 mi</span></div>
     <div class="tw-sleep">Up 6:15 AM · In bed 9:30 PM</div>
     <ul>
-      <li>Teaching is fine; don't demo anything deep or bouncy on the calves. Short walk later</li>
-      <li>Eat the same way as Monday: protein at every meal, carbs, vegetables</li>
+      <li><strong>Easy 3 at 9:30–9:50</strong></li>
     </ul>
   </div>
 
   <div class="tw-day">
-    <div class="tw-head"><span class="tw-date">Wed Nov 4</span><span class="tw-work">Rest, or 20–30 min walk / easy bike</span></div>
+    <div class="tw-head"><span class="tw-date">Wed Nov 11</span><span class="tw-work">Easy 5 mi + strides · calf raises</span></div>
     <div class="tw-sleep">In bed 9:30 PM</div>
     <ul>
-      <li>Foam roll the calves and quads, gently</li>
-      <li>Low-fibre dinner tonight: Thursday is the first run back</li>
+      <li><strong>Easy 5 + 6 × 20-sec strides</strong> at the end. Strides wake the legs up; they are not a workout</li>
+      <li><strong>Calf raises</strong> after</li>
     </ul>
   </div>
 
-  <div class="tw-day tw-key">
-    <div class="tw-head"><span class="tw-date">Thu Nov 5</span><span class="tw-work">Pilates 6:45 → easy 3 mi · first run back</span></div>
+  <div class="tw-day">
+    <div class="tw-head"><span class="tw-date">Thu Nov 12</span><span class="tw-work">Pilates 6:45 → easy 3 mi</span></div>
     <div class="tw-sleep">Up 6:00 AM · In bed 9:30 PM</div>
     <ul>
-      <li><strong>6:05 AM:</strong> half banana. <strong>8:00 AM:</strong> easy 3 at <strong>9:45–10:15</strong>. If anything hurts, walk home</li>
-      <li><strong>By 9:00 AM:</strong> 3 eggs + chicken sausage + sweet potato + Greek yogurt</li>
-      <li>Tell me how the calf felt</li>
+      <li><strong>Easy 3</strong></li>
     </ul>
   </div>
 
   <div class="tw-day">
-    <div class="tw-head"><span class="tw-date">Fri Nov 6</span><span class="tw-work">Easy 3 mi</span></div>
+    <div class="tw-head"><span class="tw-date">Fri Nov 13</span><span class="tw-work">Easy 5 mi · calf raises</span></div>
     <div class="tw-sleep">In bed 9:30 PM</div>
     <ul>
-      <li><strong>Easy 3 at 9:45–10:15</strong>, whenever suits you</li>
-      <li>Normal eating, protein at every meal</li>
+      <li><strong>Easy 5</strong>, then <strong>calf raises</strong></li>
     </ul>
   </div>
 
-  <div class="tw-day">
-    <div class="tw-head"><span class="tw-date">Sat Nov 7</span><span class="tw-work">Rest</span></div>
+  <div class="tw-day tw-rest">
+    <div class="tw-head"><span class="tw-date">Sat Nov 14</span><span class="tw-work">Rest</span></div>
     <div class="tw-sleep">In bed 9:30 PM</div>
     <ul>
-      <li>Walk, foam roll. Low-fibre dinner: Sunday is the checkpoint run</li>
+      <li>Low-fibre dinner with plenty of protein and carbs: Sunday is the long run</li>
     </ul>
   </div>
 
   <div class="tw-day tw-key">
-    <div class="tw-head"><span class="tw-date">Sun Nov 8</span><span class="tw-work">Easy 6 mi · Checkpoint 1</span></div>
+    <div class="tw-head"><span class="tw-date">Sun Nov 15</span><span class="tw-work">12 mi with 3 at goal pace · Checkpoint 2</span></div>
     <div class="tw-sleep">In bed 9:30 PM</div>
     <ul>
-      <li><strong>Easy 6 at 9:40–10:00.</strong> Breakfast 2–3 hours before: sweet potato, peanut butter, banana</li>
-      <li><strong>Checkpoint 1:</strong> legs feel normal and nothing hurts → the Philly time goal stays on. Heavy legs or any pain → we run Philly easy. Tell me how it went</li>
+      <li>Breakfast 2–3 hours before: sweet potato, peanut butter, banana</li>
+      <li><strong>Miles 1–7 easy at 9:30–9:50 · miles 8–10 at goal pace (~9:05) with HR at or under ~160 · miles 11–12 easy</strong></li>
+      <li>Gel at mile 5. Want to try salt or an electrolyte drink for Philly? Test it today, not on race day</li>
+      <li><strong>Checkpoint 2:</strong> goal-pace miles feel controlled with HR around 160 → race Philly. They feel hard or HR runs well above that → we set Philly a notch slower, or easy. Tell me how it went</li>
     </ul>
   </div>
+
+  <div class="wk-h"><h2>Next week · Nov 16–22 · Philly race week</h2><span class="badge r">~12 miles + race</span></div>
+  <table class="nw">
+    <tr><td class="dc">Mon Nov 16</td><td>Rest. No boot camp. Calf raises</td></tr>
+    <tr><td class="dc">Tue Nov 17</td><td>Teach Pilates 7:00 → <strong>easy 3 mi</strong></td></tr>
+    <tr><td class="dc">Wed Nov 18</td><td><strong>4 mi: 1 easy, 2 at goal pace, 1 easy.</strong> The last touch of race pace. Last calf raises</td></tr>
+    <tr><td class="dc">Thu Nov 19</td><td>Pilates 6:45 → <strong>easy 3 mi</strong>. Fibre starts coming down at dinner</td></tr>
+    <tr><td class="dc">Fri Nov 20</td><td><strong>Rest. Carb load day 1</strong> (~10g carbs per kg of bodyweight: honey, applesauce, juice, sports drink, peeled potatoes). Travel to Philly if going Friday. Skip the official 3:00 PM shakeout</td></tr>
+    <tr><td class="dc">Sat Nov 21</td><td><strong>2 mi easy + 3 × 100m strides. Carb load day 2.</strong> Expo/bib pickup. Early dinner, in bed by 8:30. Lay everything out</td></tr>
+    <tr class="race-day"><td class="dc">Sun Nov 22</td><td><strong>PHILADELPHIA MARATHON · 7:00 AM.</strong> Up ~4:00. Mile-by-mile plan on the Philly Plan tab</td></tr>
+  </table>
 
 </div><!-- /tab-week -->
 
-<!-- ===== RACE PLAN ===== -->
-<div id="tab-race" class="tab-panel">
-  <h2 style="margin-top:0;">NYC Marathon · Sunday Nov 1 · sub-4 with protected bridge effort</h2>
-  <div class="rp-big">
-    <div style="color:#bbb;">Real-course elapsed-time budget · not an alert-only guarantee</div>
-    <div class="n">3:58:28</div>
-    <p>Goal: <b>under 4:00</b>. Slow pace edges plus a <b>10:00 Queensboro mile</b> total <b>3:58:28</b> over 26.21875 real miles. This leaves <b>about 1:32</b> to four hours. Stops and any extra bridge time consume that margin. A heart-rate cue cannot enforce a maximum crossing time.</p>
-    <p><b>No buzz does not prove you are on schedule.</b> Current and average pace are GPS estimates. The custom workout has no per-step pace or heart-rate warning alerts; guides and cumulative checkpoints are in the step names. At each official mile flag compare uninterrupted elapsed time, measured from the start mat, with the BY checkpoint for that mile inside the workout. At every deadline or earlier keeps this schedule available; you must still cover the remaining miles within their budgets. The finish deadline itself is 3:58:28.</p>
-  </div>
-  <div class="tw-rule"><b>Your choice:</b> protect Queensboro effort and target sub-4 using elapsed-time checks. The on-screen / card pace guides stay narrow in the first half, with no faster-than-8:50 permission on the flats. Slow-side allowances are on Verrazzano, Pulaski, Queensboro, Willis, Fifth Avenue and the park entrance. No faster back-half range is required.</div>
-  <table class="rp-table"><thead><tr><th>Real mile flag</th><th>Pace guide / effort</th><th>Elapsed by</th><th>Cue</th></tr></thead><tbody>
-  <tr><td class="mi">1</td><td class="pc">9:30–9:40</td><td class="el">0:09:40</td><td class="note">Verrazzano uphill. Let the climb and congestion be slow.</td></tr>
-      <tr><td class="mi">2</td><td class="pc">8:50–9:00</td><td class="el">0:18:40</td><td class="note">Verrazzano downhill. Hold back; do not bank time.</td></tr>
-      <tr><td class="mi">3</td><td class="pc">8:50–9:00</td><td class="el">0:27:40</td><td class="note">Brooklyn. Settle into the range.</td></tr>
-      <tr><td class="mi">4</td><td class="pc">8:50–9:00</td><td class="el">0:36:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">5</td><td class="pc">8:50–9:00</td><td class="el">0:45:40</td><td class="note">GEL #1. NYRR lists no mile-5 fluid station: arrange water beforehand if your gel needs it.</td></tr>
-      <tr><td class="mi">6</td><td class="pc">8:50–9:00</td><td class="el">0:54:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">7</td><td class="pc">8:50–9:00</td><td class="el">1:03:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">8</td><td class="pc">8:50–9:00</td><td class="el">1:12:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">9</td><td class="pc">8:50–9:00</td><td class="el">1:21:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">10</td><td class="pc">8:50–9:00</td><td class="el">1:30:40</td><td class="note">GEL #2 at the real flag.</td></tr>
-      <tr><td class="mi">11</td><td class="pc">8:50–9:00</td><td class="el">1:39:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">12</td><td class="pc">8:50–9:00</td><td class="el">1:48:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
-      <tr><td class="mi">13</td><td class="pc">8:50–9:00</td><td class="el">1:57:40</td><td class="note">Greenpoint. Halfway is 13.1094 miles, just beyond this flag on Pulaski; budget 1:58:40 there.</td></tr>
-      <tr><td class="mi">14</td><td class="pc">9:00–9:10</td><td class="el">2:06:50</td><td class="note">Pulaski Bridge into Queens. Allow the short climb.</td></tr>
-      <tr><td class="mi">15</td><td class="pc">8:50–9:00</td><td class="el">2:15:50</td><td class="note">Queens. Save effort for the bridge.</td></tr>
-      <tr><td class="mi">16</td><td class="pc">HR cue ≤165</td><td class="el">2:25:50</td><td class="note">QUEENSBORO: visual HR cue ≤165 bpm, easy controlled effort; no HR alert. 10:00 is a TIME BUDGET, not an enforced pace. Check the real mile-16 flag. Do not chase a bridge GPS pace reading.</td></tr>
-      <tr><td class="mi">17</td><td class="pc">8:50–9:00</td><td class="el">2:34:50</td><td class="note">GEL #3 after the bridge. First Avenue: settle back in, no surge.</td></tr>
-      <tr><td class="mi">18</td><td class="pc">8:50–9:00</td><td class="el">2:43:50</td><td class="note">First Avenue. Hold the same range despite the crowd.</td></tr>
-      <tr><td class="mi">19</td><td class="pc">8:50–9:00</td><td class="el">2:52:50</td><td class="note">First Avenue. Keep effort controlled.</td></tr>
-      <tr><td class="mi">20</td><td class="pc">9:00–9:10</td><td class="el">3:02:00</td><td class="note">Willis Avenue Bridge / Bronx. GEL #4. Allow 9:10.</td></tr>
-      <tr><td class="mi">21</td><td class="pc">8:50–9:00</td><td class="el">3:11:00</td><td class="note">Bronx. The official 2026 route now turns at East 141st Street before returning toward Madison Avenue Bridge.</td></tr>
-      <tr><td class="mi">22</td><td class="pc">8:50–9:00</td><td class="el">3:20:00</td><td class="note">Madison Avenue Bridge / Harlem.</td></tr>
-      <tr><td class="mi">23</td><td class="pc">9:10–9:20</td><td class="el">3:29:20</td><td class="note">Fifth Avenue climb: allow 9:20. This is real slow-side room.</td></tr>
-      <tr><td class="mi">24</td><td class="pc">9:00–9:10</td><td class="el">3:38:30</td><td class="note">Into Central Park at 90th Street, then rolling terrain: allow 9:10.</td></tr>
-      <tr><td class="mi">25</td><td class="pc">8:50–9:00</td><td class="el">3:47:30</td><td class="note">Cat Hill downhill, travelling south. Hold back on the descent.</td></tr>
-      <tr><td class="mi">26</td><td class="pc">8:50–9:00</td><td class="el">3:56:30</td><td class="note">Central Park South / Columbus Circle. Continue to the finish; the closing stretch rises.</td></tr>
-      <tr><td class="mi">Finish<br>26.21875</td><td class="pc">8:50–9:00</td><td class="el"><b>3:58:28</b></td><td class="note">END the workout at the actual finish. The plain Open run has no automatic distance finish.</td></tr>
-  </tbody></table>
-  <div class="note red"><b>Distance error:</b> 26.45 miles is an illustrative stress case, not a measured limit for your Watch. As an illustrative pace-budget calculation, adding 0.23125 miles at 9:00/mi would make the total <b>4:00:33</b>. That calculation does not cover other distributions of GPS error, pauses or missed distance cues. There is no honest statement that staying inside every alert guarantees sub-4 at 26.45. Official flags and elapsed time are the independent check.</div>
-  <h3>On your Watch: start NYC 3:57</h3>
-  <div class="note blue"><b>The full plan is inside the workout. No separate race card is required.</b> Fitness confirmed <b>Workout Added to Watch</b> for <b>NYC 3:57</b> and <b>3 mi Watch Rehearsal</b> on Oct 25. The obsolete NYC version and eight-mile alert-demo template were removed. Completed run records were not deleted.</div>
-  <ol>
-    <li>On the Watch open <b>Workout → Outdoor Run → Goals → Custom → NYC 3:57</b> (or select the workout where it appears in the Outdoor Run list). Start when you cross the start mat.</li>
-    <li>The workout contains <b>26 separate one-mile Work steps, then an Open finish step</b>. Warmup and cooldown are skipped. Each mile's name contains its <b>pace guide and cumulative BY time</b>: for example <b>20 GEL 9:00-9:10 | BY 3:02:00</b>.</li>
-    <li><b>BY is the elapsed-time budget at the END of the named mile.</b> During mile 20, work toward 3:02:00 at its end. A transition notification can show the upcoming step, so read the mile number: the cue for mile 21 gives the deadline for the end of mile 21, not mile 20.</li>
-    <li>Use the <b>Up Next</b> workout view for interval names and distance remaining. Keep <b>elapsed time, current pace and average pace</b> available in Metrics. Average Pace is the whole run so far, not just the previous mile. The Watch metric layout has not been remotely verified; check it in the rehearsal.</li>
-    <li><b>No recurring per-step pace or HR warnings.</b> The written ranges are guides, not active target alerts. Voice Feedback is <b>Off</b>, so there should be no workout speech in your headphones. Auto-Pause is <b>Off</b>, so water stops count toward elapsed time. Keep the clock running.</li>
-    <li>The intended reminder is the mile-step transition, not repeated too-fast/too-slow warnings. Confirm its haptic and on-screen cue in the rehearsal. If a separate recurring Distance alert creates duplicate cues, disable that extra alert on the Watch. Other system notifications can still occur.</li>
-    <li>The final step is <b>Open</b>: continue through the actual finish line, then manually end the workout. Its guide is 8:50–9:00 and its BY budget is 3:58:28.</li>
-  </ol>
-  <h3>Queensboro and the overall clock</h3>
-  <p><b>Mile 16:</b> the on-watch name says easy bridge effort / HR≤165 and BY 2:25:50. That HR value is a visual cue from the draft, not an established physiological threshold. Do not chase a suspect GPS pace on the bridge. The budget allows 10:00 for that mile; one additional minute makes the full schedule 3:59:28.</p>
-  <p><b>Mile 20:</b> BY 3:02:00 corresponds to a real-course average of 9:06/mi so far. Current pace alone cannot tell you whether you are behind overall. Check elapsed time against the named-mile checkpoint and use average pace for context. The native workout does <b>not</b> automatically calculate a hill-adjusted finish forecast or alert when it exceeds four hours.</p>
-  <p>Steps advance by <b>Watch-recorded distance</b>. A GPS-mile cue can occur before or after the real flag, and the clock is only GPS-independent when compared at the actual flag. Read the correct mile's BY checkpoint; do not confuse the upcoming step with the flag just passed. This remains a time budget, not a fail-proof finish guarantee.</p>
-  <h3>Tuesday Oct 27: start 3 mi Watch Rehearsal</h3>
-  <p>This is also <b>added to the Watch</b>. Three one-mile Work steps, all easy, no targets, no warmup/cooldown. Verify the mile transition haptic, the full cue's readability in Up Next, and elapsed / current / average pace on screen. Confirm no recurring pace warnings, duplicate distance cues or spoken announcements. Manually end at three miles if recording continues. Use Thursday's easy three to retest any corrected setting.</p>
-  <h3>How the workouts were added</h3>
-  <p>I generated native <b>.workout</b> files using Apple's <b>WorkoutKit</b> framework on the Mac, exported them with <code>WorkoutPlan.dataRepresentation</code>, and decoded them again with Apple's framework to verify every distance, name, Work purpose, skipped warmup/cooldown and absent target alert. Safari on the iPhone downloaded the files; opening each from Downloads launched Fitness, where <b>Add to Apple Watch</b> produced the explicit success confirmation.</p>
-  <p><a href="workouts/NYC-3-57.workout">NYC 3:57 native file</a> · <a href="workouts/3-mi-Watch-Rehearsal.workout">3 mi Watch Rehearsal native file</a> · <a href="workouts/NYC-3-57-spec.json">Auditable step specification</a> · <a href="workout-import.md">Repeat the import</a>. Re-importing an existing file may create a duplicate or report it already exists; the two workouts are already added.</p>
-  <details><summary>Verification details</summary><p>The paired settings showed Series 10 GPS / watchOS 27.0.1. Native steps expose Value or Range and Current or Average pace, with 10-second picker ticks; the final plan instead uses step-name guides without target alerts. WorkoutKit validated 26 × 1 mi + Open for NYC and 3 × 1 mi for the rehearsal. Fitness confirmed both additions to Watch. Exact haptic behavior, full cue visibility, metric layout and first-mile notification timing still require the live rehearsal. The phone verified Oct 23's 8:49 / 8:53 miles at HR 148 / 151 and Oct 18's four-mile block at about 8:55 / HR 160. No personal GPS error maximum has been established.</p></details>
-  <h3>Fuelling</h3>
-  <p><b>Own gels at real miles 5, 10, 17 and 20</b>; carry a spare. No gel on the Queensboro climb. Gel cues are included in the names for miles 5, 10, 17 and 20. They are visual cues; no spoken gel announcement is required. NYRR lists fluid stations at miles 3–25 <b>except 5, 7 and 9</b>; arrange water for the mile-5 gel if needed. Official gels are at 12 and 18. <a href="https://prod.nyrr.org/tcsnycmarathon/the-course" target="_blank" rel="noopener">NYRR course and amenities</a>.</p>
-  <p><b>Course reference:</b> follow the linked official 2026 map; the bridge and park names above are approximate mile cues, with Cat Hill approached southbound. Named terrain sections are approximate mile cues, not exact GPS boundaries. The Bronx route has changed for 2026. <a href="https://cms.prod.nyrr.org/api/document-files/file/TCSNYCM26_Map_Course_090226_RD3.pdf" target="_blank" rel="noopener">Official 2026 map</a>.</p>
-
-  <h3>Race morning</h3>
-  <div class="note blue">
-    <b>Orange Wave 3 · Corral E · gun 10:20 AM.</b> Midtown bus from the NY Public Library (5th Ave &amp; 42nd) at <b>5:30 AM</b>. You must take that bus at that time. No bag check: you chose the <b>poncho</b>, so nothing you wear to Staten Island comes back. From NYRR's confirmation email, Oct 7. <b>Clocks go back an hour at 2 AM on race morning</b> (daylight saving time ends Nov 1). Your phone and watch change on their own. Set the alarm for 4:00 AM, and you get an extra hour of sleep.
-  </div>
-  <table>
-    <thead><tr><th>Race morning, Sun Nov 1</th><th></th></tr></thead>
-    <tbody>
-      <tr><td><b>4:00 AM</b></td><td>Up. (Assumes you're ≤30 min from the library. If you're further, move everything above 5:15 earlier.)</td></tr>
-      <tr><td><b>4:10 AM</b></td><td><b>Breakfast #1:</b> 1 large sweet potato peeled + mashed · 2 tbsp peanut butter · 1 banana. Or the meal you actually ate before Oct 4 and Oct 11, if different. Coffee only if normal for you.</td></tr>
-      <tr><td><b>4:45 AM</b></td><td>Leave. Throwaway layers on, everything below packed. Be at the library by <b>5:15</b>.</td></tr>
-      <tr><td><b>5:30 AM</b></td><td>Bus. Sit, stay warm, sip water.</td></tr>
-      <tr><td><b>~6:30–7:00</b></td><td>Athlete village. <b>Over three hours before your gun.</b> Find somewhere to sit off the ground, stay in your layers, don't wander.</td></tr>
-      <tr><td><b>7:20 AM</b></td><td><b>Breakfast #2 (gun − 3:00), carried in:</b> 1 banana + 1 applesauce pouch + 1 tbsp honey. Then sip ~500ml sports drink between now and 9:00. Breakfast #1 was six hours before the gun and will be long gone. <b>This second meal is not optional.</b></td></tr>
-      <tr><td><b>~9:15 AM</b></td><td>Last toilet. Lines are long, so join early.</td></tr>
-      <tr><td><b>9:35 AM</b></td><td>Half banana or a gel, with water. Head to the Orange Wave 3 corral. NYRR's race-week email gives the exact time Wave 3 corrals close. Check it.</td></tr>
-      <tr><td><b>Corral</b></td><td>Keep the throwaway layers on until the last minutes, then drop them in the donation bins. Easy jogging on the spot, leg swings. Mile 1 is your warm-up, which is another reason it's 9:35.</td></tr>
-      <tr><td><b>10:20 AM</b></td><td>Gun. Start your watch on the mat.</td></tr>
-    </tbody>
-  </table>
-
-  <div class="note">
-    <b>Pack list for the village:</b> breakfast #2, 500ml sports drink, water, half banana or gel, <b>5 race gels</b> (4 on you + 1 spare), old sweats you'll never see again, a hat and gloves you'll donate, a garbage bag or space blanket to sit on, toilet paper, and your phone with the QR code. Nothing you can't lose. There is no bag check at the start.
-  </div>
-
-
-</div><!-- /tab-race -->
 
 <!-- ===== NYC → PHILLY ===== -->
 <div id="tab-philly" class="tab-panel">
 
-  <h2 style="margin-top:0;">NYC → Philly · three weeks between marathons</h2>
+  <h2 style="margin-top:0;">Philly Plan · Sunday Nov 22</h2>
 
   <div class="note blue">
     <b>Philadelphia Marathon · Sunday Nov 22 · 7:00 AM start</b>, 22nd St &amp; Benjamin Franklin Parkway. Exactly 21 days after NYC. <b>The goal is to race it for a time.</b> Philly is widely run as a flatter, faster course than NYC, so a good day there is realistic. The order is fixed: <b>recover fully first</b>, then one sharpening week, then a short taper. You can't train in three weeks; you can only arrive recovered and sharp.
@@ -354,7 +279,7 @@
   <h3>The goal, and two checkpoints</h3>
   <ul>
     <li><b>Provisional target: sub-4:00, paced at ~9:05/mi (≈3:58).</b> We set the final number after NYC, from how NYC went and how your legs answer the two checkpoints below.</li>
-    <li><b>Checkpoint 1 · Sun Nov 8, easy 6.</b> Legs feel normal and nothing hurts → the time goal stays on. Heavy legs, or any pain → Philly becomes an easy run (9:45–10:15/mi) and the rest of this plan gets lighter.</li>
+    <li><b>Checkpoint 1 · Sun Nov 8, easy 6: ✅ passed.</b> 6.41 mi, HR 148, legs fine. The time goal stays on.</li>
     <li><b>Checkpoint 2 · Sun Nov 15, 12 miles with 3 at goal pace.</b> Goal-pace miles feel controlled with HR around 160, your training race-pace number → race it. They feel hard, or HR runs well above that → run Philly a notch slower, or easy.</li>
   </ul>
 
@@ -364,47 +289,8 @@
     <li><b>No hard running until Nov 15.</b> Your legs will feel fine before they are; tendons and muscle repair lag the "I feel great" feeling by a week or two. Racing Philly well depends on not spending anything in week 1.</li>
     <li><b>Eat like you're still training.</b> The week after a marathon is a repair week, and repair needs food: 30–40g protein at every meal, plenty of carbs, portions are floors. This is not the week to cut back.</li>
     <li><b>Sleep is the main recovery tool.</b> 8 hours, every night.</li>
-    <li><b>Calves: the thing to fix before Philly.</b> The same calf cramped at NYC 2024 and 2026. From Mon Nov 9, three times a week (Mon, Wed, Fri): <b>slow calf raises</b>, 3 × 15 with straight knees and 3 × 15 with bent knees, 3 seconds up, 3 seconds down. Stop if anything is sharp. Skip them race week after Wednesday Nov 18.</li>
+    <li><b>Calves: the thing to fix before Philly.</b> The same calf cramped at NYC 2024 and 2026. Slow calf raises Mon, Wed, Fri (on the This Week tab).</li>
   </ul>
-
-  <div class="week">
-    <div class="wt"><h3>Week 1 — Nov 2–8 · Recovery</h3><span class="badge">~12 miles</span></div>
-    <table>
-      <tr><td class="dc">Mon Nov 2</td><td><strong>Rest.</strong> Walk 20–30 min to loosen up. Eat well all day. No boot camp</td></tr>
-      <tr><td class="dc">Tue Nov 3</td><td><strong>Rest.</strong> Teaching Pilates is fine; don't demo anything deep or ballistic. Short walk</td></tr>
-      <tr><td class="dc">Wed Nov 4</td><td><strong>Rest</strong>, or 20–30 min walk or easy bike. Foam roll</td></tr>
-      <tr><td class="dc">Thu Nov 5</td><td>Pilates 6:45 → <strong>easy 3 mi at 9:45–10:15</strong>. First run back. If anything hurts, walk home</td></tr>
-      <tr><td class="dc">Fri Nov 6</td><td><strong>Easy 3 mi</strong> at 9:45–10:15</td></tr>
-      <tr><td class="dc">Sat Nov 7</td><td>Rest</td></tr>
-      <tr><td class="dc">Sun Nov 8</td><td><strong>Easy 6 mi</strong> at 9:40–10:00. <b>Checkpoint 1</b>: tell me how it felt</td></tr>
-    </table>
-  </div>
-
-  <div class="week">
-    <div class="wt"><h3>Week 2 — Nov 9–15 · Sharpen</h3><span class="badge">~28 miles</span></div>
-    <table>
-      <tr><td class="dc">Mon Nov 9</td><td>Boot camp, <strong>conditioning only</strong>: no squat load, no jumping. Or rest</td></tr>
-      <tr><td class="dc">Tue Nov 10</td><td>Pilates 7:00 (you teach) → <strong>easy 3 mi</strong> at 9:30–9:50</td></tr>
-      <tr><td class="dc">Wed Nov 11</td><td><strong>Easy 5 mi + 6 × 20-sec strides</strong>. Strides wake the legs up; they are not a workout</td></tr>
-      <tr><td class="dc">Thu Nov 12</td><td>Pilates 6:45 → <strong>easy 3 mi</strong></td></tr>
-      <tr><td class="dc">Fri Nov 13</td><td><strong>Easy 5 mi</strong></td></tr>
-      <tr><td class="dc">Sat Nov 14</td><td>Rest. Low-fibre dinner</td></tr>
-      <tr class="race-day"><td class="dc">Sun Nov 15</td><td>12 mi: miles 1–7 easy at 9:30–9:50 · <strong>miles 8–10 at goal pace (~9:05) with HR at or under ~160</strong> · miles 11–12 easy. Gel at mile 5. If you want to try salt or an electrolyte drink for Philly, test it today, not on race day. <b>Checkpoint 2</b></td></tr>
-    </table>
-  </div>
-
-  <div class="week">
-    <div class="wt"><h3>Week 3 — Nov 16–22 · Philly race week</h3><span class="badge">~12 miles + race</span></div>
-    <table>
-      <tr><td class="dc">Mon Nov 16</td><td>Rest. No boot camp</td></tr>
-      <tr><td class="dc">Tue Nov 17</td><td>Pilates 7:00 → <strong>easy 3 mi</strong></td></tr>
-      <tr><td class="dc">Wed Nov 18</td><td><strong>4 mi: 1 easy, 2 at goal pace, 1 easy.</strong> The last touch of race pace</td></tr>
-      <tr><td class="dc">Thu Nov 19</td><td>Pilates 6:45 → <strong>easy 3 mi</strong>. Fibre starts coming down at dinner</td></tr>
-      <tr><td class="dc">Fri Nov 20</td><td><strong>Rest. Carb load day 1</strong> (~10g carbs per kg of bodyweight: honey, applesauce, juice, sports drink, peeled potatoes). Travel to Philly if going Friday. The official shakeout is 3:00 PM at the Art Museum steps; skip it if you're racing</td></tr>
-      <tr><td class="dc">Sat Nov 21</td><td><strong>2 mi easy + 3 × 100m strides. Carb load day 2.</strong> Expo/bib pickup (check the race emails for hours). Early dinner, in bed by 8:30. Lay everything out</td></tr>
-      <tr class="race-day"><td class="dc">Sun Nov 22</td><td>PHILADELPHIA MARATHON · 7:00 AM · race it</td></tr>
-    </table>
-  </div>
 
   <h3>Philly race day</h3>
   <div class="note blue">
@@ -448,678 +334,11 @@
   </table>
 
   <div class="note red">
-    <b>If NYC changes things, Philly changes too.</b> If anything hurts after Nov 1, or either checkpoint says no, we drop the time goal and run Philly easy, or skip it. Racing two marathons three weeks apart is where runners get hurt, and nothing about Philly is worth an injury.
+    <b>Pain or a bad Checkpoint 2 changes Philly.</b> If anything hurts, or the Nov 15 long run says no, we drop the time goal and run Philly easy, or skip it. Racing two marathons three weeks apart is where runners get hurt, and nothing about Philly is worth an injury.
   </div>
 
 </div><!-- /tab-philly -->
 
-<!-- ===== TRAINING PLAN ===== -->
-<div id="tab-plan" class="tab-panel">
-
-  <div id="this-week-banner" class="note blue" style="margin-top:0; margin-bottom:24px;">Loading…</div>
-
-  <h2 class="ch2 collapsed">Training Paces</h2>
-  <div class="pace-grid">
-    <div class="pace-card"><div class="zone">Easy</div><div class="now">9:20–9:45/mi</div><div class="arrow">→ 9:00–9:20 race day</div><div class="feel">Fully conversational</div></div>
-    <div class="pace-card"><div class="zone">Marathon Pace</div><div class="now">9:00/mi</div><div class="arrow">Goal race pace</div><div class="feel">Comfortably hard, sustained</div></div>
-    <div class="pace-card"><div class="zone">Tempo</div><div class="now">8:20–8:30/mi</div><div class="arrow">→ 8:00–8:10 race day</div><div class="feel">Hard but controlled, 20–40 min</div></div>
-    <div class="pace-card"><div class="zone">Intervals</div><div class="now">7:50–8:00/mi</div><div class="arrow">→ 7:30–7:45 race day</div><div class="feel">5K effort, short repeats</div></div>
-  </div>
-
-  <h2 class="ch2 collapsed">Warm-Up Protocol</h2>
-  <div>
-    <div class="note blue">You warm up slowly — every negative-split session in this log says so. Aug 5 opened rep 1 at 8:11 against a 7:55 target and closed at 7:49, on a warm-up trimmed to 1.00 mi from the prescribed 2.25. The warm-up isn't filler mileage. It's what makes the first rep count.</div>
-    <div class="two">
-      <div>
-        <h3>Quality day (Wednesday)</h3>
-        <ul>
-          <li><strong>5 min dynamic</strong> — leg swings, hip circles, high knees, butt kicks, lateral shuffles (Nutrition &amp; Recovery tab)</li>
-          <li><strong>Full prescribed warm-up miles</strong> @ 9:45–10:15/mi — deliberately slower than easy pace</li>
-          <li><strong>4 × 20 sec strides</strong> at rep pace, 60 sec walk between; finish the last one 2–3 min before rep 1</li>
-          <li>Rep 1 should feel controlled, not like a cold start</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Easy / long day</h3>
-        <ul>
-          <li><strong>5 min dynamic</strong> — same routine</li>
-          <li><strong>First mile 30 sec/mi slower</strong> than easy pace — 9:50–10:15/mi</li>
-          <li>No strides needed</li>
-          <li>Feeling better by mile 2–3 is normal and correct — not a reason to speed up</li>
-        </ul>
-      </div>
-    </div>
-    <div class="note">The cool-down is part of the prescription too. Trimmed cool-downs are the most common gap in this log — full reps, then the full easy miles back down.</div>
-  </div>
-
-  <h2 class="ch2 collapsed">Breathing &amp; Effort</h2>
-  <div>
-    <div class="note blue">Breathing is the effort gauge that responds instantly. Heart rate lags 30–60 sec, runs hot in heat and on short sleep, and runs artificially <em>low</em> the day after hard work. Set the effort by breath, confirm with HR afterward.</div>
-    <table>
-      <tr><th>Rhythm (steps in : steps out)</th><th>Where it belongs</th><th>Pace</th><th>Talk test</th></tr>
-      <tr><td class="dc">3:3</td><td>Warm-up, cool-down, recovery jogs</td><td>9:45–10:15/mi</td><td>Easy conversation</td></tr>
-      <tr><td class="dc">3:2</td><td>Easy runs, long runs, marathon pace</td><td>9:00–9:45/mi</td><td>Full sentences</td></tr>
-      <tr><td class="dc">2:1</td><td>Tempo, intervals</td><td>7:50–8:30/mi</td><td>A few words</td></tr>
-      <tr><td class="dc">1:1</td><td>Maximal — race finish only</td><td>—</td><td>Nothing</td></tr>
-    </table>
-    <ul>
-      <li><strong>Keep the odd-count patterns (3:2, 2:1).</strong> The exhale lands on alternating feet instead of hammering the same side every breath.</li>
-      <li><strong>Breathe from the belly, not the chest.</strong> Hand on stomach standing still — it should push out on the inhale.</li>
-      <li><strong>In through nose and mouth, out through mouth.</strong> Nose-only doesn't move enough air above easy pace.</li>
-      <li><strong>1:1 on a hill means the hill is being run too hard.</strong> Hold the rhythm and let the pace slow — effort constant, not pace constant.</li>
-      <li><strong>If 3:2 won't hold on an easy run, the run is too fast.</strong> Slow down until it does. This is the direct fix for the hot-HR easy days flagged repeatedly below.</li>
-      <li><strong>Race cue:</strong> marathon pace should sit at 3:2 through halfway and only drift to 2:1 in the last 6 miles. At 2:1 by mile 6, you went out too fast.</li>
-    </ul>
-  </div>
-
-  <!-- PHASE 1 -->
-  <h2 class="ch2 phase-h">Phase 1 — Base Building</h2>
-  <div class="phase">
-    <div class="tag t-base">Weeks 1–4 · 4 days/week</div>
-    <p>Wed/Thu/Fri/Sun. Tuesday stays rest — your legs are still absorbing Monday boot camp. Thursday is the shorter easy day (tighter mornings), Friday carries the longer one — easy, not a push. Tuesday gets added at week 7.</p>
-
-    <div class="week">
-      <div class="wt"><h3>Week 1 — June 8–14</h3><span class="badge">~28 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jun 8</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jun 9</td><td>Rest</td></tr>
-        <tr><td class="dc">Wed Jun 10</td><td>1.75 mi warm-up + 4×1200m @ 7:55/mi (90 sec jog) + 1.75 mi cool-down = 7 mi total</td></tr>
-        <tr><td class="dc">Thu Jun 11</td><td>Easy 4 mi @ 9:30–9:45/mi</td></tr>
-        <tr><td class="dc">Fri Jun 12</td><td>Easy 5 mi @ 9:20–9:45/mi</td></tr>
-        <tr><td class="dc">Sat Jun 13</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Jun 14</td><td>Long run: 12 mi easy @ 9:20–9:45/mi</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 2 — June 15–21</h3><span class="badge">~29 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jun 15</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jun 16</td><td>Rest</td></tr>
-        <tr><td class="dc">Wed Jun 17</td><td>Tempo: 1.5 mi warm-up + 3 mi @ 8:25/mi + 1.5 mi cool-down = 6 mi</td></tr>
-        <tr><td class="dc">Thu Jun 18</td><td>Easy 5 mi</td></tr>
-        <tr><td class="dc">Fri Jun 19</td><td>Easy 5 mi @ 9:30–9:45/mi</td></tr>
-        <tr><td class="dc">Sat Jun 20</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Jun 21</td><td>Long run: 13 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 3 — June 22–28</h3><span class="badge">~32 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jun 22</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jun 23</td><td>Rest</td></tr>
-        <tr><td class="dc">Wed Jun 24</td><td>Easy/quality progression run 6.33 mi — intervals moved to Friday (rough day)</td></tr>
-        <tr><td class="dc">Thu Jun 25</td><td>Easy 5 mi @ 9:30–9:45/mi — keep it honest before Friday quality</td></tr>
-        <tr><td class="dc">Fri Jun 26</td><td>1.5 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 1.5 mi cool-down = 7 mi total — use lap mode for each rep</td></tr>
-        <tr><td class="dc">Sat Jun 27</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Jun 28</td><td>Long run: 14 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 4 — June 29–July 5</h3><span class="badge r">~26 miles · Recovery</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jun 29</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jun 30</td><td>Rest</td></tr>
-        <tr><td class="dc">Wed Jul 1</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down = 5 mi</td></tr>
-        <tr><td class="dc">Thu Jul 2</td><td>Easy 4 mi @ 9:30–9:45/mi</td></tr>
-        <tr><td class="dc">Fri Jul 3</td><td>CrossFit Hero WOD: Glen (swapped from easy 5 mi)</td></tr>
-        <tr><td class="dc">Sat Jul 4</td><td>Rest — full recovery after Glen</td></tr>
-        <tr><td class="dc">Sun Jul 5</td><td>Long run: 12 mi easy</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <!-- PHASE 2 -->
-  <h2 class="ch2 phase-h">Phase 2 — Build 1</h2>
-  <div class="phase">
-    <div class="tag t-build">Weeks 5–8 · 4 → 5 days/week</div>
-    <p>Introduce marathon pace. Long run reaches 18 miles. Friday starts getting longer. Tuesday easy shakeout added at week 7 as your 5th day.</p>
-
-    <div class="week">
-      <div class="wt"><h3>Week 5 — July 6–12</h3><span class="badge">~35 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jul 6</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jul 7</td><td>Rest</td></tr>
-        <tr><td class="dc">Wed Jul 8</td><td>Easy 6 mi — intervals moved to Friday</td></tr>
-        <tr><td class="dc">Thu Jul 9</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Jul 10</td><td>2 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 2 mi cool-down = 8 mi total (moved from Wed)</td></tr>
-        <tr><td class="dc">Sat Jul 11</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Jul 12</td><td>Long run: 15 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 6 — July 13–19</h3><span class="badge">~39 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jul 13</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jul 14</td><td>Rest</td></tr>
-        <tr><td class="dc">Wed Jul 15</td><td>Tempo: 1.5 mi warm-up + 5 mi @ 8:20/mi + 1.5 mi cool-down = 8 mi</td></tr>
-        <tr><td class="dc">Thu Jul 16</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Jul 17</td><td>Easy 7 mi @ 9:30/mi</td></tr>
-        <tr><td class="dc">Sat Jul 18</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Jul 19</td><td>Long run: 18 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="note blue">Week 7: Tuesday easy shakeout added as your 5th running day. Keep it short and loose — it's just flushing out Monday's boot camp.</div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 7 — July 20–26</h3><span class="badge">~44 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jul 20</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc"><strong>Tue Jul 21</strong></td><td><strong>Easy shakeout: 4 mi (new 5th day)</strong></td></tr>
-        <tr><td class="dc">Wed Jul 22</td><td>2.25 mi warm-up + 5×1200m @ 7:55/mi (90 sec jog) + 2.25 mi cool-down = 9 mi total</td></tr>
-        <tr><td class="dc">Thu Jul 23</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Jul 24</td><td>Medium: 9 mi easy</td></tr>
-        <tr><td class="dc">Sat Jul 25</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Jul 26</td><td>Long run: 16 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 8 — July 27–August 2</h3><span class="badge r">~28 miles · Recovery</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Jul 27</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Jul 28</td><td>Easy shakeout: 3 mi</td></tr>
-        <tr><td class="dc">Wed Jul 29</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down = 5 mi</td></tr>
-        <tr><td class="dc">Thu Jul 30</td><td>Easy 5 mi</td></tr>
-        <tr><td class="dc">Fri Jul 31</td><td>Easy 7 mi</td></tr>
-        <tr><td class="dc">Sat Aug 1</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Aug 2</td><td>Long run: 13 mi easy — mild right IT band tightness reported (works itself loose early, not painful). Genuinely easy pace, flat/uncambered route, stop if it turns to real pain.</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <!-- PHASE 3 -->
-  <h2 class="ch2 phase-h">Phase 3 — Build 2</h2>
-  <div class="phase">
-    <div class="tag t-build">Weeks 9–12 · 5 days/week</div>
-    <p>Peak volume. Long runs hit 20–22 miles. MP segments begin on medium and long runs.</p>
-
-    <div class="week">
-      <div class="wt"><h3>Week 9 — August 3–9</h3><span class="badge">~42 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Aug 3</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Aug 4</td><td>Easy shakeout: 4 mi</td></tr>
-        <tr><td class="dc">Wed Aug 5</td><td>2.25 mi warm-up + 4×1600m @ 7:55/mi (2 min jog) + 2.25 mi cool-down = 9 mi total</td></tr>
-        <tr><td class="dc">Thu Aug 6</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Aug 7</td><td>Medium: 9 mi, miles 6–8 @ 9:00/mi (first MP taste)</td></tr>
-        <tr><td class="dc">Sat Aug 8</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Aug 9</td><td>Long run: 20 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 10 — August 10–16</h3><span class="badge">~44 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Aug 10</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Aug 11</td><td>Easy shakeout: 4 mi</td></tr>
-        <tr><td class="dc">Wed Aug 12</td><td>Tempo: 1.5 mi warm-up + 6 mi @ 8:15/mi + 1.5 mi cool-down = 9 mi</td></tr>
-        <tr><td class="dc">Thu Aug 13</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Aug 14</td><td>Medium: 10 mi, miles 6–9 @ 9:00/mi</td></tr>
-        <tr><td class="dc">Sat Aug 15</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Aug 16</td><td>Long run: 20 mi easy</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 11 — August 17–23</h3><span class="badge p">~46 miles · Peak volume</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Aug 17</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Aug 18</td><td>Easy shakeout: 4 mi</td></tr>
-        <tr><td class="dc">Wed Aug 19</td><td>2 mi warm-up + 5×1600m @ 7:50/mi (2 min jog) + 2 mi cool-down = 10 mi total</td></tr>
-        <tr><td class="dc">Thu Aug 20</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Aug 21</td><td>Medium: 10 mi, miles 5–9 @ 9:00/mi</td></tr>
-        <tr><td class="dc">Sat Aug 22</td><td>Rest — moved back to Sunday per JR (confirm the baby-shower travel no longer conflicts)</td></tr>
-        <tr><td class="dc">Sun Aug 23</td><td>Long run: 22 mi (miles 16–20 @ 9:00/mi) — <em>start before 8 AM.</em> Drop the MP block and finish easy if miles 1–15 feel laboured</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 12 — August 24–30</h3><span class="badge r">~28 miles · Recovery</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Aug 24</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Aug 25</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Aug 26</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:10/mi + 1 mi cool-down = 6 mi</td></tr>
-        <tr><td class="dc">Thu Aug 27</td><td>Easy 5 mi</td></tr>
-        <tr><td class="dc">Fri Aug 28</td><td>Easy 7 mi</td></tr>
-        <tr><td class="dc">Sat Aug 29</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Aug 30</td><td>Long run: 14 mi easy</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <!-- PHASE 4 -->
-  <h2 class="ch2 phase-h">Phase 4 — Peak &amp; Race-Specific</h2>
-  <div class="phase">
-    <div class="tag t-peak">Weeks 13–18 · Hardest block</div>
-    <p>Heavy MP work. Simulate race conditions. This is where sub-4 gets built. <strong>Rebuilt Sep 13</strong> after a week off running: the peak now lands Oct 4, the last long run Oct 11, and the taper is two weeks instead of three.</p>
-
-    <div class="week">
-      <div class="wt"><h3>Week 13 — Aug 31–September 6</h3><span class="badge">~46 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Aug 31</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Sep 1</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Sep 2</td><td>1.75 mi warm-up + 3×2 miles @ 8:05/mi (3 min jog) + 1.75 mi cool-down = 10 mi total</td></tr>
-        <tr><td class="dc">Thu Sep 3</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Sep 4</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
-        <tr><td class="dc">Sat Sep 5</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Sep 6</td><td>Long run: 22 mi (miles 13–20 @ 9:00/mi)</td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 14 — September 7–13</h3><span class="badge f">0 miles · not run</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Sep 7</td><td>Labor Day — full rest taken instead of squats + boot camp. Correct call the day after Sunday's 20-miler</td></tr>
-        <tr><td class="dc">Tue Sep 8</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Sep 9</td><td>Tempo: 1.5 mi warm-up + 7 mi @ 8:05/mi + 1.5 mi cool-down = 10 mi</td></tr>
-        <tr><td class="dc">Thu Sep 10</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Fri Sep 11</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
-        <tr><td class="dc">Sat Sep 12</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Sep 13</td><td><strong style="color:#ef4444">Not run.</strong> Prescribed was: long run 20 mi (miles 12–18 @ 9:00/mi) — <em>the make-or-break rehearsal. Rescheduled to Sun Oct 4.</em></td></tr>
-        <tr><td colspan="2" style="color:#ef4444"><strong>NOT RUN — zero running miles this week.</strong> A cluster of chigger bites around the right ankle, directly under the sock and shoe collar, made fabric unbearable. JR chose to protect the skin rather than scar it. <em>Correct call — and not made up. The plan rebuilds forward from Week 15.</em></td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 15 — September 14–20</h3><span class="badge r">~34 miles · Return</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Sep 14</td><td>Boot camp — <strong>skip the squat ladder or go very light.</strong> <em>Three StairMaster hours across Fri/Sat/Sun is real calf and glute loading. Stacking a heavy squat session on top, the night before your first run in nine days, is how the Achilles goes. Take the conditioning, leave the barbell.</em></td></tr>
-        <tr><td class="dc">Tue Sep 15</td><td><strong>Easy 4 mi — the test run.</strong> 9:30–9:50/mi, no faster. Tape or cover the ankle, low socks that sit below the bites, loosen the bottom two eyelets. <em>If fabric on the bites is unbearable by mile 1, turn around — that's information, not a failure.</em></td></tr>
-        <tr><td class="dc">Wed Sep 16</td><td>Easy 6 mi + 6×20-sec strides — <strong>no quality this week.</strong> <em>Week one back off nine days is not where sub-4 gets won, and it is exactly where a calf or Achilles gets lost.</em></td></tr>
-        <tr><td class="dc">Thu Sep 17</td><td>Easy 4 mi — <em>if the ankle is raw after Tuesday and Wednesday, <strong>swap in 40 min on the StairMaster</strong> rather than dropping the day. Aerobic load without a shoe collar on the bites. This is the droppable run, not a droppable day.</em></td></tr>
-        <tr><td class="dc">Fri Sep 18</td><td>Easy 7 mi</td></tr>
-        <tr><td class="dc">Sat Sep 19</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Sep 20</td><td><strong>Long run: 11 mi — out the door before 8 AM, and that is the non-negotiable part.</strong> <em>Cut from 13 after Friday came in at RE 205 with HR to 171. Pace <strong>9:45–10:00/mi — deliberately slower than the easy floor.</strong> No strides, no surge, no closing mile. If HR passes 160 at that pace, walk until it drops. The job is time on feet at the lowest possible cost, because Week 16 is where the build starts and it needs a body that arrives recovered.</em></td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 16 — September 21–27</h3><span class="badge">~41 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Sep 21</td><td>Squats + boot camp</td></tr>
-        <tr><td class="dc">Tue Sep 22</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Sep 23</td><td><strong>Easy 4–5 mi at 9:30–9:50 — tempo moved.</strong> Five hours of sleep. Your own rule is <em>"when in doubt, go easy"</em>, and 5 miles at 8:10 on five hours is how a good week becomes a lost one. Flat legs in mile 1 → make it 3 and stop. <strong>Full rest is also a correct answer today.</strong></td></tr>
-        <tr><td class="dc">Thu Sep 24</td><td>Pilates 6:45–7:45, then <strong>easy 4 mi at 9:30–9:50</strong> from ~8:00. Hold the ceiling — Tuesday ran 8:50/mi against this same explicit ceiling and got flagged.</td></tr>
-        <tr><td class="dc">Fri Sep 25</td><td><strong>Easy 5 mi at 9:30–9:50 — tempo cancelled.</strong> <em>He ran the tempo on Wednesday instead (4 mi at 8:42/mi, HR 160). Repeating it Friday would be a third quality effort in five days, two days before Sunday. Easy, and hold the ceiling.</em></td></tr>
-        <tr><td class="dc">Sat Sep 26</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Sep 27</td><td><strong>⭐ Long run: 17 mi (miles 10–15 @ 9:00/mi) — unchanged, and now the whole point of the week.</strong> <em>6 continuous MP miles, out before 8 AM. Hold 9:20–9:45 through mile 9 so the block lands on tired legs. Everything above was rearranged to protect this one.</em></td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 17 — Sep 28–October 4</h3><span class="badge p">~46 miles · Peak</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Sep 28</td><td>Squats + boot camp (reduce weight — maintenance only)</td></tr>
-        <tr><td class="dc">Tue Sep 29</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Sep 30</td><td>2 mi warm-up + 5×1600m @ 7:50/mi (2 min jog) + 2 mi cool-down = 10 mi total</td></tr>
-        <tr><td class="dc">Thu Oct 1</td><td>Easy 4 mi</td></tr>
-        <tr><td class="dc">Fri Oct 2</td><td>Medium: 9 mi, miles 4–8 @ 9:00/mi — <em>completed: 9.07 mi, block ran 9:06/mi. Six seconds off target, the tightest MP block of the cycle.</em></td></tr>
-        <tr><td class="dc">Sat Oct 3</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Oct 4</td><td><strong>⭐ Long run: 20 mi (miles 12–18 @ 9:00/mi) — the make-or-break rehearsal.</strong> Out before 8 AM, easy 9:20–9:45 through mile 11, then 7 flat MP miles. <em><strong>Do not substitute a solo half-marathon time trial.</strong> Alone, a half tests top-end speed you already have and cannot reproduce race adrenaline — it would land 30–60 sec/mi slow and tell you nothing true. Your failure mode is the closing third of a long run, and this is the session that tests it. <strong>Only swap in a half if a real, bibbed race lands on this weekend</strong> (target 1:52–1:55, 8:35–8:47/mi, plus 2 mi warm-up and 2 mi cool-down). Either way this Sunday is the sub-4 decision point.</em></td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 18 — October 5–11</h3><span class="badge">~38 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Oct 5</td><td>Light cross-train only — no heavy squats this week</td></tr>
-        <tr><td class="dc">Tue Oct 6</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short.</em></td></tr>
-        <tr><td class="dc">Wed Oct 7</td><td>Tempo: 1 mi warm-up + <strong>3 mi @ 8:20–8:30/mi</strong> + 1 mi cool-down = 5 mi — <em>trimmed from 4 mi @ 8:05. Oct 4 answered the fitness question, so this session is sharpness maintenance, not a test. 8:05 is a pace never touched this cycle (best tempo 8:36, best reps 8:19); chasing it six days before the final long run risks a failed session and buys nothing. 8:20–8:30 is the actual tempo zone — hit it and leave.</em></td></tr>
-        <tr><td class="dc">Thu Oct 8</td><td>Easy 4 mi</td></tr>
-        <tr><td class="dc">Fri Oct 9</td><td>Easy 7 mi</td></tr>
-        <tr><td class="dc">Sat Oct 10</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Oct 11</td><td><strong>⭐ Long run: 18 mi (miles 8–14 @ 9:00/mi) — full dress rehearsal, and the last long run of the cycle.</strong> <em>Race shoes, race kit, race gels, race-morning wake time with the full 2h45m gap before you start. Nothing new after today.</em> If Oct 4 ended up being a bibbed half marathon, cut the block to miles 10–14. If a real half lands <em>this</em> weekend instead, race it and add 5 easy miles after — a raced half plus 5 is a better dress rehearsal than 18 alone.</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <!-- PHASE 5 -->
-  <h2 class="ch2 phase-h">Phase 5 — Taper</h2>
-  <div class="phase">
-    <div class="tag t-taper">Weeks 19–20</div>
-    <p>Two weeks, not three — you already took an unplanned one in September. Volume drops, intensity stays. Don't add extra miles to feel ready.</p>
-
-    <div class="week">
-      <div class="wt"><h3>Week 19 — October 12–18</h3><span class="badge">~30 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Oct 12</td><td>Light cross-train or rest</td></tr>
-        <tr><td class="dc">Tue Oct 13</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Oct 14</td><td>1.5 mi warm-up + <strong>3×1000m at 8:00–8:10/mi</strong> (90 sec jog) + 1.5 mi cool-down = 5 mi — <em>was 7:50. Corrected down on Oct 11 on the basis of a figure that was wrong — the note then read "best rep average 8:14 on Sep 30," but Sep 30 averaged 8:19 and 8:14 was Aug 19's average. The real cycle bests are <strong>Jun 26: 5×1000m averaging 7:48 (7:35 closer)</strong> and <strong>Aug 5: 4×1600m averaging 8:02</strong>, so 7:50 was always within reach at this rep distance. Ran 7:50/7:50/7:57 on the day. Taper sessions exist to stay sharp, not to set targets — run by feel: comfortably hard, nowhere near flat out.</em></td></tr>
-        <tr><td class="dc">Thu Oct 15</td><td>Easy 4 mi</td></tr>
-        <tr><td class="dc">Fri Oct 16</td><td>Easy 6 mi</td></tr>
-        <tr><td class="dc">Sat Oct 17</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Oct 18</td><td>Long run: 12 mi (miles 6–9 @ 9:00/mi) — <em>a short MP touch to keep the pace familiar, not a workout</em></td></tr>
-      </table>
-    </div>
-
-    <div class="week">
-      <div class="wt"><h3>Week 20 — October 19–25</h3><span class="badge">~23 miles</span></div>
-      <table>
-        <tr><th>Day</th><th>Workout</th></tr>
-        <tr><td class="dc">Mon Oct 19</td><td>Rest</td></tr>
-        <tr><td class="dc">Tue Oct 20</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
-        <tr><td class="dc">Wed Oct 21</td><td>1.5 mi warm-up + <strong>4×400m at 7:30–7:45/mi</strong> (60 sec jog) + 1.25 mi cool-down = 4 mi — <em>1:52–1:56 per 400. Your 1000m reps ran 7:48 (Jun 26) and 7:52 (Oct 14), and 400s belong a touch quicker than that. By feel, not by force. Total hard running: about 7½ minutes. This is a nervous-system wake-up, not a workout.</em></td></tr>
-        <tr><td class="dc">Thu Oct 22</td><td>Easy 3 mi</td></tr>
-        <tr><td class="dc">Fri Oct 23</td><td>Easy 5 mi, miles 3–4 @ 9:00/mi (feel the pace)</td></tr>
-        <tr><td class="dc">Sat Oct 24</td><td>Rest</td></tr>
-        <tr><td class="dc">Sun Oct 25</td><td>Easy 8 mi — no intensity, just moving</td></tr>
-      </table>
-    </div>
-  </div>
-
-  <!-- RACE WEEK -->
-  <h2>Race Week</h2>
-  <div class="phase">
-    <div class="tag t-race">October 26 – November 1</div>
-    <p>Sleep is the workout. No new foods. Friday Oct 30 is the critical night — protect it.</p>
-    <table>
-      <tr><th>Day</th><th>Workout</th></tr>
-      <tr><td class="dc">Mon Oct 26</td><td>Rest</td></tr>
-      <tr><td class="dc">Tue Oct 27</td><td>Pilates 7:00 → <strong>4 mi: 1 easy + 2 at race pace (8:50–9:00) + 1 easy</strong>, run on the 3 mi Watch Rehearsal (test mile cues and readable names)</td></tr>
-        <tr><td class="dc">Wed Oct 28</td><td>Rest — sleep in. <strong>Carb load starts today.</strong> <em>~70% of calories from carbs, with Fri–Sat going higher still (see the Nutrition tab), fibre cut hard. See the Nutrition tab: peeled white potato, honey, banana, applesauce, coconut water. No alcohol from today.</em></td></tr>
-        <tr><td class="dc">Thu Oct 29</td><td>Easy 3 mi — <em>your booked expo slot is <b>Friday 6:00–7:30 PM</b> at Javits. If NYRR's dashboard lets you switch to a Thursday slot, take it and go today. If not, Friday works; see below.</em></td></tr>
-        <tr><td class="dc">Fri Oct 30</td><td><strong>Rest. The most important night of the cycle.</strong> <em>Nearly everyone sleeps badly the night before a marathon. It is the night TWO out that actually carries. <b>Expo slot 6:00–7:30 PM</b> (Javits, 429 11th Ave), unless you moved it to Thursday. Bring photo ID and the QR code. <b>Eat dinner before you go, around 4:45.</b> Get the bib, skip the shopping, and stay off your feet as much as you can. Home by 8:15, in bed by 9:30. No alcohol.</em></td></tr>
-        <tr><td class="dc">Sat Oct 31</td><td>2 mi easy shakeout <strong>+ 3×100m strides</strong> — <em>strides added: they wake the legs up without any cost. Lay out everything tonight: bib pinned, shoes, socks, kit, 5 gels, watch charged, throwaway layers, and the village pack from the Race Plan tab. Alarm 4:00 AM, bus 5:30. <b>Clocks go back an hour at 2 AM tonight</b>, so you gain an hour; phone and watch update on their own. Early dinner, in bed by 8:30.</em></td></tr>
-      <tr class="race-day"><td class="dc">Sun Nov 1</td><td>RACE DAY — NYC Marathon. Start NYC 3:57, already added to Watch: 26 one-mile Work steps plus Open finish, each named with a pace guide and cumulative BY time. No per-step pace / HR warnings or voice feedback; Auto-Pause Off. Protect bridge effort and read elapsed time. Real-course budget 3:58:28 including a 10:00 Queensboro mile; goal sub-4, no alert-only guarantee.</td></tr>
-    </table>
-  </div>
-
-  <!-- COURSE NOTES -->
-  <h2>NYC Course Notes</h2>
-  <ul>
-    <li><strong>Mile 1 — Verrazano Bridge:</strong> Steep uphill. Run easy. Let people go. Congestion forces this anyway.</li>
-    <li><strong>Mile 2 — Verrazzano down; miles 3–13 — Brooklyn:</strong> Settle into the pace range. Lock into 9:00/mi and ignore the crowd energy — this is where people go out too hard.</li>
-    <li><strong>Miles 15–16 — Queensboro Bridge:</strong> Long uphill, no crowd noise inside. Stay steady. Don't panic.</li>
-    <li><strong>Mile 17 — 1st Avenue:</strong> Crowd erupts. Do NOT surge. Most common place people blow up.</li>
-    <li><strong>Miles 20–23 — Bronx &amp; Harlem:</strong> Legs are heavy. Shorten stride, stay tall, focus on form.</li>
-    <li><strong>Miles 23–26.2 — Central Park:</strong> Rolling hills from the 90th St entrance, Cat Hill is a <em>downhill</em> at ~mile 25 (don't charge it), and the last half-mile to the finish rises. Spend whatever's left after mile 25.</li>
-  </ul>
-  <div class="note red">If it's warm (above 60°F): add 20–30 sec/mile. A smart early slow-down saves your finish.</div>
-
-  <h2>Tune-Up Races</h2>
-  <table>
-    <tr><th>Race</th><th>When</th><th>Purpose</th></tr>
-    <tr><td>5K or 10K</td><td>Mid-July</td><td>Confirm pace zones are set correctly</td></tr>
-    <tr><td>Half marathon</td><td>Late Aug / early Sep</td><td>MP reality check</td></tr>
-    <tr><td>10K</td><td>Late September</td><td>Sharpen before taper</td></tr>
-  </table>
-
-  <h2 class="ch2 collapsed">Weekly Schedule</h2>
-  <table>
-    <tr><th>Day</th><th>Role</th></tr>
-    <tr><td class="dc">Monday</td><td>Squats + boot camp — strength &amp; cross-train (not running)</td></tr>
-    <tr><td class="dc">Tuesday</td><td>Rest (weeks 1–6) → Easy shakeout (weeks 7+)</td></tr>
-    <tr><td class="dc">Wednesday</td><td><strong>Quality run — only hard running day of the week</strong></td></tr>
-    <tr><td class="dc">Thursday</td><td>Easy run</td></tr>
-    <tr><td class="dc">Friday</td><td>Easy run (weeks 1–6) → Medium-long run (weeks 7+)</td></tr>
-    <tr><td class="dc">Saturday</td><td>Rest</td></tr>
-    <tr><td class="dc">Sunday</td><td><strong>Long run</strong></td></tr>
-  </table>
-
-  <h2 class="ch2 collapsed">Where to Run</h2>
-  <div class="tg">
-    <div class="tc"><div class="wt2">Intervals</div><div class="loc">Central Park loop</div><div class="why">200m markers — out-and-back so hills average out</div></div>
-    <div class="tc"><div class="wt2">Tempo</div><div class="loc">Hudson River Greenway</div><div class="why">Flat — lock into pace without elevation fighting you</div></div>
-    <div class="tc"><div class="wt2">Easy &amp; Long</div><div class="loc">Central Park</div><div class="why">Race finishes here — knowing the park's hills is an advantage</div></div>
-  </div>
-
-</div><!-- /tab-plan -->
-
-
-<!-- ===== NUTRITION & RECOVERY ===== -->
-<div id="tab-nutrition" class="tab-panel">
-
-  <h2>Pre-Run Nutrition</h2>
-  <div class="sb">
-    <div class="tag t-base">What works for you specifically</div>
-    <ul style="margin-top:10px;">
-      <li><strong>Lower fiber before runs</strong> — you feel heavier and sluggish when fiber is high</li>
-      <li><strong>More protein/meat the day before</strong> — you feel better and run better</li>
-      <li>This is your gut telling you something real. Honor it every time.</li>
-    </ul>
-  </div>
-
-  <h3>Day Before a Long Run or Quality Session</h3>
-  <table>
-    <tr><th>Meal</th><th>Eat this</th><th>Avoid this</th></tr>
-    <tr><td>Breakfast</td><td>Eggs, bacon or sausage, white toast</td><td>Oatmeal, bran, raw vegetables</td></tr>
-    <tr><td>Lunch</td><td>Chicken/beef + white rice or pasta</td><td>Large salads, legumes, whole grains</td></tr>
-    <tr><td>Dinner</td><td>Steak or chicken + white pasta or rice</td><td>Broccoli, beans, lentils, heavy sauces</td></tr>
-    <tr><td>Snacks</td><td>Banana, white bread + peanut butter</td><td>High-fiber bars, raw fruit with skin</td></tr>
-  </table>
-  <div class="note">Hydrate more than usual — aim for pale yellow urine by end of day.</div>
-
-  <h3>Race Morning (same rules for long runs)</h3>
-  <ul>
-    <li><strong>2–3 hours before:</strong> 400–600 cal. Bagel + peanut butter + banana. Don't experiment.</li>
-    <li><strong>60 min before:</strong> Small snack if needed (half banana, a few crackers)</li>
-    <li><strong>Coffee:</strong> Fine if you normally drink it. Don't add it race day if you usually don't.</li>
-    <li><strong>No new foods race morning. Ever.</strong></li>
-  </ul>
-
-  <h2>Fueling During Runs</h2>
-  <div class="two">
-    <div>
-      <h4>When to fuel</h4>
-      <ul>
-        <li><strong>Under 60 min:</strong> Water only</li>
-        <li><strong>60–90 min:</strong> Optional gel at the end</li>
-        <li><strong>Over 90 min:</strong> Fuel consistently — don't wait until empty</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Race day schedule</h4>
-      <ul>
-        <li>Gel at miles <strong>5, 10, 15, 20</strong></li>
-        <li>Water at every aid station (small sip)</li>
-        <li>Gatorade every other station</li>
-        <li>Only use what you trained with</li>
-      </ul>
-    </div>
-  </div>
-
-  <h3>Long Run Fueling Protocol</h3>
-  <ul>
-    <li>First gel at <strong>mile 5</strong> (roughly 45–50 min in)</li>
-    <li>Then every <strong>40–45 minutes</strong> after that</li>
-    <li>Wash down with water, not Gatorade (prevents GI issues)</li>
-    <li>Electrolytes every 45–60 min in warm weather</li>
-  </ul>
-
-  <h3>Gel Options — pick one, stick with it all training</h3>
-  <ul>
-    <li><strong>Gu Energy</strong> — most common, easy to find everywhere</li>
-    <li><strong>Maurten</strong> — gentler on stomach, worth trying if you've had GI issues</li>
-    <li><strong>Spring Energy</strong> — real food, works well for some</li>
-  </ul>
-  <div class="note blue">NYC serves Gatorade on course (check NYRR's race-week guide for the formula) and Maurten gels at miles 12 and 18. Train with them, or carry your own.</div>
-
-  <h2>Post-Run Recovery</h2>
-  <h3>Within 30–45 minutes of finishing</h3>
-  <p>This window matters most for recovery, especially now. Don't skip it because you're not hungry.</p>
-  <ul>
-    <li><strong>Target:</strong> 20–30g protein + 40–60g carbs</li>
-    <li>Chocolate milk (genuinely ideal)</li>
-    <li>Greek yogurt + banana</li>
-    <li>Eggs + toast</li>
-    <li>Protein shake + fruit</li>
-  </ul>
-  <div class="note">Each pound lost during a run = ~16oz to replenish. Drink consistently for 4–6 hours after long runs.</div>
-
-  <h2>Weekly Nutrition Rhythm</h2>
-  <table>
-    <tr><th>Day</th><th>Priority</th></tr>
-    <tr><td>Monday (boot camp)</td><td>Normal eating, slightly higher protein for muscle repair. Weeks 7+: low fiber dinner — Tuesday shakeout is next morning</td></tr>
-    <tr><td>Tuesday (rest → shakeout wk 7+)</td><td>Weeks 1–6: normal day, no prep needed. Weeks 7+: low fiber Monday dinner already done</td></tr>
-    <tr><td>Wednesday (quality)</td><td><strong>Pre-run protocol Tuesday dinner</strong> — this is your hard day, every week</td></tr>
-    <tr><td>Thursday (easy)</td><td><strong>Low fiber Thursday dinner</strong> — Friday is always a run day</td></tr>
-    <tr><td>Friday (always a run day)</td><td>Easy in weeks 1–6, medium-long weeks 7+. Thursday dinner sets this up</td></tr>
-    <tr><td>Saturday (rest)</td><td>Pre-long-run day — follow full protocol for Sunday</td></tr>
-    <tr><td>Sunday (long run)</td><td>Saturday dinner + race morning protocol</td></tr>
-  </table>
-
-  <h2>Sleep</h2>
-  <div class="sb">
-    <p>Sleep is when your body actually builds the fitness you earned in training. Skimping doesn't just make you tired — it literally reduces the adaptation. For older athletes this effect is stronger.</p>
-    <div class="two" style="margin-top:14px;">
-      <div>
-        <h4>Targets</h4>
-        <ul>
-          <li>Regular nights: <strong>7.5–8 hours minimum</strong></li>
-          <li>Before long runs: <strong>8–9 hours</strong></li>
-          <li>Peak weeks 9–16: prioritize over everything non-essential</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Practical tips</h4>
-        <ul>
-          <li>Consistent wake time anchors your rhythm more than bedtime</li>
-          <li>No alcohol within 3 hours of sleep</li>
-          <li>No hard training within 4 hours of bed</li>
-          <li>Cool room: 65–68°F</li>
-          <li>Dark room — blackout shades or sleep mask</li>
-        </ul>
-      </div>
-    </div>
-    <div class="note green" style="margin-top:14px;">Race week: don't stress about the night before the race — almost everyone sleeps badly. Friday Oct 30 (two nights before) is the one that matters. Protect that one.</div>
-  </div>
-
-  <h2>Stretching</h2>
-  <div class="two">
-    <div>
-      <h3>Before runs — Dynamic (5 min)</h3>
-      <p style="font-size:0.82rem; color:#555;">Never static stretch cold muscles.</p>
-      <ul>
-        <li>Leg swings front-back + side-to-side: 10 each leg</li>
-        <li>Hip circles: 10 each direction</li>
-        <li>High knees: 20 reps</li>
-        <li>Butt kicks: 20 reps</li>
-        <li>Lateral shuffles: 10 yards each way</li>
-        <li>First mile always slower than easy pace</li>
-      </ul>
-    </div>
-    <div>
-      <h3>After runs — Static (10 min)</h3>
-      <p style="font-size:0.82rem; color:#555;">Hold each 30–45 sec. Don't rush.</p>
-      <ul>
-        <li>Standing quad pull</li>
-        <li>Figure-4 (glutes, piriformis)</li>
-        <li>Runner's lunge (hip flexors)</li>
-        <li>Seated hamstring reach</li>
-        <li>Calf stretch against wall</li>
-        <li>IT band cross-stretch (standing)</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="note blue">On Wednesdays, add to the dynamic warm-up: the full prescribed warm-up miles at 9:45–10:15/mi, then 4 × 20 sec strides at rep pace with 60 sec walk between. Full protocol on the Training Plan tab under <strong>Warm-Up Protocol</strong>; breathing rhythms under <strong>Breathing &amp; Effort</strong>.</div>
-
-  <h3>After long runs — add foam rolling (10–15 min)</h3>
-  <ul>
-    <li><strong>IT band</strong> — slow, painful, necessary</li>
-    <li><strong>Quads</strong> — front and sides</li>
-    <li><strong>Calves</strong> — especially around Achilles insertion</li>
-    <li><strong>Upper back</strong> / thoracic spine</li>
-  </ul>
-
-  <h2>Strength &amp; Cross-Training</h2>
-  <div class="note green">Your Monday boot camp already covers most of this. No separate strength session needed on top of hard training weeks.</div>
-
-  <table style="margin-top:14px;">
-    <tr><th>Activity</th><th>Benefit</th><th>When</th></tr>
-    <tr><td>StairMaster</td><td>Aerobic base, glutes + calves, zero impact</td><td>Replacement for a run you can't do — not an addition</td></tr>
-    <tr><td>Cycling / spin</td><td>Aerobic base, zero impact</td><td>Rest days, or swap for easy run when legs are beat</td></tr>
-    <tr><td>Swimming</td><td>Full body, zero impact, mental reset</td><td>Rest days, injury prevention</td></tr>
-    <tr><td>Yoga</td><td>Mobility, hip flexors, stress relief</td><td>1–2×/week, especially during peak phase</td></tr>
-  </table>
-
-  <div class="note" style="margin-top:16px;">
-    <strong>If you can't run, don't take a zero.</strong> The week of Sep 7–13 lost every running mile to ankle bites, and time on the StairMaster is what kept it from being blank. Standing rule: <strong>any day running isn't possible</strong> — skin, a niggle, travel, no safe route — do easy cross-training for roughly the time the run would have taken. It's a <strong>replacement, not an addition</strong>: never stacked on top of a normal week, never the day before a long run or quality session.
-  </div>
-
-  <div class="note red">
-    <strong>The 12 lb weighted vest — not before Nov 1.</strong> It's a real tool, in the wrong season. <strong>Never run in it:</strong> extra mass raises Achilles, calf and knee loading on every footstrike, and the July foot/hip flag plus a nine-day layoff is exactly the profile that gets hurt doing it. <strong>It adds nothing to Monday</strong> either — you already squat a loaded barbell up to 145 lb, which is more load, better controlled, than 12 lb on your shoulders. And the economy gains people cite from vest work come from base-phase blocks of 8–12+ weeks; you have six, and they're spoken for. <strong>Put it away until December.</strong> In next winter's base phase, worn for walking and hiking, it's genuinely useful.
-  </div>
-
-  <h3>Key injury-prevention moves (20 min, rest days)</h3>
-  <div class="two">
-    <div>
-      <h4>Lower body / hips</h4>
-      <ul>
-        <li>Single-leg squats: 3×10 each</li>
-        <li>Glute bridges or hip thrusts: 3×15</li>
-        <li>Clamshells with band: 3×20 each side</li>
-        <li>Single-leg calf raises (slow): 3×15</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Core</h4>
-      <ul>
-        <li>Dead bug: 3×10 each side</li>
-        <li>Bird-dog: 3×10 each side</li>
-        <li>Plank: 3×30–45 sec</li>
-        <li>Side plank: 3×20–30 sec each</li>
-      </ul>
-    </div>
-  </div>
-
-  <h2>Managing Hard Days</h2>
-  <div class="two">
-    <div>
-      <h4>Flip to easy if...</h4>
-      <ul>
-        <li>Legs still heavy from last session</li>
-        <li>Slept poorly 2+ nights in a row</li>
-        <li>Resting HR elevated 5+ bpm</li>
-        <li>You feel "off" but can't explain it</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Take a rest day if...</h4>
-      <ul>
-        <li>Sharp or one-sided pain (knee, shin, foot)</li>
-        <li>Any heel or Achilles pain in the morning</li>
-        <li>Fever or illness</li>
-        <li>Extreme fatigue after normal sleep</li>
-      </ul>
-    </div>
-  </div>
-  <div class="note">When in doubt, go easy. Missing one quality session hurts less than getting injured.</div>
-
-  <h2>Race Week Nutrition</h2>
-  <ul>
-    <li><strong>No new foods</strong> all week. Not the expo restaurant, not the pasta dinner the night before.</li>
-    <li><strong>Carb load starting Wed Oct 28:</strong> 70–75% of calories from carbs, cut fat and fiber</li>
-    <li><strong>Salt more than usual</strong> the last 2–3 days — helps water retention, prevents hyponatremia</li>
-    <li><strong>No alcohol</strong> after Wednesday Oct 28</li>
-    <li><strong>Friday Oct 30:</strong> Eat early. Sleep early. This is the important night.</li>
-    <li><strong>Race morning:</strong> Eat 2.5–3 hours before your corral time. NYC starts early — work backwards from your gun time.</li>
-  </ul>
-
-</div><!-- /tab-nutrition -->
 
 <!-- ===== TRAINING LOG ===== -->
 <div id="tab-log" class="tab-panel">
@@ -1144,7 +363,7 @@
         <td><strong>Sun Nov 8</strong></td><td>Easy</td><td>Easy 6 mi @ 9:40–10:00 (Checkpoint 1)</td><td><strong>6.41 mi</strong></td><td><strong>9:27/mi</strong></td><td>148/177 HR<br>RE: 111 · 453 ft</td><td class="v-ok">✅</td>
       </tr>
       <tr class="note">
-        <td colspan="7">Splits 9:33 · 9:42 · 9:32 · 9:40 · 9:28 · 9:16 · last 0.41 at 8:26. Checkpoint 1 done. Average HR 148 over a longer, hillier route (453 ft) than Friday's (149 on 217 ft). No full mile averaged above 154. The 177 max was a brief spike: the final 0.41 averaged 159. Data says recovery is on track; how the legs and calf felt decides the checkpoint.</td>
+        <td colspan="7">Splits 9:33 · 9:42 · 9:32 · 9:40 · 9:28 · 9:16 · last 0.41 at 8:26. <span class="feel">Feel: pushed the last stretch on purpose; the rest felt fine.</span> Checkpoint 1 passed: the Philly time goal stays on. Average HR 148 over a longer, hillier route (453 ft) than Friday's (149 on 217 ft). No full mile averaged above 154.</td>
       </tr>
       <tr class="data">
         <td><strong>Fri Nov 6</strong></td><td>Easy</td><td>Easy 3 mi (up to 4)</td><td><strong>4.33 mi</strong></td><td><strong>9:15/mi</strong></td><td>149/154 HR<br>RE: 73 · 217 ft</td><td class="v-ok">✅</td>
@@ -1973,9 +1192,769 @@
   </table>
 </div><!-- /tab-log -->
 
+<!-- ===== ARCHIVE ===== -->
+<div id="tab-archive" class="tab-panel">
+  <h2 style="margin-top:0;">Archive</h2>
+  <p style="color:#888;font-size:0.86rem;">The NYC build, kept for reference. <strong style="color:#ccc">NYC Marathon, Nov 1: 4:03:41</strong>, through a calf cramp at miles 22–24.</p>
+  <details class="arch"><summary>NYC Race Plan <span class="d">Nov 1</span></summary><div class="arch-body">
+  <h2 style="margin-top:0;">NYC Marathon · Sunday Nov 1 · sub-4 with protected bridge effort</h2>
+  <div class="rp-big">
+    <div style="color:#bbb;">Real-course elapsed-time budget · not an alert-only guarantee</div>
+    <div class="n">3:58:28</div>
+    <p>Goal: <b>under 4:00</b>. Slow pace edges plus a <b>10:00 Queensboro mile</b> total <b>3:58:28</b> over 26.21875 real miles. This leaves <b>about 1:32</b> to four hours. Stops and any extra bridge time consume that margin. A heart-rate cue cannot enforce a maximum crossing time.</p>
+    <p><b>No buzz does not prove you are on schedule.</b> Current and average pace are GPS estimates. The custom workout has no per-step pace or heart-rate warning alerts; guides and cumulative checkpoints are in the step names. At each official mile flag compare uninterrupted elapsed time, measured from the start mat, with the BY checkpoint for that mile inside the workout. At every deadline or earlier keeps this schedule available; you must still cover the remaining miles within their budgets. The finish deadline itself is 3:58:28.</p>
+  </div>
+  <div class="tw-rule"><b>Your choice:</b> protect Queensboro effort and target sub-4 using elapsed-time checks. The on-screen / card pace guides stay narrow in the first half, with no faster-than-8:50 permission on the flats. Slow-side allowances are on Verrazzano, Pulaski, Queensboro, Willis, Fifth Avenue and the park entrance. No faster back-half range is required.</div>
+  <table class="rp-table"><thead><tr><th>Real mile flag</th><th>Pace guide / effort</th><th>Elapsed by</th><th>Cue</th></tr></thead><tbody>
+  <tr><td class="mi">1</td><td class="pc">9:30–9:40</td><td class="el">0:09:40</td><td class="note">Verrazzano uphill. Let the climb and congestion be slow.</td></tr>
+      <tr><td class="mi">2</td><td class="pc">8:50–9:00</td><td class="el">0:18:40</td><td class="note">Verrazzano downhill. Hold back; do not bank time.</td></tr>
+      <tr><td class="mi">3</td><td class="pc">8:50–9:00</td><td class="el">0:27:40</td><td class="note">Brooklyn. Settle into the range.</td></tr>
+      <tr><td class="mi">4</td><td class="pc">8:50–9:00</td><td class="el">0:36:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">5</td><td class="pc">8:50–9:00</td><td class="el">0:45:40</td><td class="note">GEL #1. NYRR lists no mile-5 fluid station: arrange water beforehand if your gel needs it.</td></tr>
+      <tr><td class="mi">6</td><td class="pc">8:50–9:00</td><td class="el">0:54:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">7</td><td class="pc">8:50–9:00</td><td class="el">1:03:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">8</td><td class="pc">8:50–9:00</td><td class="el">1:12:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">9</td><td class="pc">8:50–9:00</td><td class="el">1:21:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">10</td><td class="pc">8:50–9:00</td><td class="el">1:30:40</td><td class="note">GEL #2 at the real flag.</td></tr>
+      <tr><td class="mi">11</td><td class="pc">8:50–9:00</td><td class="el">1:39:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">12</td><td class="pc">8:50–9:00</td><td class="el">1:48:40</td><td class="note">Brooklyn. Hold the same range.</td></tr>
+      <tr><td class="mi">13</td><td class="pc">8:50–9:00</td><td class="el">1:57:40</td><td class="note">Greenpoint. Halfway is 13.1094 miles, just beyond this flag on Pulaski; budget 1:58:40 there.</td></tr>
+      <tr><td class="mi">14</td><td class="pc">9:00–9:10</td><td class="el">2:06:50</td><td class="note">Pulaski Bridge into Queens. Allow the short climb.</td></tr>
+      <tr><td class="mi">15</td><td class="pc">8:50–9:00</td><td class="el">2:15:50</td><td class="note">Queens. Save effort for the bridge.</td></tr>
+      <tr><td class="mi">16</td><td class="pc">HR cue ≤165</td><td class="el">2:25:50</td><td class="note">QUEENSBORO: visual HR cue ≤165 bpm, easy controlled effort; no HR alert. 10:00 is a TIME BUDGET, not an enforced pace. Check the real mile-16 flag. Do not chase a bridge GPS pace reading.</td></tr>
+      <tr><td class="mi">17</td><td class="pc">8:50–9:00</td><td class="el">2:34:50</td><td class="note">GEL #3 after the bridge. First Avenue: settle back in, no surge.</td></tr>
+      <tr><td class="mi">18</td><td class="pc">8:50–9:00</td><td class="el">2:43:50</td><td class="note">First Avenue. Hold the same range despite the crowd.</td></tr>
+      <tr><td class="mi">19</td><td class="pc">8:50–9:00</td><td class="el">2:52:50</td><td class="note">First Avenue. Keep effort controlled.</td></tr>
+      <tr><td class="mi">20</td><td class="pc">9:00–9:10</td><td class="el">3:02:00</td><td class="note">Willis Avenue Bridge / Bronx. GEL #4. Allow 9:10.</td></tr>
+      <tr><td class="mi">21</td><td class="pc">8:50–9:00</td><td class="el">3:11:00</td><td class="note">Bronx. The official 2026 route now turns at East 141st Street before returning toward Madison Avenue Bridge.</td></tr>
+      <tr><td class="mi">22</td><td class="pc">8:50–9:00</td><td class="el">3:20:00</td><td class="note">Madison Avenue Bridge / Harlem.</td></tr>
+      <tr><td class="mi">23</td><td class="pc">9:10–9:20</td><td class="el">3:29:20</td><td class="note">Fifth Avenue climb: allow 9:20. This is real slow-side room.</td></tr>
+      <tr><td class="mi">24</td><td class="pc">9:00–9:10</td><td class="el">3:38:30</td><td class="note">Into Central Park at 90th Street, then rolling terrain: allow 9:10.</td></tr>
+      <tr><td class="mi">25</td><td class="pc">8:50–9:00</td><td class="el">3:47:30</td><td class="note">Cat Hill downhill, travelling south. Hold back on the descent.</td></tr>
+      <tr><td class="mi">26</td><td class="pc">8:50–9:00</td><td class="el">3:56:30</td><td class="note">Central Park South / Columbus Circle. Continue to the finish; the closing stretch rises.</td></tr>
+      <tr><td class="mi">Finish<br>26.21875</td><td class="pc">8:50–9:00</td><td class="el"><b>3:58:28</b></td><td class="note">END the workout at the actual finish. The plain Open run has no automatic distance finish.</td></tr>
+  </tbody></table>
+  <div class="note red"><b>Distance error:</b> 26.45 miles is an illustrative stress case, not a measured limit for your Watch. As an illustrative pace-budget calculation, adding 0.23125 miles at 9:00/mi would make the total <b>4:00:33</b>. That calculation does not cover other distributions of GPS error, pauses or missed distance cues. There is no honest statement that staying inside every alert guarantees sub-4 at 26.45. Official flags and elapsed time are the independent check.</div>
+  <h3>On your Watch: start NYC 3:57</h3>
+  <div class="note blue"><b>The full plan is inside the workout. No separate race card is required.</b> Fitness confirmed <b>Workout Added to Watch</b> for <b>NYC 3:57</b> and <b>3 mi Watch Rehearsal</b> on Oct 25. The obsolete NYC version and eight-mile alert-demo template were removed. Completed run records were not deleted.</div>
+  <ol>
+    <li>On the Watch open <b>Workout → Outdoor Run → Goals → Custom → NYC 3:57</b> (or select the workout where it appears in the Outdoor Run list). Start when you cross the start mat.</li>
+    <li>The workout contains <b>26 separate one-mile Work steps, then an Open finish step</b>. Warmup and cooldown are skipped. Each mile's name contains its <b>pace guide and cumulative BY time</b>: for example <b>20 GEL 9:00-9:10 | BY 3:02:00</b>.</li>
+    <li><b>BY is the elapsed-time budget at the END of the named mile.</b> During mile 20, work toward 3:02:00 at its end. A transition notification can show the upcoming step, so read the mile number: the cue for mile 21 gives the deadline for the end of mile 21, not mile 20.</li>
+    <li>Use the <b>Up Next</b> workout view for interval names and distance remaining. Keep <b>elapsed time, current pace and average pace</b> available in Metrics. Average Pace is the whole run so far, not just the previous mile. The Watch metric layout has not been remotely verified; check it in the rehearsal.</li>
+    <li><b>No recurring per-step pace or HR warnings.</b> The written ranges are guides, not active target alerts. Voice Feedback is <b>Off</b>, so there should be no workout speech in your headphones. Auto-Pause is <b>Off</b>, so water stops count toward elapsed time. Keep the clock running.</li>
+    <li>The intended reminder is the mile-step transition, not repeated too-fast/too-slow warnings. Confirm its haptic and on-screen cue in the rehearsal. If a separate recurring Distance alert creates duplicate cues, disable that extra alert on the Watch. Other system notifications can still occur.</li>
+    <li>The final step is <b>Open</b>: continue through the actual finish line, then manually end the workout. Its guide is 8:50–9:00 and its BY budget is 3:58:28.</li>
+  </ol>
+  <h3>Queensboro and the overall clock</h3>
+  <p><b>Mile 16:</b> the on-watch name says easy bridge effort / HR≤165 and BY 2:25:50. That HR value is a visual cue from the draft, not an established physiological threshold. Do not chase a suspect GPS pace on the bridge. The budget allows 10:00 for that mile; one additional minute makes the full schedule 3:59:28.</p>
+  <p><b>Mile 20:</b> BY 3:02:00 corresponds to a real-course average of 9:06/mi so far. Current pace alone cannot tell you whether you are behind overall. Check elapsed time against the named-mile checkpoint and use average pace for context. The native workout does <b>not</b> automatically calculate a hill-adjusted finish forecast or alert when it exceeds four hours.</p>
+  <p>Steps advance by <b>Watch-recorded distance</b>. A GPS-mile cue can occur before or after the real flag, and the clock is only GPS-independent when compared at the actual flag. Read the correct mile's BY checkpoint; do not confuse the upcoming step with the flag just passed. This remains a time budget, not a fail-proof finish guarantee.</p>
+  <h3>Tuesday Oct 27: start 3 mi Watch Rehearsal</h3>
+  <p>This is also <b>added to the Watch</b>. Three one-mile Work steps, all easy, no targets, no warmup/cooldown. Verify the mile transition haptic, the full cue's readability in Up Next, and elapsed / current / average pace on screen. Confirm no recurring pace warnings, duplicate distance cues or spoken announcements. Manually end at three miles if recording continues. Use Thursday's easy three to retest any corrected setting.</p>
+  <h3>How the workouts were added</h3>
+  <p>I generated native <b>.workout</b> files using Apple's <b>WorkoutKit</b> framework on the Mac, exported them with <code>WorkoutPlan.dataRepresentation</code>, and decoded them again with Apple's framework to verify every distance, name, Work purpose, skipped warmup/cooldown and absent target alert. Safari on the iPhone downloaded the files; opening each from Downloads launched Fitness, where <b>Add to Apple Watch</b> produced the explicit success confirmation.</p>
+  <p><a href="workouts/NYC-3-57.workout">NYC 3:57 native file</a> · <a href="workouts/3-mi-Watch-Rehearsal.workout">3 mi Watch Rehearsal native file</a> · <a href="workouts/NYC-3-57-spec.json">Auditable step specification</a> · <a href="workout-import.md">Repeat the import</a>. Re-importing an existing file may create a duplicate or report it already exists; the two workouts are already added.</p>
+  <details><summary>Verification details</summary><p>The paired settings showed Series 10 GPS / watchOS 27.0.1. Native steps expose Value or Range and Current or Average pace, with 10-second picker ticks; the final plan instead uses step-name guides without target alerts. WorkoutKit validated 26 × 1 mi + Open for NYC and 3 × 1 mi for the rehearsal. Fitness confirmed both additions to Watch. Exact haptic behavior, full cue visibility, metric layout and first-mile notification timing still require the live rehearsal. The phone verified Oct 23's 8:49 / 8:53 miles at HR 148 / 151 and Oct 18's four-mile block at about 8:55 / HR 160. No personal GPS error maximum has been established.</p></details>
+  <h3>Fuelling</h3>
+  <p><b>Own gels at real miles 5, 10, 17 and 20</b>; carry a spare. No gel on the Queensboro climb. Gel cues are included in the names for miles 5, 10, 17 and 20. They are visual cues; no spoken gel announcement is required. NYRR lists fluid stations at miles 3–25 <b>except 5, 7 and 9</b>; arrange water for the mile-5 gel if needed. Official gels are at 12 and 18. <a href="https://prod.nyrr.org/tcsnycmarathon/the-course" target="_blank" rel="noopener">NYRR course and amenities</a>.</p>
+  <p><b>Course reference:</b> follow the linked official 2026 map; the bridge and park names above are approximate mile cues, with Cat Hill approached southbound. Named terrain sections are approximate mile cues, not exact GPS boundaries. The Bronx route has changed for 2026. <a href="https://cms.prod.nyrr.org/api/document-files/file/TCSNYCM26_Map_Course_090226_RD3.pdf" target="_blank" rel="noopener">Official 2026 map</a>.</p>
+
+  <h3>Race morning</h3>
+  <div class="note blue">
+    <b>Orange Wave 3 · Corral E · gun 10:20 AM.</b> Midtown bus from the NY Public Library (5th Ave &amp; 42nd) at <b>5:30 AM</b>. You must take that bus at that time. No bag check: you chose the <b>poncho</b>, so nothing you wear to Staten Island comes back. From NYRR's confirmation email, Oct 7. <b>Clocks go back an hour at 2 AM on race morning</b> (daylight saving time ends Nov 1). Your phone and watch change on their own. Set the alarm for 4:00 AM, and you get an extra hour of sleep.
+  </div>
+  <table>
+    <thead><tr><th>Race morning, Sun Nov 1</th><th></th></tr></thead>
+    <tbody>
+      <tr><td><b>4:00 AM</b></td><td>Up. (Assumes you're ≤30 min from the library. If you're further, move everything above 5:15 earlier.)</td></tr>
+      <tr><td><b>4:10 AM</b></td><td><b>Breakfast #1:</b> 1 large sweet potato peeled + mashed · 2 tbsp peanut butter · 1 banana. Or the meal you actually ate before Oct 4 and Oct 11, if different. Coffee only if normal for you.</td></tr>
+      <tr><td><b>4:45 AM</b></td><td>Leave. Throwaway layers on, everything below packed. Be at the library by <b>5:15</b>.</td></tr>
+      <tr><td><b>5:30 AM</b></td><td>Bus. Sit, stay warm, sip water.</td></tr>
+      <tr><td><b>~6:30–7:00</b></td><td>Athlete village. <b>Over three hours before your gun.</b> Find somewhere to sit off the ground, stay in your layers, don't wander.</td></tr>
+      <tr><td><b>7:20 AM</b></td><td><b>Breakfast #2 (gun − 3:00), carried in:</b> 1 banana + 1 applesauce pouch + 1 tbsp honey. Then sip ~500ml sports drink between now and 9:00. Breakfast #1 was six hours before the gun and will be long gone. <b>This second meal is not optional.</b></td></tr>
+      <tr><td><b>~9:15 AM</b></td><td>Last toilet. Lines are long, so join early.</td></tr>
+      <tr><td><b>9:35 AM</b></td><td>Half banana or a gel, with water. Head to the Orange Wave 3 corral. NYRR's race-week email gives the exact time Wave 3 corrals close. Check it.</td></tr>
+      <tr><td><b>Corral</b></td><td>Keep the throwaway layers on until the last minutes, then drop them in the donation bins. Easy jogging on the spot, leg swings. Mile 1 is your warm-up, which is another reason it's 9:35.</td></tr>
+      <tr><td><b>10:20 AM</b></td><td>Gun. Start your watch on the mat.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <b>Pack list for the village:</b> breakfast #2, 500ml sports drink, water, half banana or gel, <b>5 race gels</b> (4 on you + 1 spare), old sweats you'll never see again, a hat and gloves you'll donate, a garbage bag or space blanket to sit on, toilet paper, and your phone with the QR code. Nothing you can't lose. There is no bag check at the start.
+  </div>
+
+
+</div></details>
+  <details class="arch"><summary>NYC Training Plan <span class="d">21 weeks · Jun 8 – Nov 1</span></summary><div class="arch-body">
+
+  
+
+  <h2 class="ch2 collapsed">Training Paces</h2>
+  <div class="pace-grid">
+    <div class="pace-card"><div class="zone">Easy</div><div class="now">9:20–9:45/mi</div><div class="arrow">→ 9:00–9:20 race day</div><div class="feel">Fully conversational</div></div>
+    <div class="pace-card"><div class="zone">Marathon Pace</div><div class="now">9:00/mi</div><div class="arrow">Goal race pace</div><div class="feel">Comfortably hard, sustained</div></div>
+    <div class="pace-card"><div class="zone">Tempo</div><div class="now">8:20–8:30/mi</div><div class="arrow">→ 8:00–8:10 race day</div><div class="feel">Hard but controlled, 20–40 min</div></div>
+    <div class="pace-card"><div class="zone">Intervals</div><div class="now">7:50–8:00/mi</div><div class="arrow">→ 7:30–7:45 race day</div><div class="feel">5K effort, short repeats</div></div>
+  </div>
+
+  <h2 class="ch2 collapsed">Warm-Up Protocol</h2>
+  <div>
+    <div class="note blue">You warm up slowly — every negative-split session in this log says so. Aug 5 opened rep 1 at 8:11 against a 7:55 target and closed at 7:49, on a warm-up trimmed to 1.00 mi from the prescribed 2.25. The warm-up isn't filler mileage. It's what makes the first rep count.</div>
+    <div class="two">
+      <div>
+        <h3>Quality day (Wednesday)</h3>
+        <ul>
+          <li><strong>5 min dynamic</strong> — leg swings, hip circles, high knees, butt kicks, lateral shuffles (Nutrition &amp; Recovery tab)</li>
+          <li><strong>Full prescribed warm-up miles</strong> @ 9:45–10:15/mi — deliberately slower than easy pace</li>
+          <li><strong>4 × 20 sec strides</strong> at rep pace, 60 sec walk between; finish the last one 2–3 min before rep 1</li>
+          <li>Rep 1 should feel controlled, not like a cold start</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Easy / long day</h3>
+        <ul>
+          <li><strong>5 min dynamic</strong> — same routine</li>
+          <li><strong>First mile 30 sec/mi slower</strong> than easy pace — 9:50–10:15/mi</li>
+          <li>No strides needed</li>
+          <li>Feeling better by mile 2–3 is normal and correct — not a reason to speed up</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note">The cool-down is part of the prescription too. Trimmed cool-downs are the most common gap in this log — full reps, then the full easy miles back down.</div>
+  </div>
+
+  <h2 class="ch2 collapsed">Breathing &amp; Effort</h2>
+  <div>
+    <div class="note blue">Breathing is the effort gauge that responds instantly. Heart rate lags 30–60 sec, runs hot in heat and on short sleep, and runs artificially <em>low</em> the day after hard work. Set the effort by breath, confirm with HR afterward.</div>
+    <table>
+      <tr><th>Rhythm (steps in : steps out)</th><th>Where it belongs</th><th>Pace</th><th>Talk test</th></tr>
+      <tr><td class="dc">3:3</td><td>Warm-up, cool-down, recovery jogs</td><td>9:45–10:15/mi</td><td>Easy conversation</td></tr>
+      <tr><td class="dc">3:2</td><td>Easy runs, long runs, marathon pace</td><td>9:00–9:45/mi</td><td>Full sentences</td></tr>
+      <tr><td class="dc">2:1</td><td>Tempo, intervals</td><td>7:50–8:30/mi</td><td>A few words</td></tr>
+      <tr><td class="dc">1:1</td><td>Maximal — race finish only</td><td>—</td><td>Nothing</td></tr>
+    </table>
+    <ul>
+      <li><strong>Keep the odd-count patterns (3:2, 2:1).</strong> The exhale lands on alternating feet instead of hammering the same side every breath.</li>
+      <li><strong>Breathe from the belly, not the chest.</strong> Hand on stomach standing still — it should push out on the inhale.</li>
+      <li><strong>In through nose and mouth, out through mouth.</strong> Nose-only doesn't move enough air above easy pace.</li>
+      <li><strong>1:1 on a hill means the hill is being run too hard.</strong> Hold the rhythm and let the pace slow — effort constant, not pace constant.</li>
+      <li><strong>If 3:2 won't hold on an easy run, the run is too fast.</strong> Slow down until it does. This is the direct fix for the hot-HR easy days flagged repeatedly below.</li>
+      <li><strong>Race cue:</strong> marathon pace should sit at 3:2 through halfway and only drift to 2:1 in the last 6 miles. At 2:1 by mile 6, you went out too fast.</li>
+    </ul>
+  </div>
+
+  <!-- PHASE 1 -->
+  <h2 class="ch2 phase-h">Phase 1 — Base Building</h2>
+  <div class="phase">
+    <div class="tag t-base">Weeks 1–4 · 4 days/week</div>
+    <p>Wed/Thu/Fri/Sun. Tuesday stays rest — your legs are still absorbing Monday boot camp. Thursday is the shorter easy day (tighter mornings), Friday carries the longer one — easy, not a push. Tuesday gets added at week 7.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 1 — June 8–14</h3><span class="badge">~28 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 8</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 9</td><td>Rest</td></tr>
+        <tr><td class="dc">Wed Jun 10</td><td>1.75 mi warm-up + 4×1200m @ 7:55/mi (90 sec jog) + 1.75 mi cool-down = 7 mi total</td></tr>
+        <tr><td class="dc">Thu Jun 11</td><td>Easy 4 mi @ 9:30–9:45/mi</td></tr>
+        <tr><td class="dc">Fri Jun 12</td><td>Easy 5 mi @ 9:20–9:45/mi</td></tr>
+        <tr><td class="dc">Sat Jun 13</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jun 14</td><td>Long run: 12 mi easy @ 9:20–9:45/mi</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 2 — June 15–21</h3><span class="badge">~29 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 15</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 16</td><td>Rest</td></tr>
+        <tr><td class="dc">Wed Jun 17</td><td>Tempo: 1.5 mi warm-up + 3 mi @ 8:25/mi + 1.5 mi cool-down = 6 mi</td></tr>
+        <tr><td class="dc">Thu Jun 18</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Jun 19</td><td>Easy 5 mi @ 9:30–9:45/mi</td></tr>
+        <tr><td class="dc">Sat Jun 20</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jun 21</td><td>Long run: 13 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 3 — June 22–28</h3><span class="badge">~32 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 22</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 23</td><td>Rest</td></tr>
+        <tr><td class="dc">Wed Jun 24</td><td>Easy/quality progression run 6.33 mi — intervals moved to Friday (rough day)</td></tr>
+        <tr><td class="dc">Thu Jun 25</td><td>Easy 5 mi @ 9:30–9:45/mi — keep it honest before Friday quality</td></tr>
+        <tr><td class="dc">Fri Jun 26</td><td>1.5 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 1.5 mi cool-down = 7 mi total — use lap mode for each rep</td></tr>
+        <tr><td class="dc">Sat Jun 27</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jun 28</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 4 — June 29–July 5</h3><span class="badge r">~26 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jun 29</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jun 30</td><td>Rest</td></tr>
+        <tr><td class="dc">Wed Jul 1</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:20/mi + 1 mi cool-down = 5 mi</td></tr>
+        <tr><td class="dc">Thu Jul 2</td><td>Easy 4 mi @ 9:30–9:45/mi</td></tr>
+        <tr><td class="dc">Fri Jul 3</td><td>CrossFit Hero WOD: Glen (swapped from easy 5 mi)</td></tr>
+        <tr><td class="dc">Sat Jul 4</td><td>Rest — full recovery after Glen</td></tr>
+        <tr><td class="dc">Sun Jul 5</td><td>Long run: 12 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 2 -->
+  <h2 class="ch2 phase-h">Phase 2 — Build 1</h2>
+  <div class="phase">
+    <div class="tag t-build">Weeks 5–8 · 4 → 5 days/week</div>
+    <p>Introduce marathon pace. Long run reaches 18 miles. Friday starts getting longer. Tuesday easy shakeout added at week 7 as your 5th day.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 5 — July 6–12</h3><span class="badge">~35 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 6</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 7</td><td>Rest</td></tr>
+        <tr><td class="dc">Wed Jul 8</td><td>Easy 6 mi — intervals moved to Friday</td></tr>
+        <tr><td class="dc">Thu Jul 9</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Jul 10</td><td>2 mi warm-up + 5×1000m @ 7:55/mi (2 min jog) + 2 mi cool-down = 8 mi total (moved from Wed)</td></tr>
+        <tr><td class="dc">Sat Jul 11</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 12</td><td>Long run: 15 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 6 — July 13–19</h3><span class="badge">~39 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 13</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 14</td><td>Rest</td></tr>
+        <tr><td class="dc">Wed Jul 15</td><td>Tempo: 1.5 mi warm-up + 5 mi @ 8:20/mi + 1.5 mi cool-down = 8 mi</td></tr>
+        <tr><td class="dc">Thu Jul 16</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Jul 17</td><td>Easy 7 mi @ 9:30/mi</td></tr>
+        <tr><td class="dc">Sat Jul 18</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 19</td><td>Long run: 18 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="note blue">Week 7: Tuesday easy shakeout added as your 5th running day. Keep it short and loose — it's just flushing out Monday's boot camp.</div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 7 — July 20–26</h3><span class="badge">~44 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 20</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc"><strong>Tue Jul 21</strong></td><td><strong>Easy shakeout: 4 mi (new 5th day)</strong></td></tr>
+        <tr><td class="dc">Wed Jul 22</td><td>2.25 mi warm-up + 5×1200m @ 7:55/mi (90 sec jog) + 2.25 mi cool-down = 9 mi total</td></tr>
+        <tr><td class="dc">Thu Jul 23</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Jul 24</td><td>Medium: 9 mi easy</td></tr>
+        <tr><td class="dc">Sat Jul 25</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Jul 26</td><td>Long run: 16 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 8 — July 27–August 2</h3><span class="badge r">~28 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Jul 27</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Jul 28</td><td>Easy shakeout: 3 mi</td></tr>
+        <tr><td class="dc">Wed Jul 29</td><td>Tempo: 1 mi warm-up + 3 mi @ 8:15/mi + 1 mi cool-down = 5 mi</td></tr>
+        <tr><td class="dc">Thu Jul 30</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Jul 31</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Aug 1</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 2</td><td>Long run: 13 mi easy — mild right IT band tightness reported (works itself loose early, not painful). Genuinely easy pace, flat/uncambered route, stop if it turns to real pain.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 3 -->
+  <h2 class="ch2 phase-h">Phase 3 — Build 2</h2>
+  <div class="phase">
+    <div class="tag t-build">Weeks 9–12 · 5 days/week</div>
+    <p>Peak volume. Long runs hit 20–22 miles. MP segments begin on medium and long runs.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 9 — August 3–9</h3><span class="badge">~42 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 3</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 4</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Aug 5</td><td>2.25 mi warm-up + 4×1600m @ 7:55/mi (2 min jog) + 2.25 mi cool-down = 9 mi total</td></tr>
+        <tr><td class="dc">Thu Aug 6</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Aug 7</td><td>Medium: 9 mi, miles 6–8 @ 9:00/mi (first MP taste)</td></tr>
+        <tr><td class="dc">Sat Aug 8</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 9</td><td>Long run: 20 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 10 — August 10–16</h3><span class="badge">~44 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 10</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 11</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Aug 12</td><td>Tempo: 1.5 mi warm-up + 6 mi @ 8:15/mi + 1.5 mi cool-down = 9 mi</td></tr>
+        <tr><td class="dc">Thu Aug 13</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Aug 14</td><td>Medium: 10 mi, miles 6–9 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Aug 15</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 16</td><td>Long run: 20 mi easy</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 11 — August 17–23</h3><span class="badge p">~46 miles · Peak volume</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 17</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 18</td><td>Easy shakeout: 4 mi</td></tr>
+        <tr><td class="dc">Wed Aug 19</td><td>2 mi warm-up + 5×1600m @ 7:50/mi (2 min jog) + 2 mi cool-down = 10 mi total</td></tr>
+        <tr><td class="dc">Thu Aug 20</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Aug 21</td><td>Medium: 10 mi, miles 5–9 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Aug 22</td><td>Rest — moved back to Sunday per JR (confirm the baby-shower travel no longer conflicts)</td></tr>
+        <tr><td class="dc">Sun Aug 23</td><td>Long run: 22 mi (miles 16–20 @ 9:00/mi) — <em>start before 8 AM.</em> Drop the MP block and finish easy if miles 1–15 feel laboured</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 12 — August 24–30</h3><span class="badge r">~28 miles · Recovery</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 24</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Aug 25</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Aug 26</td><td>Tempo: 1 mi warm-up + 4 mi @ 8:10/mi + 1 mi cool-down = 6 mi</td></tr>
+        <tr><td class="dc">Thu Aug 27</td><td>Easy 5 mi</td></tr>
+        <tr><td class="dc">Fri Aug 28</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Aug 29</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Aug 30</td><td>Long run: 14 mi easy</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 4 -->
+  <h2 class="ch2 phase-h">Phase 4 — Peak &amp; Race-Specific</h2>
+  <div class="phase">
+    <div class="tag t-peak">Weeks 13–18 · Hardest block</div>
+    <p>Heavy MP work. Simulate race conditions. This is where sub-4 gets built. <strong>Rebuilt Sep 13</strong> after a week off running: the peak now lands Oct 4, the last long run Oct 11, and the taper is two weeks instead of three.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 13 — Aug 31–September 6</h3><span class="badge">~46 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Aug 31</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Sep 1</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Sep 2</td><td>1.75 mi warm-up + 3×2 miles @ 8:05/mi (3 min jog) + 1.75 mi cool-down = 10 mi total</td></tr>
+        <tr><td class="dc">Thu Sep 3</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Sep 4</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Sep 5</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 6</td><td>Long run: 22 mi (miles 13–20 @ 9:00/mi)</td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 14 — September 7–13</h3><span class="badge f">0 miles · not run</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 7</td><td>Labor Day — full rest taken instead of squats + boot camp. Correct call the day after Sunday's 20-miler</td></tr>
+        <tr><td class="dc">Tue Sep 8</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Sep 9</td><td>Tempo: 1.5 mi warm-up + 7 mi @ 8:05/mi + 1.5 mi cool-down = 10 mi</td></tr>
+        <tr><td class="dc">Thu Sep 10</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Fri Sep 11</td><td>Medium: 10 mi, miles 4–8 @ 9:00/mi</td></tr>
+        <tr><td class="dc">Sat Sep 12</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 13</td><td><strong style="color:#ef4444">Not run.</strong> Prescribed was: long run 20 mi (miles 12–18 @ 9:00/mi) — <em>the make-or-break rehearsal. Rescheduled to Sun Oct 4.</em></td></tr>
+        <tr><td colspan="2" style="color:#ef4444"><strong>NOT RUN — zero running miles this week.</strong> A cluster of chigger bites around the right ankle, directly under the sock and shoe collar, made fabric unbearable. JR chose to protect the skin rather than scar it. <em>Correct call — and not made up. The plan rebuilds forward from Week 15.</em></td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 15 — September 14–20</h3><span class="badge r">~34 miles · Return</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 14</td><td>Boot camp — <strong>skip the squat ladder or go very light.</strong> <em>Three StairMaster hours across Fri/Sat/Sun is real calf and glute loading. Stacking a heavy squat session on top, the night before your first run in nine days, is how the Achilles goes. Take the conditioning, leave the barbell.</em></td></tr>
+        <tr><td class="dc">Tue Sep 15</td><td><strong>Easy 4 mi — the test run.</strong> 9:30–9:50/mi, no faster. Tape or cover the ankle, low socks that sit below the bites, loosen the bottom two eyelets. <em>If fabric on the bites is unbearable by mile 1, turn around — that's information, not a failure.</em></td></tr>
+        <tr><td class="dc">Wed Sep 16</td><td>Easy 6 mi + 6×20-sec strides — <strong>no quality this week.</strong> <em>Week one back off nine days is not where sub-4 gets won, and it is exactly where a calf or Achilles gets lost.</em></td></tr>
+        <tr><td class="dc">Thu Sep 17</td><td>Easy 4 mi — <em>if the ankle is raw after Tuesday and Wednesday, <strong>swap in 40 min on the StairMaster</strong> rather than dropping the day. Aerobic load without a shoe collar on the bites. This is the droppable run, not a droppable day.</em></td></tr>
+        <tr><td class="dc">Fri Sep 18</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Sep 19</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 20</td><td><strong>Long run: 11 mi — out the door before 8 AM, and that is the non-negotiable part.</strong> <em>Cut from 13 after Friday came in at RE 205 with HR to 171. Pace <strong>9:45–10:00/mi — deliberately slower than the easy floor.</strong> No strides, no surge, no closing mile. If HR passes 160 at that pace, walk until it drops. The job is time on feet at the lowest possible cost, because Week 16 is where the build starts and it needs a body that arrives recovered.</em></td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 16 — September 21–27</h3><span class="badge">~41 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 21</td><td>Squats + boot camp</td></tr>
+        <tr><td class="dc">Tue Sep 22</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Sep 23</td><td><strong>Easy 4–5 mi at 9:30–9:50 — tempo moved.</strong> Five hours of sleep. Your own rule is <em>"when in doubt, go easy"</em>, and 5 miles at 8:10 on five hours is how a good week becomes a lost one. Flat legs in mile 1 → make it 3 and stop. <strong>Full rest is also a correct answer today.</strong></td></tr>
+        <tr><td class="dc">Thu Sep 24</td><td>Pilates 6:45–7:45, then <strong>easy 4 mi at 9:30–9:50</strong> from ~8:00. Hold the ceiling — Tuesday ran 8:50/mi against this same explicit ceiling and got flagged.</td></tr>
+        <tr><td class="dc">Fri Sep 25</td><td><strong>Easy 5 mi at 9:30–9:50 — tempo cancelled.</strong> <em>He ran the tempo on Wednesday instead (4 mi at 8:42/mi, HR 160). Repeating it Friday would be a third quality effort in five days, two days before Sunday. Easy, and hold the ceiling.</em></td></tr>
+        <tr><td class="dc">Sat Sep 26</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Sep 27</td><td><strong>⭐ Long run: 17 mi (miles 10–15 @ 9:00/mi) — unchanged, and now the whole point of the week.</strong> <em>6 continuous MP miles, out before 8 AM. Hold 9:20–9:45 through mile 9 so the block lands on tired legs. Everything above was rearranged to protect this one.</em></td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 17 — Sep 28–October 4</h3><span class="badge p">~46 miles · Peak</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Sep 28</td><td>Squats + boot camp (reduce weight — maintenance only)</td></tr>
+        <tr><td class="dc">Tue Sep 29</td><td>Easy shakeout: 4 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Sep 30</td><td>2 mi warm-up + 5×1600m @ 7:50/mi (2 min jog) + 2 mi cool-down = 10 mi total</td></tr>
+        <tr><td class="dc">Thu Oct 1</td><td>Easy 4 mi</td></tr>
+        <tr><td class="dc">Fri Oct 2</td><td>Medium: 9 mi, miles 4–8 @ 9:00/mi — <em>completed: 9.07 mi, block ran 9:06/mi. Six seconds off target, the tightest MP block of the cycle.</em></td></tr>
+        <tr><td class="dc">Sat Oct 3</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 4</td><td><strong>⭐ Long run: 20 mi (miles 12–18 @ 9:00/mi) — the make-or-break rehearsal.</strong> Out before 8 AM, easy 9:20–9:45 through mile 11, then 7 flat MP miles. <em><strong>Do not substitute a solo half-marathon time trial.</strong> Alone, a half tests top-end speed you already have and cannot reproduce race adrenaline — it would land 30–60 sec/mi slow and tell you nothing true. Your failure mode is the closing third of a long run, and this is the session that tests it. <strong>Only swap in a half if a real, bibbed race lands on this weekend</strong> (target 1:52–1:55, 8:35–8:47/mi, plus 2 mi warm-up and 2 mi cool-down). Either way this Sunday is the sub-4 decision point.</em></td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 18 — October 5–11</h3><span class="badge">~38 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Oct 5</td><td>Light cross-train only — no heavy squats this week</td></tr>
+        <tr><td class="dc">Tue Oct 6</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short.</em></td></tr>
+        <tr><td class="dc">Wed Oct 7</td><td>Tempo: 1 mi warm-up + <strong>3 mi @ 8:20–8:30/mi</strong> + 1 mi cool-down = 5 mi — <em>trimmed from 4 mi @ 8:05. Oct 4 answered the fitness question, so this session is sharpness maintenance, not a test. 8:05 is a pace never touched this cycle (best tempo 8:36, best reps 8:19); chasing it six days before the final long run risks a failed session and buys nothing. 8:20–8:30 is the actual tempo zone — hit it and leave.</em></td></tr>
+        <tr><td class="dc">Thu Oct 8</td><td>Easy 4 mi</td></tr>
+        <tr><td class="dc">Fri Oct 9</td><td>Easy 7 mi</td></tr>
+        <tr><td class="dc">Sat Oct 10</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 11</td><td><strong>⭐ Long run: 18 mi (miles 8–14 @ 9:00/mi) — full dress rehearsal, and the last long run of the cycle.</strong> <em>Race shoes, race kit, race gels, race-morning wake time with the full 2h45m gap before you start. Nothing new after today.</em> If Oct 4 ended up being a bibbed half marathon, cut the block to miles 10–14. If a real half lands <em>this</em> weekend instead, race it and add 5 easy miles after — a raced half plus 5 is a better dress rehearsal than 18 alone.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHASE 5 -->
+  <h2 class="ch2 phase-h">Phase 5 — Taper</h2>
+  <div class="phase">
+    <div class="tag t-taper">Weeks 19–20</div>
+    <p>Two weeks, not three — you already took an unplanned one in September. Volume drops, intensity stays. Don't add extra miles to feel ready.</p>
+
+    <div class="week">
+      <div class="wt"><h3>Week 19 — October 12–18</h3><span class="badge">~30 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Oct 12</td><td>Light cross-train or rest</td></tr>
+        <tr><td class="dc">Tue Oct 13</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Oct 14</td><td>1.5 mi warm-up + <strong>3×1000m at 8:00–8:10/mi</strong> (90 sec jog) + 1.5 mi cool-down = 5 mi — <em>was 7:50. Corrected down on Oct 11 on the basis of a figure that was wrong — the note then read "best rep average 8:14 on Sep 30," but Sep 30 averaged 8:19 and 8:14 was Aug 19's average. The real cycle bests are <strong>Jun 26: 5×1000m averaging 7:48 (7:35 closer)</strong> and <strong>Aug 5: 4×1600m averaging 8:02</strong>, so 7:50 was always within reach at this rep distance. Ran 7:50/7:50/7:57 on the day. Taper sessions exist to stay sharp, not to set targets — run by feel: comfortably hard, nowhere near flat out.</em></td></tr>
+        <tr><td class="dc">Thu Oct 15</td><td>Easy 4 mi</td></tr>
+        <tr><td class="dc">Fri Oct 16</td><td>Easy 6 mi</td></tr>
+        <tr><td class="dc">Sat Oct 17</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 18</td><td>Long run: 12 mi (miles 6–9 @ 9:00/mi) — <em>a short MP touch to keep the pace familiar, not a workout</em></td></tr>
+      </table>
+    </div>
+
+    <div class="week">
+      <div class="wt"><h3>Week 20 — October 19–25</h3><span class="badge">~23 miles</span></div>
+      <table>
+        <tr><th>Day</th><th>Workout</th></tr>
+        <tr><td class="dc">Mon Oct 19</td><td>Rest</td></tr>
+        <tr><td class="dc">Tue Oct 20</td><td>Easy shakeout: 3 mi — <em>optional; skip if Monday night's sleep was short. Wednesday is the priority.</em></td></tr>
+        <tr><td class="dc">Wed Oct 21</td><td>1.5 mi warm-up + <strong>4×400m at 7:30–7:45/mi</strong> (60 sec jog) + 1.25 mi cool-down = 4 mi — <em>1:52–1:56 per 400. Your 1000m reps ran 7:48 (Jun 26) and 7:52 (Oct 14), and 400s belong a touch quicker than that. By feel, not by force. Total hard running: about 7½ minutes. This is a nervous-system wake-up, not a workout.</em></td></tr>
+        <tr><td class="dc">Thu Oct 22</td><td>Easy 3 mi</td></tr>
+        <tr><td class="dc">Fri Oct 23</td><td>Easy 5 mi, miles 3–4 @ 9:00/mi (feel the pace)</td></tr>
+        <tr><td class="dc">Sat Oct 24</td><td>Rest</td></tr>
+        <tr><td class="dc">Sun Oct 25</td><td>Easy 8 mi — no intensity, just moving</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- RACE WEEK -->
+  <h2>Race Week</h2>
+  <div class="phase">
+    <div class="tag t-race">October 26 – November 1</div>
+    <p>Sleep is the workout. No new foods. Friday Oct 30 is the critical night — protect it.</p>
+    <table>
+      <tr><th>Day</th><th>Workout</th></tr>
+      <tr><td class="dc">Mon Oct 26</td><td>Rest</td></tr>
+      <tr><td class="dc">Tue Oct 27</td><td>Pilates 7:00 → <strong>4 mi: 1 easy + 2 at race pace (8:50–9:00) + 1 easy</strong>, run on the 3 mi Watch Rehearsal (test mile cues and readable names)</td></tr>
+        <tr><td class="dc">Wed Oct 28</td><td>Rest — sleep in. <strong>Carb load starts today.</strong> <em>~70% of calories from carbs, with Fri–Sat going higher still (see the Nutrition tab), fibre cut hard. See the Nutrition tab: peeled white potato, honey, banana, applesauce, coconut water. No alcohol from today.</em></td></tr>
+        <tr><td class="dc">Thu Oct 29</td><td>Easy 3 mi — <em>your booked expo slot is <b>Friday 6:00–7:30 PM</b> at Javits. If NYRR's dashboard lets you switch to a Thursday slot, take it and go today. If not, Friday works; see below.</em></td></tr>
+        <tr><td class="dc">Fri Oct 30</td><td><strong>Rest. The most important night of the cycle.</strong> <em>Nearly everyone sleeps badly the night before a marathon. It is the night TWO out that actually carries. <b>Expo slot 6:00–7:30 PM</b> (Javits, 429 11th Ave), unless you moved it to Thursday. Bring photo ID and the QR code. <b>Eat dinner before you go, around 4:45.</b> Get the bib, skip the shopping, and stay off your feet as much as you can. Home by 8:15, in bed by 9:30. No alcohol.</em></td></tr>
+        <tr><td class="dc">Sat Oct 31</td><td>2 mi easy shakeout <strong>+ 3×100m strides</strong> — <em>strides added: they wake the legs up without any cost. Lay out everything tonight: bib pinned, shoes, socks, kit, 5 gels, watch charged, throwaway layers, and the village pack from the Race Plan tab. Alarm 4:00 AM, bus 5:30. <b>Clocks go back an hour at 2 AM tonight</b>, so you gain an hour; phone and watch update on their own. Early dinner, in bed by 8:30.</em></td></tr>
+      <tr class="race-day"><td class="dc">Sun Nov 1</td><td>RACE DAY — NYC Marathon. Start NYC 3:57, already added to Watch: 26 one-mile Work steps plus Open finish, each named with a pace guide and cumulative BY time. No per-step pace / HR warnings or voice feedback; Auto-Pause Off. Protect bridge effort and read elapsed time. Real-course budget 3:58:28 including a 10:00 Queensboro mile; goal sub-4, no alert-only guarantee.</td></tr>
+    </table>
+  </div>
+
+  <!-- COURSE NOTES -->
+  <h2>NYC Course Notes</h2>
+  <ul>
+    <li><strong>Mile 1 — Verrazano Bridge:</strong> Steep uphill. Run easy. Let people go. Congestion forces this anyway.</li>
+    <li><strong>Mile 2 — Verrazzano down; miles 3–13 — Brooklyn:</strong> Settle into the pace range. Lock into 9:00/mi and ignore the crowd energy — this is where people go out too hard.</li>
+    <li><strong>Miles 15–16 — Queensboro Bridge:</strong> Long uphill, no crowd noise inside. Stay steady. Don't panic.</li>
+    <li><strong>Mile 17 — 1st Avenue:</strong> Crowd erupts. Do NOT surge. Most common place people blow up.</li>
+    <li><strong>Miles 20–23 — Bronx &amp; Harlem:</strong> Legs are heavy. Shorten stride, stay tall, focus on form.</li>
+    <li><strong>Miles 23–26.2 — Central Park:</strong> Rolling hills from the 90th St entrance, Cat Hill is a <em>downhill</em> at ~mile 25 (don't charge it), and the last half-mile to the finish rises. Spend whatever's left after mile 25.</li>
+  </ul>
+  <div class="note red">If it's warm (above 60°F): add 20–30 sec/mile. A smart early slow-down saves your finish.</div>
+
+  <h2>Tune-Up Races</h2>
+  <table>
+    <tr><th>Race</th><th>When</th><th>Purpose</th></tr>
+    <tr><td>5K or 10K</td><td>Mid-July</td><td>Confirm pace zones are set correctly</td></tr>
+    <tr><td>Half marathon</td><td>Late Aug / early Sep</td><td>MP reality check</td></tr>
+    <tr><td>10K</td><td>Late September</td><td>Sharpen before taper</td></tr>
+  </table>
+
+  <h2 class="ch2 collapsed">Weekly Schedule</h2>
+  <table>
+    <tr><th>Day</th><th>Role</th></tr>
+    <tr><td class="dc">Monday</td><td>Squats + boot camp — strength &amp; cross-train (not running)</td></tr>
+    <tr><td class="dc">Tuesday</td><td>Rest (weeks 1–6) → Easy shakeout (weeks 7+)</td></tr>
+    <tr><td class="dc">Wednesday</td><td><strong>Quality run — only hard running day of the week</strong></td></tr>
+    <tr><td class="dc">Thursday</td><td>Easy run</td></tr>
+    <tr><td class="dc">Friday</td><td>Easy run (weeks 1–6) → Medium-long run (weeks 7+)</td></tr>
+    <tr><td class="dc">Saturday</td><td>Rest</td></tr>
+    <tr><td class="dc">Sunday</td><td><strong>Long run</strong></td></tr>
+  </table>
+
+  <h2 class="ch2 collapsed">Where to Run</h2>
+  <div class="tg">
+    <div class="tc"><div class="wt2">Intervals</div><div class="loc">Central Park loop</div><div class="why">200m markers — out-and-back so hills average out</div></div>
+    <div class="tc"><div class="wt2">Tempo</div><div class="loc">Hudson River Greenway</div><div class="why">Flat — lock into pace without elevation fighting you</div></div>
+    <div class="tc"><div class="wt2">Easy &amp; Long</div><div class="loc">Central Park</div><div class="why">Race finishes here — knowing the park's hills is an advantage</div></div>
+  </div>
+
+</div></details>
+  <details class="arch"><summary>Nutrition &amp; Recovery <span class="d">reference</span></summary><div class="arch-body">
+
+  <h2>Pre-Run Nutrition</h2>
+  <div class="sb">
+    <div class="tag t-base">What works for you specifically</div>
+    <ul style="margin-top:10px;">
+      <li><strong>Lower fiber before runs</strong> — you feel heavier and sluggish when fiber is high</li>
+      <li><strong>More protein/meat the day before</strong> — you feel better and run better</li>
+      <li>This is your gut telling you something real. Honor it every time.</li>
+    </ul>
+  </div>
+
+  <h3>Day Before a Long Run or Quality Session</h3>
+  <table>
+    <tr><th>Meal</th><th>Eat this</th><th>Avoid this</th></tr>
+    <tr><td>Breakfast</td><td>Eggs, bacon or sausage, white toast</td><td>Oatmeal, bran, raw vegetables</td></tr>
+    <tr><td>Lunch</td><td>Chicken/beef + white rice or pasta</td><td>Large salads, legumes, whole grains</td></tr>
+    <tr><td>Dinner</td><td>Steak or chicken + white pasta or rice</td><td>Broccoli, beans, lentils, heavy sauces</td></tr>
+    <tr><td>Snacks</td><td>Banana, white bread + peanut butter</td><td>High-fiber bars, raw fruit with skin</td></tr>
+  </table>
+  <div class="note">Hydrate more than usual — aim for pale yellow urine by end of day.</div>
+
+  <h3>Race Morning (same rules for long runs)</h3>
+  <ul>
+    <li><strong>2–3 hours before:</strong> 400–600 cal. Bagel + peanut butter + banana. Don't experiment.</li>
+    <li><strong>60 min before:</strong> Small snack if needed (half banana, a few crackers)</li>
+    <li><strong>Coffee:</strong> Fine if you normally drink it. Don't add it race day if you usually don't.</li>
+    <li><strong>No new foods race morning. Ever.</strong></li>
+  </ul>
+
+  <h2>Fueling During Runs</h2>
+  <div class="two">
+    <div>
+      <h4>When to fuel</h4>
+      <ul>
+        <li><strong>Under 60 min:</strong> Water only</li>
+        <li><strong>60–90 min:</strong> Optional gel at the end</li>
+        <li><strong>Over 90 min:</strong> Fuel consistently — don't wait until empty</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Race day schedule</h4>
+      <ul>
+        <li>Gel at miles <strong>5, 10, 15, 20</strong></li>
+        <li>Water at every aid station (small sip)</li>
+        <li>Gatorade every other station</li>
+        <li>Only use what you trained with</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Long Run Fueling Protocol</h3>
+  <ul>
+    <li>First gel at <strong>mile 5</strong> (roughly 45–50 min in)</li>
+    <li>Then every <strong>40–45 minutes</strong> after that</li>
+    <li>Wash down with water, not Gatorade (prevents GI issues)</li>
+    <li>Electrolytes every 45–60 min in warm weather</li>
+  </ul>
+
+  <h3>Gel Options — pick one, stick with it all training</h3>
+  <ul>
+    <li><strong>Gu Energy</strong> — most common, easy to find everywhere</li>
+    <li><strong>Maurten</strong> — gentler on stomach, worth trying if you've had GI issues</li>
+    <li><strong>Spring Energy</strong> — real food, works well for some</li>
+  </ul>
+  <div class="note blue">NYC serves Gatorade on course (check NYRR's race-week guide for the formula) and Maurten gels at miles 12 and 18. Train with them, or carry your own.</div>
+
+  <h2>Post-Run Recovery</h2>
+  <h3>Within 30–45 minutes of finishing</h3>
+  <p>This window matters most for recovery, especially now. Don't skip it because you're not hungry.</p>
+  <ul>
+    <li><strong>Target:</strong> 20–30g protein + 40–60g carbs</li>
+    <li>Chocolate milk (genuinely ideal)</li>
+    <li>Greek yogurt + banana</li>
+    <li>Eggs + toast</li>
+    <li>Protein shake + fruit</li>
+  </ul>
+  <div class="note">Each pound lost during a run = ~16oz to replenish. Drink consistently for 4–6 hours after long runs.</div>
+
+  <h2>Weekly Nutrition Rhythm</h2>
+  <table>
+    <tr><th>Day</th><th>Priority</th></tr>
+    <tr><td>Monday (boot camp)</td><td>Normal eating, slightly higher protein for muscle repair. Weeks 7+: low fiber dinner — Tuesday shakeout is next morning</td></tr>
+    <tr><td>Tuesday (rest → shakeout wk 7+)</td><td>Weeks 1–6: normal day, no prep needed. Weeks 7+: low fiber Monday dinner already done</td></tr>
+    <tr><td>Wednesday (quality)</td><td><strong>Pre-run protocol Tuesday dinner</strong> — this is your hard day, every week</td></tr>
+    <tr><td>Thursday (easy)</td><td><strong>Low fiber Thursday dinner</strong> — Friday is always a run day</td></tr>
+    <tr><td>Friday (always a run day)</td><td>Easy in weeks 1–6, medium-long weeks 7+. Thursday dinner sets this up</td></tr>
+    <tr><td>Saturday (rest)</td><td>Pre-long-run day — follow full protocol for Sunday</td></tr>
+    <tr><td>Sunday (long run)</td><td>Saturday dinner + race morning protocol</td></tr>
+  </table>
+
+  <h2>Sleep</h2>
+  <div class="sb">
+    <p>Sleep is when your body actually builds the fitness you earned in training. Skimping doesn't just make you tired — it literally reduces the adaptation. For older athletes this effect is stronger.</p>
+    <div class="two" style="margin-top:14px;">
+      <div>
+        <h4>Targets</h4>
+        <ul>
+          <li>Regular nights: <strong>7.5–8 hours minimum</strong></li>
+          <li>Before long runs: <strong>8–9 hours</strong></li>
+          <li>Peak weeks 9–16: prioritize over everything non-essential</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Practical tips</h4>
+        <ul>
+          <li>Consistent wake time anchors your rhythm more than bedtime</li>
+          <li>No alcohol within 3 hours of sleep</li>
+          <li>No hard training within 4 hours of bed</li>
+          <li>Cool room: 65–68°F</li>
+          <li>Dark room — blackout shades or sleep mask</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note green" style="margin-top:14px;">Race week: don't stress about the night before the race — almost everyone sleeps badly. Friday Oct 30 (two nights before) is the one that matters. Protect that one.</div>
+  </div>
+
+  <h2>Stretching</h2>
+  <div class="two">
+    <div>
+      <h3>Before runs — Dynamic (5 min)</h3>
+      <p style="font-size:0.82rem; color:#555;">Never static stretch cold muscles.</p>
+      <ul>
+        <li>Leg swings front-back + side-to-side: 10 each leg</li>
+        <li>Hip circles: 10 each direction</li>
+        <li>High knees: 20 reps</li>
+        <li>Butt kicks: 20 reps</li>
+        <li>Lateral shuffles: 10 yards each way</li>
+        <li>First mile always slower than easy pace</li>
+      </ul>
+    </div>
+    <div>
+      <h3>After runs — Static (10 min)</h3>
+      <p style="font-size:0.82rem; color:#555;">Hold each 30–45 sec. Don't rush.</p>
+      <ul>
+        <li>Standing quad pull</li>
+        <li>Figure-4 (glutes, piriformis)</li>
+        <li>Runner's lunge (hip flexors)</li>
+        <li>Seated hamstring reach</li>
+        <li>Calf stretch against wall</li>
+        <li>IT band cross-stretch (standing)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="note blue">On Wednesdays, add to the dynamic warm-up: the full prescribed warm-up miles at 9:45–10:15/mi, then 4 × 20 sec strides at rep pace with 60 sec walk between. Full protocol on the Training Plan tab under <strong>Warm-Up Protocol</strong>; breathing rhythms under <strong>Breathing &amp; Effort</strong>.</div>
+
+  <h3>After long runs — add foam rolling (10–15 min)</h3>
+  <ul>
+    <li><strong>IT band</strong> — slow, painful, necessary</li>
+    <li><strong>Quads</strong> — front and sides</li>
+    <li><strong>Calves</strong> — especially around Achilles insertion</li>
+    <li><strong>Upper back</strong> / thoracic spine</li>
+  </ul>
+
+  <h2>Strength &amp; Cross-Training</h2>
+  <div class="note green">Your Monday boot camp already covers most of this. No separate strength session needed on top of hard training weeks.</div>
+
+  <table style="margin-top:14px;">
+    <tr><th>Activity</th><th>Benefit</th><th>When</th></tr>
+    <tr><td>StairMaster</td><td>Aerobic base, glutes + calves, zero impact</td><td>Replacement for a run you can't do — not an addition</td></tr>
+    <tr><td>Cycling / spin</td><td>Aerobic base, zero impact</td><td>Rest days, or swap for easy run when legs are beat</td></tr>
+    <tr><td>Swimming</td><td>Full body, zero impact, mental reset</td><td>Rest days, injury prevention</td></tr>
+    <tr><td>Yoga</td><td>Mobility, hip flexors, stress relief</td><td>1–2×/week, especially during peak phase</td></tr>
+  </table>
+
+  <div class="note" style="margin-top:16px;">
+    <strong>If you can't run, don't take a zero.</strong> The week of Sep 7–13 lost every running mile to ankle bites, and time on the StairMaster is what kept it from being blank. Standing rule: <strong>any day running isn't possible</strong> — skin, a niggle, travel, no safe route — do easy cross-training for roughly the time the run would have taken. It's a <strong>replacement, not an addition</strong>: never stacked on top of a normal week, never the day before a long run or quality session.
+  </div>
+
+  <div class="note red">
+    <strong>The 12 lb weighted vest — not before Nov 1.</strong> It's a real tool, in the wrong season. <strong>Never run in it:</strong> extra mass raises Achilles, calf and knee loading on every footstrike, and the July foot/hip flag plus a nine-day layoff is exactly the profile that gets hurt doing it. <strong>It adds nothing to Monday</strong> either — you already squat a loaded barbell up to 145 lb, which is more load, better controlled, than 12 lb on your shoulders. And the economy gains people cite from vest work come from base-phase blocks of 8–12+ weeks; you have six, and they're spoken for. <strong>Put it away until December.</strong> In next winter's base phase, worn for walking and hiking, it's genuinely useful.
+  </div>
+
+  <h3>Key injury-prevention moves (20 min, rest days)</h3>
+  <div class="two">
+    <div>
+      <h4>Lower body / hips</h4>
+      <ul>
+        <li>Single-leg squats: 3×10 each</li>
+        <li>Glute bridges or hip thrusts: 3×15</li>
+        <li>Clamshells with band: 3×20 each side</li>
+        <li>Single-leg calf raises (slow): 3×15</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Core</h4>
+      <ul>
+        <li>Dead bug: 3×10 each side</li>
+        <li>Bird-dog: 3×10 each side</li>
+        <li>Plank: 3×30–45 sec</li>
+        <li>Side plank: 3×20–30 sec each</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Managing Hard Days</h2>
+  <div class="two">
+    <div>
+      <h4>Flip to easy if...</h4>
+      <ul>
+        <li>Legs still heavy from last session</li>
+        <li>Slept poorly 2+ nights in a row</li>
+        <li>Resting HR elevated 5+ bpm</li>
+        <li>You feel "off" but can't explain it</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Take a rest day if...</h4>
+      <ul>
+        <li>Sharp or one-sided pain (knee, shin, foot)</li>
+        <li>Any heel or Achilles pain in the morning</li>
+        <li>Fever or illness</li>
+        <li>Extreme fatigue after normal sleep</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note">When in doubt, go easy. Missing one quality session hurts less than getting injured.</div>
+
+  <h2>Race Week Nutrition</h2>
+  <ul>
+    <li><strong>No new foods</strong> all week. Not the expo restaurant, not the pasta dinner the night before.</li>
+    <li><strong>Carb load starting Wed Oct 28:</strong> 70–75% of calories from carbs, cut fat and fiber</li>
+    <li><strong>Salt more than usual</strong> the last 2–3 days — helps water retention, prevents hyponatremia</li>
+    <li><strong>No alcohol</strong> after Wednesday Oct 28</li>
+    <li><strong>Friday Oct 30:</strong> Eat early. Sleep early. This is the important night.</li>
+    <li><strong>Race morning:</strong> Eat 2.5–3 hours before your corral time. NYC starts early — work backwards from your gun time.</li>
+  </ul>
+
+</div></details>
+</div><!-- /tab-archive -->
+
+
 </div><!-- /content -->
 
-<footer>NYC Marathon 2026 &nbsp;·&nbsp; Sub-4:00 &nbsp;·&nbsp; JR</footer>
+<footer>Philadelphia Marathon 2026 &nbsp;·&nbsp; Sub-4:00 &nbsp;·&nbsp; JR</footer>
 
 <script>
 function switchTab(name, btn) {
@@ -2017,7 +1996,7 @@ function switchTab(name, btn) {
   // Header: days remaining
   const rc = document.getElementById('race-countdown');
   if (rc) {
-    const days = Math.ceil((RACE - today) / 86400000);
+    const days = Math.ceil((new Date('November 22, 2026') - today) / 86400000);
     // Spell out both units: "6 weeks out" on next week's header had been
     // read as less time remaining than there actually is.
     const wks = Math.floor(days / 7), rem = days % 7;

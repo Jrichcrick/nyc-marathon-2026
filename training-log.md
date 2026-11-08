@@ -9,13 +9,14 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Recovery Week — November 2–8
 
-### Sun Nov 8 — ✅ **Checkpoint 1: easy 6.41 mi at 9:27/mi, HR 148.**
+### Sun Nov 8 — ✅ **Checkpoint 1 passed: easy 6.41 mi at 9:27/mi, HR 148. Philly time goal stays on.**
 <!-- strava_id: 20912315923 -->
 - **Prescribed:** Easy 6 mi at 9:40–10:00 (Checkpoint 1)
 - **Actual:** 6.41 mi · 1:00:38 moving · 9:27/mi · 453 ft gain · 12:04 PM start · ASICS Novablast 4 (everyday pair)
 - **Mile splits (pace · HR):** 1) 9:33 · 141 · 2) 9:42 · 149 · 3) 9:32 · 144 · 4) 9:40 · 143 · 5) 9:28 · 154 · 6) 9:16 · 151 · 0.41) 8:26 · 159
 - **HR (avg/max):** 148 / 177 · **Relative Effort:** 111
-- **Coach notes:** Checkpoint 1 done. Average HR was 148 on a longer, hillier route (453 ft) than Friday's 149 on 217 ft. No full mile averaged above 154. The 177 max was a brief spike; the final 0.41 averaged 159. The data says recovery is on track. How the legs and calf felt decides the checkpoint.
+- **Feel:** pushed the last stretch on purpose; the rest felt fine
+- **Coach notes:** Checkpoint 1 passed, so the Philly time goal stays on. Average HR was 148 on a longer, hillier route (453 ft) than Friday's 149 on 217 ft. No full mile averaged above 154.
 - [View on Strava](https://www.strava.com/activities/20912315923)
 
 ### Fri Nov 6 — ✅ **Easy 4.33 mi at 9:15/mi, HR 149 and steady. Recovery is coming along.**

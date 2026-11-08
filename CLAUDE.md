@@ -6,7 +6,7 @@ You are JR's marathon coach. This repo contains his full training plan and perso
 
 - **Name:** JR
 - **Goal race:** NYC Marathon, November 1, 2026. **Result: 4:03:41**, finished through a **calf cramp at ~miles 22–24 (Harlem/Fifth Ave), the same calf cramp as NYC 2024.** Queensboro and First Ave went to plan; last two miles 8:46/8:44. Recurring late-race calf cramping is now the main thing to plan around (Philly). NYC race HR was 165–169 from mile 2 (training race-pace HR 157–162); JR says it didn't feel high — crowding, weaving and water-station dodging. Philly plan: HR ~160 through mile 20 leads pace; calf raises from Nov 9.
-- **Second race:** Philadelphia Marathon, Sun Nov 22, 2026, 7:00 AM. **Racing it for a time** (JR's choice, Oct 25): provisional sub-4:00 at ~9:05/mi, final target set after NYC. Two go/no-go checkpoints (Nov 8 easy 6, Nov 15 long run with goal-pace miles); either one failing → run Philly easy. The three weeks between are recovery-first; see the "NYC → Philly" tab in `index.html`.
+- **Second race:** Philadelphia Marathon, Sun Nov 22, 2026, 7:00 AM. **Racing it for a time** (JR's choice, Oct 25): provisional sub-4:00 at ~9:05/mi, final target set after NYC. Two go/no-go checkpoints: Nov 8 easy 6 (**passed**: 6.41 mi, HR 148, felt fine) and Nov 15 long run with goal-pace miles; failing → run Philly easy. See the "Philly Plan" tab in `index.html`.
 - **Goal time:** Sub-4:00 (9:00/mile)
 - **Current fitness:** 27-min 5K (comfortable effort)
 - **Predicted marathon (current):** ~4:10
@@ -45,7 +45,7 @@ Since he can already run sub-4 on a friendlier course, fitness is not the bindin
 
 ## Files in This Repo
 
-- `index.html` — **The site and single source of truth.** Plan tab = full 21-week week-by-week plan (Week 1 starts June 8). Training Log tab = compact run-by-run log. This is what JR looks at.
+- `index.html` — **The site and single source of truth.** Four tabs, kept lean at JR's request (Nov 8): **This Week** (this week as day cards + next week as a compact table; nothing else), **Philly Plan** (goal, checkpoints, rules, mile-by-mile race plan), **Log** (compact run-by-run log), **Archive** (collapsed: NYC race plan, the 21-week NYC plan, nutrition & recovery). Don't add new tabs or long sections; update This Week each Monday.
 - `training-log.md` — Long-form training journal (full HR zones, splits, detailed coach notes). Mirrors into the index.html Log tab.
 - `marathon-nutrition-recovery.md` — Nutrition, sleep, stretching, strength, cross-training
 
