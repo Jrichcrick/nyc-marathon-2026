@@ -57,7 +57,7 @@
       "distance_mi": 1,
       "elapsed_by_seconds": 4360,
       "mile": 8,
-      "name": "08 CLIMB 9:10-9:20 | BY 1:12:40"
+      "name": "08 34TH ST UP 9:10-9:20 | BY 1:12:40"
     },
     {
       "alert": "none",
@@ -71,7 +71,7 @@
       "distance_mi": 1,
       "elapsed_by_seconds": 5480,
       "mile": 10,
-      "name": "10 HILL 9:20-9:30 | BY 1:31:20"
+      "name": "10 STEEP UP 9:20-9:30 | BY 1:31:20"
     },
     {
       "alert": "none",
@@ -83,16 +83,16 @@
     {
       "alert": "none",
       "distance_mi": 1,
-      "elapsed_by_seconds": 6580,
+      "elapsed_by_seconds": 6570,
       "mile": 12,
-      "name": "12 9:00-9:10 | BY 1:49:40"
+      "name": "12 DROP 8:50-9:00 | BY 1:49:30"
     },
     {
       "alert": "none",
       "distance_mi": 1,
       "elapsed_by_seconds": 7120,
       "mile": 13,
-      "name": "13 8:50-9:00 | BY 1:58:40"
+      "name": "13 UP 9:00-9:10 | BY 1:58:40"
     },
     {
       "alert": "none",
@@ -106,7 +106,7 @@
       "distance_mi": 1,
       "elapsed_by_seconds": 8200,
       "mile": 15,
-      "name": "15 8:50-9:00 | BY 2:16:40"
+      "name": "15 DOWN 8:50-9:00 | BY 2:16:40"
     },
     {
       "alert": "none",
@@ -120,7 +120,7 @@
       "distance_mi": 1,
       "elapsed_by_seconds": 9300,
       "mile": 17,
-      "name": "17 MANAYUNK 9:00-9:10 | BY 2:35:00"
+      "name": "17 9:00-9:10 | BY 2:35:00"
     },
     {
       "alert": "none",
@@ -134,7 +134,7 @@
       "distance_mi": 1,
       "elapsed_by_seconds": 10400,
       "mile": 19,
-      "name": "19 CLIMB 9:00-9:10 | BY 2:53:20"
+      "name": "19 MANAYUNK 9:00-9:10 | BY 2:53:20"
     },
     {
       "alert": "none",

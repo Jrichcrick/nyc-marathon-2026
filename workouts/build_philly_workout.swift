@@ -13,11 +13,11 @@ func clock(_ seconds: Int) -> String {
 }
 
 let output = URL(fileURLWithPath: CommandLine.arguments[1], isDirectory: true)
-let slow: [Int: Int] = [1:560, 8:560, 9:550, 10:570, 11:550, 12:550, 16:550, 17:550, 18:550, 19:550, 20:550]
-let guides: [Int: String] = [1:"9:10-9:20", 8:"9:10-9:20", 9:"9:00-9:10", 10:"9:20-9:30", 11:"9:00-9:10", 12:"9:00-9:10",
+let slow: [Int: Int] = [1:560, 8:560, 9:550, 10:570, 11:550, 13:550, 16:550, 17:550, 18:550, 19:550, 20:550]
+let guides: [Int: String] = [1:"9:10-9:20", 8:"9:10-9:20", 9:"9:00-9:10", 10:"9:20-9:30", 11:"9:00-9:10", 13:"9:00-9:10",
                              16:"9:00-9:10", 17:"9:00-9:10", 18:"9:00-9:10", 19:"9:00-9:10", 20:"9:00-9:10",
                              24:"8:40-9:00", 25:"8:40-9:00", 26:"8:40-9:00"]
-let cues: [Int: String] = [1:"START", 5:"GEL", 8:"CLIMB", 10:"HILL", 11:"GEL", 16:"GEL", 17:"MANAYUNK", 19:"CLIMB", 20:"TURN GEL"]
+let cues: [Int: String] = [1:"START", 5:"GEL", 8:"34TH ST UP", 10:"STEEP UP", 11:"GEL", 12:"DROP", 13:"UP", 15:"DOWN", 16:"GEL", 19:"MANAYUNK", 20:"TURN GEL"]
 var elapsed = 0
 var intervals: [IntervalStep] = []
 var manifest: [[String: Any]] = []
