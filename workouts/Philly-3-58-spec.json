@@ -1,0 +1,196 @@
+{
+  "cooldown": "skip",
+  "id": "B7F546BB-E3B4-4DD2-A930-6222E43AB0E4",
+  "name": "Philly 3:58",
+  "steps": [
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 560,
+      "mile": 1,
+      "name": "01 START 9:10-9:20 | BY 0:09:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 1100,
+      "mile": 2,
+      "name": "02 8:50-9:00 | BY 0:18:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 1640,
+      "mile": 3,
+      "name": "03 8:50-9:00 | BY 0:27:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 2180,
+      "mile": 4,
+      "name": "04 8:50-9:00 | BY 0:36:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 2720,
+      "mile": 5,
+      "name": "05 GEL 8:50-9:00 | BY 0:45:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 3260,
+      "mile": 6,
+      "name": "06 8:50-9:00 | BY 0:54:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 3800,
+      "mile": 7,
+      "name": "07 8:50-9:00 | BY 1:03:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 4360,
+      "mile": 8,
+      "name": "08 CLIMB 9:10-9:20 | BY 1:12:40"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 4910,
+      "mile": 9,
+      "name": "09 9:00-9:10 | BY 1:21:50"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 5480,
+      "mile": 10,
+      "name": "10 HILL 9:20-9:30 | BY 1:31:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 6030,
+      "mile": 11,
+      "name": "11 GEL 9:00-9:10 | BY 1:40:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 6580,
+      "mile": 12,
+      "name": "12 9:00-9:10 | BY 1:49:40"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 7120,
+      "mile": 13,
+      "name": "13 8:50-9:00 | BY 1:58:40"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 7660,
+      "mile": 14,
+      "name": "14 8:50-9:00 | BY 2:07:40"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 8200,
+      "mile": 15,
+      "name": "15 8:50-9:00 | BY 2:16:40"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 8750,
+      "mile": 16,
+      "name": "16 GEL 9:00-9:10 | BY 2:25:50"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 9300,
+      "mile": 17,
+      "name": "17 MANAYUNK 9:00-9:10 | BY 2:35:00"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 9850,
+      "mile": 18,
+      "name": "18 9:00-9:10 | BY 2:44:10"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 10400,
+      "mile": 19,
+      "name": "19 CLIMB 9:00-9:10 | BY 2:53:20"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 10950,
+      "mile": 20,
+      "name": "20 TURN GEL 9:00-9:10 | BY 3:02:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 11490,
+      "mile": 21,
+      "name": "21 8:50-9:00 | BY 3:11:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 12030,
+      "mile": 22,
+      "name": "22 8:50-9:00 | BY 3:20:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 12570,
+      "mile": 23,
+      "name": "23 8:50-9:00 | BY 3:29:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 13110,
+      "mile": 24,
+      "name": "24 8:40-9:00 | BY 3:38:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 13650,
+      "mile": 25,
+      "name": "25 8:40-9:00 | BY 3:47:30"
+    },
+    {
+      "alert": "none",
+      "distance_mi": 1,
+      "elapsed_by_seconds": 14190,
+      "mile": 26,
+      "name": "26 8:40-9:00 | BY 3:56:30"
+    },
+    {
+      "alert": "none",
+      "goal": "open",
+      "mile": "finish",
+      "name": "FINISH 8:40-9:00 | BY 3:58:28"
+    }
+  ],
+  "warmup": "skip"
+}

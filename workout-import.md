@@ -37,3 +37,7 @@ swift -module-cache-path ./swift-cache build_workout.swift ./generated
 It creates both `.workout` files and a JSON specification. The files were committed to the marathon repo and downloaded from GitHub Pages. A local Mac file can also be transferred to your iPhone and opened in Fitness; only the Safari Downloads route was verified in this session.
 
 Apple references: [WorkoutPlan](https://developer.apple.com/documentation/workoutkit/workoutplan), [CustomWorkout](https://developer.apple.com/documentation/workoutkit/customworkout), [Up Next workout view](https://support.apple.com/guide/watch/create-a-custom-workout-apd66fcd5c5c/watchos).
+
+## Philly 3:58 (Philadelphia Marathon, Nov 22): to build
+
+`workouts/build_philly_workout.swift` builds **Philly 3:58**: the same structure as NYC 3:57 (26 × 1 mi Work steps + Open finish, no alerts, no warmup/cooldown). Each step name holds the pace range and the slow-edge cumulative BY time. The slow edges total 3:58:28. The expected step names are in `workouts/Philly-3-58-spec.json` and match the Philly Plan tab in `index.html`. Build on the Mac with `swift -module-cache-path ./swift-cache build_philly_workout.swift ./generated`, commit `Philly-3-58.workout`, then import it with the iPhone steps above using `https://jrichcrick.github.io/nyc-marathon-2026/workouts/Philly-3-58.workout`.
