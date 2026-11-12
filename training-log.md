@@ -9,13 +9,13 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Philly Week 2 — November 9–15
 
-### Wed Nov 11 — 🚩 **8.72 mi at 9:27/mi, run with a cold. HR 154.**
+### Wed Nov 11 — ✅ **Tuesday + Wednesday in one: 8.72 mi at 9:27/mi plus strides, HR 154.**
 <!-- strava_id: 20953609506;20953616567;20953719825 -->
-- **Prescribed:** Rest (sick: sore throat, stuffy). Originally easy 5 + 6 × 20-sec strides
-- **Actual:** 8.72 mi · 1:22:21 moving · 9:27/mi · 546 ft gain · 5:12 PM start · ASICS Novablast 4 (everyday pair). One run saved as three Strava files: 8.02 mi, then 0.08 and 0.63 mi
+- **Prescribed:** Tue easy 3 + Wed easy 5 + 6 × 20-sec strides, run together on Wednesday (JR's call; Tuesday skipped with a cold)
+- **Actual:** 8.72 mi · 1:22:21 moving · 9:27/mi · 546 ft gain · 5:12 PM start · ASICS Novablast 4 (everyday pair). One session saved as three Strava files: 8.02 mi, then 0.08 and 0.63 mi with the strides
 - **Mile splits (pace · HR), main file:** 1) 9:27 · 145 · 2) 9:34 · 151 · 3) 9:04 · 152 · 4) 9:27 · 154 · 5) 9:14 · 156 · 6) 9:45 · 157 · 7) 9:16 · 155 · 8) 9:02 · 161 · then 0.63 mi at 9:53 · 152
 - **HR (avg/max):** 154 / 166 · **Relative Effort:** 191 (176 + 2 + 13)
-- **Coach notes:** Run with a cold, throat and nose only. Average HR was 154, about 6 beats above Sunday's 148, and it rose from 145 in mile 1 to 161 in mile 8. A cold commonly lifts HR like that. The miles are banked. The job now is letting the cold clear before Sunday's checkpoint.
+- **Coach notes:** Both days' running done in one go, strides included, with a cold (throat and nose only). Average HR 154, about 6 beats above Sunday's 148, rising from 145 to 161 by mile 8; a cold commonly lifts HR a few beats.
 - [View on Strava](https://www.strava.com/activities/20953609506)
 
 ---
