@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Philly Week 2 — November 9–15
 
+### Fri Nov 13 — ✅ **Easy 5.39 mi at 9:29/mi, HR 151. Feeling good again.**
+<!-- strava_id: 20972843829 -->
+- **Prescribed:** Easy 5 mi, then calf raises (back to the original plan; JR feeling good)
+- **Actual:** 5.39 mi · 51:10 moving · 9:29/mi · 323 ft gain · 9:00 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:45 · 140 · 2) 9:48 · 150 · 3) 9:36 · 148 · 4) 9:45 · 151 · 5) 8:47 · 161 · 0.39) 8:49 · 164
+- **HR (avg/max):** 151 / 171 · **Relative Effort:** 108
+- **Coach notes:** Back to the original plan with the cold clearing. Heart rate recorded again, which is what Sunday needs. Average 151, the first four miles at 140–151.
+- [View on Strava](https://www.strava.com/activities/20972843829)
+
 ### Thu Nov 12 — ✅ **Easy 3.06 mi at 9:08/mi. No HR recorded.**
 <!-- strava_id: 20958528479 -->
 - **Prescribed:** Pilates 6:45 → easy 3 mi, gentle
