@@ -9,13 +9,12 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Philly Week 2 — November 9–15
 
-### Thu Nov 12 — ⚠️ **Easy 3.06 mi at 9:08/mi — right distance, a bit quick for a day with a cold. No HR recorded.**
+### Thu Nov 12 — ✅ **Easy 3.06 mi at 9:08/mi. No HR recorded.**
 <!-- strava_id: 20958528479 -->
-- **Prescribed:** Pilates 6:45 → easy 3 mi, gentle (still getting over the cold)
-- **Actual:** 3.06 mi · 27:56 moving · 9:08/mi · 89 ft gain · 6:12 AM start (so run before Pilates, not after)
-- **Mile splits (pace):** 1) 9:00 · 2) 9:41 · 3) 8:46 · 0.06) 8:28. No HR in the file (watch didn't record it), so effort can't be checked
-- **Coach notes:** Distance spot on. Pace is the miss: 9:08 average and an 8:46 third mile (slightly uphill) is quicker than the 9:20–9:45 easy zone, on a day the plan said "gentle" because of the cold. Without HR there's no way to tell if it cost anything. Same finish-fast habit we're trying to train out before Philly.
-- **Action:** Friday's easy 4–5 stays at 9:20–9:45 the whole way, no fast last mile. Make sure HR records (check the watch/strap before you start) — we need it for Sunday's checkpoint call.
+- **Prescribed:** Pilates 6:45 → easy 3 mi, gentle
+- **Actual:** 3.06 mi · 27:56 moving · 9:08/mi · 89 ft gain · 6:12 AM start
+- **Mile splits (pace):** 1) 9:00 · 2) 9:41 · 3) 8:46 · 0.06) 8:28. The watch didn't record HR
+- **Coach notes:** Three easy miles done with the cold still around. HR didn't record; worth a quick check that it's reading before Sunday, since HR leads the goal-pace miles.
 - [View on Strava](https://www.strava.com/activities/20958528479)
 
 ### Wed Nov 11 — ✅ **Tuesday + Wednesday in one: 8.72 mi at 9:27/mi plus strides, HR 154.**
