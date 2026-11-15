@@ -14,9 +14,9 @@ func clock(_ seconds: Int) -> String {
 
 let output = URL(fileURLWithPath: CommandLine.arguments[1], isDirectory: true)
 let slow: [Int: Int] = [1:560, 8:560, 9:550, 10:570, 11:550, 13:550, 16:550, 17:550, 18:550, 19:550, 20:550]
-let guides: [Int: String] = [1:"9:10-9:20", 8:"9:10-9:20", 9:"9:00-9:10", 10:"9:20-9:30", 11:"9:00-9:10", 13:"9:00-9:10",
-                             16:"9:00-9:10", 17:"9:00-9:10", 18:"9:00-9:10", 19:"9:00-9:10", 20:"9:00-9:10",
-                             24:"8:40-9:00", 25:"8:40-9:00", 26:"8:40-9:00"]
+// Watch ranges = real-course ranges minus 10 s/mi, to absorb GPS reading long (NYC 2026: 26.68 on 26.22, +1.8%).
+// Slow edges by watch then finish <= 4:00 for GPS error up to +2.5%. BY times stay on official mile markers.
+let guides: [Int: String] = [1:"9:00-9:10", 8:"9:00-9:10", 9:"8:50-9:00", 10:"9:10-9:20", 11:"8:50-9:00", 13:"8:50-9:00", 16:"8:50-9:00", 17:"8:50-9:00", 18:"8:50-9:00", 19:"8:50-9:00", 20:"8:50-9:00", 24:"8:30-8:50", 25:"8:30-8:50", 26:"8:30-8:50"]
 let cues: [Int: String] = [1:"START", 5:"GEL", 8:"34TH ST UP", 10:"STEEP UP", 11:"GEL", 12:"DROP", 13:"UP", 15:"DOWN", 16:"GEL", 19:"MANAYUNK", 20:"TURN GEL"]
 var elapsed = 0
 var intervals: [IntervalStep] = []
@@ -25,14 +25,14 @@ for mile in 1...26 {
     elapsed += slow[mile] ?? 540
     let prefix = String(format: "%02d", mile)
     let cue = cues[mile].map { " \($0)" } ?? ""
-    let guide = guides[mile] ?? "8:50-9:00"
+    let guide = guides[mile] ?? "8:40-8:50"
     let name = "\(prefix)\(cue) \(guide) | BY \(clock(elapsed))"
     let step = WorkoutStep(goal: .distance(1, .miles), alert: nil, displayName: name)
     intervals.append(IntervalStep(.work, step: step))
     manifest.append(["mile":mile, "name":name, "distance_mi":1, "elapsed_by_seconds":elapsed, "alert":"none"])
 }
 precondition(elapsed == 14190, "Slow edges through mile 26 must total 3:56:30")
-let finishName = "FINISH 8:40-9:00 | BY 3:58:28"
+let finishName = "FINISH 8:30-8:50 | BY 3:58:28"
 intervals.append(IntervalStep(.work, step: WorkoutStep(goal: .open, alert: nil, displayName: finishName)))
 manifest.append(["mile":"finish", "name":finishName, "goal":"open", "alert":"none"])
 let workout = CustomWorkout(activity: .running, location: .outdoor, displayName: "Philly 3:58", warmup: nil, blocks: [IntervalBlock(steps: intervals, iterations: 1)], cooldown: nil)
