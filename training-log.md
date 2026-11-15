@@ -9,6 +9,16 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Philly Week 2 — November 9–15
 
+### Sun Nov 15 — ✅ **Checkpoint 2 passed: half marathon, 13.53 mi at 9:14/mi. Goal-pace miles 8–10 at 8:57, HR 160–166. Felt good.**
+<!-- strava_id: 21002083152 -->
+- **Prescribed:** Half marathon as Checkpoint 2: miles 1–7 easy, 8–10 at goal pace (~9:05) with HR at or under ~160, then easy
+- **Actual:** 13.53 mi · 2:04:54 moving (2:09:26 elapsed, a ~4½ min bathroom stop) · 9:14/mi · 881 ft gain · 12:59 PM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR · elevation):** 1) 9:24 · 138 · −6 ft · 2) 9:39 · 148 · +39 · 3) 9:26 · 145 · −69 · 4) 9:25 · 151 · +31 · 5) 9:05 · 155 · +7 · 6) 9:17 · 161 · +38 · 7) 8:57 · 156 · −52 · **8) 8:58 · 160 · +1 · 9) 9:03 · 164 · +30 · 10) 8:49 · 166 · −1** · 11) 8:59 · 160 · −66 · 12) 9:40 · 164 · +66 · 13) 9:20 · 162 · −22 · 0.54) 8:59 · 169
+- **HR (avg/max):** 157 / 174 · **Relative Effort:** 334
+- **Feel:** "the rest of it felt good"; HR "still a little high"; "the hills, they just kill me"
+- **Coach notes:** Longest run since NYC, and it felt good. Goal-pace miles 8–10 averaged 8:57: mile 8 on the flat at HR 160, right on the cap; mile 9 had a 30 ft climb and HR went to 164; mile 10 ran 8:49 at 166. The climbs show up in HR every time (mile 2 +39 ft → 9:39, mile 6 +38 ft → HR 161, mile 12 +66 ft → 9:40 and 164). That's exactly why the Philly plan slows the climbs at miles 8, 10 and 13: let pace drop on hills and keep the effort level. Run at 1 PM after a week with a cold; race day is 7 AM and tapered.
+- [View on Strava](https://www.strava.com/activities/21002083152)
+
 ### Fri Nov 13 — ✅ **Easy 5.39 mi at 9:29/mi, HR 151. Feeling good again.**
 <!-- strava_id: 20972843829 -->
 - **Prescribed:** Easy 5 mi, then calf raises (back to the original plan; JR feeling good)

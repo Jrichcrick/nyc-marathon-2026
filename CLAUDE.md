@@ -6,7 +6,7 @@ You are JR's marathon coach. This repo contains his full training plan and perso
 
 - **Name:** JR
 - **Goal race:** NYC Marathon, November 1, 2026. **Result: 4:03:41**, finished through a **calf cramp at ~miles 22–24 (Harlem/Fifth Ave), the same calf cramp as NYC 2024.** Queensboro and First Ave went to plan; last two miles 8:46/8:44. Recurring late-race calf cramping is now the main thing to plan around (Philly). NYC race HR was 165–169 from mile 2 (training race-pace HR 157–162); JR says it didn't feel high — crowding, weaving and water-station dodging. Philly plan: HR ~160 through mile 20 leads pace; calf raises from Nov 9.
-- **Second race:** Philadelphia Marathon, Sun Nov 22, 2026, 7:00 AM. **Racing it for a time** (JR's choice, Oct 25): provisional sub-4:00 at ~9:05/mi, final target set after NYC. Two go/no-go checkpoints: Nov 8 easy 6 (**passed**: 6.41 mi, HR 148, felt fine) and Nov 15 long run with goal-pace miles; failing → run Philly easy. See the "Philly Plan" tab in `index.html`.
+- **Second race:** Philadelphia Marathon, Sun Nov 22, 2026, 7:00 AM. **Racing it for a time** (JR's choice, Oct 25): provisional sub-4:00 at ~9:05/mi, final target set after NYC. Two go/no-go checkpoints: Nov 8 easy 6 (**passed**: 6.41 mi, HR 148, felt fine) and Nov 15 half marathon (**passed**: 13.53 mi, goal-pace miles 8–10 at 8:57 with HR 160–166, felt good; climbs push HR up). Goal: sub-4:00. See the "Philly Plan" tab in `index.html`.
 - **Goal time:** Sub-4:00 (9:00/mile)
 - **Current fitness:** 27-min 5K (comfortable effort)
 - **Predicted marathon (current):** ~4:10
