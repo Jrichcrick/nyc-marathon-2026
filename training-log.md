@@ -7,6 +7,19 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ---
 
+## Philly Race Week — November 16–22
+
+### Wed Nov 18 — ✅ **Last race-pace session done: 4.02 mi, goal-pace miles at 9:05 and 8:35.**
+<!-- strava_id: 21033840938 -->
+- **Prescribed:** 4 mi: 1 easy, 2 at goal pace (~9:05), 1 easy
+- **Actual:** 4.02 mi · 36:46 moving · 9:09/mi · 210 ft gain · 7:02 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR · elevation):** 1) 9:14 · 144 · −23 ft · **2) 9:05 · 164 · +48 ft · 3) 8:35 · 168 · −26 ft** · 4) 9:35 · 164 · −1 ft
+- **HR (avg/max):** 160 / 173 · **Relative Effort:** 111
+- **Coach notes:** The last touch of race pace is done. Mile 2 hit 9:05 exactly while climbing 48 ft (HR 164); mile 3 ran 8:35 (HR 168). Same pattern as Sunday's half, where ~9:00 on the flat sat at HR 160: HR follows climbs and pace above goal. On Sunday, ~9:00 on the flat and slower on the climbs keeps it near 160.
+- [View on Strava](https://www.strava.com/activities/21033840938)
+
+---
+
 ## Philly Week 2 — November 9–15
 
 ### Sun Nov 15 — ✅ **Checkpoint 2 passed: half marathon, 13.53 mi at 9:14/mi. Goal-pace miles 8–10 at 8:57, HR 160–166. Felt good.**
