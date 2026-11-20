@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Philly Race Week — November 16–22
 
+### Thu Nov 19 — ✅ **Easy 3.59 mi at 9:15/mi, HR 153. Last weekday run before Philly.**
+<!-- strava_id: 21047084020 -->
+- **Prescribed:** Pilates 6:45 → easy 3 mi
+- **Actual:** 3.59 mi · 33:12 moving · 9:15/mi · 169 ft gain · 8:21 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:39 · 140 · 2) 9:23 · 154 · 3) 8:57 · 159 · 0.59) 8:54 · 163
+- **HR (avg/max):** 153 / 167 · **Relative Effort:** 77
+- **Coach notes:** Done after Pilates. Tuesday's easy 3 was skipped. Next: rest Friday, 2 miles + strides Saturday, Philly Sunday.
+- [View on Strava](https://www.strava.com/activities/21047084020)
+
 ### Wed Nov 18 — ✅ **Last race-pace session done: 4.02 mi, goal-pace miles at 9:05 and 8:35.**
 <!-- strava_id: 21033840938 -->
 - **Prescribed:** 4 mi: 1 easy, 2 at goal pace (~9:05), 1 easy
