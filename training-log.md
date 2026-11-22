@@ -9,6 +9,15 @@ Coach reviews each against the Plan tab in `index.html` (the source of truth) an
 
 ## Philly Race Week — November 16–22
 
+### Sat Nov 21 — ✅ **Shakeout: 2.41 mi with strides. Legs awake for Philly.**
+<!-- strava_id: 21070783877 -->
+- **Prescribed:** 2 mi easy + 3 × 100m strides
+- **Actual:** 2.41 mi · 22:20 moving · 9:16/mi · 164 ft gain · 8:05 AM start · ASICS Novablast 4 (everyday pair)
+- **Mile splits (pace · HR):** 1) 9:38 · 147 · 2) 9:20 · 163 · 0.41) 8:12 · 173 (strides)
+- **HR (avg/max):** 158 / 181 (the max is the strides) · **Relative Effort:** 60
+- **Coach notes:** "Pretty park pre Philly." Shakeout and strides done. Race tomorrow.
+- [View on Strava](https://www.strava.com/activities/21070783877)
+
 ### Thu Nov 19 — ✅ **Easy 3.59 mi at 9:15/mi, HR 153. Last weekday run before Philly.**
 <!-- strava_id: 21047084020 -->
 - **Prescribed:** Pilates 6:45 → easy 3 mi
